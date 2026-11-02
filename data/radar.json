@@ -4,9 +4,9 @@
  "label": "C \u2014 Bullish Absorption",
  "status": "Watch",
  "tone": "good",
- "confidence": 86,
+ "confidence": 71,
  "confLabel": "High",
- "matched": "6/7 available (7 listed)",
+ "matched": "5/7 available (7 listed)",
  "runnerUp": "F Re-Accumulation (3/4)",
  "evidence": [
   "Negative headline risk",
@@ -16,16 +16,17 @@
   "OI 24h flat/dropping (<=+1%)"
  ],
  "metrics": [
-  "Price vs 20D MA -4.83%",
-  "vs 50D MA -6.05%",
+  "Price vs 20D MA -5.11%",
+  "vs 50D MA -6.32%",
   "Spot CVD 24h +1073 BTC",
   "Perp CVD 4h -506 BTC",
-  "OI 24h +0.04%",
-  "Funding +0.0080%"
+  "OI 24h -0.16%",
+  "Funding +0.0088%"
  ],
  "implication": "Build spot 0.75x; 50% on 1H range reclaim / 50% limit at low; stop sweep low -0.5%",
  "notMet": [
-  "Funding -0.008..+0.002%"
+  "Funding -0.008..+0.002%",
+  "Book bids/asks >= 1.4 (imb >= +16.7%)"
  ],
  "missing": [
   "ATR compression history",
@@ -35,11 +36,11 @@
   "Spot volume vs 20D MA",
   "Whale exchange inflows / CDD"
  ],
- "asOfMs": 1793647070533,
+ "asOfMs": 1793648341177,
  "scores": {
   "A": "3/7",
   "B": "0/5",
-  "C": "6/7",
+  "C": "5/7",
   "D": "1/5",
   "E": "0/4",
   "F": "3/4",
@@ -48,6 +49,6 @@
   "I": "4/5",
   "J": "3/6"
  },
- "asOf": "03 Nov 03:17 SGT",
+ "asOf": "03 Nov 03:39 SGT",
  "source": "box (full data incl. perp CVD)"
 }
