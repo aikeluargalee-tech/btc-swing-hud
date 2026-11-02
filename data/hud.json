@@ -1,10 +1,10 @@
 {
- "asOf": "02 Nov 2026, 20:42 SGT",
- "asOfMs": 1793623373484,
- "price": 77721.99,
+ "asOf": "02 Nov 2026, 20:45 SGT",
+ "asOfMs": 1793623543653,
+ "price": 77904.26,
  "high24": 78878.01,
  "low24": 77620.0,
- "chg24": -0.236,
+ "chg24": -0.003,
  "h1": [
   [
    "31 20:00",
@@ -333,8 +333,8 @@
  "lastDAt": "02 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.0037625581265900002,
-  "oiOKX": 33418.4839000002,
+  "fundOKX": 0.00386001750144,
+  "oiOKX": 33407.9710000002,
   "lsOKX": 2.28,
   "lsAt": "02 Nov 20:00",
   "liqLongUsd": 893745,
@@ -343,13 +343,13 @@
  },
  "macro": {
   "vix": {
-   "v": 19.24,
-   "chg": -0.93,
+   "v": 19.26,
+   "chg": -0.82,
    "date": "02 Nov"
   },
   "dxy": {
-   "v": 101.59,
-   "chg": -0.28,
+   "v": 101.61,
+   "chg": -0.26,
    "date": "02 Nov"
   },
   "us10y": {
@@ -373,153 +373,48 @@
   "label": "Fear",
   "date": "02 Nov"
  },
- "cbPremium": -118.7,
+ "cbPremium": -138.9,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23496692884,
-  "oiChg24": -0.93,
-  "oiHist": [
-   [
-    "01 20:00",
-    23.718
-   ],
-   [
-    "01 21:00",
-    23.802
-   ],
-   [
-    "01 22:00",
-    23.856
-   ],
-   [
-    "01 23:00",
-    23.845
-   ],
-   [
-    "02 00:00",
-    23.888
-   ],
-   [
-    "02 01:00",
-    23.828
-   ],
-   [
-    "02 02:00",
-    23.736
-   ],
-   [
-    "02 03:00",
-    23.542
-   ],
-   [
-    "02 04:00",
-    23.568
-   ],
-   [
-    "02 05:00",
-    23.543
-   ],
-   [
-    "02 06:00",
-    23.486
-   ],
-   [
-    "02 07:00",
-    23.599
-   ],
-   [
-    "02 08:00",
-    23.522
-   ],
-   [
-    "02 09:00",
-    23.6
-   ],
-   [
-    "02 10:00",
-    23.624
-   ],
-   [
-    "02 11:00",
-    23.701
-   ],
-   [
-    "02 12:00",
-    23.603
-   ],
-   [
-    "02 13:00",
-    23.546
-   ],
-   [
-    "02 14:00",
-    23.5
-   ],
-   [
-    "02 15:00",
-    23.476
-   ],
-   [
-    "02 16:00",
-    23.546
-   ],
-   [
-    "02 17:00",
-    23.519
-   ],
-   [
-    "02 18:00",
-    23.513
-   ],
-   [
-    "02 19:00",
-    23.483
-   ],
-   [
-    "02 20:00",
-    23.497
-   ]
-  ],
-  "oiSymbols": 9,
-  "fundAvg": 0.00744,
+  "fundAvg": 0.00721,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
-   "Deribit BTC-PERPETUAL": 0.0057540000000000004,
+   "Deribit BTC-PERPETUAL": 0.0029200000000000003,
    "Bybit BTCUSD": 0.01,
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.01,
    "Bybit BTCUSDT": 0.005216,
-   "Gate BTC_USDT": 0.0097,
-   "OKX BTCUSDT_PERP": 0.0037625581265900002,
+   "Gate BTC_USDT": 0.01,
+   "OKX BTCUSDT_PERP": 0.00391109396182,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.008758
   },
-  "predFundAvg": 0.00787,
-  "liqLongUsd24": 7174448,
-  "liqShortUsd24": 12804553
+  "predFundAvg": 0.008,
+  "liqLongUsd24": 7175943,
+  "liqShortUsd24": 12804577
  },
  "tech": {
   "rsiD": 39.4,
   "atrD": 1955.5,
   "basis": "closed candles, Binance spot",
   "ma20": 80936.4,
-  "ma20Pct": -3.97,
+  "ma20Pct": -3.75,
   "ma50": 81981.8,
-  "ma50Pct": -5.2,
+  "ma50Pct": -4.97,
   "ma200": 73196.8,
-  "ma200Pct": 6.18,
-  "atrPct": 2.52,
+  "ma200Pct": 6.43,
+  "atrPct": 2.51,
   "rsi4h": 43.9
  },
  "opt": {
   "expiry": "27NOV26",
-  "expiryOI": 49884,
+  "expiryOI": 49886,
   "maxPain": 80000.0,
   "pcrExpiry": 0.71,
   "pcrAll": 0.66,
   "atmStrike": 78000.0,
   "atmIV": 36.1,
-  "dvol": 38.6
+  "dvol": 38.64
  },
  "stables": {
   "USDT": {
@@ -536,107 +431,76 @@
  },
  "depth": {
   "spot": {
-   "mid": 77750.0,
-   "reachPct": 1.02,
+   "mid": 77874.0,
+   "reachPct": 1.15,
    "b1": {
-    "bid": 21781950,
-    "ask": 14728876,
-    "imb": 19.3,
+    "bid": 15625586,
+    "ask": 18998145,
+    "imb": -9.7,
     "full": true
    },
    "b2": {
-    "bid": 21791272,
-    "ask": 55644492,
-    "imb": -43.7,
+    "bid": 21035444,
+    "ask": 60211611,
+    "imb": -48.2,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 77711.4,
-   "reachPct": 0.85,
+   "mid": 77828.4,
+   "reachPct": 0.86,
    "b1": {
-    "bid": 84730817,
-    "ask": 65907590,
-    "imb": 12.5,
+    "bid": 87183235,
+    "ask": 77302904,
+    "imb": 6.0,
     "full": false
    },
    "b2": {
-    "bid": 84730817,
-    "ask": 65907590,
-    "imb": 12.5,
+    "bid": 87183235,
+    "ask": 77302904,
+    "imb": 6.0,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 106512767,
-    "ask": 80636466,
+    "bid": 102808821,
+    "ask": 96301049,
     "venues": [
      "spot full",
-     "okxPerp to \u00b10.85%"
+     "okxPerp to \u00b10.86%"
     ],
-    "imb": 13.8
+    "imb": 3.3
    },
    "b2": {
-    "bid": 106522089,
-    "ask": 121552082,
+    "bid": 108218679,
+    "ask": 137514515,
     "venues": [
-     "spot to \u00b11.02%",
-     "okxPerp to \u00b10.85%"
+     "spot to \u00b11.15%",
+     "okxPerp to \u00b10.86%"
     ],
-    "imb": -6.6
+    "imb": -11.9
    }
   },
   "walls": {
    "77800": {
     "bid": {
-     "p": 77600,
-     "usd": 16059864
+     "p": 77750,
+     "usd": 18193688
     },
     "ask": {
-     "p": 77750,
-     "usd": 13976469
+     "p": 77850,
+     "usd": 15251050
     }
    },
    "78650": {
     "bid": null,
     "ask": {
-     "p": 78800,
-     "usd": 8491361
+     "p": 78850,
+     "usd": 9033789
     }
    }
   }
- },
- "liqEst": {
-  "above": [
-   {
-    "p": 79000,
-    "usd": 185666194
-   },
-   {
-    "p": 79750,
-    "usd": 163745390
-   },
-   {
-    "p": 80500,
-    "usd": 160125943
-   }
-  ],
-  "below": [
-   {
-    "p": 76000,
-    "usd": 107258173
-   },
-   {
-    "p": 75750,
-    "usd": 210671710
-   },
-   {
-    "p": 74250,
-    "usd": 148382877
-   }
-  ],
-  "method": "Estimate: Coinalyze 7d hourly OI increases \u00d7 25/50/100x leverage, Binance 1H closes; untouched levels only, $250 bins"
  },
  "noSource": [
   "Exchange netflows (no free keyless API: CryptoQuant/Glassnode are paid)"
@@ -669,9 +533,8 @@
   "px4h": -0.281,
   "spot1h": -34.2,
   "spot4h": -14.2,
-  "oi4h": -0.21,
   "tag": "Neutral",
-  "why": "price -0.28% 4h, OI -0.21%, spot CVD -14, perp CVD n/a"
+  "why": "price -0.28% 4h, OI n/a%, spot CVD -14, perp CVD n/a"
  },
  "regime": {
   "h1h": 0.56,
@@ -687,14 +550,14 @@
  "vol": {
   "rv7d": 36.5,
   "rr7d": {
-   "rr": -3.85,
+   "rr": -3.68,
    "call": 38.1,
-   "put": 41.9,
+   "put": 41.8,
    "expiry": "6NOV26",
    "days": 3.8
   },
   "rr30d": {
-   "rr": -4.26,
+   "rr": -4.16,
    "call": 35.1,
    "put": 39.3,
    "expiry": "27NOV26",
@@ -733,7 +596,10 @@
   "sum5": -312.7,
   "source": "Farside (farside.co.uk/btc), US$m"
  },
- "missing": [],
+ "missing": [
+  "Coinalyze OI history: HTTPError 429",
+  "Liq clusters: needs Coinalyze OI history"
+ ],
  "browserLive": [
   "Binance futures funding",
   "Binance long/short",
@@ -743,7 +609,7 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "02 Nov 20:43 SGT",
+  "asOf": "02 Nov 20:46 SGT",
   "risk": "HIGH",
   "why": "flagged headline 0.8h ago",
   "headlines": [
@@ -751,7 +617,7 @@
     "title": "XRP Ledger set to fix flaw that could let stablecoin partners print new tokens",
     "source": "CoinDesk",
     "time": "02 Nov 20:37",
-    "ageH": 0.1,
+    "ageH": 0.2,
     "link": "https://www.coindesk.com/tech/2026/11/02/xrp-ledger-set-to-fix-flaw-that-could-let-stablecoin-partners-print-new-tokens",
     "high": false
    },
@@ -759,7 +625,7 @@
     "title": "Bitcoin's 'volatility curve' has a midterm bump",
     "source": "CoinDesk",
     "time": "02 Nov 20:30",
-    "ageH": 0.2,
+    "ageH": 0.3,
     "link": "https://www.coindesk.com/daybook-us/2026/11/02/bitcoin-s-volatility-curve-has-a-midterm-bump",
     "high": false
    },
@@ -767,7 +633,7 @@
     "title": "BTCPay Tells Merchants to Switch Off Servers Amid Hot Wallet Attack Reports",
     "source": "Decrypt",
     "time": "02 Nov 20:24",
-    "ageH": 0.3,
+    "ageH": 0.4,
     "link": "https://decrypt.co/382324/btcpay-tells-merchants-to-switch-off-servers-amid-hot-wallet-attack-reports",
     "high": false
    },
@@ -783,7 +649,7 @@
     "title": "Bitcoin eases to $77,900 as Binance customers pull $3.6 billion after withdrawals reopen",
     "source": "CoinDesk",
     "time": "02 Nov 19:30",
-    "ageH": 1.2,
+    "ageH": 1.3,
     "link": "https://www.coindesk.com/markets/2026/11/02/bitcoin-eases-to-usd77-900-as-binance-customers-pull-usd3-6-billion-after-withdrawals-reopen",
     "high": false
    }
@@ -799,21 +665,21 @@
    {
     "title": "Average Hourly Earnings m/m",
     "time": "06 Nov 21:30",
-    "inH": 96.8,
+    "inH": 96.7,
     "forecast": "0.3%",
     "previous": "0.1%"
    },
    {
     "title": "Non-Farm Employment Change",
     "time": "06 Nov 21:30",
-    "inH": 96.8,
+    "inH": 96.7,
     "forecast": "63K",
     "previous": "29K"
    },
    {
     "title": "Unemployment Rate",
     "time": "06 Nov 21:30",
-    "inH": 96.8,
+    "inH": 96.7,
     "forecast": "4.2%",
     "previous": "4.2%"
    }
@@ -850,9 +716,9 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 77721.99,
-   "valueAt": "02 Nov 2026, 20:42 SGT",
-   "hit": false
+   "value": 77904.26,
+   "valueAt": "02 Nov 2026, 20:45 SGT",
+   "hit": true
   },
   {
    "title": "Adds allowed (A4.1)",
