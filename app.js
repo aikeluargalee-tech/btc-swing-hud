@@ -22,7 +22,7 @@ async function loadStatic(){
 async function livePrice(){
   try{const r=await j("https://data-api.binance.vision/api/v3/ticker/price?symbol=BTCUSDT");live.price=+r.price;live.src="Binance";}
   catch(e){try{const r=await j("https://api.exchange.coinbase.com/products/BTC-USD/ticker");live.price=+r.price;live.src="Coinbase";}catch(e2){live.src=null;}}
-  if(live.src)live.at=Date.now(); renderTop(); try{renderCG();}catch(e){}
+  if(live.src)live.at=Date.now(); renderTop(); try{renderStatus();}catch(e){} try{renderCG();}catch(e){}
 }
 async function liveKlines(){
   try{const k=await j("https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1h&limit=49");
@@ -81,6 +81,7 @@ function renderNews(){const el=$("news");if(!el)return;const N=D?.news;
   h+=`<p class="mut">Sources: CoinDesk, Cointelegraph, The Block, Decrypt RSS; Forex Factory calendar. As of ${esc(N.asOf)}.</p>`;
   el.innerHTML=h;}
 function renderExtras(){
+  try{renderStatus();}catch(e){}
   try{renderNews();}catch(e){}
   renderCG();
   const le=D.liqEst;
@@ -226,6 +227,18 @@ function renderV3(){
   $("etf").innerHTML=E?kv([["Latest day",`${E.usdM>=0?"+":"−"}$${Math.abs(E.usdM)}M, ${E.date}`],["IBIT / FBTC",`${E.ibit??M} / ${E.fbtc??M} $M`],["Last 5 days sum",E.sum5!=null?`${E.sum5>=0?"+":"−"}$${Math.abs(E.sum5)}M`:M],
     ["Last 5",(E.last5||[]).map(x=>`${x[0].slice(0,6)} ${x[1]>=0?"+":""}${x[1]}`).join(", ")||M],["Source",`${E.source||"metrics file"}, snapshot ${snapT()} SGT`]]):kv([["ETF","n/a"]]);
 }
+
+// ---- status line ----
+const pAsOf=a=>{const m=String(a||"").match(/(\d{1,2}) (\w{3}) (\d{4}), (\d\d):(\d\d)/);return m?Date.parse(`${m[2]} ${m[1]} ${m[3]} ${m[4]}:${m[5]}:00 GMT+0800`):NaN;};
+const hm=t=>new Date(t).toLocaleTimeString("en-GB",{timeZone:"Asia/Singapore",hour:"2-digit",minute:"2-digit",hour12:false});
+function renderStatus(){const el=$("status");if(!el)return;const now=Date.now(),OD=' <b style="color:var(--bad,#f55)">overdue</b>';
+  const t=pAsOf(D?.asOf);let a="Updated n/a";
+  if(isFinite(t)){const nx=t+15*6e4;a=`Updated ${hm(t)} SGT · Next update ~${hm(nx)} SGT (every 15 min)${now>nx+10*6e4?OD:""}`;}
+  let b="Liquidation levels: n/a";
+  if(CG?.captured_myt){const c=Date.parse(CG.captured_myt.replace(" ","T")+":00+08:00");if(isFinite(c)){const n=new Date(c);n.setUTCMinutes(10,0,0);let nx=+n;if(nx<=c)nx+=36e5;b=`Liquidation levels: captured ${hm(c)} · next ~${hm(nx)} SGT (hourly)${now>nx+10*6e4?OD:""}`;}}
+  const p=live.src?`Price: live (${esc(live.src)}, browser-fetched)`:`Price: snapshot ${snapT()} SGT (live fetch failed)`;
+  el.innerHTML=`<div>${a}</div><div>${b}</div><div>${p}</div>`;}
+setInterval(()=>{try{renderStatus();}catch(e){}},30000);
 // ---- Copy for AI ----
 const tx=el=>el.textContent.replace(/\s+/g," ").trim();
 function buildPacket(){
