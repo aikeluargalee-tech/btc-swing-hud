@@ -6,7 +6,7 @@ import json, os, urllib.request, urllib.error, datetime as dt, time
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MYT=dt.timezone(dt.timedelta(hours=8)); UA={"User-Agent":"Mozilla/5.0"}
 missing=[]; browser_live=[]
-BROWSER={"Binance perp depth","Binance futures funding","Binance long/short","Binance perp klines","Bybit ticker"}
+BROWSER={"Binance perp depth","Binance futures funding","Binance long/short","Binance perp klines","Bybit ticker","Bybit perp depth"}
 def get(u,name):
     try:
         with urllib.request.urlopen(urllib.request.Request(u,headers=UA),timeout=15) as r: return json.load(r)
