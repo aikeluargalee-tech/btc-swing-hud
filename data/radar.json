@@ -18,8 +18,8 @@
   "vs 50D MA -5.13%",
   "Spot CVD 24h +376 BTC",
   "Perp CVD 4h +168 BTC",
-  "OI 24h -0.90%",
-  "Funding +0.0068%"
+  "OI 24h -0.92%",
+  "Funding +0.0072%"
  ],
  "implication": "Re-accumulate 0.75x; 50% on 4H close above base POC / 50% limit; stop base floor -0.5%",
  "notMet": [
@@ -33,19 +33,19 @@
   "Spot volume vs 20D MA",
   "Whale exchange inflows / CDD"
  ],
- "asOfMs": 1793623241629,
+ "asOfMs": 1793623325868,
  "scores": {
   "A": "3/7",
   "B": "1/5",
   "C": "3/7",
   "D": "2/5",
-  "E": "0/3",
+  "E": "0/4",
   "F": "3/4",
-  "G": "1/4",
+  "G": "1/5",
   "H": "0/3",
   "I": "4/5",
   "J": "3/6"
  },
- "asOf": "02 Nov 20:40 SGT",
+ "asOf": "02 Nov 20:42 SGT",
  "source": "box (full data incl. perp CVD)"
 }
