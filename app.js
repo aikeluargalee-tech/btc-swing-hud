@@ -10,9 +10,9 @@ let X={},C=null,D=null,live={price:null,src:null,at:0,h1:null,last1h:null,last1h
 let CG=null;
 function renderCG(){const el=$("cg");if(!CG){el.innerHTML=kv([["CoinGlass levels","n/a (file not found)"]]);$("cgNote").textContent="";return;}
   const ts=Date.parse(CG.captured_myt.replace(" ","T")+":00+08:00"),ageH=(Date.now()-ts)/36e5,st=ageH>3?` · STALE (${ageH.toFixed(1)}h old)`:"";
-  const big=x=>Math.abs(x.price-CG.biggest)<1?" ★ biggest":"";
-  el.innerHTML=kv([...CG.above.slice().sort((p,q)=>q.price-p.price).map(x=>[`▲ ${n0(x.price)}`,`$${x.usd_m.toFixed(2)}M shorts${big(x)}`]),["Price at capture","~"+n0(CG.price)],...CG.below.slice().sort((p,q)=>q.price-p.price).map(x=>[`▼ ${n0(x.price)}`,`$${x.usd_m.toFixed(2)}M longs${big(x)}`])]);
-  $("cgNote").textContent=`CoinGlass ${CG.exchange}, ${CG.range} liquidation map. Captured ${CG.captured_myt} MYT${st}. Scale max $${CG.scale_max_m}M.`;}
+  const big=x=>Math.abs(x.price-CG.biggest)<1?" ★ biggest":"";const RP=(typeof live!=="undefined"&&live.price)||D?.price||CG.price,dp=x=>RP?` (${x.price>=RP?"+":""}${((x.price-RP)/RP*100).toFixed(2)}%)`:"";
+  el.innerHTML=kv([...CG.above.slice().sort((p,q)=>q.price-p.price).map(x=>[`▲ ${n0(x.price)}${dp(x)}`,`$${x.usd_m.toFixed(2)}M shorts${big(x)}`]),["Price at capture","~"+n0(CG.price)],...CG.below.slice().sort((p,q)=>q.price-p.price).map(x=>[`▼ ${n0(x.price)}${dp(x)}`,`$${x.usd_m.toFixed(2)}M longs${big(x)}`])]);
+  $("cgNote").textContent=`CoinGlass ${CG.exchange}, ${CG.range} liquidation map. Captured ${CG.captured_myt} MYT${st}. Scale max $${CG.scale_max_m}M. % = distance from ${live.price?"live":"snapshot"} price ${n0(RP)}.`;}
 async function j(u){const r=await fetch(u,{cache:"no-store"});if(!r.ok)throw new Error(r.status);return r.json();}
 async function loadStatic(){
   const t=Date.now();
@@ -22,7 +22,7 @@ async function loadStatic(){
 async function livePrice(){
   try{const r=await j("https://data-api.binance.vision/api/v3/ticker/price?symbol=BTCUSDT");live.price=+r.price;live.src="Binance";}
   catch(e){try{const r=await j("https://api.exchange.coinbase.com/products/BTC-USD/ticker");live.price=+r.price;live.src="Coinbase";}catch(e2){live.src=null;}}
-  if(live.src)live.at=Date.now(); renderTop();
+  if(live.src)live.at=Date.now(); renderTop(); try{renderCG();}catch(e){}
 }
 async function liveKlines(){
   try{const k=await j("https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1h&limit=49");
