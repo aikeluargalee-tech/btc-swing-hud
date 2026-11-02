@@ -1,6 +1,6 @@
 name: refresh
 on:
-  schedule: [{ cron: "*/15 * * * *" }]
+  schedule: [{ cron: "7,22,37,52 * * * *" }]
   workflow_dispatch:
 permissions:
   contents: write
