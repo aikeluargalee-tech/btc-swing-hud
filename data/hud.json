@@ -1,10 +1,10 @@
 {
- "asOf": "02 Nov 2026, 22:27 SGT",
- "asOfMs": 1793629656339,
- "price": 77796.23,
+ "asOf": "02 Nov 2026, 22:35 SGT",
+ "asOfMs": 1793630155422,
+ "price": 78136.05,
  "high24": 78878.01,
  "low24": 77602.72,
- "chg24": -0.297,
+ "chg24": 0.129,
  "h1": [
   [
    "31 22:00",
@@ -333,18 +333,18 @@
  "lastDAt": "02 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.00804866622937,
-  "oiOKX": 33506.16460000023,
+  "fundOKX": 0.00813691882397,
+  "oiOKX": 33505.02950000022,
   "lsOKX": 2.35,
   "lsAt": "02 Nov 22:00",
-  "liqLongUsd": 134728,
+  "liqLongUsd": 155714,
   "liqShortUsd": 336754,
-  "liqWindow": "02 Nov 21:19 to 02 Nov 22:26"
+  "liqWindow": "02 Nov 21:20 to 02 Nov 22:32"
  },
  "macro": {
   "vix": {
-   "v": 18.99,
-   "chg": -2.21,
+   "v": 18.89,
+   "chg": -2.73,
    "date": "02 Nov"
   },
   "dxy": {
@@ -353,19 +353,19 @@
    "date": "02 Nov"
   },
   "us10y": {
-   "v": 4.91,
-   "chg": -0.43,
+   "v": 4.9,
+   "chg": -0.51,
    "date": "02 Nov"
   },
   "spx": {
-   "v": 7580.07,
-   "chg": -1.82,
-   "date": "30 Oct"
+   "v": 7619.09,
+   "chg": 0.51,
+   "date": "02 Nov"
   },
   "ndx": {
-   "v": 25437.0,
-   "chg": -2.86,
-   "date": "30 Oct"
+   "v": 25629.09,
+   "chg": 0.76,
+   "date": "02 Nov"
   }
  },
  "fng": {
@@ -373,11 +373,11 @@
   "label": "Fear",
   "date": "02 Nov"
  },
- "cbPremium": -131.3,
+ "cbPremium": -184.4,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23632284475,
-  "oiChg24": -0.94,
+  "oiUsd": 23718449715,
+  "oiChg24": -0.58,
   "oiHist": [
    [
     "01 22:00",
@@ -477,49 +477,36 @@
    ],
    [
     "02 22:00",
-    23.632
+    23.718
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00748,
-  "fundBy": {
-   "Hyperliquid BTC": 0.00125,
-   "Deribit BTC-PERPETUAL": 0.001541,
-   "Bybit BTCUSD": 0.01,
-   "OKX BTCUSD_PERP": 0.01,
-   "Binance BTCUSD_PERP": 0.01,
-   "Bybit BTCUSDT": 0.005216,
-   "Gate BTC_USDT": 0.01,
-   "OKX BTCUSDT_PERP": 0.00804866622937,
-   "HTX BTCUSDT_PERP": 0.01,
-   "Binance BTCUSDT_PERP": 0.008758
-  },
-  "predFundAvg": 0.00849,
-  "liqLongUsd24": 8127127,
-  "liqShortUsd24": 13514434
+  "predFundAvg": 0.00848,
+  "liqLongUsd24": 8174999,
+  "liqShortUsd24": 13646840
  },
  "tech": {
   "rsiD": 39.4,
   "atrD": 1955.5,
   "basis": "closed candles, Binance spot",
   "ma20": 80936.4,
-  "ma20Pct": -3.88,
+  "ma20Pct": -3.46,
   "ma50": 81981.8,
-  "ma50Pct": -5.11,
+  "ma50Pct": -4.69,
   "ma200": 73196.8,
-  "ma200Pct": 6.28,
-  "atrPct": 2.51,
+  "ma200Pct": 6.75,
+  "atrPct": 2.5,
   "rsi4h": 43.9
  },
  "opt": {
   "expiry": "27NOV26",
-  "expiryOI": 51728,
+  "expiryOI": 52124,
   "maxPain": 80000.0,
   "pcrExpiry": 0.76,
   "pcrAll": 0.68,
   "atmStrike": 78000.0,
-  "atmIV": 36.3,
-  "dvol": 38.94
+  "atmIV": 36.9,
+  "dvol": 39.41
  },
  "stables": {
   "USDT": {
@@ -536,73 +523,73 @@
  },
  "depth": {
   "spot": {
-   "mid": 77783.6,
-   "reachPct": 1.03,
+   "mid": 78082.0,
+   "reachPct": 1.15,
    "b1": {
-    "bid": 29092834,
-    "ask": 14486126,
-    "imb": 33.5,
+    "bid": 26049201,
+    "ask": 46257286,
+    "imb": -27.9,
     "full": true
    },
    "b2": {
-    "bid": 32042188,
-    "ask": 56445533,
-    "imb": -27.6,
+    "bid": 27907371,
+    "ask": 55676623,
+    "imb": -33.2,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 77746.8,
-   "reachPct": 0.85,
+   "mid": 78014.1,
+   "reachPct": 0.89,
    "b1": {
-    "bid": 82359600,
-    "ask": 76401820,
-    "imb": 3.8,
+    "bid": 82035519,
+    "ask": 83331819,
+    "imb": -0.8,
     "full": false
    },
    "b2": {
-    "bid": 82359600,
-    "ask": 76401820,
-    "imb": 3.8,
+    "bid": 82035519,
+    "ask": 83331819,
+    "imb": -0.8,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 111452434,
-    "ask": 90887946,
+    "bid": 108084720,
+    "ask": 129589105,
     "venues": [
      "spot full",
-     "okxPerp to \u00b10.85%"
+     "okxPerp to \u00b10.89%"
     ],
-    "imb": 10.2
+    "imb": -9.0
    },
    "b2": {
-    "bid": 114401788,
-    "ask": 132847353,
+    "bid": 109942890,
+    "ask": 139008442,
     "venues": [
-     "spot to \u00b11.03%",
-     "okxPerp to \u00b10.85%"
+     "spot to \u00b11.15%",
+     "okxPerp to \u00b10.89%"
     ],
-    "imb": -7.5
+    "imb": -11.7
    }
   },
   "walls": {
    "77800": {
     "bid": {
-     "p": 77650,
-     "usd": 16948887
+     "p": 77900,
+     "usd": 16995934
     },
     "ask": {
-     "p": 77800,
-     "usd": 13205644
+     "p": 78050,
+     "usd": 10812406
     }
    },
    "78650": {
     "bid": null,
     "ask": {
-     "p": 78850,
-     "usd": 8915057
+     "p": 78700,
+     "usd": 9280284
     }
    }
   }
@@ -669,9 +656,9 @@
   "px4h": -0.178,
   "spot1h": 80.3,
   "spot4h": 57.2,
-  "oi4h": 0.51,
+  "oi4h": 0.87,
   "tag": "Neutral",
-  "why": "price -0.18% 4h, OI 0.51%, spot CVD +57, perp CVD n/a"
+  "why": "price -0.18% 4h, OI 0.87%, spot CVD +57, perp CVD n/a"
  },
  "regime": {
   "h1h": 0.57,
@@ -687,20 +674,20 @@
  "vol": {
   "rv7d": 36.1,
   "rr7d": {
-   "rr": -4.73,
-   "call": 39.1,
-   "put": 43.8,
+   "rr": -4.6,
+   "call": 40.1,
+   "put": 44.7,
    "expiry": "6NOV26",
    "days": 3.7
   },
   "rr30d": {
-   "rr": -5.4,
-   "call": 34.7,
-   "put": 40.1,
+   "rr": -4.79,
+   "call": 35.6,
+   "put": 40.4,
    "expiry": "27NOV26",
    "days": 24.7
   },
-  "vrp": 2.8,
+  "vrp": 3.3,
   "basis": "25d RR = call IV - put IV at |delta|=0.25 (Black-Scholes delta from Deribit mark_iv, nearest expiry to 7d/30d); RV7d from 1H closes, annualised"
  },
  "etf": {
@@ -733,7 +720,9 @@
   "sum5": -312.7,
   "source": "Farside (farside.co.uk/btc), US$m"
  },
- "missing": [],
+ "missing": [
+  "Coinalyze funding: HTTPError 429"
+ ],
  "browserLive": [
   "Binance futures funding",
   "Binance long/short",
@@ -743,15 +732,15 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "02 Nov 22:28 SGT",
+  "asOf": "02 Nov 22:37 SGT",
   "risk": "HIGH",
-  "why": "flagged headline 0.9h ago",
+  "why": "flagged headline 1.1h ago",
   "headlines": [
    {
     "title": "Strategy spends triple its weekly Bitcoin outlay on STRC buybacks",
     "source": "Cointelegraph",
     "time": "02 Nov 21:48",
-    "ageH": 0.7,
+    "ageH": 0.8,
     "link": "https://cointelegraph.com/news/strategy-repurchases-208m-strc-65m-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -759,7 +748,7 @@
     "title": "Morning Minute: Binance Hack Leads to Mass Outflows While FBI Opens Probe",
     "source": "Decrypt",
     "time": "02 Nov 21:34",
-    "ageH": 0.9,
+    "ageH": 1.1,
     "link": "https://decrypt.co/382332/morning-minute-the-binance-hack-leads-to-mass-outflows-while-fbi-opens-probe",
     "high": true
    },
@@ -767,7 +756,7 @@
     "title": "Here\u2019s what happened in crypto today",
     "source": "Cointelegraph",
     "time": "02 Nov 21:29",
-    "ageH": 1.0,
+    "ageH": 1.1,
     "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -775,7 +764,7 @@
     "title": "Binance taps half its SAFU Bitcoin holdings, releases reserve proof",
     "source": "Cointelegraph",
     "time": "02 Nov 21:21",
-    "ageH": 1.1,
+    "ageH": 1.3,
     "link": "https://cointelegraph.com/news/binance-safu-btc-balance-halves-recovery-unclear?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -783,7 +772,7 @@
     "title": "Strategy Resumes Bitcoin Buys With $66M Purchase",
     "source": "Decrypt",
     "time": "02 Nov 21:19",
-    "ageH": 1.1,
+    "ageH": 1.3,
     "link": "https://decrypt.co/382333/strategy-resumes-bitcoin-buys-with-66m-purchase",
     "high": false
    }
@@ -792,28 +781,28 @@
    {
     "title": "Congressional Elections",
     "time": "03 Nov 23:16",
-    "inH": 24.8,
+    "inH": 24.6,
     "forecast": "",
     "previous": ""
    },
    {
     "title": "Average Hourly Earnings m/m",
     "time": "06 Nov 21:30",
-    "inH": 95.0,
+    "inH": 94.9,
     "forecast": "0.3%",
     "previous": "0.1%"
    },
    {
     "title": "Non-Farm Employment Change",
     "time": "06 Nov 21:30",
-    "inH": 95.0,
+    "inH": 94.9,
     "forecast": "63K",
     "previous": "29K"
    },
    {
     "title": "Unemployment Rate",
     "time": "06 Nov 21:30",
-    "inH": 95.0,
+    "inH": 94.9,
     "forecast": "4.2%",
     "previous": "4.2%"
    }
@@ -850,8 +839,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 77796.23,
-   "valueAt": "02 Nov 2026, 22:27 SGT",
+   "value": 78136.05,
+   "valueAt": "02 Nov 2026, 22:35 SGT",
    "hit": false
   },
   {
