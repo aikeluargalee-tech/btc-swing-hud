@@ -72,7 +72,16 @@ async function liveExtra(){
 }
 const tag=isLive=>isLive?" · live":` · snapshot ${snapT()} SGT`;
 const usdS=v=>typeof v==="number"?(Math.abs(v)>=1e9?`$${(v/1e9).toFixed(2)}B`:`$${(v/1e6).toFixed(1)}M`):M;
+function renderNews(){const el=$("news");if(!el)return;const N=D?.news;
+  if(!N||!N.ok){el.innerHTML='<p class="mut">n/a (news feed unavailable)</p>';return;}
+  const hi=N.risk==="HIGH";
+  let h=`<p><b style="color:var(${hi?"--bad,#f55":"--good,#4c4"})">Event risk: ${esc(N.risk)}</b>${N.why?` <span class="mut">(${esc(N.why)})</span>`:""}</p>`;
+  h+='<h3 style="font-size:.9em;margin:.6em 0 .3em">Headlines (last 12h)</h3><ul style="padding-left:1.1em;margin:0">'+(N.headlines.length?N.headlines.map(x=>`<li style="margin:.3em 0">${x.high?"⚠️ ":""}<a href="${esc(x.link)}" target="_blank" rel="noopener">${esc(x.title)}</a> <span class="mut">· ${esc(x.source)} · ${esc(x.time)} SGT</span></li>`).join(""):"<li>n/a</li>")+"</ul>";
+  h+='<h3 style="font-size:.9em;margin:.6em 0 .3em">US high-impact events (7d)</h3><ul style="padding-left:1.1em;margin:0">'+(N.events.length?N.events.map(e=>`<li style="margin:.3em 0">${e.inH<=24?"⚠️ ":""}${esc(e.title)} <span class="mut">· ${esc(e.time)} SGT (in ${e.inH}h)${e.forecast?` · f ${esc(e.forecast)} / p ${esc(e.previous)}`:""}</span></li>`).join(""):"<li>none found</li>")+"</ul>";
+  h+=`<p class="mut">Sources: CoinDesk, Cointelegraph, The Block, Decrypt RSS; Forex Factory calendar. As of ${esc(N.asOf)}.</p>`;
+  el.innerHTML=h;}
 function renderExtras(){
+  try{renderNews();}catch(e){}
   renderCG();
   const le=D.liqEst;
   $("liq").innerHTML=le?kv([...le.above.slice().reverse().map(x=>[`▲ ${n0(x.p)}`,`~${usdS(x.usd)} shorts`]),...le.below.map(x=>[`▼ ${n0(x.p)}`,`~${usdS(x.usd)} longs`])]):kv([["Clusters","n/a"]]);
@@ -237,6 +246,7 @@ function buildPacket(){
     s.querySelectorAll("dt").forEach(dt=>L.push(`- ${tx(dt)}: ${tx(dt.nextElementSibling)}`));
     s.querySelectorAll("p.mut").forEach(p=>{const t=tx(p);if(t)L.push(`Note: ${t}`);});
   }
+  const NL=D?.news?.headlines||[];if(NL.length)L.push("","## News links",...NL.map(x=>`- ${x.title}: ${x.link}`));
   return L.join("\n")+"\n";
 }
 function stamp(){const p=Object.fromEntries(new Intl.DateTimeFormat("en-GB",{timeZone:"Asia/Kuala_Lumpur",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false}).formatToParts(new Date()).map(x=>[x.type,x.value]));return `${p.year}${p.month}${p.day}-${p.hour}${p.minute}-SGT`;}
