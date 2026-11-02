@@ -1,10 +1,10 @@
 {
- "asOf": "02 Nov 2026, 16:36 MYT",
- "asOfMs": 1793608561400,
- "price": 78196.46,
+ "asOf": "02 Nov 2026, 16:43 MYT",
+ "asOfMs": 1793609027982,
+ "price": 78323.0,
  "high24": 78878.01,
  "low24": 77620.0,
- "chg24": -0.007,
+ "chg24": 0.136,
  "h1": [
   [
    "31 16:00",
@@ -332,23 +332,23 @@
  "lastDAt": "02 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.00853033832623,
-  "oiOKX": 33430.27210000019,
+  "fundOKX": 0.00845000221713,
+  "oiOKX": 33489.6083000002,
   "lsOKX": 2.25,
   "lsAt": "02 Nov 16:00",
-  "liqLongUsd": 826799,
-  "liqShortUsd": 0,
-  "liqWindow": "02 Nov 15:15 to 02 Nov 15:47"
+  "liqLongUsd": 823504,
+  "liqShortUsd": 627,
+  "liqWindow": "02 Nov 15:15 to 02 Nov 16:40"
  },
  "macro": {
   "vix": {
-   "v": 19.07,
-   "chg": -1.8,
+   "v": 19.03,
+   "chg": -2.01,
    "date": "02 Nov"
   },
   "dxy": {
-   "v": 101.68,
-   "chg": -0.2,
+   "v": 101.64,
+   "chg": -0.23,
    "date": "02 Nov"
   },
   "us10y": {
@@ -372,11 +372,11 @@
   "label": "Fear",
   "date": "02 Nov"
  },
- "cbPremium": -120.6,
+ "cbPremium": -141.6,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23525563892,
-  "oiChg24": -1.58,
+  "oiUsd": 23557888042,
+  "oiChg24": -1.44,
   "oiHist": [
    [
     "01 16:00",
@@ -476,37 +476,37 @@
    ],
    [
     "02 16:00",
-    23.526
+    23.558
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00802,
+  "fundAvg": 0.00737,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
-   "Deribit BTC-PERPETUAL": 0.006468,
+   "Deribit BTC-PERPETUAL": 0,
    "Bybit BTCUSD": 0.01,
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.01,
    "Bybit BTCUSDT": 0.005216,
    "Gate BTC_USDT": 0.01,
-   "OKX BTCUSDT_PERP": 0.00851812713453,
+   "OKX BTCUSDT_PERP": 0.00845000221713,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.008758
   },
-  "predFundAvg": 0.00846,
-  "liqLongUsd24": 6746012,
-  "liqShortUsd24": 12586034
+  "predFundAvg": 0.00819,
+  "liqLongUsd24": 6746016,
+  "liqShortUsd24": 12782601
  },
  "tech": {
   "rsiD": 39.4,
   "atrD": 1955.5,
   "basis": "closed candles, Binance spot",
   "ma20": 80936.4,
-  "ma20Pct": -3.39,
+  "ma20Pct": -3.23,
   "ma50": 81981.8,
-  "ma50Pct": -4.62,
+  "ma50Pct": -4.46,
   "ma200": 73196.8,
-  "ma200Pct": 6.83,
+  "ma200Pct": 7.0,
   "atrPct": 2.5,
   "rsi4h": 46.0
  },
@@ -517,8 +517,8 @@
   "pcrExpiry": 0.69,
   "pcrAll": 0.66,
   "atmStrike": 78000.0,
-  "atmIV": 36.4,
-  "dvol": 38.34
+  "atmIV": 36.2,
+  "dvol": 37.86
  },
  "stables": {
   "USDT": {
@@ -535,70 +535,70 @@
  },
  "depth": {
   "spot": {
-   "mid": 78196.5,
-   "reachPct": 1.18,
+   "mid": 78310.7,
+   "reachPct": 1.14,
    "b1": {
-    "bid": 16082086,
-    "ask": 17726098,
-    "imb": -4.9,
+    "bid": 35312615,
+    "ask": 34807539,
+    "imb": 0.7,
     "full": true
    },
    "b2": {
-    "bid": 16938326,
-    "ask": 21007139,
-    "imb": -10.7,
+    "bid": 38394428,
+    "ask": 36431752,
+    "imb": 2.6,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 78151.9,
-   "reachPct": 0.89,
+   "mid": 78257.8,
+   "reachPct": 0.87,
    "b1": {
-    "bid": 81380085,
-    "ask": 75864055,
-    "imb": 3.5,
+    "bid": 74600871,
+    "ask": 87159116,
+    "imb": -7.8,
     "full": false
    },
    "b2": {
-    "bid": 81380085,
-    "ask": 75864055,
-    "imb": 3.5,
+    "bid": 74600871,
+    "ask": 87159116,
+    "imb": -7.8,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 97462171,
-    "ask": 93590153,
+    "bid": 109913486,
+    "ask": 121966655,
     "venues": [
      "spot full",
-     "okxPerp to \u00b10.89%"
+     "okxPerp to \u00b10.87%"
     ],
-    "imb": 2.0
+    "imb": -5.2
    },
    "b2": {
-    "bid": 98318411,
-    "ask": 96871194,
+    "bid": 112995299,
+    "ask": 123590868,
     "venues": [
-     "spot to \u00b11.18%",
-     "okxPerp to \u00b10.89%"
+     "spot to \u00b11.14%",
+     "okxPerp to \u00b10.87%"
     ],
-    "imb": 0.7
+    "imb": -4.5
    }
   },
   "walls": {
    "77800": {
     "bid": {
-     "p": 78050,
-     "usd": 11256765
+     "p": 77800,
+     "usd": 7688170
     },
     "ask": null
    },
    "78650": {
     "bid": null,
     "ask": {
-     "p": 78800,
-     "usd": 8215272
+     "p": 78400,
+     "usd": 14947009
     }
    }
   }
@@ -665,9 +665,9 @@
   "px4h": -0.661,
   "spot1h": 14.1,
   "spot4h": -32.9,
-  "oi4h": -0.33,
+  "oi4h": -0.19,
   "tag": "Neutral",
-  "why": "price -0.66% 4h, OI -0.33%, spot CVD -33, perp CVD n/a"
+  "why": "price -0.66% 4h, OI -0.19%, spot CVD -33, perp CVD n/a"
  },
  "regime": {
   "h1h": 0.55,
@@ -683,20 +683,20 @@
  "vol": {
   "rv7d": 36.6,
   "rr7d": {
-   "rr": -4.37,
-   "call": 36.7,
-   "put": 41.0,
+   "rr": -4.32,
+   "call": 36.5,
+   "put": 40.8,
    "expiry": "6NOV26",
    "days": 4.0
   },
   "rr30d": {
-   "rr": -4.1,
-   "call": 35.0,
-   "put": 39.1,
+   "rr": -4.06,
+   "call": 34.9,
+   "put": 39.0,
    "expiry": "27NOV26",
    "days": 25.0
   },
-  "vrp": 1.7,
+  "vrp": 1.3,
   "basis": "25d RR = call IV - put IV at |delta|=0.25 (Black-Scholes delta from Deribit mark_iv, nearest expiry to 7d/30d); RV7d from 1H closes, annualised"
  },
  "etf": {
