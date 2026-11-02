@@ -1,15 +1,11 @@
 {
- "asOf": "02 Nov 2026, 14:55 MYT",
- "asOfMs": 1793602534435,
- "price": 78148.0,
+ "asOf": "02 Nov 2026, 15:03 MYT",
+ "asOfMs": 1793603028094,
+ "price": 78236.34,
  "high24": 78878.01,
  "low24": 77620.0,
- "chg24": 0.144,
+ "chg24": 0.282,
  "h1": [
-  [
-   "31 14:00",
-   77388.9
-  ],
   [
    "31 15:00",
    77356.0
@@ -197,16 +193,18 @@
   [
    "02 13:00",
    78378.0
+  ],
+  [
+   "02 14:00",
+   78168.0
   ]
  ],
- "last1h": 78377.96,
- "last1hAt": "02 Nov 14:00",
+ "last1h": 78168.01,
+ "last1hAt": "02 Nov 15:00",
  "flow": {
-  "spot4h": 280.0,
-  "spot24h": 580.3,
-  "asOf": "02 Nov 14:00 MYT, est. from taker volume",
-  "perp4h": 841.2,
-  "perp24h": 1415.9
+  "spot4h": 181.3,
+  "spot24h": 421.1,
+  "asOf": "02 Nov 15:00 MYT, est. from taker volume"
  },
  "d1": [
   [
@@ -332,16 +330,12 @@
  ],
  "lastD": 78354.0,
  "lastDAt": "02 Nov 08:00",
- "priceSource": "api.binance.com",
+ "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundBinance": 0.007108000000000001,
-  "fundOKX": 0.00739436477599,
-  "fundBybit": 0.0031019999999999997,
-  "oiBybit": 67869.519,
-  "oiOKX": 33636.972900000204,
+  "fundOKX": 0.00757754781498,
+  "oiOKX": 33576.1396000002,
   "lsOKX": 2.2,
   "lsAt": "02 Nov 14:00",
-  "lsBinance": 2.0845,
   "liqLongUsd": 222224,
   "liqShortUsd": 255677,
   "liqWindow": "02 Nov 11:47 to 02 Nov 14:45"
@@ -353,8 +347,8 @@
    "date": "30 Oct"
   },
   "dxy": {
-   "v": 101.84,
-   "chg": -0.04,
+   "v": 101.81,
+   "chg": -0.07,
    "date": "02 Nov"
   },
   "us10y": {
@@ -378,16 +372,12 @@
   "label": "Fear",
   "date": "02 Nov"
  },
- "cbPremium": -119.9,
+ "cbPremium": -135.3,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23495293942,
-  "oiChg24": -1.39,
+  "oiUsd": 23517286858,
+  "oiChg24": -1.13,
   "oiHist": [
-   [
-    "01 14:00",
-    23.826
-   ],
    [
     "01 15:00",
     23.785
@@ -482,26 +472,36 @@
    ],
    [
     "02 14:00",
-    23.495
+    23.5
+   ],
+   [
+    "02 15:00",
+    23.517
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00729,
+  "fundAvg": 0.00747,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
-   "Deribit BTC-PERPETUAL": 0.010688000000000001,
+   "Deribit BTC-PERPETUAL": 0.011564,
    "Bybit BTCUSD": 0.008723,
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.007728,
    "Bybit BTCUSDT": 0.00959,
-   "Gate BTC_USDT": 0.0022,
-   "OKX BTCUSDT_PERP": 0.00739436477599,
-   "HTX BTCUSDT_PERP": 0.0052966543379691,
+   "Gate BTC_USDT": 0.0026,
+   "OKX BTCUSDT_PERP": 0.00757754781498,
+   "HTX BTCUSDT_PERP": 0.0056393263007442,
    "Binance BTCUSDT_PERP": 0.01
   },
-  "predFundAvg": 0.00561,
-  "liqLongUsd24": 5379595,
-  "liqShortUsd24": 13875431
+  "predFundAvg": 0.00577,
+  "liqLongUsd24": 5373880,
+  "liqShortUsd24": 13871690
  },
- "missing": []
+ "missing": [
+  "ticker via api.binance.com: HTTPError 451",
+  "Binance futures funding: HTTPError 451",
+  "Bybit ticker: HTTPError 403",
+  "Binance long/short: HTTPError 451",
+  "Binance perp klines: HTTPError 451"
+ ]
 }
