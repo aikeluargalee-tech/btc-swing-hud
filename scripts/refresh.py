@@ -5,24 +5,28 @@ Optional: METRICS_FILE path to a btc_metrics_latest.json for CVD/ETF overrides."
 import json, os, urllib.request, urllib.error, datetime as dt, time
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MYT=dt.timezone(dt.timedelta(hours=8)); UA={"User-Agent":"Mozilla/5.0"}
-missing=[]
+missing=[]; browser_live=[]
+BROWSER={"Binance futures funding","Binance long/short","Binance perp klines","Bybit ticker"}
 def get(u,name):
     try:
         with urllib.request.urlopen(urllib.request.Request(u,headers=UA),timeout=15) as r: return json.load(r)
     except Exception as e:
-        missing.append(f"{name}: {type(e).__name__} {getattr(e,'code','')}".strip()); return None
+        if name in BROWSER and getattr(e,'code',None) in (451,403): browser_live.append(name)
+        else: missing.append(f"{name}: {type(e).__name__} {getattr(e,'code','')}".strip())
+        return None
 def myt(ms,f="%d %b %H:%M"): return dt.datetime.fromtimestamp(ms/1000,MYT).strftime(f)
 D={"asOf":dt.datetime.now(MYT).strftime("%d %b %Y, %H:%M MYT"),"asOfMs":int(time.time()*1000)}
 SPOT=["https://api.binance.com/api/v3","https://data-api.binance.vision/api/v3","https://api.binance.us/api/v3"]
 src_used=None
 def bget(path,name):
     global src_used
+    errs=[]
     for b in ([src_used] if src_used else SPOT):
         try:
             with urllib.request.urlopen(urllib.request.Request(b+path,headers=UA),timeout=15) as r:
                 j=json.load(r); src_used=b; return j
-        except Exception as e: missing.append(f"{name} via {b.split('/')[2]}: {type(e).__name__} {getattr(e,'code','')}".strip())
-    return None
+        except Exception as e: errs.append(f"{name} via {b.split('/')[2]}: {type(e).__name__} {getattr(e,'code','')}".strip())
+    missing.extend(errs); return None
 t=bget("/ticker/24hr?symbol=BTCUSDT","ticker")
 if t: D.update(price=float(t["lastPrice"]),high24=float(t["highPrice"]),low24=float(t["lowPrice"]),chg24=float(t["priceChangePercent"]))
 def okx_k(bar,n):
@@ -55,6 +59,8 @@ if r and r.get("data"): pos["fundOKX"]=float(r["data"][0]["fundingRate"])*100
 r=get("https://api.bybit.com/v5/market/tickers?category=linear&symbol=BTCUSDT","Bybit ticker")
 if r and r.get("result"):
     x=r["result"]["list"][0]; pos["fundBybit"]=float(x["fundingRate"])*100; pos["oiBybit"]=float(x["openInterest"])
+r=get("https://fapi.binance.com/fapi/v1/openInterest?symbol=BTCUSDT","Binance futures funding")
+if r: pos["oiBinance"]=float(r["openInterest"])
 r=get("https://www.okx.com/api/v5/public/open-interest?instType=SWAP&instId=BTC-USDT-SWAP","OKX OI")
 if r and r.get("data"): pos["oiOKX"]=float(r["data"][0]["oiCcy"])
 r=get("https://www.okx.com/api/v5/rubik/stat/contracts/long-short-account-ratio?ccy=BTC&period=1H","OKX long/short")
@@ -111,7 +117,7 @@ def cz(path,name,**q):
             with urllib.request.urlopen(urllib.request.Request(u,headers={"api_key":k,**UA}),timeout=20) as r: return json.load(r)
         except urllib.error.HTTPError as e:
             if e.code==429 and attempt==0:
-                time.sleep(min(30,int(e.headers.get("Retry-After") or 10))); continue
+                time.sleep(min(30,float(e.headers.get("Retry-After") or 10))); continue
             err=e; break
         except Exception as e: err=e; break
     if True:
@@ -139,7 +145,7 @@ if r:
     L=sum(h["l"] for x in r for h in x.get("history",[])); S=sum(h["s"] for x in r for h in x.get("history",[]))
     czd.update(liqLongUsd24=round(L),liqShortUsd24=round(S))
 D["cz"]=czd
-D["missing"]=missing
+D["missing"]=missing; D["browserLive"]=sorted(set(browser_live))
 os.makedirs(os.path.join(ROOT,"data"),exist_ok=True)
 json.dump(D,open(os.path.join(ROOT,"data","hud.json"),"w"),indent=1)
 print("price",D.get("price"),"source",D.get("priceSource"),"h1",len(D.get("h1",[])),"d1",len(D.get("d1",[])),"missing",len(missing))

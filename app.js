@@ -5,7 +5,7 @@ const pct=(v,d=4)=>typeof v==="number"?`${v>=0?"+":""}${v.toFixed(d)}%`:M;
 const usdM=v=>typeof v==="number"?`$${(v/1e6).toFixed(2)}M`:M;
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const myt=(ms,o)=>new Date(ms).toLocaleString("en-GB",{timeZone:"Asia/Kuala_Lumpur",...o});
-let C=null,D=null,live={price:null,src:null,at:0,h1:null,last1h:null,last1hAt:null},view="48h",bview="has";
+let X={},C=null,D=null,live={price:null,src:null,at:0,h1:null,last1h:null,last1hAt:null},view="48h",bview="has";
 
 async function j(u){const r=await fetch(u,{cache:"no-store"});if(!r.ok)throw new Error(r.status);return r.json();}
 async function loadStatic(){
@@ -23,6 +23,23 @@ async function liveKlines(){
     live.last1h=+k[k.length-2][4];live.last1hAt=myt(k[k.length-2][6]+1,{day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit",hour12:false});
     renderTop();renderChart();}catch(e){}
 }
+
+const XS={
+  bFund:["https://fapi.binance.com/fapi/v1/premiumIndex?symbol=BTCUSDT",r=>({fund:+r.lastFundingRate*100,mark:+r.markPrice})],
+  bLS:["https://fapi.binance.com/futures/data/globalLongShortAccountRatio?symbol=BTCUSDT&period=1h&limit=1",r=>({ls:+r[0].longShortRatio})],
+  bOI:["https://fapi.binance.com/fapi/v1/openInterest?symbol=BTCUSDT",r=>({oi:+r.openInterest})],
+  bPerpK:["https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&limit=25",r=>{const c=r.slice(0,-1).map(x=>2*+x[9]-+x[5]);return{p4:c.slice(-4).reduce((s,v)=>s+v,0),p24:c.slice(-24).reduce((s,v)=>s+v,0)};}],
+  bybit:["https://api.bybit.com/v5/market/tickers?category=linear&symbol=BTCUSDT",r=>{const x=r.result.list[0];return{fund:+x.fundingRate*100,oi:+x.openInterest};}],
+  okxFund:["https://www.okx.com/api/v5/public/funding-rate?instId=BTC-USDT-SWAP",r=>({fund:+r.data[0].fundingRate*100})],
+  okxOI:["https://www.okx.com/api/v5/public/open-interest?instType=SWAP&instId=BTC-USDT-SWAP",r=>({oi:+r.data[0].oiCcy})],
+};
+async function liveDeriv(){
+  await Promise.all(Object.entries(XS).map(async([k,[u,p]])=>{try{const v=p(await j(u));if(Object.values(v).some(n=>!isFinite(n)))throw 0;X[k]=v;}catch(e){delete X[k];}}));
+  if(D)renderStatic();
+}
+const snapT=()=>{const m=String(D?.asOf||"").match(/(\d\d:\d\d)/);return m?m[1]:"?";};
+// value with provenance: live value if present, else snapshot value
+function pv(lv,sv,fmt){if(typeof lv==="number")return fmt(lv)+" · live";if(typeof sv==="number")return fmt(sv)+` · snapshot ${snapT()} MYT`;return M;}
 const price=()=>live.price??D?.price;
 const last1h=()=>live.last1h??D?.last1h;
 function hit(t){const v={spot:price(),"1h":last1h(),"1d":D?.lastD}[t.basis];if(typeof v!=="number")return null;
@@ -60,16 +77,24 @@ function renderChart(){
 }
 function renderStatic(){
   const p=D.pos||{},cz=D.cz||{},f=D.flow||{},mac=D.macro||{};
-  $("pos").innerHTML=kv([["OI (all venues)",cz.oiUsd?`$${(cz.oiUsd/1e9).toFixed(2)}B, ${pct(cz.oiChg24,2)} 24h`:M],["Funding avg",pct(cz.fundAvg)],["Predicted funding",pct(cz.predFundAvg)],
+  const f4=v=>pct(v,4),btc=v=>`${n0(v)} BTC`,r2=v=>v.toFixed(2);
+  $("pos").innerHTML=kv([["OI (all venues)",cz.oiUsd?`$${(cz.oiUsd/1e9).toFixed(2)}B, ${pct(cz.oiChg24,2)} 24h · snapshot ${snapT()} MYT`:M],["Funding avg",pct(cz.fundAvg)],["Predicted funding",pct(cz.predFundAvg)],
+    ["Funding Binance",pv(X.bFund?.fund,p.fundBinance,f4)],["Funding Bybit",pv(X.bybit?.fund,p.fundBybit,f4)],["Funding OKX",pv(X.okxFund?.fund,p.fundOKX,f4)],
+    ["OI Binance perp",pv(X.bOI?.oi,p.oiBinance,btc)],["OI Bybit",pv(X.bybit?.oi,p.oiBybit,btc)],["OI OKX",pv(X.okxOI?.oi,p.oiOKX,btc)],
     ["Liqs 24h long",usdM(cz.liqLongUsd24)],["Liqs 24h short",usdM(cz.liqShortUsd24)],
-    ["L/S accounts",`Bin ${typeof p.lsBinance==="number"?p.lsBinance.toFixed(2):M} · OKX ${typeof p.lsOKX==="number"?p.lsOKX.toFixed(2):M}`],
-    ["Spot CVD",`${n0(f.spot4h)} 4h / ${n0(f.spot24h)} 24h BTC`],["Perp CVD",`${n0(f.perp4h)} 4h / ${n0(f.perp24h)} 24h BTC`]]);
+    ["L/S Binance",pv(X.bLS?.ls,p.lsBinance,r2)],["L/S OKX",typeof p.lsOKX==="number"?`${p.lsOKX.toFixed(2)} · snapshot ${snapT()} MYT`:M],
+    ["Spot CVD",`${n0(f.spot4h)} 4h / ${n0(f.spot24h)} 24h BTC`],
+    ["Perp CVD (Binance)",X.bPerpK?`${n0(X.bPerpK.p4)} 4h / ${n0(X.bPerpK.p24)} 24h BTC · live`:typeof f.perp4h==="number"?`${n0(f.perp4h)} 4h / ${n0(f.perp24h)} 24h BTC · snapshot ${snapT()} MYT`:M]]);
   $("sent").innerHTML=kv([["Fear & Greed",D.fng?`${D.fng.v}, ${D.fng.label}`:M],["Coinbase premium",typeof D.cbPremium==="number"?`${D.cbPremium>=0?"+":"-"}$${Math.abs(D.cbPremium)}`:M]]);
   const today=String(D.asOf||"").slice(0,6);
   const mv=(k,u)=>{const o=mac[k];return o?`${o.v}${u} (${o.chg>=0?"+":""}${o.chg}%)${o.date===today?"":", "+o.date}`:M;};
   $("macro").innerHTML=kv([["VIX",mv("vix","")],["DXY",mv("dxy","")],["US 10Y",mv("us10y","%")],["S&P 500",mv("spx","")],["Nasdaq",mv("ndx","")],["BTC ETF flow",D.etf?`$${D.etf.usdM}M, ${D.etf.date}`:"-$643.2M, 30 Oct (stale)"]]);
   renderBots();
-  $("gaps").textContent=`${C.knownGaps} CVD: ${f.asOf||M}. Price source in Actions: ${D.priceSource||M}. Refresh errors: ${(D.missing||[]).length?D.missing.join("; "):"none"}.`;
+  const LIVEMAP={bFund:"Binance funding",bLS:"Binance long/short",bOI:"Binance perp OI",bPerpK:"Binance perp klines",bybit:"Bybit ticker"};
+  const covered=Object.keys(LIVEMAP).filter(k=>X[k]).map(k=>LIVEMAP[k]);
+  const errs=(D.missing||[]).filter(m=>!covered.some(c=>m.startsWith(c)));
+  const pend=Object.keys(LIVEMAP).filter(k=>!X[k]).map(k=>LIVEMAP[k]);
+  $("gaps").textContent=`${C.knownGaps} CVD: ${f.asOf||M}. Price source in Actions: ${D.priceSource||M}. Refresh errors: ${errs.length?errs.join("; "):"none"}.${pend.length?" Not available live right now: "+pend.join(", ")+".":""}`;
   $("foot").textContent=`Snapshot ${D.asOf||M} · refreshed every 15 min by GitHub Actions · not financial advice`;
 }
 function renderBots(){
@@ -89,6 +114,6 @@ function seg(id,cb){$(id).addEventListener("click",e=>{const b=e.target.closest(
 (async()=>{
   await loadStatic();renderStatic();renderChart();tick();
   seg("seg",v=>{view=v;renderChart();});seg("bseg",v=>{bview=v;renderBots();});
-  livePrice();liveKlines();setInterval(livePrice,5000);setInterval(liveKlines,60000);setInterval(tick,1000);
+  livePrice();liveKlines();liveDeriv();setInterval(liveDeriv,60000);setInterval(livePrice,5000);setInterval(liveKlines,60000);setInterval(tick,1000);
   setInterval(async()=>{try{await loadStatic();renderStatic();renderChart();}catch(e){}},5*60000);
 })();
