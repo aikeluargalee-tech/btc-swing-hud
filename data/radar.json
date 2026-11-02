@@ -14,11 +14,11 @@
   "Spot CVD 24h flat/green"
  ],
  "metrics": [
-  "Price vs 20D MA -3.58%",
-  "vs 50D MA -4.81%",
+  "Price vs 20D MA -3.77%",
+  "vs 50D MA -4.99%",
   "Spot CVD 24h +376 BTC",
   "Perp CVD 4h +168 BTC",
-  "OI 24h -0.68%",
+  "OI 24h -0.80%",
   "Funding +0.0068%"
  ],
  "implication": "Re-accumulate 0.75x; 50% on 4H close above base POC / 50% limit; stop base floor -0.5%",
@@ -33,7 +33,7 @@
   "Spot volume vs 20D MA",
   "Whale exchange inflows / CDD"
  ],
- "asOfMs": 1793621889318,
+ "asOfMs": 1793623129732,
  "scores": {
   "A": "3/7",
   "B": "1/5",
@@ -46,6 +46,6 @@
   "I": "4/5",
   "J": "3/6"
  },
- "asOf": "02 Nov 20:18 SGT",
+ "asOf": "02 Nov 20:38 SGT",
  "source": "box (full data incl. perp CVD)"
 }
