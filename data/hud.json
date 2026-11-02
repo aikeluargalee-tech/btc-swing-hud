@@ -1,10 +1,10 @@
 {
- "asOf": "03 Nov 2026, 01:20 SGT",
- "asOfMs": 1793640048431,
- "price": 77406.06,
+ "asOf": "03 Nov 2026, 01:35 SGT",
+ "asOfMs": 1793640953546,
+ "price": 77040.01,
  "high24": 78878.01,
- "low24": 77283.08,
- "chg24": -0.902,
+ "low24": 77020.0,
+ "chg24": -1.405,
  "h1": [
   [
    "01 01:00",
@@ -334,37 +334,37 @@
  "priceSource": "data-api.binance.vision",
  "pos": {
   "fundOKX": 0.01,
-  "oiOKX": 33646.6866000002,
+  "oiOKX": 33389.53090000021,
   "lsOKX": 2.4,
   "lsAt": "03 Nov 01:00",
-  "liqLongUsd": 834740,
+  "liqLongUsd": 1167192,
   "liqShortUsd": 0,
-  "liqWindow": "02 Nov 23:58 to 03 Nov 01:10"
+  "liqWindow": "03 Nov 01:32 to 03 Nov 01:35"
  },
  "macro": {
   "vix": {
-   "v": 19.12,
-   "chg": -1.54,
+   "v": 19.09,
+   "chg": -1.7,
    "date": "02 Nov"
   },
   "dxy": {
-   "v": 101.67,
-   "chg": -0.21,
+   "v": 101.64,
+   "chg": -0.23,
    "date": "02 Nov"
   },
   "us10y": {
    "v": 4.88,
-   "chg": -0.99,
+   "chg": -1.03,
    "date": "02 Nov"
   },
   "spx": {
-   "v": 7620.02,
-   "chg": 0.53,
+   "v": 7607.16,
+   "chg": 0.36,
    "date": "02 Nov"
   },
   "ndx": {
-   "v": 25581.59,
-   "chg": 0.57,
+   "v": 25515.34,
+   "chg": 0.31,
    "date": "02 Nov"
   }
  },
@@ -373,11 +373,11 @@
   "label": "Fear",
   "date": "02 Nov"
  },
- "cbPremium": -125.6,
+ "cbPremium": -136.1,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23668534554,
-  "oiChg24": -0.67,
+  "oiUsd": 23498778019,
+  "oiChg24": -1.38,
   "oiHist": [
    [
     "02 01:00",
@@ -477,25 +477,12 @@
    ],
    [
     "03 01:00",
-    23.669
+    23.499
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00784,
-  "fundBy": {
-   "Hyperliquid BTC": 0.00125,
-   "Deribit BTC-PERPETUAL": 0,
-   "Bybit BTCUSD": 0.01,
-   "OKX BTCUSD_PERP": 0.01,
-   "Binance BTCUSD_PERP": 0.01,
-   "Bybit BTCUSDT": 0.009346,
-   "Gate BTC_USDT": 0.0087,
-   "OKX BTCUSDT_PERP": 0.01,
-   "HTX BTCUSDT_PERP": 0.01,
-   "Binance BTCUSDT_PERP": 0.009118
-  },
-  "predFundAvg": 0.00771,
-  "liqLongUsd24": 17288374,
+  "predFundAvg": 0.00783,
+  "liqLongUsd24": 21200021,
   "liqShortUsd24": 13848766
  },
  "tech": {
@@ -503,23 +490,23 @@
   "atrD": 1955.5,
   "basis": "closed candles, Binance spot",
   "ma20": 80936.4,
-  "ma20Pct": -4.36,
+  "ma20Pct": -4.81,
   "ma50": 81981.8,
-  "ma50Pct": -5.58,
+  "ma50Pct": -6.03,
   "ma200": 73196.8,
-  "ma200Pct": 5.75,
-  "atrPct": 2.53,
+  "ma200Pct": 5.25,
+  "atrPct": 2.54,
   "rsi4h": 40.4
  },
  "opt": {
   "expiry": "27NOV26",
-  "expiryOI": 52402,
+  "expiryOI": 52908,
   "maxPain": 80000.0,
-  "pcrExpiry": 0.77,
+  "pcrExpiry": 0.78,
   "pcrAll": 0.68,
-  "atmStrike": 78000.0,
-  "atmIV": 36.9,
-  "dvol": 39.56
+  "atmStrike": 77000.0,
+  "atmIV": 37.5,
+  "dvol": 39.81
  },
  "stables": {
   "USDT": {
@@ -536,71 +523,68 @@
  },
  "depth": {
   "spot": {
-   "mid": 77404.6,
-   "reachPct": 1.08,
+   "mid": 77176.0,
+   "reachPct": 1.12,
    "b1": {
-    "bid": 22121971,
-    "ask": 12431650,
-    "imb": 28.0,
+    "bid": 24369787,
+    "ask": 10896210,
+    "imb": 38.2,
     "full": true
    },
    "b2": {
-    "bid": 22938660,
-    "ask": 13770932,
-    "imb": 25.0,
+    "bid": 26398015,
+    "ask": 12363403,
+    "imb": 36.2,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 77373.4,
-   "reachPct": 0.84,
+   "mid": 77134.9,
+   "reachPct": 0.87,
    "b1": {
-    "bid": 108815051,
-    "ask": 82885460,
-    "imb": 13.5,
+    "bid": 139115773,
+    "ask": 79291826,
+    "imb": 27.4,
     "full": false
    },
    "b2": {
-    "bid": 108815051,
-    "ask": 82885460,
-    "imb": 13.5,
+    "bid": 139115773,
+    "ask": 79291826,
+    "imb": 27.4,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 130937022,
-    "ask": 95317110,
+    "bid": 163485560,
+    "ask": 90188036,
     "venues": [
      "spot full",
-     "okxPerp to \u00b10.84%"
+     "okxPerp to \u00b10.87%"
     ],
-    "imb": 15.7
+    "imb": 28.9
    },
    "b2": {
-    "bid": 131753711,
-    "ask": 96656392,
+    "bid": 165513788,
+    "ask": 91655229,
     "venues": [
-     "spot to \u00b11.08%",
-     "okxPerp to \u00b10.84%"
+     "spot to \u00b11.12%",
+     "okxPerp to \u00b10.87%"
     ],
-    "imb": 15.4
+    "imb": 28.7
    }
   },
   "walls": {
    "77800": {
     "bid": null,
     "ask": {
-     "p": 77500,
-     "usd": 13140005
+     "p": 77650,
+     "usd": 5682814
     }
    },
    "78650": {
     "bid": null,
-    "ask": {
-     "p": 78500,
-     "usd": 552428
-    }
+    "ask": null
    }
   }
  },
@@ -666,9 +650,9 @@
   "px4h": -0.394,
   "spot1h": 124.1,
   "spot4h": 491.8,
-  "oi4h": 0.08,
-  "tag": "Neutral",
-  "why": "price -0.39% 4h, OI 0.08%, spot CVD +492, perp CVD n/a"
+  "oi4h": -0.63,
+  "tag": "Long Squeeze",
+  "why": "price -0.39%, OI -0.63%"
  },
  "regime": {
   "h1h": 0.54,
@@ -684,20 +668,20 @@
  "vol": {
   "rv7d": 35.6,
   "rr7d": {
-   "rr": -4.86,
-   "call": 41.9,
-   "put": 46.7,
+   "rr": -5.19,
+   "call": 42.8,
+   "put": 48.0,
    "expiry": "6NOV26",
    "days": 3.6
   },
   "rr30d": {
-   "rr": -4.75,
-   "call": 36.0,
-   "put": 40.8,
+   "rr": -4.77,
+   "call": 36.3,
+   "put": 41.0,
    "expiry": "27NOV26",
    "days": 24.6
   },
-  "vrp": 4.0,
+  "vrp": 4.2,
   "basis": "25d RR = call IV - put IV at |delta|=0.25 (Black-Scholes delta from Deribit mark_iv, nearest expiry to 7d/30d); RV7d from 1H closes, annualised"
  },
  "etf": {
@@ -730,7 +714,9 @@
   "sum5": -312.7,
   "source": "Farside (farside.co.uk/btc), US$m"
  },
- "missing": [],
+ "missing": [
+  "Coinalyze funding: HTTPError 429"
+ ],
  "browserLive": [
   "Binance futures funding",
   "Binance long/short",
@@ -740,15 +726,23 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "03 Nov 01:21 SGT",
+  "asOf": "03 Nov 01:37 SGT",
   "risk": "HIGH",
-  "why": "Congressional Elections in 21.9h; flagged headline 0.5h ago; flagged headline 0.6h ago",
+  "why": "Congressional Elections in 21.6h; flagged headline 0.7h ago; flagged headline 0.9h ago",
   "headlines": [
+   {
+    "title": "EU entity suspected of losing $106 million from crypto exchange accounts, ZachXBT says",
+    "source": "CoinDesk",
+    "time": "03 Nov 01:21",
+    "ageH": 0.3,
+    "link": "https://www.coindesk.com/tech/2026/11/02/eu-entity-suspected-of-losing-usd106-million-from-crypto-exchange-accounts-zachxbt-says",
+    "high": false
+   },
    {
     "title": "Binance completes latest proof of reserves as it works to restore assets, withdrawals after record hack",
     "source": "The Block",
     "time": "03 Nov 00:52",
-    "ageH": 0.5,
+    "ageH": 0.7,
     "link": "https://www.theblock.co/news/business/2026-11-02-binance-zero-knowledge-proof-of-reserves-snapshot-hack-recovery-432321",
     "high": true
    },
@@ -756,7 +750,7 @@
     "title": "Brazil's Largest Exchange Mercado Bitcoin Halts Withdrawals After $40 Million Hack",
     "source": "Decrypt",
     "time": "03 Nov 00:46",
-    "ageH": 0.6,
+    "ageH": 0.9,
     "link": "https://decrypt.co/382341/mercado-bitcoin-halts-withdrawals-40-million-hack",
     "high": true
    },
@@ -764,7 +758,7 @@
     "title": "Bitmine Buys More Ethereum as Tom Lee Calls the Binance Hack Bullish",
     "source": "Decrypt",
     "time": "03 Nov 00:23",
-    "ageH": 1.0,
+    "ageH": 1.2,
     "link": "https://decrypt.co/382340/bitmine-buys-more-ethereum-tom-lee-binance-hack-bullish",
     "high": true
    },
@@ -772,45 +766,37 @@
     "title": "Brazil\u2019s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains",
     "source": "CoinDesk",
     "time": "02 Nov 23:53",
-    "ageH": 1.5,
+    "ageH": 1.7,
     "link": "https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains",
     "high": false
-   },
-   {
-    "title": "Strive inches closer to becoming second-largest public bitcoin holder after latest $10 million buy",
-    "source": "The Block",
-    "time": "02 Nov 23:01",
-    "ageH": 2.3,
-    "link": "https://www.theblock.co/news/business/2026-11-02-strive-inches-closer-second-largest-public-bitcoin-holder-10-million-buy-432312",
-    "high": true
    }
   ],
   "events": [
    {
     "title": "Congressional Elections",
     "time": "03 Nov 23:16",
-    "inH": 21.9,
+    "inH": 21.6,
     "forecast": "",
     "previous": ""
    },
    {
     "title": "Average Hourly Earnings m/m",
     "time": "06 Nov 21:30",
-    "inH": 92.1,
+    "inH": 91.9,
     "forecast": "0.3%",
     "previous": "0.1%"
    },
    {
     "title": "Non-Farm Employment Change",
     "time": "06 Nov 21:30",
-    "inH": 92.1,
+    "inH": 91.9,
     "forecast": "63K",
     "previous": "29K"
    },
    {
     "title": "Unemployment Rate",
     "time": "06 Nov 21:30",
-    "inH": 92.1,
+    "inH": 91.9,
     "forecast": "4.2%",
     "previous": "4.2%"
    }
@@ -847,8 +833,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 77406.06,
-   "valueAt": "03 Nov 2026, 01:20 SGT",
+   "value": 77040.01,
+   "valueAt": "03 Nov 2026, 01:35 SGT",
    "hit": false
   },
   {
