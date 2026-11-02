@@ -156,6 +156,9 @@ os.makedirs(os.path.join(ROOT,"data"),exist_ok=True)
 try:
     import news; D["news"]=news.get_news(os.path.join(ROOT,"data","news_items.json"))
 except Exception: D["news"]=None
+try:
+    import regime as _rr; D["radar"]=_rr.compute(D)
+except Exception: D["radar"]=None
 json.dump(D,open(os.path.join(ROOT,"data","hud.json"),"w"),indent=1)
 print("price",D.get("price"),"source",D.get("priceSource"),"h1",len(D.get("h1",[])),"d1",len(D.get("d1",[])),"missing",len(missing))
 for x in missing: print(" -",x)

@@ -80,7 +80,20 @@ function renderNews(){const el=$("news");if(!el)return;const N=D?.news;
   h+='<h3 style="font-size:.9em;margin:.6em 0 .3em">US high-impact events (7d)</h3><ul style="padding-left:1.1em;margin:0">'+(N.events.length?N.events.map(e=>`<li style="margin:.3em 0">${e.inH<=24?"⚠️ ":""}${esc(e.title)} <span class="mut">· ${esc(e.time)} SGT (in ${e.inH}h)${e.forecast?` · f ${esc(e.forecast)} / p ${esc(e.previous)}`:""}</span></li>`).join(""):"<li>none found</li>")+"</ul>";
   h+=`<p class="mut">Sources: CoinDesk, Cointelegraph, The Block, Decrypt RSS; Forex Factory calendar. As of ${esc(N.asOf)}.</p>`;
   el.innerHTML=h;}
+function renderRadar(){const el=$("radar");if(!el)return;const R=D?.radar;
+  if(!R||!R.ok){el.innerHTML='<p class="mut">n/a (regime not computed)</p>';return;}
+  const col={good:"#3fb950",warn:"#d29922",bad:"#f85149"}[R.tone]||"#d29922",c=R.confidence||0;
+  el.innerHTML=`<div style="font-size:1.35em;font-weight:700;color:${col}">${esc(R.label)}</div>
+  <div class="mut">Status: <b style="color:${col}">${esc(R.status)}</b> · Confidence ${esc(R.confLabel)} ${c}%${R.matched?` (${esc(R.matched)})`:""}</div>
+  <div style="height:8px;background:#2a3138;border-radius:4px;margin:.4em 0"><div style="height:100%;width:${c}%;background:${col};border-radius:4px"></div></div>
+  <ul style="padding-left:1.1em;margin:.3em 0">${(R.evidence||[]).map(x=>`<li>✓ ${esc(x)}</li>`).join("")}</ul>
+  ${R.metrics?`<p class="mut" style="margin:.2em 0">${R.metrics.map(esc).join(" · ")}</p>`:""}
+  <p style="margin:.4em 0"><b>Implication:</b> ${esc(R.implication)}</p>
+  <p class="mut" style="margin:.2em 0">Runner-up: ${esc(R.runnerUp)}. Scores: ${Object.entries(R.scores||{}).map(([k,v])=>k+" "+v).join(", ")}</p>
+  <p class="mut" style="margin:.2em 0">Missing (excluded from scoring): ${esc((R.missing||[]).join("; "))}</p>
+  <p class="mut" style="margin:.2em 0">Rules from A4.3 Regime Radar; computed by HUD each refresh (${esc(R.asOf)}). Not the bot's own verdict.</p>`;}
 function renderExtras(){
+  try{renderRadar();}catch(e){}
   try{renderStatus();}catch(e){}
   try{renderNews();}catch(e){}
   renderCG();
