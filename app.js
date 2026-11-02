@@ -164,3 +164,39 @@ function seg(id,cb){$(id).addEventListener("click",e=>{const b=e.target.closest(
   livePrice();liveKlines();liveDeriv();liveExtra();setInterval(liveDeriv,60000);setInterval(liveExtra,30000);setInterval(livePrice,5000);setInterval(liveKlines,60000);setInterval(tick,1000);
   setInterval(async()=>{try{await loadStatic();renderStatic();renderChart();}catch(e){}},5*60000);
 })();
+
+// ---- Copy for AI ----
+const tx=el=>el.textContent.replace(/\s+/g," ").trim();
+function buildPacket(){
+  const now=Date.now(),L=[];
+  L.push(`# BTC Swing HUD packet, ${myt(now,{day:"2-digit",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit",second:"2-digit",hour12:false})} MYT`);
+  L.push("Instruction for AI: BTC spot swing-trade data (MYT, UTC+8). Analyse the setup, levels, triggers and risks; say what would change the view. Not financial advice.");
+  L.push(`Provenance: values tagged "live" were fetched in the browser just now; untagged or "snapshot HH:MM MYT" values come from the 15-min snapshot (${D?.asOf||M}). Live price source: ${live.src||"none (snapshot)"}. Liquidation clusters are a model estimate.`);
+  for(const s of document.querySelectorAll("main section.card")){
+    const h=s.querySelector("h2"),title=h?tx(h):(s.id==="verdict"?"Verdict":s.querySelector("summary")?tx(s.querySelector("summary")):"");
+    L.push("",`## ${title}`);
+    if(s.id==="verdict"){L.push(`- ${tx(s.querySelector(".lead"))}`,`- Price: ${tx(s.querySelector(".price"))}${live.src?" · live":" · snapshot"} (${tx(s.querySelector(".price").nextElementSibling)})`);}
+    if(s.querySelector("#chart")){const h=(live.h1||D?.h1||[]).map(x=>x[1]),d=(D?.d1||[]).map(x=>x[1]);
+      if(h.length)L.push(`- 48h 1H closes: low ${n0(Math.min(...h))}, high ${n0(Math.max(...h))}, last ${n0(h[h.length-1])}${live.h1?" · live":" · snapshot"}`);
+      if(d.length)L.push(`- 30d daily closes: low ${n0(Math.min(...d))}, high ${n0(Math.max(...d))}, last ${n0(d[d.length-1])} · snapshot`);
+      L.push(`- Levels: ${C.levels.map(l=>`${n0(l.p)} ${l.label.replace(/^[\d.]+k\s*/,"")}`).join("; ")}. Bid zone ${n0(C.bidZone.lo)}-${n0(C.bidZone.hi)}.`);}
+    if(s.querySelector("#bots")){C.bots.forEach(g=>g.bots.forEach(b=>L.push(`- ${b.code} ${b.name} [${g.section}]: ${b.status||"Not run this cycle"}${b.detail?" ("+b.detail+")":""}`)));continue;}
+    s.querySelectorAll(".row").forEach(r=>{const t=r.querySelector(".t"),d=r.querySelector(".d"),p=r.querySelector(".pill");L.push(`- ${t?tx(t):""}${d?" ("+tx(d)+")":""}${p?": "+tx(p):""}`);});
+    s.querySelectorAll("dt").forEach(dt=>L.push(`- ${tx(dt)}: ${tx(dt.nextElementSibling)}`));
+    s.querySelectorAll("p.mut").forEach(p=>{const t=tx(p);if(t)L.push(`Note: ${t}`);});
+  }
+  return L.join("\n")+"\n";
+}
+function stamp(){const p=Object.fromEntries(new Intl.DateTimeFormat("en-GB",{timeZone:"Asia/Kuala_Lumpur",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false}).formatToParts(new Date()).map(x=>[x.type,x.value]));return `${p.year}${p.month}${p.day}-${p.hour}${p.minute}-MYT`;}
+function flash(m){$("copyMsg").textContent=m;clearTimeout(flash.t);flash.t=setTimeout(()=>$("copyMsg").textContent="",3000);}
+async function copyPacket(){const t=buildPacket();
+  try{await navigator.clipboard.writeText(t);flash(`Copied ✓ (${t.length} chars)`);return;}catch(e){}
+  const ta=document.createElement("textarea");ta.value=t;ta.setAttribute("readonly","");ta.style.cssText="position:fixed;top:0;left:0;opacity:0;font-size:16px";document.body.appendChild(ta);
+  ta.focus();ta.select();ta.setSelectionRange(0,t.length);let ok=false;try{ok=document.execCommand("copy");}catch(e){}ta.remove();
+  flash(ok?`Copied ✓ (${t.length} chars)`:"Copy blocked, use Download");}
+function dl(name,text,type){const u=URL.createObjectURL(new Blob([text],{type}));const a=document.createElement("a");a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),2000);}
+$("bCopy").onclick=copyPacket;
+$("bDl").onclick=()=>{dl(`btc-hud-${stamp()}.md`,buildPacket(),"text/markdown");flash("Downloaded .md ✓");};
+$("bJson").onclick=()=>{dl(`btc-hud-${stamp()}.json`,JSON.stringify({exportedAtMYT:stamp(),live:{price:live.price,src:live.src,last1h:live.last1h,derivs:X},snapshot:D,config:C},null,1),"application/json");flash("Downloaded JSON ✓");};
+window.buildPacket=buildPacket;
+if(location.hash==="#packet-test")setTimeout(()=>{const p=document.createElement("pre");p.id="pkt";p.textContent=buildPacket();document.body.appendChild(p);},10000);
