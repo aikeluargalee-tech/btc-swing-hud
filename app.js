@@ -39,7 +39,7 @@ async function liveDeriv(){
 }
 const snapT=()=>{const m=String(D?.asOf||"").match(/(\d\d:\d\d)/);return m?m[1]:"?";};
 // value with provenance: live value if present, else snapshot value
-function pv(lv,sv,fmt){if(typeof lv==="number")return fmt(lv)+" · live";if(typeof sv==="number")return fmt(sv)+` · snapshot ${snapT()} MYT`;return M;}
+function pv(lv,sv,fmt){if(typeof lv==="number")return fmt(lv)+" · live";if(typeof sv==="number")return fmt(sv)+` · snapshot ${snapT()} MYT`;return "n/a (live fetch failed, not in snapshot)";}
 const price=()=>live.price??D?.price;
 const last1h=()=>live.last1h??D?.last1h;
 function hit(t){const v={spot:price(),"1h":last1h(),"1d":D?.lastD}[t.basis];if(typeof v!=="number")return null;
