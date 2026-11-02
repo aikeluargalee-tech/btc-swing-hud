@@ -1,10 +1,10 @@
 {
- "asOf": "03 Nov 2026, 04:32 SGT",
- "asOfMs": 1793651574712,
- "price": 76929.56,
+ "asOf": "03 Nov 2026, 04:47 SGT",
+ "asOfMs": 1793652420425,
+ "price": 77002.39,
  "high24": 78878.01,
  "low24": 76705.0,
- "chg24": -1.133,
+ "chg24": -1.126,
  "h1": [
   [
    "01 04:00",
@@ -334,22 +334,22 @@
  "priceSource": "data-api.binance.vision",
  "pos": {
   "fundOKX": 0.01,
-  "oiOKX": 33387.574500000184,
-  "lsOKX": 2.54,
+  "oiOKX": 33497.060800000196,
+  "lsOKX": 2.56,
   "lsAt": "03 Nov 04:00",
-  "liqLongUsd": 1213817,
+  "liqLongUsd": 1266138,
   "liqShortUsd": 40415,
-  "liqWindow": "03 Nov 03:38 to 03 Nov 04:23"
+  "liqWindow": "03 Nov 03:38 to 03 Nov 04:40"
  },
  "macro": {
   "vix": {
-   "v": 20.88,
-   "chg": 7.52,
+   "v": 21.52,
+   "chg": 10.81,
    "date": "02 Nov"
   },
   "dxy": {
-   "v": 101.77,
-   "chg": -0.11,
+   "v": 101.74,
+   "chg": -0.14,
    "date": "02 Nov"
   },
   "us10y": {
@@ -358,13 +358,13 @@
    "date": "02 Nov"
   },
   "spx": {
-   "v": 7554.36,
-   "chg": -0.34,
+   "v": 7559.32,
+   "chg": -0.27,
    "date": "02 Nov"
   },
   "ndx": {
-   "v": 25225.3,
-   "chg": -0.83,
+   "v": 25234.98,
+   "chg": -0.79,
    "date": "02 Nov"
   }
  },
@@ -373,11 +373,11 @@
   "label": "Fear",
   "date": "02 Nov"
  },
- "cbPremium": -146.8,
+ "cbPremium": -153.9,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23648448370,
-  "oiChg24": 0.34,
+  "oiUsd": 23675178275,
+  "oiChg24": 0.45,
   "oiHist": [
    [
     "02 04:00",
@@ -477,14 +477,14 @@
    ],
    [
     "03 04:00",
-    23.648
+    23.675
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00947,
+  "fundAvg": 0.00906,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
-   "Deribit BTC-PERPETUAL": 0.01495,
+   "Deribit BTC-PERPETUAL": 0.010877000000000001,
    "Bybit BTCUSD": 0.01,
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.01,
@@ -495,31 +495,31 @@
    "Binance BTCUSDT_PERP": 0.009118
   },
   "predFundAvg": 0.00854,
-  "liqLongUsd24": 33655719,
-  "liqShortUsd24": 14603548
+  "liqLongUsd24": 33823429,
+  "liqShortUsd24": 14606251
  },
  "tech": {
   "rsiD": 39.4,
   "atrD": 1955.5,
   "basis": "closed candles, Binance spot",
   "ma20": 80936.4,
-  "ma20Pct": -4.95,
+  "ma20Pct": -4.86,
   "ma50": 81981.8,
-  "ma50Pct": -6.16,
+  "ma50Pct": -6.07,
   "ma200": 73196.8,
-  "ma200Pct": 5.1,
+  "ma200Pct": 5.2,
   "atrPct": 2.54,
   "rsi4h": 36.9
  },
  "opt": {
   "expiry": "27NOV26",
-  "expiryOI": 54019,
+  "expiryOI": 54058,
   "maxPain": 80000.0,
   "pcrExpiry": 0.76,
   "pcrAll": 0.68,
   "atmStrike": 77000.0,
   "atmIV": 37.8,
-  "dvol": 40.0
+  "dvol": 40.02
  },
  "stables": {
   "USDT": {
@@ -536,55 +536,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 76896.0,
-   "reachPct": 1.0,
+   "mid": 76962.0,
+   "reachPct": 1.09,
    "b1": {
-    "bid": 26554184,
-    "ask": 16010000,
-    "imb": 24.8,
+    "bid": 24560216,
+    "ask": 14820049,
+    "imb": 24.7,
     "full": true
    },
    "b2": {
-    "bid": 26560132,
-    "ask": 17330838,
-    "imb": 21.0,
+    "bid": 25605417,
+    "ask": 15720266,
+    "imb": 23.9,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 76870.4,
-   "reachPct": 0.86,
+   "mid": 76946.6,
+   "reachPct": 0.89,
    "b1": {
-    "bid": 143442810,
-    "ask": 86565322,
-    "imb": 24.7,
+    "bid": 129538786,
+    "ask": 81705889,
+    "imb": 22.6,
     "full": false
    },
    "b2": {
-    "bid": 143442810,
-    "ask": 86565322,
-    "imb": 24.7,
+    "bid": 129538786,
+    "ask": 81705889,
+    "imb": 22.6,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 169996994,
-    "ask": 102575322,
+    "bid": 154099002,
+    "ask": 96525938,
     "venues": [
      "spot full",
-     "okxPerp to \u00b10.86%"
+     "okxPerp to \u00b10.89%"
     ],
-    "imb": 24.7
+    "imb": 23.0
    },
    "b2": {
-    "bid": 170002942,
-    "ask": 103896160,
+    "bid": 155144203,
+    "ask": 97426155,
     "venues": [
-     "spot to \u00b11.0%",
-     "okxPerp to \u00b10.86%"
+     "spot to \u00b11.09%",
+     "okxPerp to \u00b10.89%"
     ],
-    "imb": 24.1
+    "imb": 22.9
    }
   },
   "walls": {
@@ -592,7 +592,7 @@
     "bid": null,
     "ask": {
      "p": 77500,
-     "usd": 7092719
+     "usd": 7179474
     }
    },
    "78650": {
@@ -663,9 +663,9 @@
   "px4h": -0.546,
   "spot1h": 46.9,
   "spot4h": 255.7,
-  "oi4h": -0.1,
+  "oi4h": 0.01,
   "tag": "Neutral",
-  "why": "price -0.55% 4h, OI -0.1%, spot CVD +256, perp CVD n/a"
+  "why": "price -0.55% 4h, OI 0.01%, spot CVD +256, perp CVD n/a"
  },
  "regime": {
   "h1h": 0.57,
@@ -681,15 +681,15 @@
  "vol": {
   "rv7d": 35.6,
   "rr7d": {
-   "rr": -5.74,
-   "call": 38.5,
+   "rr": -5.51,
+   "call": 38.7,
    "put": 44.2,
    "expiry": "13NOV26",
    "days": 10.5
   },
   "rr30d": {
-   "rr": -4.87,
-   "call": 36.5,
+   "rr": -4.79,
+   "call": 36.6,
    "put": 41.4,
    "expiry": "27NOV26",
    "days": 24.5
@@ -737,15 +737,23 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "03 Nov 04:33 SGT",
+  "asOf": "03 Nov 04:47 SGT",
   "risk": "HIGH",
-  "why": "Congressional Elections in 18.7h; flagged headline 0.2h ago; flagged headline 1.3h ago",
+  "why": "Congressional Elections in 18.5h; flagged headline 0.2h ago; flagged headline 0.5h ago",
   "headlines": [
+   {
+    "title": "Claude-Built Linux Exploit Targets Bug That Ubuntu Still Hasn't Patched",
+    "source": "Decrypt",
+    "time": "03 Nov 04:36",
+    "ageH": 0.2,
+    "link": "https://decrypt.co/382375/claude-built-linux-exploit-bug-ubuntu",
+    "high": true
+   },
    {
     "title": "Mercado Bitcoin, Brazil\u2019s largest crypto exchange, hit by $46 million security breach",
     "source": "The Block",
     "time": "03 Nov 04:19",
-    "ageH": 0.2,
+    "ageH": 0.5,
     "link": "https://www.theblock.co/news/defi/2026-11-02-mercado-bitcoin-hack-46-million-brazil-exchange-432333",
     "high": true
    },
@@ -753,7 +761,7 @@
     "title": "Tom Lee Calls Bottom on AI Stock Selloff, Citing Tight Supply and Crypto Resilience",
     "source": "Decrypt",
     "time": "03 Nov 03:46",
-    "ageH": 0.8,
+    "ageH": 1.0,
     "link": "https://decrypt.co/382357/tom-lee-calls-bottom-ai-stock-selloff-crypto",
     "high": false
    },
@@ -761,7 +769,7 @@
     "title": "Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally",
     "source": "Cointelegraph",
     "time": "03 Nov 03:27",
-    "ageH": 1.1,
+    "ageH": 1.3,
     "link": "https://cointelegraph.com/markets/bitcoin-risks-sub-76k-drop-as-7-fall-in-oil-fails-to-spark-btc-price-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -769,16 +777,8 @@
     "title": "DTCC\u2019s tokenization launch could accelerate adoption and boost Securitize, StoneX says",
     "source": "The Block",
     "time": "03 Nov 03:15",
-    "ageH": 1.3,
-    "link": "https://www.theblock.co/news/markets/2026-11-02-stonex-dtcc-tokenization-validates-securitize-secz-432331",
-    "high": true
-   },
-   {
-    "title": "Mercado Bitcoin wallets show post-hack transfers after $46M theft",
-    "source": "Cointelegraph",
-    "time": "03 Nov 03:05",
     "ageH": 1.5,
-    "link": "https://cointelegraph.com/news/mercado-bitcoin-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "link": "https://www.theblock.co/news/markets/2026-11-02-stonex-dtcc-tokenization-validates-securitize-secz-432331",
     "high": true
    }
   ],
@@ -786,28 +786,28 @@
    {
     "title": "Congressional Elections",
     "time": "03 Nov 23:16",
-    "inH": 18.7,
+    "inH": 18.5,
     "forecast": "",
     "previous": ""
    },
    {
     "title": "Average Hourly Earnings m/m",
     "time": "06 Nov 21:30",
-    "inH": 88.9,
+    "inH": 88.7,
     "forecast": "0.3%",
     "previous": "0.1%"
    },
    {
     "title": "Non-Farm Employment Change",
     "time": "06 Nov 21:30",
-    "inH": 88.9,
+    "inH": 88.7,
     "forecast": "63K",
     "previous": "29K"
    },
    {
     "title": "Unemployment Rate",
     "time": "06 Nov 21:30",
-    "inH": 88.9,
+    "inH": 88.7,
     "forecast": "4.2%",
     "previous": "4.2%"
    }
@@ -844,8 +844,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 76929.56,
-   "valueAt": "03 Nov 2026, 04:32 SGT",
+   "value": 77002.39,
+   "valueAt": "03 Nov 2026, 04:47 SGT",
    "hit": false
   },
   {
