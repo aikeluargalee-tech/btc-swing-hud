@@ -1,10 +1,10 @@
 {
- "asOf": "02 Nov 2026, 15:03 MYT",
- "asOfMs": 1793603028094,
- "price": 78236.34,
+ "asOf": "02 Nov 2026, 15:09 MYT",
+ "asOfMs": 1793603374937,
+ "price": 78215.87,
  "high24": 78878.01,
  "low24": 77620.0,
- "chg24": 0.282,
+ "chg24": 0.298,
  "h1": [
   [
    "31 15:00",
@@ -332,10 +332,10 @@
  "lastDAt": "02 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.00757754781498,
-  "oiOKX": 33576.1396000002,
+  "fundOKX": 0.00765963286488,
+  "oiOKX": 33554.795000000195,
   "lsOKX": 2.2,
-  "lsAt": "02 Nov 14:00",
+  "lsAt": "02 Nov 15:00",
   "liqLongUsd": 222224,
   "liqShortUsd": 255677,
   "liqWindow": "02 Nov 11:47 to 02 Nov 14:45"
@@ -347,8 +347,8 @@
    "date": "30 Oct"
   },
   "dxy": {
-   "v": 101.81,
-   "chg": -0.07,
+   "v": 101.82,
+   "chg": -0.05,
    "date": "02 Nov"
   },
   "us10y": {
@@ -372,11 +372,11 @@
   "label": "Fear",
   "date": "02 Nov"
  },
- "cbPremium": -135.3,
+ "cbPremium": -128.9,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23517286858,
-  "oiChg24": -1.13,
+  "oiUsd": 23502646494,
+  "oiChg24": -1.19,
   "oiHist": [
    [
     "01 15:00",
@@ -476,32 +476,32 @@
    ],
    [
     "02 15:00",
-    23.517
+    23.503
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00747,
+  "fundAvg": 0.00721,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
-   "Deribit BTC-PERPETUAL": 0.011564,
+   "Deribit BTC-PERPETUAL": 0.008317,
    "Bybit BTCUSD": 0.008723,
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.007728,
    "Bybit BTCUSDT": 0.00959,
-   "Gate BTC_USDT": 0.0026,
-   "OKX BTCUSDT_PERP": 0.00757754781498,
-   "HTX BTCUSDT_PERP": 0.0056393263007442,
+   "Gate BTC_USDT": 0.0029,
+   "OKX BTCUSDT_PERP": 0.00765963286488,
+   "HTX BTCUSDT_PERP": 0.0059684028097763,
    "Binance BTCUSDT_PERP": 0.01
   },
-  "predFundAvg": 0.00577,
+  "predFundAvg": 0.0059,
   "liqLongUsd24": 5373880,
   "liqShortUsd24": 13871690
  },
- "missing": [
-  "ticker via api.binance.com: HTTPError 451",
-  "Binance futures funding: HTTPError 451",
-  "Bybit ticker: HTTPError 403",
-  "Binance long/short: HTTPError 451",
-  "Binance perp klines: HTTPError 451"
+ "missing": [],
+ "browserLive": [
+  "Binance futures funding",
+  "Binance long/short",
+  "Binance perp klines",
+  "Bybit ticker"
  ]
 }
