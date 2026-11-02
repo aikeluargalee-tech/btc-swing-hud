@@ -32,6 +32,9 @@ def _metrics(D):
     if P and len(d)>=10: m["hi30"]=max(d); m["lo30"]=min(d[:-2]) if len(d)>2 else min(d); m["low48"]=min(h[-48:]) if h else None
     for k in ("ma20Pct","ma50Pct","ma200Pct","atrPct"): m[k]=_g(D,"tech",k)
     m["spot24"]=_g(D,"flow","spot24h"); m["spot4"]=_g(D,"flow","spot4h"); m["perp4"]=_g(D,"flow","perp4h")
+    fa=_g(D,"flow","asOfMs")
+    if fa is None or dt.datetime.now(dt.timezone.utc).timestamp()*1000-fa>3600e3:  # stale (>1h) or untimestamped CVD excluded
+        m["spot24"]=m["spot4"]=m["perp4"]=None; m["_staleCVD"]=True
     m["oi24"]=_g(D,"cz","oiChg24") if _g(D,"cz","oiChg24") is not None else _g(D,"pos","oiChg24")
     oh=[x[1] for x in ((D.get("cz") or {}).get("oiHist") or []) if isinstance(x,(list,tuple))]
     if len(oh)>=5: m["oi1h"]=(oh[-1]/oh[-2]-1)*100; m["oi4h"]=(oh[-1]/oh[-5]-1)*100
@@ -90,18 +93,19 @@ def compute(D):
         rank=sorted(sc,key=lambda k:(-sc[k]["ratio"],-sc[k]["met"],PRIO.index(k)))
         if active: best=active[0]; second=next((k for k in active[1:]),next(k for k in rank if k!=best))
         else: best=None; second=rank[0]
-        now=dt.datetime.now(SGT).strftime("%d %b %H:%M SGT")
+        nd=dt.datetime.now(SGT); now=nd.strftime("%d %b %H:%M SGT"); nms=int(nd.timestamp()*1000)
+        stale=["Spot/Perp CVD (stale >1h or untimestamped)"] if m.get("_staleCVD") else []
         ev=lambda k:sc[k]["hits"][:5]
         if best is None:
             return {"ok":True,"config":None,"label":"No clear config (mixed)","status":"Watch","tone":"warn","confidence":0,"confLabel":"Low",
               "runnerUp":f'{second} {NAMES[second]} ({sc[second]["met"]}/{sc[second]["avail"]})',"evidence":_fmt(m)[:5],
-              "implication":"Stand aside / follow A3.1 plan triggers only; no regime edge","missing":MISSING_ALWAYS,"scores":{k:f'{v["met"]}/{v["avail"]}' for k,v in sc.items()},"asOf":now}
+              "implication":"Stand aside / follow A3.1 plan triggers only; no regime edge","missing":MISSING_ALWAYS+stale,"asOfMs":nms,"scores":{k:f'{v["met"]}/{v["avail"]}' for k,v in sc.items()},"asOf":now}
         s=sc[best]; n=s["met"]
         return {"ok":True,"config":best,"label":f"{best} — {NAMES[best]}","status":STATUS[best],"tone":TONE[best],
           "confidence":round(100*s["ratio"]),"confLabel":"High" if n>=5 else "Medium" if n>=3 else "Low",
           "matched":f'{n}/{s["avail"]} available ({s["total"]} listed)',
           "runnerUp":f'{second} {NAMES[second]} ({sc[second]["met"]}/{sc[second]["avail"]})',
           "evidence":ev(best),"metrics":_fmt(m)[:6],"implication":ACT[best],"notMet":s["fail"],
-          "missing":sorted(set(MISSING_ALWAYS+s["miss"])),"scores":{k:f'{v["met"]}/{v["avail"]}' for k,v in sc.items()},"asOf":now}
+          "missing":sorted(set(MISSING_ALWAYS+s["miss"]+stale)),"asOfMs":nms,"scores":{k:f'{v["met"]}/{v["avail"]}' for k,v in sc.items()},"asOf":now}
     except Exception as e:
         return {"ok":False,"label":"n/a","err":str(e)[:120]}

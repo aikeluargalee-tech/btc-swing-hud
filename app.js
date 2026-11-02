@@ -18,6 +18,8 @@ async function loadStatic(){
   const t=Date.now();
   [C,D]=await Promise.all([j("config/levels.json?t="+t),j("data/hud.json?t="+t).catch(()=>({missing:["data/hud.json not found"]}))]);
   CG=await j("data/coinglass.json?t="+t).catch(()=>null);
+  const RB=await j("data/radar.json?t="+t).catch(()=>null);
+  if(D&&RB&&RB.ok&&Date.now()-(RB.asOfMs||0)<45*6e4)D.radar=RB;else if(D?.radar&&!/box/.test(D.radar.source||""))D.radar.source="fallback (computed in GitHub Actions)";
 }
 async function livePrice(){
   try{const r=await j("https://data-api.binance.vision/api/v3/ticker/price?symbol=BTCUSDT");live.price=+r.price;live.src="Binance";}
@@ -91,7 +93,7 @@ function renderRadar(){const el=$("radar");if(!el)return;const R=D?.radar;
   <p style="margin:.4em 0"><b>Implication:</b> ${esc(R.implication)}</p>
   <p class="mut" style="margin:.2em 0">Runner-up: ${esc(R.runnerUp)}. Scores: ${Object.entries(R.scores||{}).map(([k,v])=>k+" "+v).join(", ")}</p>
   <p class="mut" style="margin:.2em 0">Missing (excluded from scoring): ${esc((R.missing||[]).join("; "))}</p>
-  <p class="mut" style="margin:.2em 0">Rules from A4.3 Regime Radar; computed by HUD each refresh (${esc(R.asOf)}). Not the bot's own verdict.</p>`;}
+  <p class="mut" style="margin:.2em 0">Rules from A4.3 Regime Radar; computed by HUD each refresh (${esc(R.asOf)}${R.source?", "+esc(R.source):""}). Not the bot's own verdict.</p>`;}
 function renderExtras(){
   try{renderRadar();}catch(e){}
   try{renderStatus();}catch(e){}

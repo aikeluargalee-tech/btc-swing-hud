@@ -40,7 +40,7 @@ if k:
     D["last1h"]=float(k[-2][4]); D["last1hAt"]=myt(k[-2][6]+1)
     if k[0][9] is not None:  # spot CVD from taker-buy volume (closed candles)
         c=[2*float(x[9])-float(x[5]) for x in k[:-1]]
-        D["flow"]={"spot4h":round(sum(c[-4:]),1),"spot24h":round(sum(c[-24:]),1),"asOf":D["last1hAt"]+" SGT, est. from taker volume"}
+        D["flow"]={"spot4h":round(sum(c[-4:]),1),"spot24h":round(sum(c[-24:]),1),"asOfMs":k[-2][6]+1,"asOf":D["last1hAt"]+" SGT, est. from taker volume"}
 k=bget("/klines?symbol=BTCUSDT&interval=1d&limit=31","1D klines") or okx_k("1D",31)
 if k:
     D["d1"]=[[myt(x[0],"%d %b"),round(float(x[4]),1)] for x in k[:-1]]
@@ -157,7 +157,11 @@ try:
     import news; D["news"]=news.get_news(os.path.join(ROOT,"data","news_items.json"))
 except Exception: D["news"]=None
 try:
-    import regime as _rr; D["radar"]=_rr.compute(D)
+    import regime as _rr; D["radar"]=_rr.compute(D); D["radar"]["source"]="fallback (computed in GitHub Actions)"
+    try:
+        B=json.load(open(os.path.join(ROOT,"data","radar.json")))
+        if time.time()*1000-B.get("asOfMs",0)<45*60000: D["radar"]=B
+    except Exception: pass
 except Exception: D["radar"]=None
 json.dump(D,open(os.path.join(ROOT,"data","hud.json"),"w"),indent=1)
 print("price",D.get("price"),"source",D.get("priceSource"),"h1",len(D.get("h1",[])),"d1",len(D.get("d1",[])),"missing",len(missing))
