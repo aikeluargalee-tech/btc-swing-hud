@@ -1,54 +1,53 @@
 {
  "ok": true,
- "config": "C",
- "label": "C \u2014 Bullish Absorption",
+ "config": "J",
+ "label": "J \u2014 Bear Trap (capitulation absorption)",
  "status": "Watch",
  "tone": "good",
- "confidence": 71,
- "confLabel": "High",
- "matched": "5/7 available (7 listed)",
- "runnerUp": "F Re-Accumulation (3/4)",
+ "confidence": 60,
+ "confLabel": "Medium",
+ "matched": "3/5 available (6 listed)",
+ "runnerUp": "C Bullish Absorption (4/6)",
  "evidence": [
-  "Negative headline risk",
-  "Testing 200D MA / 30d low",
-  "Spot CVD 24h strongly positive (>500 BTC)",
-  "Perp CVD 4h negative",
-  "OI 24h flat/dropping (<=+1%)"
+  "Swept below 30d low",
+  "Spot CVD 24h flat/rising",
+  "Panic headline"
  ],
  "metrics": [
-  "Price vs 20D MA -4.90%",
-  "vs 50D MA -6.12%",
+  "Price vs 20D MA -4.85%",
+  "vs 50D MA -6.06%",
   "Spot CVD 24h +1182 BTC",
   "Perp CVD 4h -131 BTC",
-  "OI 24h +0.31%",
-  "Funding +0.0088%"
+  "Funding +0.0100%",
+  "48h range 2.11%"
  ],
- "implication": "Build spot 0.75x; 50% on 1H range reclaim / 50% limit at low; stop sweep low -0.5%",
+ "implication": "Reclaim buy 0.9-1.0x on 4H close back above broken support; stop wick low -0.6%",
  "notMet": [
-  "Funding -0.008..+0.002%",
-  "Book bids/asks >= 1.4 (imb >= +16.7%)"
+  "Funding <= -0.020%",
+  "Reclaimed 30d low"
  ],
  "missing": [
   "ATR compression history",
   "Daily/Weekly VWAP",
   "Futures basis (annualized)",
+  "OI surging into lows (24h > +3%)",
   "Spot CVD 7D/14D slope",
   "Spot volume vs 20D MA",
   "Whale exchange inflows / CDD"
  ],
- "asOfMs": 1793651486225,
+ "asOfMs": 1793652512190,
  "scores": {
-  "A": "3/7",
-  "B": "0/5",
-  "C": "5/7",
-  "D": "1/5",
-  "E": "0/4",
-  "F": "3/4",
-  "G": "0/5",
+  "A": "2/6",
+  "B": "0/4",
+  "C": "4/6",
+  "D": "1/4",
+  "E": "0/3",
+  "F": "2/3",
+  "G": "0/4",
   "H": "0/3",
-  "I": "4/5",
-  "J": "3/6"
+  "I": "3/4",
+  "J": "3/5"
  },
- "asOf": "03 Nov 04:31 SGT",
+ "asOf": "03 Nov 04:48 SGT",
  "source": "box (full data incl. perp CVD)"
 }
