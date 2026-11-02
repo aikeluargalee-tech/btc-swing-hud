@@ -1,10 +1,10 @@
 {
- "asOf": "03 Nov 2026, 00:20 SGT",
- "asOfMs": 1793636431992,
- "price": 77439.66,
+ "asOf": "03 Nov 2026, 00:33 SGT",
+ "asOfMs": 1793637205416,
+ "price": 77555.34,
  "high24": 78878.01,
  "low24": 77283.08,
- "chg24": -0.748,
+ "chg24": -0.671,
  "h1": [
   [
    "01 00:00",
@@ -334,37 +334,37 @@
  "priceSource": "data-api.binance.vision",
  "pos": {
   "fundOKX": 0.01,
-  "oiOKX": 33346.32100000021,
-  "lsOKX": 2.36,
+  "oiOKX": 33492.8971000002,
+  "lsOKX": 2.38,
   "lsAt": "03 Nov 00:00",
-  "liqLongUsd": 848734,
+  "liqLongUsd": 829674,
   "liqShortUsd": 0,
-  "liqWindow": "02 Nov 23:58 to 03 Nov 00:11"
+  "liqWindow": "02 Nov 23:58 to 03 Nov 00:30"
  },
  "macro": {
   "vix": {
-   "v": 18.63,
-   "chg": -4.07,
+   "v": 18.73,
+   "chg": -3.55,
    "date": "02 Nov"
   },
   "dxy": {
-   "v": 101.76,
-   "chg": -0.12,
+   "v": 101.7,
+   "chg": -0.18,
    "date": "02 Nov"
   },
   "us10y": {
-   "v": 4.91,
-   "chg": -0.43,
+   "v": 4.89,
+   "chg": -0.71,
    "date": "02 Nov"
   },
   "spx": {
-   "v": 7628.06,
-   "chg": 0.63,
+   "v": 7628.33,
+   "chg": 0.64,
    "date": "02 Nov"
   },
   "ndx": {
-   "v": 25635.06,
-   "chg": 0.78,
+   "v": 25639.6,
+   "chg": 0.8,
    "date": "02 Nov"
   }
  },
@@ -373,11 +373,11 @@
   "label": "Fear",
   "date": "02 Nov"
  },
- "cbPremium": -120.1,
+ "cbPremium": -131.6,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23599433963,
-  "oiChg24": -1.21,
+  "oiUsd": 23656718788,
+  "oiChg24": -0.97,
   "oiHist": [
    [
     "02 00:00",
@@ -477,7 +477,7 @@
    ],
    [
     "03 00:00",
-    23.599
+    23.657
    ]
   ],
   "oiSymbols": 9,
@@ -494,32 +494,32 @@
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.009118
   },
-  "predFundAvg": 0.00806,
-  "liqLongUsd24": 16647706,
-  "liqShortUsd24": 13863521
+  "predFundAvg": 0.00839,
+  "liqLongUsd24": 16716622,
+  "liqShortUsd24": 13915439
  },
  "tech": {
   "rsiD": 39.4,
   "atrD": 1955.5,
   "basis": "closed candles, Binance spot",
   "ma20": 80936.4,
-  "ma20Pct": -4.32,
+  "ma20Pct": -4.18,
   "ma50": 81981.8,
-  "ma50Pct": -5.54,
+  "ma50Pct": -5.4,
   "ma200": 73196.8,
-  "ma200Pct": 5.8,
-  "atrPct": 2.53,
+  "ma200Pct": 5.95,
+  "atrPct": 2.52,
   "rsi4h": 40.4
  },
  "opt": {
   "expiry": "27NOV26",
-  "expiryOI": 52270,
+  "expiryOI": 52385,
   "maxPain": 80000.0,
-  "pcrExpiry": 0.77,
+  "pcrExpiry": 0.76,
   "pcrAll": 0.68,
   "atmStrike": 78000.0,
-  "atmIV": 37.2,
-  "dvol": 39.81
+  "atmIV": 37.1,
+  "dvol": 39.7
  },
  "stables": {
   "USDT": {
@@ -536,70 +536,73 @@
  },
  "depth": {
   "spot": {
-   "mid": 77444.1,
-   "reachPct": 1.15,
+   "mid": 77528.7,
+   "reachPct": 1.24,
    "b1": {
-    "bid": 19925467,
-    "ask": 15032831,
-    "imb": 14.0,
+    "bid": 18979575,
+    "ask": 15432947,
+    "imb": 10.3,
     "full": true
    },
    "b2": {
-    "bid": 21515789,
-    "ask": 16460016,
-    "imb": 13.3,
+    "bid": 21352811,
+    "ask": 16768630,
+    "imb": 12.0,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 77414.2,
-   "reachPct": 0.87,
+   "mid": 77499.9,
+   "reachPct": 0.89,
    "b1": {
-    "bid": 119807154,
-    "ask": 83737563,
-    "imb": 17.7,
+    "bid": 98466330,
+    "ask": 90159817,
+    "imb": 4.4,
     "full": false
    },
    "b2": {
-    "bid": 119807154,
-    "ask": 83737563,
-    "imb": 17.7,
+    "bid": 98466330,
+    "ask": 90159817,
+    "imb": 4.4,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 139732621,
-    "ask": 98770394,
+    "bid": 117445905,
+    "ask": 105592764,
     "venues": [
      "spot full",
-     "okxPerp to \u00b10.87%"
+     "okxPerp to \u00b10.89%"
     ],
-    "imb": 17.2
+    "imb": 5.3
    },
    "b2": {
-    "bid": 141322943,
-    "ask": 100197579,
+    "bid": 119819141,
+    "ask": 106928447,
     "venues": [
-     "spot to \u00b11.15%",
-     "okxPerp to \u00b10.87%"
+     "spot to \u00b11.24%",
+     "okxPerp to \u00b10.89%"
     ],
-    "imb": 17.0
+    "imb": 5.7
    }
   },
   "walls": {
    "77800": {
-    "bid": null,
-    "ask": {
+    "bid": {
      "p": 77500,
-     "usd": 18089628
+     "usd": 2229487
+    },
+    "ask": {
+     "p": 77550,
+     "usd": 20452620
     }
    },
    "78650": {
     "bid": null,
     "ask": {
      "p": 78500,
-     "usd": 481967
+     "usd": 758243
     }
    }
   }
@@ -666,9 +669,9 @@
   "px4h": -0.481,
   "spot1h": -53.1,
   "spot4h": 463.2,
-  "oi4h": 0.25,
+  "oi4h": 0.49,
   "tag": "Neutral",
-  "why": "price -0.48% 4h, OI 0.25%, spot CVD +463, perp CVD n/a"
+  "why": "price -0.48% 4h, OI 0.49%, spot CVD +463, perp CVD n/a"
  },
  "regime": {
   "h1h": 0.56,
@@ -684,20 +687,20 @@
  "vol": {
   "rv7d": 35.7,
   "rr7d": {
-   "rr": -4.29,
+   "rr": -4.22,
    "call": 42.3,
    "put": 46.6,
    "expiry": "6NOV26",
-   "days": 3.7
+   "days": 3.6
   },
   "rr30d": {
-   "rr": -4.61,
-   "call": 36.4,
-   "put": 41.0,
+   "rr": -4.65,
+   "call": 36.2,
+   "put": 40.9,
    "expiry": "27NOV26",
-   "days": 24.7
+   "days": 24.6
   },
-  "vrp": 4.1,
+  "vrp": 4.0,
   "basis": "25d RR = call IV - put IV at |delta|=0.25 (Black-Scholes delta from Deribit mark_iv, nearest expiry to 7d/30d); RV7d from 1H closes, annualised"
  },
  "etf": {
@@ -740,15 +743,23 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "03 Nov 00:21 SGT",
+  "asOf": "03 Nov 00:33 SGT",
   "risk": "HIGH",
-  "why": "Congressional Elections in 22.9h; flagged headline 1.3h ago; flagged headline 1.7h ago",
+  "why": "Congressional Elections in 22.7h; flagged headline 0.2h ago; flagged headline 1.5h ago",
   "headlines": [
+   {
+    "title": "Bitmine Buys More Ethereum as Tom Lee Calls the Binance Hack Bullish",
+    "source": "Decrypt",
+    "time": "03 Nov 00:23",
+    "ageH": 0.2,
+    "link": "https://decrypt.co/382340/bitmine-buys-more-ethereum-tom-lee-binance-hack-bullish",
+    "high": true
+   },
    {
     "title": "Brazil\u2019s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains",
     "source": "CoinDesk",
     "time": "02 Nov 23:53",
-    "ageH": 0.5,
+    "ageH": 0.7,
     "link": "https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains",
     "high": false
    },
@@ -756,7 +767,7 @@
     "title": "Strive inches closer to becoming second-largest public bitcoin holder after latest $10 million buy",
     "source": "The Block",
     "time": "02 Nov 23:01",
-    "ageH": 1.3,
+    "ageH": 1.5,
     "link": "https://www.theblock.co/news/business/2026-11-02-strive-inches-closer-second-largest-public-bitcoin-holder-10-million-buy-432312",
     "high": true
    },
@@ -764,7 +775,7 @@
     "title": "Crypto's Washington playbook is working. Don't abandon it now.",
     "source": "CoinDesk",
     "time": "02 Nov 23:00",
-    "ageH": 1.3,
+    "ageH": 1.6,
     "link": "https://www.coindesk.com/opinion/2026/11/02/crypto-s-washington-playbook-is-working-don-t-abandon-it-now",
     "high": false
    },
@@ -772,45 +783,37 @@
     "title": "Bitmine adds 8,573 ETH as Tom Lee flags muted Binance hack reaction",
     "source": "The Block",
     "time": "02 Nov 22:40",
-    "ageH": 1.7,
+    "ageH": 1.9,
     "link": "https://www.theblock.co/news/business/2026-11-02-bitmine-adds-8573-eth-tom-lee-flags-muted-binance-hack-reaction-432307",
     "high": true
-   },
-   {
-    "title": "Strategy spends triple its weekly Bitcoin outlay on STRC buybacks",
-    "source": "Cointelegraph",
-    "time": "02 Nov 21:48",
-    "ageH": 2.5,
-    "link": "https://cointelegraph.com/news/strategy-repurchases-208m-strc-65m-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "high": false
    }
   ],
   "events": [
    {
     "title": "Congressional Elections",
     "time": "03 Nov 23:16",
-    "inH": 22.9,
+    "inH": 22.7,
     "forecast": "",
     "previous": ""
    },
    {
     "title": "Average Hourly Earnings m/m",
     "time": "06 Nov 21:30",
-    "inH": 93.1,
+    "inH": 92.9,
     "forecast": "0.3%",
     "previous": "0.1%"
    },
    {
     "title": "Non-Farm Employment Change",
     "time": "06 Nov 21:30",
-    "inH": 93.1,
+    "inH": 92.9,
     "forecast": "63K",
     "previous": "29K"
    },
    {
     "title": "Unemployment Rate",
     "time": "06 Nov 21:30",
-    "inH": 93.1,
+    "inH": 92.9,
     "forecast": "4.2%",
     "previous": "4.2%"
    }
@@ -847,8 +850,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 77439.66,
-   "valueAt": "03 Nov 2026, 00:20 SGT",
+   "value": 77555.34,
+   "valueAt": "03 Nov 2026, 00:33 SGT",
    "hit": false
   },
   {
@@ -892,12 +895,12 @@
    "OI 24h flat/dropping (<=+1%)"
   ],
   "metrics": [
-   "Price vs 20D MA -4.35%",
-   "vs 50D MA -5.57%",
+   "Price vs 20D MA -4.36%",
+   "vs 50D MA -5.58%",
    "Spot CVD 24h +822 BTC",
    "Perp CVD 4h -251 BTC",
-   "OI 24h -1.22%",
-   "Funding +0.0082%"
+   "OI 24h -1.06%",
+   "Funding +0.0079%"
   ],
   "implication": "Build spot 0.75x; 50% on 1H range reclaim / 50% limit at low; stop sweep low -0.5%",
   "notMet": [
@@ -912,7 +915,7 @@
    "Spot volume vs 20D MA",
    "Whale exchange inflows / CDD"
   ],
-  "asOfMs": 1793636412305,
+  "asOfMs": 1793637162324,
   "scores": {
    "A": "2/7",
    "B": "0/5",
@@ -925,7 +928,7 @@
    "I": "3/5",
    "J": "3/6"
   },
-  "asOf": "03 Nov 00:20 SGT",
+  "asOf": "03 Nov 00:32 SGT",
   "source": "box (full data incl. perp CVD)"
  }
 }
