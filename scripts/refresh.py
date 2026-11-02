@@ -157,6 +157,9 @@ try:
     import news; D["news"]=news.get_news(os.path.join(ROOT,"data","news_items.json"))
 except Exception: D["news"]=None
 try:
+    import regime as _rt; D["triggers"]=_rt.triggers(D,os.path.join(ROOT,"config","levels.json"))
+except Exception: D["triggers"]=[]
+try:
     import regime as _rr; D["radar"]=_rr.compute(D); D["radar"]["source"]="fallback (computed in GitHub Actions)"
     try:
         B=json.load(open(os.path.join(ROOT,"data","radar.json")))

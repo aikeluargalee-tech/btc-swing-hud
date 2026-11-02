@@ -1,5 +1,5 @@
 """Regime Radar (rules from A4.3 BTC Regime Radar, configs A-J), computed by HUD. compute(D)->dict. Fail-soft."""
-import datetime as dt
+import datetime as dt, json
 SGT=dt.timezone(dt.timedelta(hours=8))
 PRIO="EGJCABDHFI"
 NAMES={"A":"Healthy Bull","B":"Leveraged Bull (fragile)","C":"Bullish Absorption","D":"Masked Fragility","E":"Liquidation Cascade",
@@ -109,3 +109,16 @@ def compute(D):
           "missing":sorted(set(MISSING_ALWAYS+s["miss"]+stale)),"asOfMs":nms,"scores":{k:f'{v["met"]}/{v["avail"]}' for k,v in sc.items()},"asOf":now}
     except Exception as e:
         return {"ok":False,"label":"n/a","err":str(e)[:120]}
+
+def triggers(D,levels_path):
+    """Explicit trigger states from config/levels.json (A3.1 plan). Fail-soft -> []."""
+    try:
+        T=json.load(open(levels_path))["triggers"]; out=[]
+        src={"spot":("price","asOf"),"1h":("last1h","last1hAt"),"1d":("lastD","lastDAt")}
+        for t in T:
+            k,at=src.get(t["basis"],(None,None)); v=_g(D,k) if k else None
+            h=None if v is None else (v>t["v"] if t["op"]==">" else v<t["v"] if t["op"]=="<" else t["v"]<=v<=t["v2"])
+            out.append({"title":t["title"],"detail":t["detail"],"basis":t["basis"],"op":t["op"],"level":t["v"],"level2":t.get("v2"),"value":v,"valueAt":D.get(at),"hit":h})
+        return out
+    except Exception as e:
+        return [{"title":"n/a","detail":f"triggers unavailable: {str(e)[:80]}","hit":None}]
