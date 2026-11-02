@@ -1,62 +1,298 @@
 {
-  "verdict": { "lead": "WAIT, no entry at market", "tone": "warning", "asOf": "02 Nov 2026, 13:49 MYT" },
-  "levels": [
-    { "p": 83931, "label": "83.9k TP2", "side": "r" },
-    { "p": 82013, "label": "82.0k 50DMA", "side": "r" },
-    { "p": 81707, "label": "81.7k TP1", "side": "r" },
-    { "p": 80300, "label": "80.3k 21EMA", "side": "r" },
-    { "p": 78650, "label": "78.65k trigger", "side": "r" },
-    { "p": 78600, "label": "78.6k reject", "side": "r" },
-    { "p": 77800, "label": "77.8k support", "side": "s" },
-    { "p": 76591, "label": "76.6k stop", "side": "s" },
-    { "p": 76326, "label": "76.3k floor", "side": "s" },
-    { "p": 76000, "label": "76.0k floor", "side": "s" }
-  ],
-  "bidZone": { "lo": 77800, "hi": 78000 },
-  "triggers": [
-    { "title": "Long breakout", "detail": "1H close > 78,650", "basis": "1h", "op": ">", "v": 78650 },
-    { "title": "Bearish", "detail": "1H close < 77,800", "basis": "1h", "op": "<", "v": 77800 },
-    { "title": "Bid zone (A3.1)", "detail": "Spot 77.8k-78.0k", "basis": "spot", "op": "between", "v": 77800, "v2": 78000 },
-    { "title": "Adds allowed (A4.1)", "detail": "Daily close > 82,013", "basis": "1d", "op": ">", "v": 82013 },
-    { "title": "Range broken", "detail": "Daily close < 76.3k", "basis": "1d", "op": "<", "v": 76326 }
-  ],
-  "plan": "A3.1 bid: stop 76,591, TP 81,707 / 83,931, 0.75x.",
-  "events": [
-    { "t": "2026-11-03T07:00:00+08:00", "title": "ETF flows (2 Nov)", "detail": "3 Nov ~7-9 AM" },
-    { "t": "2026-11-03T08:00:00+08:00", "title": "US midterms", "detail": "3 Nov, US time" },
-    { "t": "2026-11-03T23:00:00+08:00", "title": "JOLTS", "detail": "3 Nov 11 PM" },
-    { "t": "2026-11-04T08:00:00+08:00", "title": "Binance PoR due", "detail": "By 4 Nov 8 AM" },
-    { "t": "2026-11-04T08:01:00+08:00", "title": "Midterm results", "detail": "From 4 Nov ~8 AM, est." },
-    { "t": "2026-11-06T21:30:00+08:00", "title": "US jobs report", "detail": "6 Nov 9:30 PM" }
-  ],
-  "sessions": [
-    { "name": "Asia", "start": 8, "end": 16, "hours": "08:00-16:00" },
-    { "name": "London", "start": 16, "end": 25, "hours": "16:00-01:00" },
-    { "name": "New York", "start": 21, "end": 30, "hours": "21:00-06:00" }
-  ],
-  "bots": [
-    { "section": "Coordination", "bots": [
-      { "code": "A1.1", "name": "Data Fetcher", "status": "Data OK", "detail": "ETF, FRED gaps", "tone": "success" },
-      { "code": "A1.2", "name": "Manager" }, { "code": "A1.3", "name": "Desk" } ] },
-    { "section": "Macro & Institutional", "bots": [
-      { "code": "A6.1", "name": "Macro Regime", "status": "Cautious", "detail": "Risk-off lean, size 1/2-2/3", "tone": "warning" },
-      { "code": "A6.2", "name": "IBIT Flow Est." }, { "code": "A6.3", "name": "3-Gate Institutional" } ] },
-    { "section": "Structure & Flow", "bots": [
-      { "code": "A5.1", "name": "Volume Profile" },
-      { "code": "A5.2", "name": "Order Flow", "status": "Neutral", "detail": "Mild bull lean, low conf." },
-      { "code": "A5.3", "name": "SMC/ICT" }, { "code": "A5.4", "name": "SMC + OF Check" }, { "code": "A5.5", "name": "3 EMA Scanner" } ] },
-    { "section": "Positioning & Liquidation", "bots": [
-      { "code": "A4.1", "name": "Liquidation Magnet", "status": "Do Nothing", "detail": "Low conf." },
-      { "code": "A4.2", "name": "Regime Radar" } ] },
-    { "section": "Engine & Landscape", "bots": [
-      { "code": "A3.1", "name": "Swing Engine", "status": "YELLOW", "detail": "Wait for edge, 0.75x", "tone": "warning" },
-      { "code": "A3.2", "name": "Seasonal Landscape" } ] },
-    { "section": "Disruption & News", "bots": [
-      { "code": "A7.1", "name": "News Desk" },
-      { "code": "A7.2", "name": "Disruption Scanner", "status": "HIGH risk", "detail": "Bearish", "tone": "danger" },
-      { "code": "A7.3", "name": "Disruption Risk" } ] },
-    { "section": "Strategic & Wave", "bots": [
-      { "code": "A2.1", "name": "Elliott Wave" }, { "code": "A2.2", "name": "Proactive Strategist" }, { "code": "A2.3", "name": "Market Fragility" } ] }
-  ],
-  "knownGaps": "ETF flows (SoSoValue 403) and FRED real yields are not fetched; last ETF print -$643.2M on 30 Oct. US macro is dated when stale."
+ "verdict": {
+  "lead": "WAIT, no entry at market",
+  "tone": "warning",
+  "asOf": "02 Nov 2026, 13:49 MYT"
+ },
+ "levels": [
+  {
+   "p": 83931,
+   "label": "83.9k TP2",
+   "side": "r"
+  },
+  {
+   "p": 82013,
+   "label": "82.0k 50DMA",
+   "side": "r"
+  },
+  {
+   "p": 81707,
+   "label": "81.7k TP1",
+   "side": "r"
+  },
+  {
+   "p": 80300,
+   "label": "80.3k 21EMA",
+   "side": "r"
+  },
+  {
+   "p": 78650,
+   "label": "78.65k trigger",
+   "side": "r"
+  },
+  {
+   "p": 78600,
+   "label": "78.6k reject",
+   "side": "r"
+  },
+  {
+   "p": 77800,
+   "label": "77.8k support",
+   "side": "s"
+  },
+  {
+   "p": 76591,
+   "label": "76.6k stop",
+   "side": "s"
+  },
+  {
+   "p": 76326,
+   "label": "76.3k floor",
+   "side": "s"
+  },
+  {
+   "p": 76000,
+   "label": "76.0k floor",
+   "side": "s"
+  }
+ ],
+ "bidZone": {
+  "lo": 77800,
+  "hi": 78000
+ },
+ "triggers": [
+  {
+   "title": "Long breakout",
+   "detail": "1H close > 78,650",
+   "basis": "1h",
+   "op": ">",
+   "v": 78650
+  },
+  {
+   "title": "Bearish",
+   "detail": "1H close < 77,800",
+   "basis": "1h",
+   "op": "<",
+   "v": 77800
+  },
+  {
+   "title": "Bid zone (A3.1)",
+   "detail": "Spot 77.8k-78.0k",
+   "basis": "spot",
+   "op": "between",
+   "v": 77800,
+   "v2": 78000
+  },
+  {
+   "title": "Adds allowed (A4.1)",
+   "detail": "Daily close > 82,013",
+   "basis": "1d",
+   "op": ">",
+   "v": 82013
+  },
+  {
+   "title": "Range broken",
+   "detail": "Daily close < 76.3k",
+   "basis": "1d",
+   "op": "<",
+   "v": 76326
+  }
+ ],
+ "plan": "A3.1 bid: stop 76,591, TP 81,707 / 83,931, 0.75x.",
+ "events": [
+  {
+   "t": "2026-11-03T07:00:00+08:00",
+   "title": "ETF flows (2 Nov)",
+   "detail": "3 Nov ~7-9 AM"
+  },
+  {
+   "t": "2026-11-03T08:00:00+08:00",
+   "title": "US midterms",
+   "detail": "3 Nov, US time"
+  },
+  {
+   "t": "2026-11-03T23:00:00+08:00",
+   "title": "JOLTS",
+   "detail": "3 Nov 11 PM"
+  },
+  {
+   "t": "2026-11-04T08:00:00+08:00",
+   "title": "Binance PoR due",
+   "detail": "By 4 Nov 8 AM"
+  },
+  {
+   "t": "2026-11-04T08:01:00+08:00",
+   "title": "Midterm results",
+   "detail": "From 4 Nov ~8 AM, est."
+  },
+  {
+   "t": "2026-11-06T21:30:00+08:00",
+   "title": "US jobs report",
+   "detail": "6 Nov 9:30 PM"
+  }
+ ],
+ "sessions": [
+  {
+   "name": "Asia",
+   "start": 8,
+   "end": 16,
+   "hours": "08:00-16:00"
+  },
+  {
+   "name": "London",
+   "start": 16,
+   "end": 25,
+   "hours": "16:00-01:00"
+  },
+  {
+   "name": "New York",
+   "start": 21,
+   "end": 30,
+   "hours": "21:00-06:00"
+  }
+ ],
+ "bots": [
+  {
+   "section": "Coordination",
+   "bots": [
+    {
+     "code": "A1.1",
+     "name": "Data Fetcher",
+     "status": "Data OK",
+     "detail": "ETF, FRED gaps",
+     "tone": "success"
+    },
+    {
+     "code": "A1.2",
+     "name": "Manager"
+    },
+    {
+     "code": "A1.3",
+     "name": "Desk"
+    }
+   ]
+  },
+  {
+   "section": "Macro & Institutional",
+   "bots": [
+    {
+     "code": "A6.1",
+     "name": "Macro Regime",
+     "status": "Cautious",
+     "detail": "Risk-off lean, size 1/2-2/3",
+     "tone": "warning"
+    },
+    {
+     "code": "A6.2",
+     "name": "IBIT Flow Est."
+    },
+    {
+     "code": "A6.3",
+     "name": "3-Gate Institutional"
+    }
+   ]
+  },
+  {
+   "section": "Structure & Flow",
+   "bots": [
+    {
+     "code": "A5.1",
+     "name": "Volume Profile"
+    },
+    {
+     "code": "A5.2",
+     "name": "Order Flow",
+     "status": "Neutral",
+     "detail": "Mild bull lean, low conf."
+    },
+    {
+     "code": "A5.3",
+     "name": "SMC/ICT"
+    },
+    {
+     "code": "A5.4",
+     "name": "SMC + OF Check"
+    },
+    {
+     "code": "A5.5",
+     "name": "3 EMA Scanner"
+    }
+   ]
+  },
+  {
+   "section": "Positioning & Liquidation",
+   "bots": [
+    {
+     "code": "A4.1",
+     "name": "Liquidation Magnet",
+     "status": "Do Nothing",
+     "detail": "Low conf."
+    },
+    {
+     "code": "A4.2",
+     "name": "Regime Radar"
+    }
+   ]
+  },
+  {
+   "section": "Engine & Landscape",
+   "bots": [
+    {
+     "code": "A3.1",
+     "name": "Swing Engine",
+     "status": "YELLOW",
+     "detail": "Wait for edge, 0.75x",
+     "tone": "warning"
+    },
+    {
+     "code": "A3.2",
+     "name": "Seasonal Landscape"
+    }
+   ]
+  },
+  {
+   "section": "Disruption & News",
+   "bots": [
+    {
+     "code": "A7.1",
+     "name": "News Desk"
+    },
+    {
+     "code": "A7.2",
+     "name": "Disruption Scanner",
+     "status": "HIGH risk",
+     "detail": "Bearish",
+     "tone": "danger"
+    },
+    {
+     "code": "A7.3",
+     "name": "Disruption Risk"
+    }
+   ]
+  },
+  {
+   "section": "Strategic & Wave",
+   "bots": [
+    {
+     "code": "A2.1",
+     "name": "Elliott Wave"
+    },
+    {
+     "code": "A2.2",
+     "name": "Proactive Strategist"
+    },
+    {
+     "code": "A2.3",
+     "name": "Market Fragility"
+    }
+   ]
+  }
+ ],
+ "knownGaps": "ETF flows from Farside (posted after US close, ~next morning MYT). FRED real yields not fetched. US macro is dated when stale.",
+ "flowThresholds": {
+  "priceFlatPct": 0.3,
+  "oiChgPct": 0.5,
+  "cvdBigBtc": 300,
+  "note": "4H window. Flat = |price chg| <= priceFlatPct; OI move = |OI 4h chg| >= oiChgPct; big perp CVD = |perp CVD 4h| >= cvdBigBtc BTC"
+ }
 }

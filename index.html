@@ -1,5 +1,5 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="Cache-Control" content="no-cache"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#0a0d10"><title>BTC Swing HUD</title><link rel="stylesheet" href="style.css?v=1793606373"></head>
+<meta name="theme-color" content="#0a0d10"><title>BTC Swing HUD</title><link rel="stylesheet" href="style.css?v=1793608344"></head>
 <body><main>
 <header><h1>BTC SWING HUD</h1><span class="mut"><span id="dot" class="dot"></span><span id="feed">connecting…</span></span></header>
 <div class="actions"><button id="bCopy">Copy for AI</button><button id="bDl">Download .md</button><button id="bJson">JSON</button><span id="copyMsg" class="mut"></span></div>
@@ -7,9 +7,13 @@
 <section class="card"><h2>Triggers</h2><div id="triggers"></div><p class="mut" id="trigNote"></p></section>
 <section class="card"><h2>Price</h2><div class="seg" id="seg"><button data-v="48h" class="on">48h</button><button data-v="30d">30d</button></div><div id="chart"></div></section>
 <section class="card"><h2>Positioning</h2><dl class="kv" id="pos"></dl></section>
+<section class="card"><h2>Regime &amp; flow</h2><dl class="kv" id="regime"></dl><p class="mut" id="regNote"></p></section>
+<section class="card"><h2>Volume profile (HUD-computed)</h2><dl class="kv" id="vp"></dl></section>
 <section class="card"><h2>Liquidation clusters (est.)</h2><dl class="kv" id="liq"></dl><p class="mut" id="liqNote"></p></section>
 <section class="card"><h2>Order book depth</h2><dl class="kv" id="depth"></dl><p class="mut" id="depthNote"></p></section>
 <section class="card"><h2>Deribit options</h2><dl class="kv" id="opt"></dl></section>
+<section class="card"><h2>Volatility &amp; skew</h2><dl class="kv" id="vol"></dl></section>
+<section class="card"><h2>ETF flows</h2><dl class="kv" id="etf"></dl></section>
 <section class="card"><h2>Technicals</h2><dl class="kv" id="tech"></dl></section>
 <section class="card"><h2>Sentiment</h2><dl class="kv" id="sent"></dl></section>
 <section class="card"><h2>Stablecoins</h2><dl class="kv" id="stab"></dl></section>
@@ -19,4 +23,4 @@
 <section class="card"><h2>Bot verdicts</h2><div class="seg" id="bseg"><button data-v="has" class="on">Has verdict</button><button data-v="all">All 21</button></div><div id="bots"></div></section>
 <section class="card"><details><summary>Data gaps</summary><p class="mut" id="gaps"></p></details></section>
 <p class="mut" id="foot"></p>
-</main><script src="app.js?v=1793606373"></script></body></html>
+</main><script src="app.js?v=1793608344"></script></body></html>

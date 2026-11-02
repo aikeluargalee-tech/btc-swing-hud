@@ -148,6 +148,9 @@ if r:
 D["cz"]=czd
 import sys; sys.path.insert(0,os.path.dirname(os.path.abspath(__file__))); import extras
 extras.add(D,get,missing,OI_ALL)
+try: _c=json.load(open(os.path.join(ROOT,'config','levels.json'))); _cfg=dict(_c.get("flowThresholds",{})); _cfg["bidZone"]=_c.get("bidZone")
+except Exception: _cfg=None
+extras.add_v3(D,get,missing,OI_ALL,_cfg)
 D["missing"]=missing; D["browserLive"]=sorted(set(browser_live))
 os.makedirs(os.path.join(ROOT,"data"),exist_ok=True)
 json.dump(D,open(os.path.join(ROOT,"data","hud.json"),"w"),indent=1)
