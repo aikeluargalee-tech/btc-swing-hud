@@ -7,10 +7,17 @@ const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&g
 const myt=(ms,o)=>new Date(ms).toLocaleString("en-GB",{timeZone:"Asia/Kuala_Lumpur",...o});
 let X={},C=null,D=null,live={price:null,src:null,at:0,h1:null,last1h:null,last1hAt:null},view="48h",bview="has";
 
+let CG=null;
+function renderCG(){const el=$("cg");if(!CG){el.innerHTML=kv([["CoinGlass levels","n/a (file not found)"]]);$("cgNote").textContent="";return;}
+  const ts=Date.parse(CG.captured_myt.replace(" ","T")+":00+08:00"),ageH=(Date.now()-ts)/36e5,st=ageH>3?` · STALE (${ageH.toFixed(1)}h old)`:"";
+  const big=x=>Math.abs(x.price-CG.biggest)<1?" ★ biggest":"";
+  el.innerHTML=kv([...CG.above.slice().sort((p,q)=>q.price-p.price).map(x=>[`▲ ${n0(x.price)}`,`$${x.usd_m.toFixed(2)}M shorts${big(x)}`]),["Price at capture","~"+n0(CG.price)],...CG.below.slice().sort((p,q)=>q.price-p.price).map(x=>[`▼ ${n0(x.price)}`,`$${x.usd_m.toFixed(2)}M longs${big(x)}`])]);
+  $("cgNote").textContent=`CoinGlass ${CG.exchange}, ${CG.range} liquidation map. Captured ${CG.captured_myt} MYT${st}. Scale max $${CG.scale_max_m}M.`;}
 async function j(u){const r=await fetch(u,{cache:"no-store"});if(!r.ok)throw new Error(r.status);return r.json();}
 async function loadStatic(){
   const t=Date.now();
   [C,D]=await Promise.all([j("config/levels.json?t="+t),j("data/hud.json?t="+t).catch(()=>({missing:["data/hud.json not found"]}))]);
+  CG=await j("data/coinglass.json?t="+t).catch(()=>null);
 }
 async function livePrice(){
   try{const r=await j("https://data-api.binance.vision/api/v3/ticker/price?symbol=BTCUSDT");live.price=+r.price;live.src="Binance";}
@@ -66,6 +73,7 @@ async function liveExtra(){
 const tag=isLive=>isLive?" · live":` · snapshot ${snapT()} MYT`;
 const usdS=v=>typeof v==="number"?(Math.abs(v)>=1e9?`$${(v/1e9).toFixed(2)}B`:`$${(v/1e6).toFixed(1)}M`):M;
 function renderExtras(){
+  renderCG();
   const le=D.liqEst;
   $("liq").innerHTML=le?kv([...le.above.slice().reverse().map(x=>[`▲ ${n0(x.p)}`,`~${usdS(x.usd)} shorts`]),...le.below.map(x=>[`▼ ${n0(x.p)}`,`~${usdS(x.usd)} longs`])]):kv([["Clusters","n/a"]]);
   $("liqNote").textContent=le?`${le.method}. Snapshot ${snapT()} MYT. Not a heatmap.`:"";
@@ -206,7 +214,7 @@ function renderV3(){
   $("vol").innerHTML=kv([["25d RR ~7d",rr(v.rr7d)],["25d RR ~30d",rr(v.rr30d)],["RV 7d (1H, ann.)",v.rv7d!=null?v.rv7d+"%":M],["DVOL",typeof dv==="number"?dv.toFixed(1)+tag(!!X.dvol):M],
     ["VRP (DVOL − RV7d)",vrp!=null?`${vrp>=0?"+":""}${vrp.toFixed(1)} pts`:M],["Basis",(v.basis||"")+`, snapshot ${snapT()} MYT`]]);
   const E=D.etf;
-  $("etf").innerHTML=E?kv([["Latest day",`${E.usdM>=0?"+":""}$${E.usdM}M, ${E.date}`],["IBIT / FBTC",`${E.ibit??M} / ${E.fbtc??M} $M`],["Last 5 days sum",E.sum5!=null?`${E.sum5>=0?"+":""}$${E.sum5}M`:M],
+  $("etf").innerHTML=E?kv([["Latest day",`${E.usdM>=0?"+":"−"}$${Math.abs(E.usdM)}M, ${E.date}`],["IBIT / FBTC",`${E.ibit??M} / ${E.fbtc??M} $M`],["Last 5 days sum",E.sum5!=null?`${E.sum5>=0?"+":"−"}$${Math.abs(E.sum5)}M`:M],
     ["Last 5",(E.last5||[]).map(x=>`${x[0].slice(0,6)} ${x[1]>=0?"+":""}${x[1]}`).join(", ")||M],["Source",`${E.source||"metrics file"}, snapshot ${snapT()} MYT`]]):kv([["ETF","n/a"]]);
 }
 // ---- Copy for AI ----
@@ -215,7 +223,7 @@ function buildPacket(){
   const now=Date.now(),L=[];
   L.push(`# BTC Swing HUD packet, ${myt(now,{day:"2-digit",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit",second:"2-digit",hour12:false})} MYT`);
   L.push("Instruction for AI: BTC spot swing-trade data (MYT, UTC+8). Analyse the setup, levels, triggers and risks; say what would change the view. Not financial advice.");
-  L.push(`Provenance: values tagged "live" were fetched in the browser just now; untagged or "snapshot HH:MM MYT" values come from the 15-min snapshot (${D?.asOf||M}). Live price source: ${live.src||"none (snapshot)"}. Liquidation clusters are a model estimate.`);
+  L.push(`Provenance: values tagged "live" were fetched in the browser just now; untagged or "snapshot HH:MM MYT" values come from the 15-min snapshot (${D?.asOf||M}). Live price source: ${live.src||"none (snapshot)"}. Liquidation levels (CoinGlass) are real levels read from the CoinGlass map; the model estimate is a backup.`);
   for(const s of document.querySelectorAll("main section.card")){
     const h=s.querySelector("h2"),title=h?tx(h):(s.id==="verdict"?"Verdict":s.querySelector("summary")?tx(s.querySelector("summary")):"");
     L.push("",`## ${title}`);
