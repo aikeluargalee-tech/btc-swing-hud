@@ -6,7 +6,7 @@ import json, os, urllib.request, urllib.error, datetime as dt, time
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MYT=dt.timezone(dt.timedelta(hours=8)); UA={"User-Agent":"Mozilla/5.0"}
 missing=[]; browser_live=[]
-BROWSER={"Binance futures funding","Binance long/short","Binance perp klines","Bybit ticker"}
+BROWSER={"Binance perp depth","Binance futures funding","Binance long/short","Binance perp klines","Bybit ticker"}
 def get(u,name):
     try:
         with urllib.request.urlopen(urllib.request.Request(u,headers=UA),timeout=15) as r: return json.load(r)
@@ -124,15 +124,16 @@ def cz(path,name,**q):
         e=err
         missing.append(f"Coinalyze {name}: {type(e).__name__} {getattr(e,'code','')}".strip()); return None
 now_s=int(time.time()); czd={"venues":", ".join(sorted(set(CZ_NAMES.values())))}
-r=cz("open-interest-history","OI history",interval="1hour",convert_to_usd="true",**{"from":now_s-25*3600,"to":now_s})
+r=cz("open-interest-history","OI history",interval="1hour",convert_to_usd="true",**{"from":now_s-7*86400-3600,"to":now_s})
+OI_ALL=None
 if r:
-    tot={}
+    tot={}; cnt={}
     for x in r:
-        for h in x.get("history",[]): tot[h["t"]]=tot.get(h["t"],0)+h["c"]
-    ts=sorted(tot); n=len(r)
+        for h in x.get("history",[]): tot[h["t"]]=tot.get(h["t"],0)+h["c"]; cnt[h["t"]]=cnt.get(h["t"],0)+1
+    n=len(r); ts=sorted(t for t in tot if cnt[t]==n); OI_ALL={t:tot[t] for t in ts}
     if ts:
         cur=tot[ts[-1]]; old=tot[min(ts,key=lambda t:abs(t-(ts[-1]-86400)))]
-        czd.update(oiUsd=round(cur),oiChg24=round((cur/old-1)*100,2),oiHist=[[myt(t*1000,"%d %H:00"),round(tot[t]/1e9,3)] for t in ts],oiSymbols=n)
+        czd.update(oiUsd=round(cur),oiChg24=round((cur/old-1)*100,2),oiHist=[[myt(t*1000,"%d %H:00"),round(tot[t]/1e9,3)] for t in ts[-25:]],oiSymbols=n)
 def avg(r,key):
     v=[x["value"] for x in (r or []) if x.get("value") is not None]
     return round(sum(v)/len(v),5) if v else None
@@ -145,6 +146,8 @@ if r:
     L=sum(h["l"] for x in r for h in x.get("history",[])); S=sum(h["s"] for x in r for h in x.get("history",[]))
     czd.update(liqLongUsd24=round(L),liqShortUsd24=round(S))
 D["cz"]=czd
+import sys; sys.path.insert(0,os.path.dirname(os.path.abspath(__file__))); import extras
+extras.add(D,get,missing,OI_ALL)
 D["missing"]=missing; D["browserLive"]=sorted(set(browser_live))
 os.makedirs(os.path.join(ROOT,"data"),exist_ok=True)
 json.dump(D,open(os.path.join(ROOT,"data","hud.json"),"w"),indent=1)

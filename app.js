@@ -33,6 +33,52 @@ const XS={
   okxFund:["https://www.okx.com/api/v5/public/funding-rate?instId=BTC-USDT-SWAP",r=>({fund:+r.data[0].fundingRate*100})],
   okxOI:["https://www.okx.com/api/v5/public/open-interest?instType=SWAP&instId=BTC-USDT-SWAP",r=>({oi:+r.data[0].oiCcy})],
 };
+
+// ---- extra live sources ----
+function depthCalc(bids,asks){const mid=(+bids[0][0]+ +asks[0][0])/2,o={mid,reachPct:Math.min(mid-+bids[bids.length-1][0],+asks[asks.length-1][0]-mid)/mid*100};
+  for(const b of [1,2]){let bid=0,ask=0;for(const [p,q] of bids)if(+p>=mid*(1-b/100))bid+=p*q;for(const [p,q] of asks)if(+p<=mid*(1+b/100))ask+=p*q;
+    o["b"+b]={bid,ask,imb:bid+ask?(bid-ask)/(bid+ask)*100:null,full:o.reachPct>=b};}return o;}
+const MON={JAN:0,FEB:1,MAR:2,APR:3,MAY:4,JUN:5,JUL:6,AUG:7,SEP:8,OCT:9,NOV:10,DEC:11};
+const expD=s=>Date.UTC(2000+ +s.slice(-2),MON[s.slice(-5,-2)],+s.slice(0,-5),8);
+function optCalc(rows){const ex={};let tc=0,tp=0;for(const x of rows){const [,e,k,cp]=x.instrument_name.split("-"),oi=x.open_interest||0;(ex[e]=ex[e]||[]).push([+k,cp,oi,x.mark_iv,x.underlying_price]);cp==="C"?tc+=oi:tp+=oi;}
+  const tot=tc+tp,exps=Object.keys(ex).filter(e=>expD(e)>Date.now()).sort((a,b)=>expD(a)-expD(b));
+  const big=exps.find(e=>ex[e].reduce((s,o)=>s+o[2],0)>=0.1*tot)||exps[0],L=ex[big],ks=[...new Set(L.map(o=>o[0]))].sort((a,b)=>a-b);
+  const pain=K=>L.reduce((s,o)=>s+(o[1]==="C"?o[2]*Math.max(0,K-o[0]):o[2]*Math.max(0,o[0]-K)),0);
+  let mp=ks[0];for(const k of ks)if(pain(k)<pain(mp))mp=k;const und=(L.find(o=>o[4])||[])[4]||mp;
+  const atm=ks.reduce((a,k)=>Math.abs(k-und)<Math.abs(a-und)?k:a,ks[0]),ivs=L.filter(o=>o[0]===atm&&o[3]).map(o=>o[3]);
+  const ec=L.filter(o=>o[1]==="C").reduce((s,o)=>s+o[2],0),ep=L.filter(o=>o[1]==="P").reduce((s,o)=>s+o[2],0);
+  return {expiry:big,expiryOI:ec+ep,maxPain:mp,pcrExpiry:ec?ep/ec:null,pcrAll:tc?tp/tc:null,atmStrike:atm,atmIV:ivs.length?ivs.reduce((s,v)=>s+v,0)/ivs.length:null};}
+const XE={
+  dSpot:["https://data-api.binance.vision/api/v3/depth?symbol=BTCUSDT&limit=5000",r=>depthCalc(r.bids,r.asks)],
+  dPerp:["https://fapi.binance.com/fapi/v1/depth?symbol=BTCUSDT&limit=1000",r=>depthCalc(r.bids,r.asks)],
+  dOkx:["https://www.okx.com/api/v5/market/books-full?instId=BTC-USDT-SWAP&sz=5000",r=>{const f=L=>L.map(x=>[+x[0],+x[1]*0.01]);return depthCalc(f(r.data[0].bids),f(r.data[0].asks));}],
+  opt:["https://www.deribit.com/api/v2/public/get_book_summary_by_currency?currency=BTC&kind=option",r=>optCalc(r.result)],
+  dvol:[()=>`https://www.deribit.com/api/v2/public/get_volatility_index_data?currency=BTC&resolution=3600&start_timestamp=${Date.now()-6*36e5}&end_timestamp=${Date.now()}`,r=>({dvol:r.result.data[r.result.data.length-1][4]})],
+};
+async function liveExtra(){
+  await Promise.all(Object.entries(XE).map(async([k,[u,p]])=>{try{X[k]=p(await j(typeof u==="function"?u():u));}catch(e){delete X[k];}}));
+  if(D)renderStatic();
+}
+const tag=isLive=>isLive?" · live":` · snapshot ${snapT()} MYT`;
+const usdS=v=>typeof v==="number"?(Math.abs(v)>=1e9?`$${(v/1e9).toFixed(2)}B`:`$${(v/1e6).toFixed(1)}M`):M;
+function renderExtras(){
+  const le=D.liqEst;
+  $("liq").innerHTML=le?kv([...le.above.slice().reverse().map(x=>[`▲ ${n0(x.p)}`,`~${usdS(x.usd)} shorts`]),...le.below.map(x=>[`▼ ${n0(x.p)}`,`~${usdS(x.usd)} longs`])]):kv([["Clusters","n/a"]]);
+  $("liqNote").textContent=le?`${le.method}. Snapshot ${snapT()} MYT. Not a heatmap.`:"";
+  const dr=(name,live,snap)=>{const d=live||snap;if(!d)return[[name,"n/a"]];const t=tag(!!live);
+    return [1,2].map(b=>{const x=d["b"+b];return[`${name} ±${b}%`,`bid ${usdS(x.bid)} / ask ${usdS(x.ask)} · imb ${x.imb>=0?"+":""}${x.imb.toFixed(1)}%${x.full?"":` (book reaches ±${d.reachPct.toFixed(2)}%)`}${t}`];});};
+  const sd=D.depth||{};
+  $("depth").innerHTML=kv([...dr("Binance spot",X.dSpot,sd.spot),...dr("Binance perp",X.dPerp,sd.perp),...dr("OKX perp",X.dOkx,sd.okxPerp)]);
+  $("depthNote").textContent="Imbalance = (bid−ask)/(bid+ask). Public REST books are capped (Binance perp 1000 levels ≈ ±0.15%), so wide bands are partial where noted.";
+  const o=X.opt||D.opt,ol=!!X.opt,dv=X.dvol?.dvol??D.opt?.dvol;
+  $("opt").innerHTML=o?kv([["Expiry (≥10% OI)",`${o.expiry}, ${n0(o.expiryOI)} BTC OI`],["Max pain",`${n0(o.maxPain)}${tag(ol)}`],["P/C OI (expiry)",`${o.pcrExpiry?.toFixed(2)??M}`],["P/C OI (all)",`${o.pcrAll?.toFixed(2)??M}`],
+    ["ATM IV",o.atmIV!=null?`${o.atmIV.toFixed(1)}% @ ${n0(o.atmStrike)}`:M],["DVOL",typeof dv==="number"?`${dv.toFixed(1)}${tag(!!X.dvol)}`:M]]):kv([["Deribit","n/a"]]);
+  const T=D.tech,P=price();
+  const ma=n=>T?.["ma"+n]?`${n0(T["ma"+n])} · price ${P>=T["ma"+n]?"above":"below"} ${((P/T["ma"+n]-1)*100).toFixed(2)}%`:M;
+  $("tech").innerHTML=T?kv([["RSI(14) daily",T.rsiD??M],["RSI(14) 4H",T.rsi4h??M],["MA20 daily",ma(20)],["MA50 daily",ma(50)],["MA200 daily",ma(200)],["ATR(14) daily",T.atrD?`${n0(T.atrD)} (${T.atrPct}%)`:M],["Basis",`${T.basis}, snapshot ${snapT()} MYT`]]):kv([["Technicals","n/a"]]);
+  const S=D.stables;
+  $("stab").innerHTML=S?kv([["USDT+USDC",`${usdS(S.totalUsd)}, ${pct(S.totalChg7d,2)} 7d (${S.totalChg7dUsd>=0?"+":"-"}${usdS(Math.abs(S.totalChg7dUsd))})`],["USDT",`${usdS(S.USDT?.usd)}, ${pct(S.USDT?.chg7d,2)} 7d`],["USDC",`${usdS(S.USDC?.usd)}, ${pct(S.USDC?.chg7d,2)} 7d`],["Source",`DefiLlama, snapshot ${snapT()} MYT`]]):kv([["Stablecoins","n/a"]]);
+}
 async function liveDeriv(){
   await Promise.all(Object.entries(XS).map(async([k,[u,p]])=>{try{const v=p(await j(u));if(Object.values(v).some(n=>!isFinite(n)))throw 0;X[k]=v;}catch(e){delete X[k];}}));
   if(D)renderStatic();
@@ -89,12 +135,13 @@ function renderStatic(){
   const today=String(D.asOf||"").slice(0,6);
   const mv=(k,u)=>{const o=mac[k];return o?`${o.v}${u} (${o.chg>=0?"+":""}${o.chg}%)${o.date===today?"":", "+o.date}`:M;};
   $("macro").innerHTML=kv([["VIX",mv("vix","")],["DXY",mv("dxy","")],["US 10Y",mv("us10y","%")],["S&P 500",mv("spx","")],["Nasdaq",mv("ndx","")],["BTC ETF flow",D.etf?`$${D.etf.usdM}M, ${D.etf.date}`:"-$643.2M, 30 Oct (stale)"]]);
+  renderExtras();
   renderBots();
-  const LIVEMAP={bFund:"Binance funding",bLS:"Binance long/short",bOI:"Binance perp OI",bPerpK:"Binance perp klines",bybit:"Bybit ticker"};
+  const LIVEMAP={bFund:"Binance funding",bLS:"Binance long/short",bOI:"Binance perp OI",bPerpK:"Binance perp klines",bybit:"Bybit ticker",dPerp:"Binance perp depth"};
   const covered=Object.keys(LIVEMAP).filter(k=>X[k]).map(k=>LIVEMAP[k]);
   const errs=(D.missing||[]).filter(m=>!covered.some(c=>m.startsWith(c)));
   const pend=Object.keys(LIVEMAP).filter(k=>!X[k]).map(k=>LIVEMAP[k]);
-  $("gaps").textContent=`${C.knownGaps} CVD: ${f.asOf||M}. Price source in Actions: ${D.priceSource||M}. Refresh errors: ${errs.length?errs.join("; "):"none"}.${pend.length?" Not available live right now: "+pend.join(", ")+".":""}`;
+  $("gaps").textContent=`${C.knownGaps} CVD: ${f.asOf||M}. Price source in Actions: ${D.priceSource||M}. No free source: ${(D.noSource||[]).join("; ")||"none"}. Liq clusters are an estimate, not exchange data. Refresh errors: ${errs.length?errs.join("; "):"none"}.${pend.length?" Not available live right now: "+pend.join(", ")+".":""}`;
   $("foot").textContent=`Snapshot ${D.asOf||M} · refreshed every 15 min by GitHub Actions · not financial advice`;
 }
 function renderBots(){
@@ -114,6 +161,6 @@ function seg(id,cb){$(id).addEventListener("click",e=>{const b=e.target.closest(
 (async()=>{
   await loadStatic();renderStatic();renderChart();tick();
   seg("seg",v=>{view=v;renderChart();});seg("bseg",v=>{bview=v;renderBots();});
-  livePrice();liveKlines();liveDeriv();setInterval(liveDeriv,60000);setInterval(livePrice,5000);setInterval(liveKlines,60000);setInterval(tick,1000);
+  livePrice();liveKlines();liveDeriv();liveExtra();setInterval(liveDeriv,60000);setInterval(liveExtra,30000);setInterval(livePrice,5000);setInterval(liveKlines,60000);setInterval(tick,1000);
   setInterval(async()=>{try{await loadStatic();renderStatic();renderChart();}catch(e){}},5*60000);
 })();

@@ -1,10 +1,10 @@
 {
- "asOf": "02 Nov 2026, 15:09 MYT",
- "asOfMs": 1793603374937,
- "price": 78215.87,
+ "asOf": "02 Nov 2026, 15:27 MYT",
+ "asOfMs": 1793604440899,
+ "price": 78122.01,
  "high24": 78878.01,
  "low24": 77620.0,
- "chg24": 0.298,
+ "chg24": 0.294,
  "h1": [
   [
    "31 15:00",
@@ -204,7 +204,9 @@
  "flow": {
   "spot4h": 181.3,
   "spot24h": 421.1,
-  "asOf": "02 Nov 15:00 MYT, est. from taker volume"
+  "asOf": "02 Nov 15:00 MYT, est. from taker volume",
+  "perp4h": 381.4,
+  "perp24h": 1048.6
  },
  "d1": [
   [
@@ -330,15 +332,20 @@
  ],
  "lastD": 78354.0,
  "lastDAt": "02 Nov 08:00",
- "priceSource": "data-api.binance.vision",
+ "priceSource": "api.binance.com",
  "pos": {
-  "fundOKX": 0.00765963286488,
-  "oiOKX": 33554.795000000195,
-  "lsOKX": 2.2,
+  "fundBinance": 0.007605000000000001,
+  "fundOKX": 0.00806587627228,
+  "fundBybit": 0.004231,
+  "oiBybit": 67906.921,
+  "oiBinance": 95402.259,
+  "oiOKX": 33502.2926000002,
+  "lsOKX": 2.21,
   "lsAt": "02 Nov 15:00",
-  "liqLongUsd": 222224,
-  "liqShortUsd": 255677,
-  "liqWindow": "02 Nov 11:47 to 02 Nov 14:45"
+  "lsBinance": 2.06,
+  "liqLongUsd": 508653,
+  "liqShortUsd": 40401,
+  "liqWindow": "02 Nov 11:47 to 02 Nov 15:18"
  },
  "macro": {
   "vix": {
@@ -348,7 +355,7 @@
   },
   "dxy": {
    "v": 101.82,
-   "chg": -0.05,
+   "chg": -0.06,
    "date": "02 Nov"
   },
   "us10y": {
@@ -372,11 +379,11 @@
   "label": "Fear",
   "date": "02 Nov"
  },
- "cbPremium": -128.9,
+ "cbPremium": -106.3,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23502646494,
-  "oiChg24": -1.19,
+  "oiUsd": 23477900733,
+  "oiChg24": -1.29,
   "oiHist": [
    [
     "01 15:00",
@@ -476,32 +483,147 @@
    ],
    [
     "02 15:00",
-    23.503
+    23.478
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00721,
+  "fundAvg": 0.00708,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
-   "Deribit BTC-PERPETUAL": 0.008317,
+   "Deribit BTC-PERPETUAL": 0.00508,
    "Bybit BTCUSD": 0.008723,
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.007728,
    "Bybit BTCUSDT": 0.00959,
-   "Gate BTC_USDT": 0.0029,
-   "OKX BTCUSDT_PERP": 0.00765963286488,
-   "HTX BTCUSDT_PERP": 0.0059684028097763,
+   "Gate BTC_USDT": 0.0038,
+   "OKX BTCUSDT_PERP": 0.00806587627228,
+   "HTX BTCUSDT_PERP": 0.0065653925204336,
    "Binance BTCUSDT_PERP": 0.01
   },
-  "predFundAvg": 0.0059,
-  "liqLongUsd24": 5373880,
-  "liqShortUsd24": 13871690
+  "predFundAvg": 0.00615,
+  "liqLongUsd24": 5807673,
+  "liqShortUsd24": 13923963
  },
+ "tech": {
+  "rsiD": 39.4,
+  "atrD": 1955.5,
+  "basis": "closed candles, Binance spot",
+  "ma20": 80936.4,
+  "ma20Pct": -3.48,
+  "ma50": 81981.8,
+  "ma50Pct": -4.71,
+  "ma200": 73196.8,
+  "ma200Pct": 6.73,
+  "atrPct": 2.5,
+  "rsi4h": 51.5
+ },
+ "opt": {
+  "expiry": "27NOV26",
+  "expiryOI": 49554,
+  "maxPain": 80000.0,
+  "pcrExpiry": 0.68,
+  "pcrAll": 0.66,
+  "atmStrike": 78000.0,
+  "atmIV": 36.9,
+  "dvol": 38.93
+ },
+ "stables": {
+  "USDT": {
+   "usd": 179276330313,
+   "chg7d": -1.65
+  },
+  "USDC": {
+   "usd": 71469349758,
+   "chg7d": -0.29
+  },
+  "totalUsd": 250745680071,
+  "totalChg7d": -1.27,
+  "totalChg7dUsd": -3215550193
+ },
+ "depth": {
+  "spot": {
+   "mid": 78109.9,
+   "reachPct": 1.04,
+   "b1": {
+    "bid": 15313138,
+    "ask": 16400284,
+    "imb": -3.4,
+    "full": true
+   },
+   "b2": {
+    "bid": 15408008,
+    "ask": 21911530,
+    "imb": -17.4,
+    "full": false
+   }
+  },
+  "perp": {
+   "mid": 78074.1,
+   "reachPct": 0.15,
+   "b1": {
+    "bid": 54824760,
+    "ask": 45255910,
+    "imb": 9.6,
+    "full": false
+   },
+   "b2": {
+    "bid": 54824760,
+    "ask": 45255910,
+    "imb": 9.6,
+    "full": false
+   }
+  },
+  "okxPerp": {
+   "mid": 78067.4,
+   "reachPct": 0.86,
+   "b1": {
+    "bid": 90151744,
+    "ask": 76745935,
+    "imb": 8.0,
+    "full": false
+   },
+   "b2": {
+    "bid": 90151744,
+    "ask": 76745935,
+    "imb": 8.0,
+    "full": false
+   }
+  }
+ },
+ "liqEst": {
+  "above": [
+   {
+    "p": 79000,
+    "usd": 174054613
+   },
+   {
+    "p": 80500,
+    "usd": 160125943
+   },
+   {
+    "p": 83500,
+    "usd": 164348670
+   }
+  ],
+  "below": [
+   {
+    "p": 76000,
+    "usd": 107258173
+   },
+   {
+    "p": 75750,
+    "usd": 210671710
+   },
+   {
+    "p": 74250,
+    "usd": 148382877
+   }
+  ],
+  "method": "Estimate: Coinalyze 7d hourly OI increases \u00d7 25/50/100x leverage, Binance 1H closes; untouched levels only, $250 bins"
+ },
+ "noSource": [
+  "Exchange netflows (no free keyless API: CryptoQuant/Glassnode are paid)"
+ ],
  "missing": [],
- "browserLive": [
-  "Binance futures funding",
-  "Binance long/short",
-  "Binance perp klines",
-  "Bybit ticker"
- ]
+ "browserLive": []
 }
