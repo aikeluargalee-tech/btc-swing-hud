@@ -1,10 +1,10 @@
 {
- "asOf": "02 Nov 2026, 16:44 MYT",
- "asOfMs": 1793609061912,
- "price": 78310.65,
+ "asOf": "02 Nov 2026, 16:51 MYT",
+ "asOfMs": 1793609485172,
+ "price": 78334.01,
  "high24": 78878.01,
  "low24": 77620.0,
- "chg24": 0.136,
+ "chg24": 0.12,
  "h1": [
   [
    "31 16:00",
@@ -332,23 +332,23 @@
  "lastDAt": "02 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.00841743830454,
-  "oiOKX": 33496.0450000002,
-  "lsOKX": 2.25,
+  "fundOKX": 0.00830454246996,
+  "oiOKX": 33528.12310000021,
+  "lsOKX": 2.26,
   "lsAt": "02 Nov 16:00",
-  "liqLongUsd": 823504,
+  "liqLongUsd": 820248,
   "liqShortUsd": 627,
-  "liqWindow": "02 Nov 15:15 to 02 Nov 16:40"
+  "liqWindow": "02 Nov 15:15 to 02 Nov 16:50"
  },
  "macro": {
   "vix": {
-   "v": 19.04,
-   "chg": -1.96,
+   "v": 19.02,
+   "chg": -2.06,
    "date": "02 Nov"
   },
   "dxy": {
-   "v": 101.64,
-   "chg": -0.24,
+   "v": 101.6,
+   "chg": -0.28,
    "date": "02 Nov"
   },
   "us10y": {
@@ -372,11 +372,11 @@
   "label": "Fear",
   "date": "02 Nov"
  },
- "cbPremium": -122.2,
+ "cbPremium": -130.1,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23555912286,
-  "oiChg24": -1.45,
+  "oiUsd": 23564447545,
+  "oiChg24": -1.42,
   "oiHist": [
    [
     "01 16:00",
@@ -476,49 +476,36 @@
    ],
    [
     "02 16:00",
-    23.556
+    23.564
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00736,
-  "fundBy": {
-   "Hyperliquid BTC": 0.00125,
-   "Deribit BTC-PERPETUAL": 0,
-   "Bybit BTCUSD": 0.01,
-   "OKX BTCUSD_PERP": 0.01,
-   "Binance BTCUSD_PERP": 0.01,
-   "Bybit BTCUSDT": 0.005216,
-   "Gate BTC_USDT": 0.01,
-   "OKX BTCUSDT_PERP": 0.00841743830454,
-   "HTX BTCUSDT_PERP": 0.01,
-   "Binance BTCUSDT_PERP": 0.008758
-  },
-  "predFundAvg": 0.00815,
-  "liqLongUsd24": 6746016,
-  "liqShortUsd24": 12782566
+  "predFundAvg": 0.0081,
+  "liqLongUsd24": 6746093,
+  "liqShortUsd24": 12798313
  },
  "tech": {
   "rsiD": 39.4,
   "atrD": 1955.5,
   "basis": "closed candles, Binance spot",
   "ma20": 80936.4,
-  "ma20Pct": -3.24,
+  "ma20Pct": -3.22,
   "ma50": 81981.8,
-  "ma50Pct": -4.48,
+  "ma50Pct": -4.45,
   "ma200": 73196.8,
-  "ma200Pct": 6.99,
+  "ma200Pct": 7.02,
   "atrPct": 2.5,
   "rsi4h": 46.0
  },
  "opt": {
   "expiry": "27NOV26",
-  "expiryOI": 49528,
+  "expiryOI": 49526,
   "maxPain": 80000.0,
   "pcrExpiry": 0.69,
   "pcrAll": 0.66,
   "atmStrike": 78000.0,
   "atmIV": 36.2,
-  "dvol": 37.86
+  "dvol": 37.83
  },
  "stables": {
   "USDT": {
@@ -535,70 +522,70 @@
  },
  "depth": {
   "spot": {
-   "mid": 78292.0,
-   "reachPct": 1.17,
+   "mid": 78281.6,
+   "reachPct": 1.18,
    "b1": {
-    "bid": 32884571,
-    "ask": 35173813,
-    "imb": -3.4,
+    "bid": 35065450,
+    "ask": 35310472,
+    "imb": -0.3,
     "full": true
    },
    "b2": {
-    "bid": 35936396,
-    "ask": 36851048,
-    "imb": -1.3,
+    "bid": 35948458,
+    "ask": 36993156,
+    "imb": -1.4,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 78236.4,
+   "mid": 78231.1,
    "reachPct": 0.88,
    "b1": {
-    "bid": 81232067,
-    "ask": 78837458,
-    "imb": 1.5,
+    "bid": 76392338,
+    "ask": 79372895,
+    "imb": -1.9,
     "full": false
    },
    "b2": {
-    "bid": 81232067,
-    "ask": 78837458,
-    "imb": 1.5,
+    "bid": 76392338,
+    "ask": 79372895,
+    "imb": -1.9,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 114116638,
-    "ask": 114011271,
+    "bid": 111457788,
+    "ask": 114683367,
     "venues": [
      "spot full",
      "okxPerp to \u00b10.88%"
     ],
-    "imb": 0.0
+    "imb": -1.4
    },
    "b2": {
-    "bid": 117168463,
-    "ask": 115688506,
+    "bid": 112340796,
+    "ask": 116366051,
     "venues": [
-     "spot to \u00b11.17%",
+     "spot to \u00b11.18%",
      "okxPerp to \u00b10.88%"
     ],
-    "imb": 0.6
+    "imb": -1.8
    }
   },
   "walls": {
    "77800": {
     "bid": {
      "p": 78050,
-     "usd": 7877480
+     "usd": 8419799
     },
     "ask": null
    },
    "78650": {
     "bid": null,
     "ask": {
-     "p": 78350,
-     "usd": 13840756
+     "p": 78850,
+     "usd": 13349854
     }
    }
   }
@@ -665,9 +652,9 @@
   "px4h": -0.661,
   "spot1h": 14.1,
   "spot4h": -32.9,
-  "oi4h": -0.2,
+  "oi4h": -0.16,
   "tag": "Neutral",
-  "why": "price -0.66% 4h, OI -0.2%, spot CVD -33, perp CVD n/a"
+  "why": "price -0.66% 4h, OI -0.16%, spot CVD -33, perp CVD n/a"
  },
  "regime": {
   "h1h": 0.55,
@@ -683,20 +670,20 @@
  "vol": {
   "rv7d": 36.6,
   "rr7d": {
-   "rr": -4.34,
+   "rr": -4.55,
    "call": 36.5,
-   "put": 40.8,
+   "put": 41.1,
    "expiry": "6NOV26",
    "days": 4.0
   },
   "rr30d": {
-   "rr": -4.07,
-   "call": 34.9,
+   "rr": -4.15,
+   "call": 34.8,
    "put": 39.0,
    "expiry": "27NOV26",
    "days": 25.0
   },
-  "vrp": 1.3,
+  "vrp": 1.2,
   "basis": "25d RR = call IV - put IV at |delta|=0.25 (Black-Scholes delta from Deribit mark_iv, nearest expiry to 7d/30d); RV7d from 1H closes, annualised"
  },
  "etf": {
@@ -729,7 +716,9 @@
   "sum5": -202.4,
   "source": "Farside (farside.co.uk/btc), US$m"
  },
- "missing": [],
+ "missing": [
+  "Coinalyze funding: HTTPError 429"
+ ],
  "browserLive": [
   "Binance futures funding",
   "Binance long/short",
