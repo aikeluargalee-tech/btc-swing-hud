@@ -1,10 +1,10 @@
 {
- "asOf": "03 Nov 2026, 07:00 SGT",
- "asOfMs": 1793660448919,
- "price": 76834.0,
+ "asOf": "03 Nov 2026, 07:26 SGT",
+ "asOfMs": 1793661974191,
+ "price": 76766.02,
  "high24": 78878.01,
  "low24": 76705.0,
- "chg24": -1.413,
+ "chg24": -1.706,
  "h1": [
   [
    "01 07:00",
@@ -334,12 +334,12 @@
  "priceSource": "data-api.binance.vision",
  "pos": {
   "fundOKX": 0.01,
-  "oiOKX": 33858.494200000205,
-  "lsOKX": 2.64,
-  "lsAt": "03 Nov 06:00",
-  "liqLongUsd": 1250683,
-  "liqShortUsd": 41216,
-  "liqWindow": "03 Nov 03:40 to 03 Nov 06:17"
+  "oiOKX": 33952.215200000195,
+  "lsOKX": 2.67,
+  "lsAt": "03 Nov 07:00",
+  "liqLongUsd": 1250552,
+  "liqShortUsd": 45059,
+  "liqWindow": "03 Nov 03:40 to 03 Nov 07:20"
  },
  "macro": {
   "vix": {
@@ -348,8 +348,8 @@
    "date": "02 Nov"
   },
   "dxy": {
-   "v": 101.79,
-   "chg": -0.09,
+   "v": 101.8,
+   "chg": -0.08,
    "date": "02 Nov"
   },
   "us10y": {
@@ -363,7 +363,7 @@
    "date": "02 Nov"
   },
   "ndx": {
-   "v": 25164.32,
+   "v": 25164.36,
    "chg": -1.07,
    "date": "02 Nov"
   }
@@ -373,11 +373,11 @@
   "label": "Fear",
   "date": "02 Nov"
  },
- "cbPremium": -154.2,
+ "cbPremium": -151.8,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23698186522,
-  "oiChg24": 0.42,
+  "oiUsd": 23641735377,
+  "oiChg24": 0.18,
   "oiHist": [
    [
     "02 07:00",
@@ -477,24 +477,37 @@
    ],
    [
     "03 07:00",
-    23.698
+    23.642
    ]
   ],
   "oiSymbols": 9,
+  "fundAvg": 0.00797,
+  "fundBy": {
+   "Hyperliquid BTC": 0.00125,
+   "Deribit BTC-PERPETUAL": 0,
+   "Bybit BTCUSD": 0.01,
+   "OKX BTCUSD_PERP": 0.01,
+   "Binance BTCUSD_PERP": 0.01,
+   "Bybit BTCUSDT": 0.009346,
+   "Gate BTC_USDT": 0.01,
+   "OKX BTCUSDT_PERP": 0.01,
+   "HTX BTCUSDT_PERP": 0.01,
+   "Binance BTCUSDT_PERP": 0.009118
+  },
   "predFundAvg": 0.00854,
-  "liqLongUsd24": 33827950,
-  "liqShortUsd24": 10720689
+  "liqLongUsd24": 33827945,
+  "liqShortUsd24": 10725063
  },
  "tech": {
   "rsiD": 39.4,
   "atrD": 1955.5,
   "basis": "closed candles, Binance spot",
   "ma20": 80936.4,
-  "ma20Pct": -5.07,
+  "ma20Pct": -5.15,
   "ma50": 81981.8,
-  "ma50Pct": -6.28,
+  "ma50Pct": -6.36,
   "ma200": 73196.8,
-  "ma200Pct": 4.97,
+  "ma200Pct": 4.88,
   "atrPct": 2.55,
   "rsi4h": 36.9
  },
@@ -505,8 +518,8 @@
   "pcrExpiry": 0.77,
   "pcrAll": 0.68,
   "atmStrike": 77000.0,
-  "atmIV": 37.2,
-  "dvol": 39.37
+  "atmIV": 37.0,
+  "dvol": 39.36
  },
  "stables": {
   "USDT": {
@@ -523,55 +536,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 76792.0,
-   "reachPct": 0.94,
+   "mid": 76750.0,
+   "reachPct": 0.9,
    "b1": {
-    "bid": 27086229,
-    "ask": 13786950,
-    "imb": 32.5,
+    "bid": 26520721,
+    "ask": 15865589,
+    "imb": 25.1,
     "full": false
    },
    "b2": {
-    "bid": 27086229,
-    "ask": 15017392,
-    "imb": 28.7,
+    "bid": 26520721,
+    "ask": 17303633,
+    "imb": 21.0,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 76779.9,
-   "reachPct": 0.86,
+   "mid": 76731.1,
+   "reachPct": 0.84,
    "b1": {
-    "bid": 125438557,
-    "ask": 64735841,
-    "imb": 31.9,
+    "bid": 139672874,
+    "ask": 73368717,
+    "imb": 31.1,
     "full": false
    },
    "b2": {
-    "bid": 125438557,
-    "ask": 64735841,
-    "imb": 31.9,
+    "bid": 139672874,
+    "ask": 73368717,
+    "imb": 31.1,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 152524786,
-    "ask": 78522791,
+    "bid": 166193595,
+    "ask": 89234306,
     "venues": [
-     "spot to \u00b10.94%",
-     "okxPerp to \u00b10.86%"
+     "spot to \u00b10.9%",
+     "okxPerp to \u00b10.84%"
     ],
-    "imb": 32.0
+    "imb": 30.1
    },
    "b2": {
-    "bid": 152524786,
-    "ask": 79753233,
+    "bid": 166193595,
+    "ask": 90672350,
     "venues": [
-     "spot to \u00b10.94%",
-     "okxPerp to \u00b10.86%"
+     "spot to \u00b10.9%",
+     "okxPerp to \u00b10.84%"
     ],
-    "imb": 31.3
+    "imb": 29.4
    }
   },
   "walls": {
@@ -579,7 +592,7 @@
     "bid": null,
     "ask": {
      "p": 77500,
-     "usd": 2266244
+     "usd": 400911
     }
    },
    "78650": {
@@ -650,9 +663,9 @@
   "px4h": -0.115,
   "spot1h": 163.2,
   "spot4h": 387.0,
-  "oi4h": 0.58,
+  "oi4h": 0.34,
   "tag": "Neutral",
-  "why": "price -0.12% 4h, OI 0.58%, spot CVD +387, perp CVD n/a"
+  "why": "price -0.12% 4h, OI 0.34%, spot CVD +387, perp CVD n/a"
  },
  "regime": {
   "h1h": 0.6,
@@ -668,16 +681,16 @@
  "vol": {
   "rv7d": 35.7,
   "rr7d": {
-   "rr": -5.15,
+   "rr": -5.08,
    "call": 37.9,
-   "put": 43.1,
+   "put": 42.9,
    "expiry": "13NOV26",
    "days": 10.4
   },
   "rr30d": {
-   "rr": -4.66,
+   "rr": -4.6,
    "call": 36.0,
-   "put": 40.7,
+   "put": 40.6,
    "expiry": "27NOV26",
    "days": 24.4
   },
@@ -714,9 +727,7 @@
   "sum5": -312.7,
   "source": "Farside (farside.co.uk/btc), US$m"
  },
- "missing": [
-  "Coinalyze funding: HTTPError 429"
- ],
+ "missing": [],
  "browserLive": [
   "Binance futures funding",
   "Binance long/short",
@@ -726,15 +737,23 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "03 Nov 07:02 SGT",
+  "asOf": "03 Nov 07:26 SGT",
   "risk": "HIGH",
-  "why": "Congressional Elections in 16.2h; flagged headline 0.6h ago",
+  "why": "Congressional Elections in 15.8h; flagged headline 0.3h ago; flagged headline 1.0h ago",
   "headlines": [
+   {
+    "title": "North Korea denies role in $6.3B Binance hack, points finger at US",
+    "source": "Cointelegraph",
+    "time": "03 Nov 07:07",
+    "ageH": 0.3,
+    "link": "https://cointelegraph.com/news/north-korea-denies-role-in-63b-binance-hack-points-finger-at-us?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "high": true
+   },
    {
     "title": "Here\u2019s what happened in crypto today",
     "source": "Cointelegraph",
     "time": "03 Nov 06:36",
-    "ageH": 0.4,
+    "ageH": 0.8,
     "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -742,7 +761,7 @@
     "title": "Kim Jong-Un\u2019s sister rejects FBI claims linking North Korea to record $6 billion Binance hack: reports",
     "source": "The Block",
     "time": "03 Nov 06:26",
-    "ageH": 0.6,
+    "ageH": 1.0,
     "link": "https://www.theblock.co/news/regulation/2026-11-02-kim-jong-un-sister-rejects-fbi-claims-linking-north-korea-binance-hack-432344",
     "high": true
    },
@@ -750,7 +769,7 @@
     "title": "New Jersey drops Coinbase staking order ahead of crypto\u2019s midterm test",
     "source": "Cointelegraph",
     "time": "03 Nov 06:22",
-    "ageH": 0.7,
+    "ageH": 1.1,
     "link": "https://cointelegraph.com/news/new-jersey-coinbase-staking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -758,16 +777,8 @@
     "title": "Bitcoin Firm Strive Climbs Up the Treasury Ranks With Another Big Buy",
     "source": "Decrypt",
     "time": "03 Nov 06:16",
-    "ageH": 0.8,
+    "ageH": 1.2,
     "link": "https://decrypt.co/382385/bitcoin-firm-strive-treasury-ranks-another-big-buy",
-    "high": false
-   },
-   {
-    "title": "AI poses greater threat to Bitcoin than quantum computing, Swan founder says",
-    "source": "Cointelegraph",
-    "time": "03 Nov 05:54",
-    "ageH": 1.1,
-    "link": "https://cointelegraph.com/news/ai-hackers-threat-bitcoin-quantum-computing-swan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    }
   ],
@@ -775,28 +786,28 @@
    {
     "title": "Congressional Elections",
     "time": "03 Nov 23:16",
-    "inH": 16.2,
+    "inH": 15.8,
     "forecast": "",
     "previous": ""
    },
    {
     "title": "Average Hourly Earnings m/m",
     "time": "06 Nov 21:30",
-    "inH": 86.5,
+    "inH": 86.1,
     "forecast": "0.3%",
     "previous": "0.1%"
    },
    {
     "title": "Non-Farm Employment Change",
     "time": "06 Nov 21:30",
-    "inH": 86.5,
+    "inH": 86.1,
     "forecast": "65K",
     "previous": "29K"
    },
    {
     "title": "Unemployment Rate",
     "time": "06 Nov 21:30",
-    "inH": 86.5,
+    "inH": 86.1,
     "forecast": "4.2%",
     "previous": "4.2%"
    }
@@ -833,8 +844,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 76834.0,
-   "valueAt": "03 Nov 2026, 07:00 SGT",
+   "value": 76766.02,
+   "valueAt": "03 Nov 2026, 07:26 SGT",
    "hit": false
   },
   {
@@ -866,29 +877,29 @@
   "label": "C \u2014 Bullish Absorption",
   "status": "Watch",
   "tone": "good",
-  "confidence": 71,
-  "confLabel": "High",
-  "matched": "5/7 available (7 listed)",
+  "confidence": 57,
+  "confLabel": "Medium",
+  "matched": "4/7 available (7 listed)",
   "runnerUp": "A Healthy Bull (4/7)",
   "evidence": [
    "Negative headline risk",
    "Testing 200D MA / 30d low",
    "Spot CVD 24h strongly positive (>500 BTC)",
-   "OI 24h flat/dropping (<=+1%)",
-   "Book bids/asks >= 1.4 (imb >= +16.7%)"
+   "OI 24h flat/dropping (<=+1%)"
   ],
   "metrics": [
-   "Price vs 20D MA -4.97%",
-   "vs 50D MA -6.18%",
-   "Spot CVD 24h +1354 BTC",
-   "Perp CVD 4h +55 BTC",
-   "OI 24h +1.00%",
-   "Funding +0.0083%"
+   "Price vs 20D MA -5.09%",
+   "vs 50D MA -6.30%",
+   "Spot CVD 24h +1529 BTC",
+   "Perp CVD 4h +86 BTC",
+   "OI 24h +0.24%",
+   "Funding +0.0080%"
   ],
   "implication": "Build spot 0.75x; 50% on 1H range reclaim / 50% limit at low; stop sweep low -0.5%",
   "notMet": [
    "Perp CVD 4h negative",
-   "Funding -0.008..+0.002%"
+   "Funding -0.008..+0.002%",
+   "Book bids/asks >= 1.4 (imb >= +16.7%)"
   ],
   "missing": [
    "ATR compression history",
@@ -898,11 +909,11 @@
    "Spot volume vs 20D MA",
    "Whale exchange inflows / CDD"
   ],
-  "asOfMs": 1793660047622,
+  "asOfMs": 1793661926097,
   "scores": {
    "A": "4/7",
    "B": "0/5",
-   "C": "5/7",
+   "C": "4/7",
    "D": "2/5",
    "E": "0/4",
    "F": "3/4",
@@ -911,7 +922,7 @@
    "I": "4/5",
    "J": "3/6"
   },
-  "asOf": "03 Nov 06:54 SGT",
+  "asOf": "03 Nov 07:25 SGT",
   "source": "box (full data incl. perp CVD)"
  }
 }
