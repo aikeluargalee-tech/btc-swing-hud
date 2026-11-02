@@ -2,7 +2,7 @@
  "verdict": {
   "lead": "WAIT, no entry at market",
   "tone": "warning",
-  "asOf": "02 Nov 2026, 13:49 MYT"
+  "asOf": "02 Nov 2026, 13:49 SGT"
  },
  "levels": [
   {
@@ -288,7 +288,7 @@
    ]
   }
  ],
- "knownGaps": "ETF flows from Farside (posted after US close, ~next morning MYT). FRED real yields not fetched. US macro is dated when stale.",
+ "knownGaps": "ETF flows from Farside (posted after US close, ~next morning SGT). FRED real yields not fetched. US macro is dated when stale.",
  "flowThresholds": {
   "priceFlatPct": 0.3,
   "oiChgPct": 0.5,

@@ -12,7 +12,7 @@ function renderCG(){const el=$("cg");if(!CG){el.innerHTML=kv([["CoinGlass levels
   const ts=Date.parse(CG.captured_myt.replace(" ","T")+":00+08:00"),ageH=(Date.now()-ts)/36e5,st=ageH>3?` · STALE (${ageH.toFixed(1)}h old)`:"";
   const big=x=>Math.abs(x.price-CG.biggest)<1?" ★ biggest":"";const RP=(typeof live!=="undefined"&&live.price)||D?.price||CG.price,dp=x=>RP?` (${x.price>=RP?"+":""}${((x.price-RP)/RP*100).toFixed(2)}%)`:"";
   el.innerHTML=kv([...CG.above.slice().sort((p,q)=>q.price-p.price).map(x=>[`▲ ${n0(x.price)}${dp(x)}`,`$${x.usd_m.toFixed(2)}M shorts${big(x)}`]),["Price at capture","~"+n0(CG.price)],...CG.below.slice().sort((p,q)=>q.price-p.price).map(x=>[`▼ ${n0(x.price)}${dp(x)}`,`$${x.usd_m.toFixed(2)}M longs${big(x)}`])]);
-  $("cgNote").textContent=`CoinGlass ${CG.exchange}, ${CG.range} liquidation map. Captured ${CG.captured_myt} MYT${st}. Scale max $${CG.scale_max_m}M. % = distance from ${live.price?"live":"snapshot"} price ${n0(RP)}.`;}
+  $("cgNote").textContent=`CoinGlass ${CG.exchange}, ${CG.range} liquidation map. Captured ${CG.captured_myt} SGT${st}. Scale max $${CG.scale_max_m}M. % = distance from ${live.price?"live":"snapshot"} price ${n0(RP)}.`;}
 async function j(u){const r=await fetch(u,{cache:"no-store"});if(!r.ok)throw new Error(r.status);return r.json();}
 async function loadStatic(){
   const t=Date.now();
@@ -70,13 +70,13 @@ async function liveExtra(){
   await Promise.all(Object.entries(XE).map(async([k,[u,p]])=>{try{X[k]=p(await j(typeof u==="function"?u():u));}catch(e){delete X[k];}}));
   if(D)renderStatic();
 }
-const tag=isLive=>isLive?" · live":` · snapshot ${snapT()} MYT`;
+const tag=isLive=>isLive?" · live":` · snapshot ${snapT()} SGT`;
 const usdS=v=>typeof v==="number"?(Math.abs(v)>=1e9?`$${(v/1e9).toFixed(2)}B`:`$${(v/1e6).toFixed(1)}M`):M;
 function renderExtras(){
   renderCG();
   const le=D.liqEst;
   $("liq").innerHTML=le?kv([...le.above.slice().reverse().map(x=>[`▲ ${n0(x.p)}`,`~${usdS(x.usd)} shorts`]),...le.below.map(x=>[`▼ ${n0(x.p)}`,`~${usdS(x.usd)} longs`])]):kv([["Clusters","n/a"]]);
-  $("liqNote").textContent=le?`${le.method}. Snapshot ${snapT()} MYT. Not a heatmap.`:"";
+  $("liqNote").textContent=le?`${le.method}. Snapshot ${snapT()} SGT. Not a heatmap.`:"";
   const dr=(name,live,snap)=>{const d=live||snap;if(!d)return[[name,"n/a"]];const t=tag(!!live);
     return [1,2].filter(b=>b===1||d.reachPct>=1).map(b=>{const x=d["b"+b];return[`${name} ±${b}%`,`bid ${usdS(x.bid)} / ask ${usdS(x.ask)} · imb ${x.imb>=0?"+":""}${(+x.imb).toFixed(1)}%${x.full?"":` (book reaches ±${(+d.reachPct).toFixed(2)}%)`}${t}`];});};
   const sd=D.depth||{},LW=liveAggWalls(),AG=LW?.agg||sd.agg,WL=LW?.walls||sd.walls,at=tag(!!LW);
@@ -89,9 +89,9 @@ function renderExtras(){
     ["ATM IV",o.atmIV!=null?`${o.atmIV.toFixed(1)}% @ ${n0(o.atmStrike)}`:M],["DVOL",typeof dv==="number"?`${dv.toFixed(1)}${tag(!!X.dvol)}`:M]]):kv([["Deribit","n/a"]]);
   const T=D.tech,P=price();
   const ma=n=>T?.["ma"+n]?`${n0(T["ma"+n])} · price ${P>=T["ma"+n]?"above":"below"} ${((P/T["ma"+n]-1)*100).toFixed(2)}%`:M;
-  $("tech").innerHTML=T?kv([["RSI(14) daily",T.rsiD??M],["RSI(14) 4H",T.rsi4h??M],["MA20 daily",ma(20)],["MA50 daily",ma(50)],["MA200 daily",ma(200)],["ATR(14) daily",T.atrD?`${n0(T.atrD)} (${T.atrPct}%)`:M],["Basis",`${T.basis}, snapshot ${snapT()} MYT`]]):kv([["Technicals","n/a"]]);
+  $("tech").innerHTML=T?kv([["RSI(14) daily",T.rsiD??M],["RSI(14) 4H",T.rsi4h??M],["MA20 daily",ma(20)],["MA50 daily",ma(50)],["MA200 daily",ma(200)],["ATR(14) daily",T.atrD?`${n0(T.atrD)} (${T.atrPct}%)`:M],["Basis",`${T.basis}, snapshot ${snapT()} SGT`]]):kv([["Technicals","n/a"]]);
   const S=D.stables;
-  $("stab").innerHTML=S?kv([["USDT+USDC",`${usdS(S.totalUsd)}, ${pct(S.totalChg7d,2)} 7d (${S.totalChg7dUsd>=0?"+":"-"}${usdS(Math.abs(S.totalChg7dUsd))})`],["USDT",`${usdS(S.USDT?.usd)}, ${pct(S.USDT?.chg7d,2)} 7d`],["USDC",`${usdS(S.USDC?.usd)}, ${pct(S.USDC?.chg7d,2)} 7d`],["Source",`DefiLlama, snapshot ${snapT()} MYT`]]):kv([["Stablecoins","n/a"]]);
+  $("stab").innerHTML=S?kv([["USDT+USDC",`${usdS(S.totalUsd)}, ${pct(S.totalChg7d,2)} 7d (${S.totalChg7dUsd>=0?"+":"-"}${usdS(Math.abs(S.totalChg7dUsd))})`],["USDT",`${usdS(S.USDT?.usd)}, ${pct(S.USDT?.chg7d,2)} 7d`],["USDC",`${usdS(S.USDC?.usd)}, ${pct(S.USDC?.chg7d,2)} 7d`],["Source",`DefiLlama, snapshot ${snapT()} SGT`]]):kv([["Stablecoins","n/a"]]);
 }
 async function liveDeriv(){
   await Promise.all(Object.entries(XS).map(async([k,[u,p]])=>{try{const v=p(await j(u));if(Object.values(v).some(n=>!isFinite(n)))throw 0;X[k]=v;}catch(e){delete X[k];}}));
@@ -99,7 +99,7 @@ async function liveDeriv(){
 }
 const snapT=()=>{const m=String(D?.asOf||"").match(/(\d\d:\d\d)/);return m?m[1]:"?";};
 // value with provenance: live value if present, else snapshot value
-function pv(lv,sv,fmt){if(typeof lv==="number")return fmt(lv)+" · live";if(typeof sv==="number")return fmt(sv)+` · snapshot ${snapT()} MYT`;return "n/a (live fetch failed, not in snapshot)";}
+function pv(lv,sv,fmt){if(typeof lv==="number")return fmt(lv)+" · live";if(typeof sv==="number")return fmt(sv)+` · snapshot ${snapT()} SGT`;return "n/a (live fetch failed, not in snapshot)";}
 const price=()=>live.price??D?.price;
 const last1h=()=>live.last1h??D?.last1h;
 function hit(t){const v={spot:price(),"1h":last1h(),"1d":D?.lastD}[t.basis];if(typeof v!=="number")return null;
@@ -138,13 +138,13 @@ function renderChart(){
 function renderStatic(){
   const p=D.pos||{},cz=D.cz||{},f=D.flow||{},mac=D.macro||{};
   const f4=v=>pct(v,4),btc=v=>`${n0(v)} BTC`,r2=v=>v.toFixed(2);
-  $("pos").innerHTML=kv([["OI (all venues)",cz.oiUsd?`$${(cz.oiUsd/1e9).toFixed(2)}B, ${pct(cz.oiChg24,2)} 24h · snapshot ${snapT()} MYT`:M],["Funding avg",pct(cz.fundAvg)],["Predicted funding",pct(cz.predFundAvg)],
+  $("pos").innerHTML=kv([["OI (all venues)",cz.oiUsd?`$${(cz.oiUsd/1e9).toFixed(2)}B, ${pct(cz.oiChg24,2)} 24h · snapshot ${snapT()} SGT`:M],["Funding avg",pct(cz.fundAvg)],["Predicted funding",pct(cz.predFundAvg)],
     ["Funding Binance",pv(X.bFund?.fund,p.fundBinance,f4)],["Funding Bybit",pv(X.bybit?.fund,p.fundBybit,f4)],["Funding OKX",pv(X.okxFund?.fund,p.fundOKX,f4)],
     ["OI Binance perp",pv(X.bOI?.oi,p.oiBinance,btc)],["OI Bybit",pv(X.bybit?.oi,p.oiBybit,btc)],["OI OKX",pv(X.okxOI?.oi,p.oiOKX,btc)],
     ["Liqs 24h long",usdM(cz.liqLongUsd24)],["Liqs 24h short",usdM(cz.liqShortUsd24)],
-    ["L/S Binance",pv(X.bLS?.ls,p.lsBinance,r2)],["L/S OKX",typeof p.lsOKX==="number"?`${p.lsOKX.toFixed(2)} · snapshot ${snapT()} MYT`:M],
+    ["L/S Binance",pv(X.bLS?.ls,p.lsBinance,r2)],["L/S OKX",typeof p.lsOKX==="number"?`${p.lsOKX.toFixed(2)} · snapshot ${snapT()} SGT`:M],
     ["Spot CVD",`${n0(f.spot4h)} 4h / ${n0(f.spot24h)} 24h BTC`],
-    ["Perp CVD (Binance)",X.bPerpK?`${n0(X.bPerpK.p4)} 4h / ${n0(X.bPerpK.p24)} 24h BTC · live`:typeof f.perp4h==="number"?`${n0(f.perp4h)} 4h / ${n0(f.perp24h)} 24h BTC · snapshot ${snapT()} MYT`:M]]);
+    ["Perp CVD (Binance)",X.bPerpK?`${n0(X.bPerpK.p4)} 4h / ${n0(X.bPerpK.p24)} 24h BTC · live`:typeof f.perp4h==="number"?`${n0(f.perp4h)} 4h / ${n0(f.perp24h)} 24h BTC · snapshot ${snapT()} SGT`:M]]);
   $("sent").innerHTML=kv([["Fear & Greed",D.fng?`${D.fng.v}, ${D.fng.label}`:M],["Coinbase premium",typeof D.cbPremium==="number"?`${D.cbPremium>=0?"+":"-"}$${Math.abs(D.cbPremium)}`:M]]);
   const today=String(D.asOf||"").slice(0,6);
   const mv=(k,u)=>{const o=mac[k];return o?`${o.v}${u} (${o.chg>=0?"+":""}${o.chg}%)${o.date===today?"":", "+o.date}`:M;};
@@ -202,28 +202,28 @@ function renderV3(){
   const lv=X.k1hLive?{...X.k1hLive,perp4h:X.bPerpK?.p4??sf.perp4h,oi4h:X.oiHist?.oi4h??sf.oi4h}:null;
   const fr=lv?{...lv,...classifyFlow(lv,T)}:sf,frT=tag(!!lv);
   const R=D.regime||{};
-  $("regime").innerHTML=kv([["Flow regime",fr.tag?`${fr.tag}${frT}`:M],["Why",fr.why||M],["Regime",R.label?`${R.label} · snapshot ${snapT()} MYT`:M],
+  $("regime").innerHTML=kv([["Flow regime",fr.tag?`${fr.tag}${frT}`:M],["Why",fr.why||M],["Regime",R.label?`${R.label} · snapshot ${snapT()} SGT`:M],
     ["Hurst 1H / daily",`${R.h1h??M} / ${R.hD??M}`],["Var ratio 1H / daily",`${R.vr1h??M} / ${R.vrD??M}`],["Chop(14) 1H / 4H",`${R.chop1h??M} / ${R.chop4h??M}`]]);
   $("regNote").textContent=`${R.line||""} ${R.basis?"· "+R.basis:""}. Flow thresholds (config): flat ±${T.priceFlatPct}%, OI ±${T.oiChgPct}%, big perp CVD ${T.cvdBigBtc} BTC, 4H window.`;
   const V=D.vp;
   $("vp").innerHTML=V?kv([["7d POC / VAH / VAL",V["7d"]?`${n0(V["7d"].poc)} / ${n0(V["7d"].vah)} / ${n0(V["7d"].val)}`:M],["30d POC / VAH / VAL",V["30d"]?`${n0(V["30d"].poc)} / ${n0(V["30d"].vah)} / ${n0(V["30d"].val)}`:M],
     ["AVWAP 30d",n0(V.avwap30d)],[`AVWAP swing low (${n0(V.swingLow?.p)}, ${V.swingLow?myt(V.swingLow.t,{day:"2-digit",month:"short"}):""})`,n0(V.avwapSwingLow)],
-    ["Bid zone 77.8-78.0k",V.zone?`${V.zone.tag} (${V.zone.ratio}x median bin)`:M],["Basis",`${V.basis}, snapshot ${snapT()} MYT`]]):kv([["Volume profile","n/a"]]);
+    ["Bid zone 77.8-78.0k",V.zone?`${V.zone.tag} (${V.zone.ratio}x median bin)`:M],["Basis",`${V.basis}, snapshot ${snapT()} SGT`]]):kv([["Volume profile","n/a"]]);
   const v=D.vol||{},o=X.opt||D.opt,dv=X.dvol?.dvol??o?.dvol,vrp=typeof dv==="number"&&typeof v.rv7d==="number"?dv-v.rv7d:null;
   const rr=x=>x?`${x.rr>=0?"+":""}${x.rr} (C ${x.call} / P ${x.put}, ${x.expiry}, ${x.days}d)`:M;
   $("vol").innerHTML=kv([["25d RR ~7d",rr(v.rr7d)],["25d RR ~30d",rr(v.rr30d)],["RV 7d (1H, ann.)",v.rv7d!=null?v.rv7d+"%":M],["DVOL",typeof dv==="number"?dv.toFixed(1)+tag(!!X.dvol):M],
-    ["VRP (DVOL − RV7d)",vrp!=null?`${vrp>=0?"+":""}${vrp.toFixed(1)} pts`:M],["Basis",(v.basis||"")+`, snapshot ${snapT()} MYT`]]);
+    ["VRP (DVOL − RV7d)",vrp!=null?`${vrp>=0?"+":""}${vrp.toFixed(1)} pts`:M],["Basis",(v.basis||"")+`, snapshot ${snapT()} SGT`]]);
   const E=D.etf;
   $("etf").innerHTML=E?kv([["Latest day",`${E.usdM>=0?"+":"−"}$${Math.abs(E.usdM)}M, ${E.date}`],["IBIT / FBTC",`${E.ibit??M} / ${E.fbtc??M} $M`],["Last 5 days sum",E.sum5!=null?`${E.sum5>=0?"+":"−"}$${Math.abs(E.sum5)}M`:M],
-    ["Last 5",(E.last5||[]).map(x=>`${x[0].slice(0,6)} ${x[1]>=0?"+":""}${x[1]}`).join(", ")||M],["Source",`${E.source||"metrics file"}, snapshot ${snapT()} MYT`]]):kv([["ETF","n/a"]]);
+    ["Last 5",(E.last5||[]).map(x=>`${x[0].slice(0,6)} ${x[1]>=0?"+":""}${x[1]}`).join(", ")||M],["Source",`${E.source||"metrics file"}, snapshot ${snapT()} SGT`]]):kv([["ETF","n/a"]]);
 }
 // ---- Copy for AI ----
 const tx=el=>el.textContent.replace(/\s+/g," ").trim();
 function buildPacket(){
   const now=Date.now(),L=[];
-  L.push(`# BTC Swing HUD packet, ${myt(now,{day:"2-digit",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit",second:"2-digit",hour12:false})} MYT`);
-  L.push("Instruction for AI: BTC spot swing-trade data (MYT, UTC+8). Analyse the setup, levels, triggers and risks; say what would change the view. Not financial advice.");
-  L.push(`Provenance: values tagged "live" were fetched in the browser just now; untagged or "snapshot HH:MM MYT" values come from the 15-min snapshot (${D?.asOf||M}). Live price source: ${live.src||"none (snapshot)"}. Liquidation levels (CoinGlass) are real levels read from the CoinGlass map; the model estimate is a backup.`);
+  L.push(`# BTC Swing HUD packet, ${myt(now,{day:"2-digit",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit",second:"2-digit",hour12:false})} SGT`);
+  L.push("Instruction for AI: BTC spot swing-trade data (SGT, UTC+8). Analyse the setup, levels, triggers and risks; say what would change the view. Not financial advice.");
+  L.push(`Provenance: values tagged "live" were fetched in the browser just now; untagged or "snapshot HH:MM SGT" values come from the 15-min snapshot (${D?.asOf||M}). Live price source: ${live.src||"none (snapshot)"}. Liquidation levels (CoinGlass) are real levels read from the CoinGlass map; the model estimate is a backup.`);
   for(const s of document.querySelectorAll("main section.card")){
     const h=s.querySelector("h2"),title=h?tx(h):(s.id==="verdict"?"Verdict":s.querySelector("summary")?tx(s.querySelector("summary")):"");
     L.push("",`## ${title}`);
@@ -239,7 +239,7 @@ function buildPacket(){
   }
   return L.join("\n")+"\n";
 }
-function stamp(){const p=Object.fromEntries(new Intl.DateTimeFormat("en-GB",{timeZone:"Asia/Kuala_Lumpur",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false}).formatToParts(new Date()).map(x=>[x.type,x.value]));return `${p.year}${p.month}${p.day}-${p.hour}${p.minute}-MYT`;}
+function stamp(){const p=Object.fromEntries(new Intl.DateTimeFormat("en-GB",{timeZone:"Asia/Kuala_Lumpur",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false}).formatToParts(new Date()).map(x=>[x.type,x.value]));return `${p.year}${p.month}${p.day}-${p.hour}${p.minute}-SGT`;}
 function flash(m){$("copyMsg").textContent=m;clearTimeout(flash.t);flash.t=setTimeout(()=>$("copyMsg").textContent="",3000);}
 async function copyPacket(){const t=buildPacket();
   try{await navigator.clipboard.writeText(t);flash(`Copied ✓ (${t.length} chars)`);return;}catch(e){}
@@ -249,6 +249,6 @@ async function copyPacket(){const t=buildPacket();
 function dl(name,text,type){const u=URL.createObjectURL(new Blob([text],{type}));const a=document.createElement("a");a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),2000);}
 $("bCopy").onclick=copyPacket;
 $("bDl").onclick=()=>{dl(`btc-hud-${stamp()}.md`,buildPacket(),"text/markdown");flash("Downloaded .md ✓");};
-$("bJson").onclick=()=>{dl(`btc-hud-${stamp()}.json`,JSON.stringify({exportedAtMYT:stamp(),live:{price:live.price,src:live.src,last1h:live.last1h,derivs:X},snapshot:D,config:C},null,1),"application/json");flash("Downloaded JSON ✓");};
+$("bJson").onclick=()=>{dl(`btc-hud-${stamp()}.json`,JSON.stringify({exportedAtSGT:stamp(),live:{price:live.price,src:live.src,last1h:live.last1h,derivs:X},snapshot:D,config:C},null,1),"application/json");flash("Downloaded JSON ✓");};
 window.buildPacket=buildPacket;
 if(location.hash==="#packet-test")setTimeout(()=>{const p=document.createElement("pre");p.id="pkt";p.textContent=buildPacket();document.body.appendChild(p);},10000);

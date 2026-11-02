@@ -4,7 +4,7 @@ Env: COINALYZE_API_KEY (optional; Coinalyze panels are skipped without it).
 Optional: METRICS_FILE path to a btc_metrics_latest.json for CVD/ETF overrides."""
 import json, os, urllib.request, urllib.error, datetime as dt, time
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MYT=dt.timezone(dt.timedelta(hours=8)); UA={"User-Agent":"Mozilla/5.0"}
+SGT=dt.timezone(dt.timedelta(hours=8)); UA={"User-Agent":"Mozilla/5.0"}
 missing=[]; browser_live=[]
 BROWSER={"Binance perp depth","Binance futures funding","Binance long/short","Binance perp klines","Bybit ticker","Bybit perp depth"}
 def get(u,name):
@@ -14,8 +14,8 @@ def get(u,name):
         if name in BROWSER and getattr(e,'code',None) in (451,403): browser_live.append(name)
         else: missing.append(f"{name}: {type(e).__name__} {getattr(e,'code','')}".strip())
         return None
-def myt(ms,f="%d %b %H:%M"): return dt.datetime.fromtimestamp(ms/1000,MYT).strftime(f)
-D={"asOf":dt.datetime.now(MYT).strftime("%d %b %Y, %H:%M MYT"),"asOfMs":int(time.time()*1000)}
+def myt(ms,f="%d %b %H:%M"): return dt.datetime.fromtimestamp(ms/1000,SGT).strftime(f)
+D={"asOf":dt.datetime.now(SGT).strftime("%d %b %Y, %H:%M SGT"),"asOfMs":int(time.time()*1000)}
 SPOT=["https://api.binance.com/api/v3","https://data-api.binance.vision/api/v3","https://api.binance.us/api/v3"]
 src_used=None
 def bget(path,name):
@@ -40,7 +40,7 @@ if k:
     D["last1h"]=float(k[-2][4]); D["last1hAt"]=myt(k[-2][6]+1)
     if k[0][9] is not None:  # spot CVD from taker-buy volume (closed candles)
         c=[2*float(x[9])-float(x[5]) for x in k[:-1]]
-        D["flow"]={"spot4h":round(sum(c[-4:]),1),"spot24h":round(sum(c[-24:]),1),"asOf":D["last1hAt"]+" MYT, est. from taker volume"}
+        D["flow"]={"spot4h":round(sum(c[-4:]),1),"spot24h":round(sum(c[-24:]),1),"asOf":D["last1hAt"]+" SGT, est. from taker volume"}
 k=bget("/klines?symbol=BTCUSDT&interval=1d&limit=31","1D klines") or okx_k("1D",31)
 if k:
     D["d1"]=[[myt(x[0],"%d %b"),round(float(x[4]),1)] for x in k[:-1]]
