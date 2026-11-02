@@ -1,15 +1,11 @@
 {
- "asOf": "02 Nov 2026, 17:54 SGT",
- "asOfMs": 1793613286185,
- "price": 78152.8,
+ "asOf": "02 Nov 2026, 18:02 SGT",
+ "asOfMs": 1793613740446,
+ "price": 78011.26,
  "high24": 78878.01,
  "low24": 77620.0,
- "chg24": 0.042,
+ "chg24": -0.101,
  "h1": [
-  [
-   "31 17:00",
-   77473.3
-  ],
   [
    "31 18:00",
    77424.2
@@ -197,14 +193,18 @@
   [
    "02 16:00",
    78246.9
+  ],
+  [
+   "02 17:00",
+   78082.9
   ]
  ],
- "last1h": 78246.86,
- "last1hAt": "02 Nov 17:00",
+ "last1h": 78082.91,
+ "last1hAt": "02 Nov 18:00",
  "flow": {
-  "spot4h": 197.6,
-  "spot24h": 554.2,
-  "asOf": "02 Nov 17:00 SGT, est. from taker volume"
+  "spot4h": 81.3,
+  "spot24h": 462.0,
+  "asOf": "02 Nov 18:00 SGT, est. from taker volume"
  },
  "d1": [
   [
@@ -332,8 +332,8 @@
  "lastDAt": "02 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.006283290402989999,
-  "oiOKX": 33479.71030000021,
+  "fundOKX": 0.00599148185426,
+  "oiOKX": 33503.82740000021,
   "lsOKX": 2.24,
   "lsAt": "02 Nov 17:00",
   "liqLongUsd": 820248,
@@ -342,13 +342,13 @@
  },
  "macro": {
   "vix": {
-   "v": 18.9,
-   "chg": -2.68,
+   "v": 18.83,
+   "chg": -3.04,
    "date": "02 Nov"
   },
   "dxy": {
-   "v": 101.6,
-   "chg": -0.28,
+   "v": 101.58,
+   "chg": -0.3,
    "date": "02 Nov"
   },
   "us10y": {
@@ -372,16 +372,12 @@
   "label": "Fear",
   "date": "02 Nov"
  },
- "cbPremium": -113.9,
+ "cbPremium": -121.0,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23531189349,
-  "oiChg24": -1.48,
+  "oiUsd": 23504259436,
+  "oiChg24": -1.52,
   "oiHist": [
-   [
-    "01 17:00",
-    23.885
-   ],
    [
     "01 18:00",
     23.867
@@ -476,36 +472,40 @@
    ],
    [
     "02 17:00",
-    23.531
+    23.519
+   ],
+   [
+    "02 18:00",
+    23.504
    ]
   ],
   "oiSymbols": 9,
-  "predFundAvg": 0.0067,
-  "liqLongUsd24": 6591448,
-  "liqShortUsd24": 12792120
+  "predFundAvg": 0.00646,
+  "liqLongUsd24": 6796848,
+  "liqShortUsd24": 12791730
  },
  "tech": {
   "rsiD": 39.4,
   "atrD": 1955.5,
   "basis": "closed candles, Binance spot",
   "ma20": 80936.4,
-  "ma20Pct": -3.44,
+  "ma20Pct": -3.61,
   "ma50": 81981.8,
-  "ma50Pct": -4.67,
+  "ma50Pct": -4.84,
   "ma200": 73196.8,
-  "ma200Pct": 6.77,
-  "atrPct": 2.5,
+  "ma200Pct": 6.58,
+  "atrPct": 2.51,
   "rsi4h": 46.0
  },
  "opt": {
   "expiry": "27NOV26",
-  "expiryOI": 49407,
+  "expiryOI": 49395,
   "maxPain": 80000.0,
   "pcrExpiry": 0.69,
   "pcrAll": 0.66,
   "atmStrike": 78000.0,
   "atmIV": 36.3,
-  "dvol": 38.39
+  "dvol": 38.46
  },
  "stables": {
   "USDT": {
@@ -522,73 +522,73 @@
  },
  "depth": {
   "spot": {
-   "mid": 78145.0,
-   "reachPct": 1.16,
+   "mid": 78000.5,
+   "reachPct": 1.04,
    "b1": {
-    "bid": 20599353,
-    "ask": 38911192,
-    "imb": -30.8,
+    "bid": 18945226,
+    "ask": 27968316,
+    "imb": -19.2,
     "full": true
    },
    "b2": {
-    "bid": 21056732,
-    "ask": 42372784,
-    "imb": -33.6,
+    "bid": 19568352,
+    "ask": 56935143,
+    "imb": -48.8,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 78099.8,
-   "reachPct": 0.87,
+   "mid": 77946.8,
+   "reachPct": 0.86,
    "b1": {
-    "bid": 82859725,
-    "ask": 74194033,
-    "imb": 5.5,
+    "bid": 86115198,
+    "ask": 74345609,
+    "imb": 7.3,
     "full": false
    },
    "b2": {
-    "bid": 82859725,
-    "ask": 74194033,
-    "imb": 5.5,
+    "bid": 86115198,
+    "ask": 74345609,
+    "imb": 7.3,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 103459078,
-    "ask": 113105225,
+    "bid": 105060424,
+    "ask": 102313925,
     "venues": [
      "spot full",
-     "okxPerp to \u00b10.87%"
+     "okxPerp to \u00b10.86%"
     ],
-    "imb": -4.5
+    "imb": 1.3
    },
    "b2": {
-    "bid": 103916457,
-    "ask": 116566817,
+    "bid": 105683550,
+    "ask": 131280752,
     "venues": [
-     "spot to \u00b11.16%",
-     "okxPerp to \u00b10.87%"
+     "spot to \u00b11.04%",
+     "okxPerp to \u00b10.86%"
     ],
-    "imb": -5.7
+    "imb": -10.8
    }
   },
   "walls": {
    "77800": {
     "bid": {
-     "p": 78050,
-     "usd": 18699494
+     "p": 77900,
+     "usd": 18774812
     },
     "ask": {
-     "p": 78050,
-     "usd": 1240014
+     "p": 77950,
+     "usd": 15000953
     }
    },
    "78650": {
     "bid": null,
     "ask": {
-     "p": 78750,
-     "usd": 15172320
+     "p": 78850,
+     "usd": 8982495
     }
    }
   }
@@ -643,50 +643,50 @@
    "ratio": 0.97,
    "tag": "Average volume"
   },
-  "avwap30d": 81902.1,
+  "avwap30d": 81896.6,
   "swingLow": {
    "p": 76325.98,
    "t": 1793383200000
   },
-  "avwapSwingLow": 77733.6
+  "avwapSwingLow": 77743.8
  },
  "flowRegime": {
-  "px1h": 0.17,
-  "px4h": -0.214,
-  "spot1h": 204.0,
-  "spot4h": 197.6,
-  "oi4h": -0.06,
+  "px1h": -0.21,
+  "px4h": -0.376,
+  "spot1h": -99.7,
+  "spot4h": 81.3,
+  "oi4h": 0.02,
   "tag": "Neutral",
-  "why": "price -0.21% 4h, OI -0.06%, spot CVD +198, perp CVD n/a"
+  "why": "price -0.38% 4h, OI 0.02%, spot CVD +81, perp CVD n/a"
  },
  "regime": {
   "h1h": 0.56,
   "hD": 0.59,
   "vr1h": 1.0,
   "vrD": 1.08,
-  "chop1h": 49.3,
+  "chop1h": 49.6,
   "chop4h": 50.7,
   "basis": "Computed by HUD (R/S Hurst on last 500 1H and ~260 daily log returns; VR(4) 1H, VR(5) daily; Choppiness(14)), not the A4.2 bot",
   "label": "Mixed/transition",
-  "line": "Regime: Mixed/transition (H1h=0.56, HD=0.59, VR1h=1.0, Chop1h=49.3, Chop4h=50.7) -> no strong edge; wait for trigger confirmation"
+  "line": "Regime: Mixed/transition (H1h=0.56, HD=0.59, VR1h=1.0, Chop1h=49.6, Chop4h=50.7) -> no strong edge; wait for trigger confirmation"
  },
  "vol": {
-  "rv7d": 36.6,
+  "rv7d": 36.5,
   "rr7d": {
-   "rr": -3.22,
-   "call": 38.7,
-   "put": 41.9,
+   "rr": -3.25,
+   "call": 39.0,
+   "put": 42.2,
    "expiry": "6NOV26",
    "days": 3.9
   },
   "rr30d": {
-   "rr": -4.14,
-   "call": 35.1,
-   "put": 39.2,
+   "rr": -4.2,
+   "call": 35.2,
+   "put": 39.4,
    "expiry": "27NOV26",
    "days": 24.9
   },
-  "vrp": 1.8,
+  "vrp": 2.0,
   "basis": "25d RR = call IV - put IV at |delta|=0.25 (Black-Scholes delta from Deribit mark_iv, nearest expiry to 7d/30d); RV7d from 1H closes, annualised"
  },
  "etf": {
