@@ -1,10 +1,10 @@
 {
- "asOf": "06 Nov 2026, 14:08 SGT",
- "asOfMs": 1793945322533,
- "price": 75503.97,
+ "asOf": "06 Nov 2026, 14:25 SGT",
+ "asOfMs": 1793946330698,
+ "price": 75619.16,
  "high24": 80794.01,
  "low24": 75208.42,
- "chg24": -6.106,
+ "chg24": -6.107,
  "h1": [
   [
    "04 14:00",
@@ -333,13 +333,13 @@
  "lastDAt": "06 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.0034755816162100003,
-  "oiOKX": 35228.13830000018,
+  "fundOKX": 0.00355114269139,
+  "oiOKX": 35225.91080000018,
   "lsOKX": 2.93,
   "lsAt": "06 Nov 14:00",
-  "liqLongUsd": 499593,
+  "liqLongUsd": 496777,
   "liqShortUsd": 0,
-  "liqWindow": "06 Nov 13:23 to 06 Nov 13:34"
+  "liqWindow": "06 Nov 13:23 to 06 Nov 14:22"
  },
  "macro": {
   "vix": {
@@ -349,7 +349,7 @@
   },
   "dxy": {
    "v": 101.77,
-   "chg": 0.21,
+   "chg": 0.22,
    "date": "06 Nov"
   },
   "us10y": {
@@ -373,11 +373,11 @@
   "label": "Fear",
   "date": "06 Nov"
  },
- "cbPremium": -110.7,
+ "cbPremium": -120.5,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23233000962,
-  "oiChg24": -3.58,
+  "oiUsd": 23269704570,
+  "oiChg24": -3.43,
   "oiHist": [
    [
     "05 14:00",
@@ -477,11 +477,11 @@
    ],
    [
     "06 14:00",
-    23.233
+    23.27
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00679,
+  "fundAvg": 0.00688,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
    "Deribit BTC-PERPETUAL": 0,
@@ -489,37 +489,37 @@
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.01,
    "Bybit BTCUSDT": 0.009052,
-   "Gate BTC_USDT": 0.0041,
-   "OKX BTCUSDT_PERP": 0.0034755816162100003,
+   "Gate BTC_USDT": 0.0049,
+   "OKX BTCUSDT_PERP": 0.00355114269139,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.01
   },
-  "predFundAvg": 0.00453,
-  "liqLongUsd24": 170816026,
-  "liqShortUsd24": 15799530
+  "predFundAvg": 0.00457,
+  "liqLongUsd24": 170833536,
+  "liqShortUsd24": 15804746
  },
  "tech": {
   "rsiD": 38.5,
   "atrD": 2451.2,
   "basis": "closed candles, Binance spot",
   "ma20": 80043.9,
-  "ma20Pct": -5.67,
+  "ma20Pct": -5.53,
   "ma50": 82061.4,
-  "ma50Pct": -7.99,
+  "ma50Pct": -7.85,
   "ma200": 73242.5,
-  "ma200Pct": 3.09,
-  "atrPct": 3.25,
+  "ma200Pct": 3.24,
+  "atrPct": 3.24,
   "rsi4h": 36.6
  },
  "opt": {
   "expiry": "27NOV26",
-  "expiryOI": 68196,
+  "expiryOI": 68195,
   "maxPain": 80000.0,
   "pcrExpiry": 0.84,
   "pcrAll": 0.68,
   "atmStrike": 76000.0,
   "atmIV": 38.2,
-  "dvol": 40.6
+  "dvol": 40.55
  },
  "stables": {
   "USDT": {
@@ -536,55 +536,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 75530.6,
-   "reachPct": 1.02,
+   "mid": 75637.4,
+   "reachPct": 1.14,
    "b1": {
-    "bid": 50178367,
-    "ask": 11137420,
-    "imb": 63.7,
+    "bid": 48589643,
+    "ask": 10394518,
+    "imb": 64.8,
     "full": true
    },
    "b2": {
-    "bid": 50235446,
-    "ask": 13091841,
-    "imb": 58.7,
+    "bid": 52459042,
+    "ask": 11790730,
+    "imb": 63.3,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 75497.4,
-   "reachPct": 0.92,
+   "mid": 75598.9,
+   "reachPct": 0.96,
    "b1": {
-    "bid": 103714788,
-    "ask": 58498101,
-    "imb": 27.9,
+    "bid": 121204083,
+    "ask": 73945746,
+    "imb": 24.2,
     "full": false
    },
    "b2": {
-    "bid": 103714788,
-    "ask": 59188497,
-    "imb": 27.3,
+    "bid": 121204083,
+    "ask": 74061342,
+    "imb": 24.1,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 153893155,
-    "ask": 69635521,
+    "bid": 169793726,
+    "ask": 84340264,
     "venues": [
      "spot full",
-     "okxPerp to \u00b10.92%"
+     "okxPerp to \u00b10.96%"
     ],
-    "imb": 37.7
+    "imb": 33.6
    },
    "b2": {
-    "bid": 153950234,
-    "ask": 72280338,
+    "bid": 173663125,
+    "ask": 85852072,
     "venues": [
-     "spot to \u00b11.02%",
-     "okxPerp to \u00b10.92%"
+     "spot to \u00b11.14%",
+     "okxPerp to \u00b10.96%"
     ],
-    "imb": 36.1
+    "imb": 33.8
    }
   },
   "walls": {
@@ -660,9 +660,9 @@
   "px4h": -0.567,
   "spot1h": -33.8,
   "spot4h": -111.0,
-  "oi4h": -0.3,
+  "oi4h": -0.14,
   "tag": "Neutral",
-  "why": "price -0.57% 4h, OI -0.3%, spot CVD -111, perp CVD n/a"
+  "why": "price -0.57% 4h, OI -0.14%, spot CVD -111, perp CVD n/a"
  },
  "regime": {
   "h1h": 0.6,
@@ -678,20 +678,20 @@
  "vol": {
   "rv7d": 39.0,
   "rr7d": {
-   "rr": -6.72,
-   "call": 40.6,
-   "put": 47.4,
+   "rr": -6.54,
+   "call": 40.5,
+   "put": 47.1,
    "expiry": "13NOV26",
    "days": 7.1
   },
   "rr30d": {
-   "rr": -5.96,
+   "rr": -5.78,
    "call": 36.7,
-   "put": 42.6,
+   "put": 42.5,
    "expiry": "27NOV26",
    "days": 21.1
   },
-  "vrp": 1.6,
+  "vrp": 1.5,
   "basis": "25d RR = call IV - put IV at |delta|=0.25 (Black-Scholes delta from Deribit mark_iv, nearest expiry to 7d/30d); RV7d from 1H closes, annualised"
  },
  "etf": {
@@ -734,15 +734,15 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "06 Nov 14:09 SGT",
+  "asOf": "06 Nov 14:26 SGT",
   "risk": "HIGH",
-  "why": "Average Hourly Earnings m/m in 7.3h; Non-Farm Employment Change in 7.3h; Unemployment Rate in 7.3h",
+  "why": "Average Hourly Earnings m/m in 7.1h; Non-Farm Employment Change in 7.1h; Unemployment Rate in 7.1h",
   "headlines": [
    {
     "title": "Here\u2019s what happened in crypto today",
     "source": "Cointelegraph",
     "time": "06 Nov 14:04",
-    "ageH": 0.1,
+    "ageH": 0.4,
     "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -750,7 +750,7 @@
     "title": "Crypto exchanges tout cold storage ratios after Binance attack",
     "source": "Cointelegraph",
     "time": "06 Nov 13:07",
-    "ageH": 1.0,
+    "ageH": 1.3,
     "link": "https://cointelegraph.com/news/binance-hack-puts-crypto-exchanges-cold-wallet-ratio-under-spotlight?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -758,7 +758,7 @@
     "title": "IREN\u2019s bitcoin mining revenue drops 58% as firm plans full exit by year-end",
     "source": "The Block",
     "time": "06 Nov 12:29",
-    "ageH": 1.7,
+    "ageH": 1.9,
     "link": "https://www.theblock.co/news/business/2026-11-05-irens-mining-revenue-drops-435783",
     "high": false
    },
@@ -766,7 +766,7 @@
     "title": "Hyperliquid treasury firm seeking U.S. regulatory nod as a domestic futures platform",
     "source": "CoinDesk",
     "time": "06 Nov 10:24",
-    "ageH": 3.7,
+    "ageH": 4.0,
     "link": "https://www.coindesk.com/policy/2026/11/05/hyperliquid-treasury-firm-seeking-u-s-regulatory-nod-as-a-domestic-futures-platform",
     "high": false
    },
@@ -774,7 +774,7 @@
     "title": "Bitcoin developer proposes \u2018landmines\u2019 to make quantum thieves lose their own BTC",
     "source": "CoinDesk",
     "time": "06 Nov 09:30",
-    "ageH": 4.7,
+    "ageH": 4.9,
     "link": "https://www.coindesk.com/tech/2026/11/05/bitcoin-developer-proposes-landmines-to-make-quantum-thieves-lose-their-own-btc",
     "high": false
    }
@@ -783,21 +783,21 @@
    {
     "title": "Average Hourly Earnings m/m",
     "time": "06 Nov 21:30",
-    "inH": 7.3,
+    "inH": 7.1,
     "forecast": "0.3%",
     "previous": "0.1%"
    },
    {
     "title": "Non-Farm Employment Change",
     "time": "06 Nov 21:30",
-    "inH": 7.3,
+    "inH": 7.1,
     "forecast": "65K",
     "previous": "29K"
    },
    {
     "title": "Unemployment Rate",
     "time": "06 Nov 21:30",
-    "inH": 7.3,
+    "inH": 7.1,
     "forecast": "4.2%",
     "previous": "4.2%"
    }
@@ -834,8 +834,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 75503.97,
-   "valueAt": "06 Nov 2026, 14:08 SGT",
+   "value": 75619.16,
+   "valueAt": "06 Nov 2026, 14:25 SGT",
    "hit": false
   },
   {
@@ -879,12 +879,12 @@
    "Book bids/asks >= 1.4 (imb >= +16.7%)"
   ],
   "metrics": [
-   "Price vs 20D MA -5.59%",
-   "vs 50D MA -7.91%",
+   "Price vs 20D MA -5.55%",
+   "vs 50D MA -7.87%",
    "Spot CVD 24h -2462 BTC",
    "Perp CVD 4h -683 BTC",
-   "OI 24h -3.54%",
-   "Funding +0.0068%"
+   "OI 24h -3.42%",
+   "Funding +0.0069%"
   ],
   "implication": "Build spot 0.75x; 50% on 1H range reclaim / 50% limit at low; stop sweep low -0.5%",
   "notMet": [
@@ -899,7 +899,7 @@
    "Spot volume vs 20D MA",
    "Whale exchange inflows / CDD"
   ],
-  "asOfMs": 1793945303856,
+  "asOfMs": 1793946315598,
   "scores": {
    "A": "1/7",
    "B": "1/5",
@@ -912,7 +912,7 @@
    "I": "4/5",
    "J": "2/6"
   },
-  "asOf": "06 Nov 14:08 SGT",
+  "asOf": "06 Nov 14:25 SGT",
   "source": "box (full data incl. perp CVD)"
  }
 }
