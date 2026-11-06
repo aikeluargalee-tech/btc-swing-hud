@@ -1,10 +1,10 @@
 {
- "asOf": "07 Nov 2026, 07:31 SGT",
- "asOfMs": 1794007906674,
- "price": 75938.01,
+ "asOf": "07 Nov 2026, 07:54 SGT",
+ "asOfMs": 1794009265034,
+ "price": 75986.62,
  "high24": 76416.24,
  "low24": 74888.0,
- "chg24": 0.093,
+ "chg24": 0.088,
  "h1": [
   [
    "05 07:00",
@@ -333,8 +333,8 @@
  "lastDAt": "06 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.0068344937610500004,
-  "oiOKX": 34594.17270000017,
+  "fundOKX": 0.00641876568383,
+  "oiOKX": 34566.85060000017,
   "lsOKX": 3.04,
   "lsAt": "07 Nov 07:00",
   "liqLongUsd": 1141884,
@@ -373,11 +373,11 @@
   "label": "Fear",
   "date": "06 Nov"
  },
- "cbPremium": -103.6,
+ "cbPremium": -144.6,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23597246475,
-  "oiChg24": 1.78,
+  "oiUsd": 23596764929,
+  "oiChg24": 1.77,
   "oiHist": [
    [
     "06 07:00",
@@ -481,21 +481,21 @@
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00798,
+  "fundAvg": 0.00745,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
-   "Deribit BTC-PERPETUAL": 0.009861,
+   "Deribit BTC-PERPETUAL": 0.004938,
    "Bybit BTCUSD": 0.007156,
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.01,
    "Bybit BTCUSDT": 0.005699,
    "Gate BTC_USDT": 0.01,
-   "OKX BTCUSDT_PERP": 0.0068344937610500004,
+   "OKX BTCUSDT_PERP": 0.00641876568383,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.009043
   },
-  "predFundAvg": 0.00799,
-  "liqLongUsd24": 26728224,
+  "predFundAvg": 0.00794,
+  "liqLongUsd24": 26728226,
   "liqShortUsd24": 11514557
  },
  "tech": {
@@ -503,23 +503,23 @@
   "atrD": 2451.2,
   "basis": "closed candles, Binance spot",
   "ma20": 80043.9,
-  "ma20Pct": -5.13,
+  "ma20Pct": -5.07,
   "ma50": 82061.4,
-  "ma50Pct": -7.46,
+  "ma50Pct": -7.4,
   "ma200": 73242.5,
-  "ma200Pct": 3.68,
+  "ma200Pct": 3.75,
   "atrPct": 3.23,
   "rsi4h": 38.3
  },
  "opt": {
   "expiry": "27NOV26",
-  "expiryOI": 71529,
+  "expiryOI": 71530,
   "maxPain": 80000.0,
   "pcrExpiry": 0.84,
   "pcrAll": 0.69,
   "atmStrike": 76000.0,
-  "atmIV": 36.6,
-  "dvol": 39.45
+  "atmIV": 36.7,
+  "dvol": 39.41
  },
  "stables": {
   "USDT": {
@@ -536,55 +536,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 75946.1,
+   "mid": 75947.0,
    "reachPct": 1.41,
    "b1": {
-    "bid": 16799272,
-    "ask": 11943893,
-    "imb": 16.9,
+    "bid": 17218541,
+    "ask": 13720180,
+    "imb": 11.3,
     "full": true
    },
    "b2": {
-    "bid": 27993699,
-    "ask": 13974198,
-    "imb": 33.4,
+    "bid": 28434610,
+    "ask": 15745376,
+    "imb": 28.7,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 75914.8,
+   "mid": 75918.2,
    "reachPct": 0.96,
    "b1": {
-    "bid": 80412864,
-    "ask": 77816976,
-    "imb": 1.6,
+    "bid": 79884772,
+    "ask": 79809512,
+    "imb": 0.0,
     "full": false
    },
    "b2": {
-    "bid": 80438882,
-    "ask": 77816976,
-    "imb": 1.7,
+    "bid": 80246706,
+    "ask": 79809512,
+    "imb": 0.3,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 97212136,
-    "ask": 89760869,
+    "bid": 97103313,
+    "ask": 93529692,
     "venues": [
      "spot full",
      "okxPerp to \u00b10.96%"
     ],
-    "imb": 4.0
+    "imb": 1.9
    },
    "b2": {
-    "bid": 108432581,
-    "ask": 91791174,
+    "bid": 108681316,
+    "ask": 95554888,
     "venues": [
      "spot to \u00b11.41%",
      "okxPerp to \u00b10.96%"
     ],
-    "imb": 8.3
+    "imb": 6.4
    }
   },
   "walls": {
@@ -678,18 +678,18 @@
  "vol": {
   "rv7d": 38.2,
   "rr7d": {
-   "rr": -4.61,
-   "call": 36.2,
+   "rr": -4.88,
+   "call": 35.9,
    "put": 40.8,
    "expiry": "13NOV26",
-   "days": 6.4
+   "days": 6.3
   },
   "rr30d": {
-   "rr": -4.42,
-   "call": 35.6,
-   "put": 40.1,
+   "rr": -4.69,
+   "call": 35.5,
+   "put": 40.2,
    "expiry": "27NOV26",
-   "days": 20.4
+   "days": 20.3
   },
   "vrp": 1.2,
   "basis": "25d RR = call IV - put IV at |delta|=0.25 (Black-Scholes delta from Deribit mark_iv, nearest expiry to 7d/30d); RV7d from 1H closes, annualised"
@@ -734,7 +734,7 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "07 Nov 07:32 SGT",
+  "asOf": "07 Nov 07:54 SGT",
   "risk": "normal",
   "why": "",
   "headlines": [
@@ -742,7 +742,7 @@
     "title": "Here\u2019s what happened in crypto today",
     "source": "Cointelegraph",
     "time": "07 Nov 06:00",
-    "ageH": 1.5,
+    "ageH": 1.9,
     "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -750,7 +750,7 @@
     "title": "Treasury Cuts Crypto Exchange MEXC Off From US Financial System",
     "source": "Decrypt",
     "time": "07 Nov 05:06",
-    "ageH": 2.4,
+    "ageH": 2.8,
     "link": "https://decrypt.co/382758/treasury-cuts-off-crypto-exchange-mexc-us-financial-system",
     "high": false
    },
@@ -758,7 +758,7 @@
     "title": "US Treasury cuts off MEXC over alleged $16B in illicit transactions",
     "source": "Cointelegraph",
     "time": "07 Nov 05:05",
-    "ageH": 2.4,
+    "ageH": 2.8,
     "link": "https://cointelegraph.com/news/us-treasury-bans-mexc-over-alleged-16b-illicit-transactions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -766,7 +766,7 @@
     "title": "Treasury cuts off MEXC Global over alleged $16 billion in transactions linked to Iran, North Korea and Russia",
     "source": "The Block",
     "time": "07 Nov 05:02",
-    "ageH": 2.5,
+    "ageH": 2.9,
     "link": "https://www.theblock.co/news/regulation/2026-11-06-treasury-cuts-off-mexc-global-over-alleged-16-billion-in-transactions-linked-to-iran-north-korea-and-russia-435957",
     "high": false
    },
@@ -774,7 +774,7 @@
     "title": "Gnosis Pay breach exposes card details, personal data and crypto wallet information",
     "source": "Cointelegraph",
     "time": "07 Nov 04:51",
-    "ageH": 2.7,
+    "ageH": 3.1,
     "link": "https://cointelegraph.com/news/gnosis-pay-breach-exposes-card-details-personal-data-crypto-wallet-information?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    }
@@ -812,8 +812,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 75938.01,
-   "valueAt": "07 Nov 2026, 07:31 SGT",
+   "value": 75986.62,
+   "valueAt": "07 Nov 2026, 07:54 SGT",
    "hit": false
   },
   {
@@ -857,11 +857,11 @@
    "Perp CVD positive, not > spot"
   ],
   "metrics": [
-   "Price vs 20D MA -5.14%",
-   "vs 50D MA -7.47%",
+   "Price vs 20D MA -5.07%",
+   "vs 50D MA -7.41%",
    "Spot CVD 24h +916 BTC",
    "Perp CVD 4h +245 BTC",
-   "OI 24h +1.76%",
+   "OI 24h +1.81%",
    "Funding +0.0074%"
   ],
   "implication": "Full spot long 1.0x; 60% breakout / 40% VWAP retest; stop 4H swing low -0.6%",
@@ -877,7 +877,7 @@
    "Spot volume vs 20D MA",
    "Whale exchange inflows / CDD"
   ],
-  "asOfMs": 1794007885748,
+  "asOfMs": 1794009241748,
   "scores": {
    "A": "5/7",
    "B": "0/5",
@@ -890,7 +890,7 @@
    "I": "4/5",
    "J": "2/6"
   },
-  "asOf": "07 Nov 07:31 SGT",
+  "asOf": "07 Nov 07:54 SGT",
   "source": "box (full data incl. perp CVD)"
  }
 }
