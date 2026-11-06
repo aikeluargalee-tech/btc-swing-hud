@@ -15,12 +15,12 @@
   "Perp CVD 4h negative"
  ],
  "metrics": [
-  "Price vs 20D MA -5.31%",
-  "vs 50D MA -7.64%",
+  "Price vs 20D MA -5.55%",
+  "vs 50D MA -7.87%",
   "Spot CVD 24h +555 BTC",
   "Perp CVD 4h -1501 BTC",
-  "OI 24h +2.24%",
-  "Funding +0.0068%"
+  "OI 24h +1.90%",
+  "Funding +0.0073%"
  ],
  "implication": "Build spot 0.75x; 50% on 1H range reclaim / 50% limit at low; stop sweep low -0.5%",
  "notMet": [
@@ -36,19 +36,19 @@
   "Spot volume vs 20D MA",
   "Whale exchange inflows / CDD"
  ],
- "asOfMs": 1793986432679,
+ "asOfMs": 1793987747338,
  "scores": {
   "A": "3/7",
   "B": "0/5",
   "C": "4/7",
   "D": "1/5",
   "E": "0/4",
-  "F": "1/4",
+  "F": "2/4",
   "G": "0/5",
   "H": "0/3",
   "I": "4/5",
   "J": "3/6"
  },
- "asOf": "07 Nov 01:33 SGT",
+ "asOf": "07 Nov 01:55 SGT",
  "source": "box (full data incl. perp CVD)"
 }
