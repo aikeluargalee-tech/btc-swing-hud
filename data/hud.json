@@ -1,10 +1,10 @@
 {
- "asOf": "07 Nov 2026, 06:25 SGT",
- "asOfMs": 1794003946653,
- "price": 76013.6,
+ "asOf": "07 Nov 2026, 06:39 SGT",
+ "asOfMs": 1794004740792,
+ "price": 76001.66,
  "high24": 76416.24,
  "low24": 74888.0,
- "chg24": 0.045,
+ "chg24": 0.134,
  "h1": [
   [
    "05 06:00",
@@ -333,8 +333,8 @@
  "lastDAt": "06 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.00824505422956,
-  "oiOKX": 34638.96120000016,
+  "fundOKX": 0.00797593900882,
+  "oiOKX": 34613.76150000016,
   "lsOKX": 3.03,
   "lsAt": "07 Nov 06:00",
   "liqLongUsd": 1134661,
@@ -373,11 +373,11 @@
   "label": "Fear",
   "date": "06 Nov"
  },
- "cbPremium": -120.5,
+ "cbPremium": -115.8,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23638185298,
-  "oiChg24": 1.74,
+  "oiUsd": 23632263850,
+  "oiChg24": 1.72,
   "oiHist": [
    [
     "06 06:00",
@@ -477,38 +477,38 @@
    ],
    [
     "07 06:00",
-    23.638
+    23.632
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00744,
+  "fundAvg": 0.0077,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
-   "Deribit BTC-PERPETUAL": 0.002991,
+   "Deribit BTC-PERPETUAL": 0.005868,
    "Bybit BTCUSD": 0.007156,
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.01,
    "Bybit BTCUSDT": 0.005699,
    "Gate BTC_USDT": 0.01,
-   "OKX BTCUSDT_PERP": 0.00824505422956,
+   "OKX BTCUSDT_PERP": 0.00797593900882,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.009043
   },
-  "predFundAvg": 0.00821,
-  "liqLongUsd24": 43766710,
-  "liqShortUsd24": 12767041
+  "predFundAvg": 0.00818,
+  "liqLongUsd24": 43774167,
+  "liqShortUsd24": 12914218
  },
  "tech": {
   "rsiD": 38.5,
   "atrD": 2451.2,
   "basis": "closed candles, Binance spot",
   "ma20": 80043.9,
-  "ma20Pct": -5.04,
+  "ma20Pct": -5.05,
   "ma50": 82061.4,
-  "ma50Pct": -7.37,
+  "ma50Pct": -7.38,
   "ma200": 73242.5,
-  "ma200Pct": 3.78,
-  "atrPct": 3.22,
+  "ma200Pct": 3.77,
+  "atrPct": 3.23,
   "rsi4h": 38.3
  },
  "opt": {
@@ -519,7 +519,7 @@
   "pcrAll": 0.69,
   "atmStrike": 76000.0,
   "atmIV": 36.7,
-  "dvol": 39.44
+  "dvol": 39.45
  },
  "stables": {
   "USDT": {
@@ -536,55 +536,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 76020.6,
-   "reachPct": 1.34,
+   "mid": 76000.0,
+   "reachPct": 1.36,
    "b1": {
-    "bid": 16316166,
-    "ask": 14265547,
-    "imb": 6.7,
+    "bid": 15499991,
+    "ask": 14244773,
+    "imb": 4.2,
     "full": true
    },
    "b2": {
-    "bid": 27955857,
-    "ask": 16117050,
-    "imb": 26.9,
+    "bid": 27252372,
+    "ask": 16500384,
+    "imb": 24.6,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 75979.9,
-   "reachPct": 0.97,
+   "mid": 75957.8,
+   "reachPct": 0.98,
    "b1": {
-    "bid": 71601329,
-    "ask": 79216498,
-    "imb": -5.0,
+    "bid": 70686421,
+    "ask": 76693457,
+    "imb": -4.1,
     "full": false
    },
    "b2": {
-    "bid": 71901369,
-    "ask": 79216498,
-    "imb": -4.8,
+    "bid": 70937773,
+    "ask": 76693457,
+    "imb": -3.9,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 87917495,
-    "ask": 93482045,
+    "bid": 86186412,
+    "ask": 90938230,
     "venues": [
      "spot full",
-     "okxPerp to \u00b10.97%"
+     "okxPerp to \u00b10.98%"
     ],
-    "imb": -3.1
+    "imb": -2.7
    },
    "b2": {
-    "bid": 99857226,
-    "ask": 95333548,
+    "bid": 98190145,
+    "ask": 93193841,
     "venues": [
-     "spot to \u00b11.34%",
-     "okxPerp to \u00b10.97%"
+     "spot to \u00b11.36%",
+     "okxPerp to \u00b10.98%"
     ],
-    "imb": 2.3
+    "imb": 2.6
    }
   },
   "walls": {
@@ -660,9 +660,9 @@
   "px4h": 0.193,
   "spot1h": 55.4,
   "spot4h": 380.2,
-  "oi4h": -0.18,
+  "oi4h": -0.21,
   "tag": "Neutral",
-  "why": "price +0.19% 4h, OI -0.18%, spot CVD +380, perp CVD n/a"
+  "why": "price +0.19% 4h, OI -0.21%, spot CVD +380, perp CVD n/a"
  },
  "regime": {
   "h1h": 0.6,
@@ -678,20 +678,20 @@
  "vol": {
   "rv7d": 38.3,
   "rr7d": {
-   "rr": -4.5,
-   "call": 36.2,
+   "rr": -4.71,
+   "call": 36.0,
    "put": 40.7,
    "expiry": "13NOV26",
    "days": 6.4
   },
   "rr30d": {
-   "rr": -4.54,
+   "rr": -4.47,
    "call": 35.6,
    "put": 40.1,
    "expiry": "27NOV26",
    "days": 20.4
   },
-  "vrp": 1.1,
+  "vrp": 1.2,
   "basis": "25d RR = call IV - put IV at |delta|=0.25 (Black-Scholes delta from Deribit mark_iv, nearest expiry to 7d/30d); RV7d from 1H closes, annualised"
  },
  "etf": {
@@ -734,7 +734,7 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "07 Nov 06:26 SGT",
+  "asOf": "07 Nov 06:39 SGT",
   "risk": "normal",
   "why": "",
   "headlines": [
@@ -742,7 +742,7 @@
     "title": "Here\u2019s what happened in crypto today",
     "source": "Cointelegraph",
     "time": "07 Nov 06:00",
-    "ageH": 0.4,
+    "ageH": 0.7,
     "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -750,7 +750,7 @@
     "title": "Treasury Cuts Crypto Exchange MEXC Off From US Financial System",
     "source": "Decrypt",
     "time": "07 Nov 05:06",
-    "ageH": 1.3,
+    "ageH": 1.6,
     "link": "https://decrypt.co/382758/treasury-cuts-off-crypto-exchange-mexc-us-financial-system",
     "high": false
    },
@@ -758,7 +758,7 @@
     "title": "US Treasury cuts off MEXC over alleged $16B in illicit transactions",
     "source": "Cointelegraph",
     "time": "07 Nov 05:05",
-    "ageH": 1.3,
+    "ageH": 1.6,
     "link": "https://cointelegraph.com/news/us-treasury-bans-mexc-over-alleged-16b-illicit-transactions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -766,7 +766,7 @@
     "title": "Treasury cuts off MEXC Global over alleged $16 billion in transactions linked to Iran, North Korea and Russia",
     "source": "The Block",
     "time": "07 Nov 05:02",
-    "ageH": 1.4,
+    "ageH": 1.6,
     "link": "https://www.theblock.co/news/regulation/2026-11-06-treasury-cuts-off-mexc-global-over-alleged-16-billion-in-transactions-linked-to-iran-north-korea-and-russia-435957",
     "high": false
    },
@@ -774,7 +774,7 @@
     "title": "Gnosis Pay breach exposes card details, personal data and crypto wallet information",
     "source": "Cointelegraph",
     "time": "07 Nov 04:51",
-    "ageH": 1.6,
+    "ageH": 1.8,
     "link": "https://cointelegraph.com/news/gnosis-pay-breach-exposes-card-details-personal-data-crypto-wallet-information?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    }
@@ -812,8 +812,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 76013.6,
-   "valueAt": "07 Nov 2026, 06:25 SGT",
+   "value": 76001.66,
+   "valueAt": "07 Nov 2026, 06:39 SGT",
    "hit": false
   },
   {
@@ -841,31 +841,33 @@
  ],
  "radar": {
   "ok": true,
-  "config": "I",
-  "label": "I \u2014 Bear Trend",
-  "status": "Cash",
-  "tone": "bad",
-  "confidence": 80,
+  "config": "A",
+  "label": "A \u2014 Healthy Bull",
+  "status": "Healthy",
+  "tone": "good",
+  "confidence": 57,
   "confLabel": "Medium",
-  "matched": "4/5 available (5 listed)",
-  "runnerUp": "F Re-Accumulation (2/4)",
+  "matched": "4/7 available (7 listed)",
+  "runnerUp": "I Bear Trend (4/5)",
   "evidence": [
-   "Below 20D MA",
-   "Below 50D MA",
-   "Funding neutral/positive (trapped longs)",
-   "OI not clearing (24h >= -1%)"
+   "Price rising 4h & 24h",
+   "Spot CVD 24h positive",
+   "OI 24h -1%..+4%",
+   "Funding +0.002..+0.010%"
   ],
   "metrics": [
-   "Price vs 20D MA -5.03%",
-   "vs 50D MA -7.36%",
+   "Price vs 20D MA -5.04%",
+   "vs 50D MA -7.37%",
    "Spot CVD 24h +833 BTC",
    "Perp CVD 4h -408 BTC",
-   "OI 24h +1.75%",
-   "Funding +0.0071%"
+   "OI 24h +1.73%",
+   "Funding +0.0077%"
   ],
-  "implication": "Strict cash; treat relief bounces as exit liquidity; invalidation 1D close > 50D MA with positive spot CVD",
+  "implication": "Full spot long 1.0x; 60% breakout / 40% VWAP retest; stop 4H swing low -0.6%",
   "notMet": [
-   "Spot CVD 24h negative"
+   "Above 20D MA",
+   "ETF net > +$150M",
+   "Perp CVD positive, not > spot"
   ],
   "missing": [
    "ATR compression history",
@@ -875,9 +877,9 @@
    "Spot volume vs 20D MA",
    "Whale exchange inflows / CDD"
   ],
-  "asOfMs": 1794003927427,
+  "asOfMs": 1794004722488,
   "scores": {
-   "A": "3/7",
+   "A": "4/7",
    "B": "0/5",
    "C": "3/7",
    "D": "1/5",
@@ -888,7 +890,7 @@
    "I": "4/5",
    "J": "2/6"
   },
-  "asOf": "07 Nov 06:25 SGT",
+  "asOf": "07 Nov 06:38 SGT",
   "source": "box (full data incl. perp CVD)"
  }
 }
