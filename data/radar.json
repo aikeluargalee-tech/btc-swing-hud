@@ -7,7 +7,7 @@
  "confidence": 80,
  "confLabel": "Medium",
  "matched": "4/5 available (5 listed)",
- "runnerUp": "J Bear Trap (capitulation absorption) (3/6)",
+ "runnerUp": "F Re-Accumulation (2/4)",
  "evidence": [
   "Below 20D MA",
   "Below 50D MA",
@@ -15,12 +15,12 @@
   "OI not clearing (24h >= -1%)"
  ],
  "metrics": [
-  "Price vs 20D MA -5.29%",
-  "vs 50D MA -7.62%",
+  "Price vs 20D MA -5.24%",
+  "vs 50D MA -7.57%",
   "Spot CVD 24h +451 BTC",
   "Perp CVD 4h +744 BTC",
-  "OI 24h +0.65%",
-  "Funding +0.0083%"
+  "OI 24h +0.72%",
+  "Funding +0.0080%"
  ],
  "implication": "Strict cash; treat relief bounces as exit liquidity; invalidation 1D close > 50D MA with positive spot CVD",
  "notMet": [
@@ -34,19 +34,19 @@
   "Spot volume vs 20D MA",
   "Whale exchange inflows / CDD"
  ],
- "asOfMs": 1793996411304,
+ "asOfMs": 1793997591197,
  "scores": {
   "A": "3/7",
   "B": "1/5",
-  "C": "3/7",
+  "C": "2/7",
   "D": "2/5",
   "E": "0/4",
   "F": "2/4",
   "G": "1/5",
   "H": "0/3",
   "I": "4/5",
-  "J": "3/6"
+  "J": "2/6"
  },
- "asOf": "07 Nov 04:20 SGT",
+ "asOf": "07 Nov 04:39 SGT",
  "source": "box (full data incl. perp CVD)"
 }
