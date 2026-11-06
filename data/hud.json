@@ -1,10 +1,10 @@
 {
- "asOf": "06 Nov 2026, 18:18 SGT",
- "asOfMs": 1793960284316,
- "price": 76212.01,
- "high24": 80513.31,
+ "asOf": "06 Nov 2026, 18:38 SGT",
+ "asOfMs": 1793961483981,
+ "price": 76238.47,
+ "high24": 80408.75,
  "low24": 75208.42,
- "chg24": -5.228,
+ "chg24": -5.142,
  "h1": [
   [
    "04 18:00",
@@ -333,9 +333,9 @@
  "lastDAt": "06 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.00277892809422,
-  "oiOKX": 35161.70440000018,
-  "lsOKX": 3.02,
+  "fundOKX": 0.00303754427728,
+  "oiOKX": 35125.49720000017,
+  "lsOKX": 3.01,
   "lsAt": "06 Nov 18:00",
   "liqLongUsd": 1348,
   "liqShortUsd": 350735,
@@ -343,8 +343,8 @@
  },
  "macro": {
   "vix": {
-   "v": 26.15,
-   "chg": -7.2,
+   "v": 26.54,
+   "chg": -5.82,
    "date": "06 Nov"
   },
   "dxy": {
@@ -373,11 +373,11 @@
   "label": "Fear",
   "date": "06 Nov"
  },
- "cbPremium": -101.2,
+ "cbPremium": -121.2,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23513919582,
-  "oiChg24": -2.16,
+  "oiUsd": 23493728832,
+  "oiChg24": -2.24,
   "oiHist": [
    [
     "05 18:00",
@@ -477,11 +477,11 @@
    ],
    [
     "06 18:00",
-    23.514
+    23.494
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00371,
+  "fundAvg": 0.00368,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
    "Deribit BTC-PERPETUAL": 0,
@@ -489,37 +489,37 @@
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.01,
    "Bybit BTCUSDT": -0.000402,
-   "Gate BTC_USDT": -0.0025,
-   "OKX BTCUSDT_PERP": 0.00278445792778,
+   "Gate BTC_USDT": -0.003,
+   "OKX BTCUSDT_PERP": 0.00303754427728,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.005491
   },
-  "predFundAvg": 0.0037,
-  "liqLongUsd24": 172221870,
-  "liqShortUsd24": 19312490
+  "predFundAvg": 0.00344,
+  "liqLongUsd24": 172248304,
+  "liqShortUsd24": 19313785
  },
  "tech": {
   "rsiD": 38.5,
   "atrD": 2451.2,
   "basis": "closed candles, Binance spot",
   "ma20": 80043.9,
-  "ma20Pct": -4.79,
+  "ma20Pct": -4.75,
   "ma50": 82061.4,
-  "ma50Pct": -7.13,
+  "ma50Pct": -7.1,
   "ma200": 73242.5,
-  "ma200Pct": 4.05,
+  "ma200Pct": 4.09,
   "atrPct": 3.22,
   "rsi4h": 35.3
  },
  "opt": {
   "expiry": "27NOV26",
-  "expiryOI": 68640,
+  "expiryOI": 68643,
   "maxPain": 80000.0,
   "pcrExpiry": 0.84,
   "pcrAll": 0.72,
   "atmStrike": 76000.0,
-  "atmIV": 38.3,
-  "dvol": 40.46
+  "atmIV": 38.4,
+  "dvol": 40.45
  },
  "stables": {
   "USDT": {
@@ -536,55 +536,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 76218.0,
-   "reachPct": 1.24,
+   "mid": 76218.8,
+   "reachPct": 1.23,
    "b1": {
-    "bid": 17261287,
-    "ask": 12497186,
-    "imb": 16.0,
+    "bid": 17200447,
+    "ask": 12221513,
+    "imb": 16.9,
     "full": true
    },
    "b2": {
-    "bid": 27624407,
-    "ask": 13383864,
-    "imb": 34.7,
+    "bid": 27634468,
+    "ask": 13089294,
+    "imb": 35.7,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 76185.4,
-   "reachPct": 0.89,
+   "mid": 76178.1,
+   "reachPct": 0.92,
    "b1": {
-    "bid": 81585050,
-    "ask": 91115713,
-    "imb": -5.5,
+    "bid": 71364890,
+    "ask": 90834124,
+    "imb": -12.0,
     "full": false
    },
    "b2": {
-    "bid": 122427233,
-    "ask": 91115713,
-    "imb": 14.7,
+    "bid": 71384807,
+    "ask": 90834124,
+    "imb": -12.0,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 98846337,
-    "ask": 103612899,
+    "bid": 88565337,
+    "ask": 103055637,
     "venues": [
      "spot full",
-     "okxPerp to \u00b10.89%"
+     "okxPerp to \u00b10.92%"
     ],
-    "imb": -2.4
+    "imb": -7.6
    },
    "b2": {
-    "bid": 150051640,
-    "ask": 104499577,
+    "bid": 99019275,
+    "ask": 103923418,
     "venues": [
-     "spot to \u00b11.24%",
-     "okxPerp to \u00b10.89%"
+     "spot to \u00b11.23%",
+     "okxPerp to \u00b10.92%"
     ],
-    "imb": 17.9
+    "imb": -2.4
    }
   },
   "walls": {
@@ -660,9 +660,9 @@
   "px4h": 0.643,
   "spot1h": 110.5,
   "spot4h": 1002.2,
-  "oi4h": 0.72,
+  "oi4h": 0.63,
   "tag": "New Longs",
-  "why": "price +0.64%, OI +0.72%"
+  "why": "price +0.64%, OI +0.63%"
  },
  "regime": {
   "h1h": 0.57,
@@ -678,14 +678,14 @@
  "vol": {
   "rv7d": 39.0,
   "rr7d": {
-   "rr": -6.44,
-   "call": 39.1,
-   "put": 45.5,
+   "rr": -6.42,
+   "call": 38.9,
+   "put": 45.3,
    "expiry": "13NOV26",
    "days": 6.9
   },
   "rr30d": {
-   "rr": -5.71,
+   "rr": -5.77,
    "call": 36.6,
    "put": 42.3,
    "expiry": "27NOV26",
@@ -734,15 +734,15 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "06 Nov 18:18 SGT",
+  "asOf": "06 Nov 18:38 SGT",
   "risk": "HIGH",
-  "why": "Average Hourly Earnings m/m in 3.2h; Non-Farm Employment Change in 3.2h; Unemployment Rate in 3.2h",
+  "why": "Average Hourly Earnings m/m in 2.9h; Non-Farm Employment Change in 2.9h; Unemployment Rate in 2.9h",
   "headlines": [
    {
     "title": "Bitcoin recovers $76,000 level as ETFs shed $430 million after tech rout",
     "source": "CoinDesk",
     "time": "06 Nov 17:53",
-    "ageH": 0.4,
+    "ageH": 0.8,
     "link": "https://www.coindesk.com/markets/2026/11/06/bitcoin-recovers-usd76-000-level-as-etfs-shed-usd430-million-after-tech-rout",
     "high": true
    },
@@ -750,7 +750,7 @@
     "title": "Greece approves 10% tax on crypto gains and 15% levy on DeFi income",
     "source": "CoinDesk",
     "time": "06 Nov 16:47",
-    "ageH": 1.5,
+    "ageH": 1.8,
     "link": "https://www.coindesk.com/policy/2026/11/06/greece-approves-10-tax-on-crypto-gains-and-15-levy-on-defi-income",
     "high": false
    },
@@ -758,7 +758,7 @@
     "title": "Bitcoin, Ether ETFs post $530M outflows as election gains evaporate",
     "source": "Cointelegraph",
     "time": "06 Nov 16:19",
-    "ageH": 2.0,
+    "ageH": 2.3,
     "link": "https://cointelegraph.com/markets/bitcoin-ether-etfs-lose-post-election-gains-erased?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": true
    },
@@ -766,7 +766,7 @@
     "title": "Here\u2019s what happened in crypto today",
     "source": "Cointelegraph",
     "time": "06 Nov 14:04",
-    "ageH": 4.2,
+    "ageH": 4.6,
     "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -774,7 +774,7 @@
     "title": "Crypto exchanges tout cold storage ratios after Binance attack",
     "source": "Cointelegraph",
     "time": "06 Nov 13:07",
-    "ageH": 5.2,
+    "ageH": 5.5,
     "link": "https://cointelegraph.com/news/binance-hack-puts-crypto-exchanges-cold-wallet-ratio-under-spotlight?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    }
@@ -783,21 +783,21 @@
    {
     "title": "Average Hourly Earnings m/m",
     "time": "06 Nov 21:30",
-    "inH": 3.2,
+    "inH": 2.9,
     "forecast": "0.3%",
     "previous": "0.1%"
    },
    {
     "title": "Non-Farm Employment Change",
     "time": "06 Nov 21:30",
-    "inH": 3.2,
+    "inH": 2.9,
     "forecast": "65K",
     "previous": "29K"
    },
    {
     "title": "Unemployment Rate",
     "time": "06 Nov 21:30",
-    "inH": 3.2,
+    "inH": 2.9,
     "forecast": "4.2%",
     "previous": "4.2%"
    }
@@ -834,8 +834,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 76212.01,
-   "valueAt": "06 Nov 2026, 18:18 SGT",
+   "value": 76238.47,
+   "valueAt": "06 Nov 2026, 18:38 SGT",
    "hit": false
   },
   {
@@ -877,11 +877,11 @@
    "Below 20D MA (VWAP-break proxy)"
   ],
   "metrics": [
-   "Price vs 20D MA -4.86%",
-   "vs 50D MA -7.20%",
+   "Price vs 20D MA -4.75%",
+   "vs 50D MA -7.09%",
    "Spot CVD 24h -620 BTC",
    "Perp CVD 4h +1271 BTC",
-   "OI 24h -2.24%",
+   "OI 24h -2.20%",
    "Funding +0.0037%"
   ],
   "implication": "Defensive cash; sell 50% on 1H close below VWAP",
@@ -897,7 +897,7 @@
    "Spot volume vs 20D MA",
    "Whale exchange inflows / CDD"
   ],
-  "asOfMs": 1793960266681,
+  "asOfMs": 1793961467653,
   "scores": {
    "A": "2/7",
    "B": "1/5",
@@ -910,7 +910,7 @@
    "I": "4/5",
    "J": "2/6"
   },
-  "asOf": "06 Nov 18:17 SGT",
+  "asOf": "06 Nov 18:37 SGT",
   "source": "box (full data incl. perp CVD)"
  }
 }
