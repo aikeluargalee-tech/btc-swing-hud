@@ -1,10 +1,10 @@
 {
- "asOf": "07 Nov 2026, 01:19 SGT",
- "asOfMs": 1793985558783,
- "price": 75986.01,
+ "asOf": "07 Nov 2026, 01:21 SGT",
+ "asOfMs": 1793985687971,
+ "price": 75911.05,
  "high24": 76559.8,
  "low24": 74888.0,
- "chg24": -0.179,
+ "chg24": -0.123,
  "h1": [
   [
    "05 01:00",
@@ -333,9 +333,9 @@
  "lastDAt": "06 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.00429993886968,
-  "oiOKX": 35293.476700000174,
-  "lsOKX": 3.02,
+  "fundOKX": 0.00434485649903,
+  "oiOKX": 35295.40600000017,
+  "lsOKX": 3.01,
   "lsAt": "07 Nov 01:00",
   "liqLongUsd": 15230,
   "liqShortUsd": 778356,
@@ -343,13 +343,13 @@
  },
  "macro": {
   "vix": {
-   "v": 24.42,
-   "chg": -13.34,
+   "v": 24.29,
+   "chg": -13.8,
    "date": "06 Nov"
   },
   "dxy": {
-   "v": 102.16,
-   "chg": 0.6,
+   "v": 102.18,
+   "chg": 0.62,
    "date": "06 Nov"
   },
   "us10y": {
@@ -358,13 +358,13 @@
    "date": "06 Nov"
   },
   "spx": {
-   "v": 7416.74,
-   "chg": 0.86,
+   "v": 7410.34,
+   "chg": 0.77,
    "date": "06 Nov"
   },
   "ndx": {
-   "v": 24697.08,
-   "chg": 1.57,
+   "v": 24669.71,
+   "chg": 1.46,
    "date": "06 Nov"
   }
  },
@@ -373,11 +373,11 @@
   "label": "Fear",
   "date": "06 Nov"
  },
- "cbPremium": -108.0,
+ "cbPremium": -106.1,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23851925352,
-  "oiChg24": 2.59,
+  "oiUsd": 23818906444,
+  "oiChg24": 2.45,
   "oiHist": [
    [
     "06 01:00",
@@ -477,11 +477,11 @@
    ],
    [
     "07 01:00",
-    23.852
+    23.819
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00674,
+  "fundAvg": 0.00675,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
    "Deribit BTC-PERPETUAL": 0,
@@ -490,24 +490,24 @@
    "Binance BTCUSD_PERP": 0.01,
    "Bybit BTCUSDT": 0.005699,
    "Gate BTC_USDT": 0.01,
-   "OKX BTCUSDT_PERP": 0.00429993886968,
+   "OKX BTCUSDT_PERP": 0.00434485649903,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.009043
   },
-  "predFundAvg": 0.00756,
-  "liqLongUsd24": 50649223,
-  "liqShortUsd24": 13685380
+  "predFundAvg": 0.00759,
+  "liqLongUsd24": 50649220,
+  "liqShortUsd24": 13706794
  },
  "tech": {
   "rsiD": 38.5,
   "atrD": 2451.2,
   "basis": "closed candles, Binance spot",
   "ma20": 80043.9,
-  "ma20Pct": -5.07,
+  "ma20Pct": -5.16,
   "ma50": 82061.4,
-  "ma50Pct": -7.4,
+  "ma50Pct": -7.49,
   "ma200": 73242.5,
-  "ma200Pct": 3.75,
+  "ma200Pct": 3.64,
   "atrPct": 3.23,
   "rsi4h": 38.1
  },
@@ -519,72 +519,72 @@
   "pcrAll": 0.7,
   "atmStrike": 76000.0,
   "atmIV": 37.3,
-  "dvol": 39.73
+  "dvol": 39.78
  },
  "stables": {
   "USDT": {
-   "usd": 177279696052,
+   "usd": 177288600864,
    "chg7d": -1.65
   },
   "USDC": {
-   "usd": 70456003695,
-   "chg7d": -1.43
+   "usd": 70525607008,
+   "chg7d": -1.32
   },
-  "totalUsd": 247735699747,
-  "totalChg7d": -1.59,
-  "totalChg7dUsd": -3996326523
+  "totalUsd": 247814207872,
+  "totalChg7d": -1.56,
+  "totalChg7dUsd": -3917729270
  },
  "depth": {
   "spot": {
-   "mid": 76002.0,
-   "reachPct": 1.3,
+   "mid": 75894.0,
+   "reachPct": 1.42,
    "b1": {
-    "bid": 13417585,
-    "ask": 16444669,
-    "imb": -10.1,
+    "bid": 15034096,
+    "ask": 18390672,
+    "imb": -10.0,
     "full": true
    },
    "b2": {
-    "bid": 23877560,
-    "ask": 17204101,
-    "imb": 16.2,
+    "bid": 26338877,
+    "ask": 19602525,
+    "imb": 14.7,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 75955.6,
-   "reachPct": 0.94,
+   "mid": 75849.9,
+   "reachPct": 0.97,
    "b1": {
-    "bid": 77315963,
-    "ask": 87152593,
-    "imb": -6.0,
+    "bid": 79558080,
+    "ask": 83197097,
+    "imb": -2.2,
     "full": false
    },
    "b2": {
-    "bid": 77797283,
-    "ask": 87152593,
-    "imb": -5.7,
+    "bid": 79949228,
+    "ask": 83197097,
+    "imb": -2.0,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 90733548,
-    "ask": 103597262,
+    "bid": 94592176,
+    "ask": 101587769,
     "venues": [
      "spot full",
-     "okxPerp to \u00b10.94%"
+     "okxPerp to \u00b10.97%"
     ],
-    "imb": -6.6
+    "imb": -3.6
    },
    "b2": {
-    "bid": 101674843,
-    "ask": 104356694,
+    "bid": 106288105,
+    "ask": 102799622,
     "venues": [
-     "spot to \u00b11.3%",
-     "okxPerp to \u00b10.94%"
+     "spot to \u00b11.42%",
+     "okxPerp to \u00b10.97%"
     ],
-    "imb": -1.3
+    "imb": 1.7
    }
   },
   "walls": {
@@ -660,9 +660,9 @@
   "px4h": -0.034,
   "spot1h": 159.1,
   "spot4h": -404.4,
-  "oi4h": 2.36,
+  "oi4h": 2.22,
   "tag": "Neutral",
-  "why": "price -0.03% 4h, OI 2.36%, spot CVD -404, perp CVD n/a"
+  "why": "price -0.03% 4h, OI 2.22%, spot CVD -404, perp CVD n/a"
  },
  "regime": {
   "h1h": 0.56,
@@ -678,20 +678,20 @@
  "vol": {
   "rv7d": 38.7,
   "rr7d": {
-   "rr": -3.51,
+   "rr": -3.66,
    "call": 38.1,
-   "put": 41.6,
+   "put": 41.8,
    "expiry": "13NOV26",
    "days": 6.6
   },
   "rr30d": {
-   "rr": -3.86,
+   "rr": -3.93,
    "call": 36.5,
-   "put": 40.4,
+   "put": 40.5,
    "expiry": "27NOV26",
    "days": 20.6
   },
-  "vrp": 1.0,
+  "vrp": 1.1,
   "basis": "25d RR = call IV - put IV at |delta|=0.25 (Black-Scholes delta from Deribit mark_iv, nearest expiry to 7d/30d); RV7d from 1H closes, annualised"
  },
  "etf": {
@@ -734,15 +734,15 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "07 Nov 01:19 SGT",
+  "asOf": "07 Nov 01:21 SGT",
   "risk": "HIGH",
-  "why": "flagged headline 0.6h ago; flagged headline 0.8h ago",
+  "why": "flagged headline 0.7h ago; flagged headline 0.8h ago",
   "headlines": [
    {
     "title": "Crypto Card Provider Gnosis Pay Says Hackers Accessed Customer Data",
     "source": "Decrypt",
     "time": "07 Nov 00:41",
-    "ageH": 0.6,
+    "ageH": 0.7,
     "link": "https://decrypt.co/382718/crypto-card-provider-gnosis-pay-hackers-customer-data",
     "high": true
    },
@@ -774,7 +774,7 @@
     "title": "Aave Labs buys Avon team in fixed-rate lending push",
     "source": "The Block",
     "time": "06 Nov 23:00",
-    "ageH": 2.3,
+    "ageH": 2.4,
     "link": "https://www.theblock.co/news/business/2026-11-06-aave-labs-buys-avon-team-in-fixed-rate-lending-push-435901",
     "high": false
    }
@@ -812,8 +812,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 75986.01,
-   "valueAt": "07 Nov 2026, 01:19 SGT",
+   "value": 75911.05,
+   "valueAt": "07 Nov 2026, 01:21 SGT",
    "hit": false
   },
   {
