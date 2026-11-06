@@ -15,12 +15,12 @@
   "OI not clearing (24h >= -1%)"
  ],
  "metrics": [
-  "Price vs 20D MA -5.33%",
-  "vs 50D MA -7.66%",
+  "Price vs 20D MA -5.26%",
+  "vs 50D MA -7.59%",
   "Spot CVD 24h +649 BTC",
   "Perp CVD 4h -257 BTC",
-  "OI 24h +1.25%",
-  "Funding +0.0073%"
+  "OI 24h +1.33%",
+  "Funding +0.0074%"
  ],
  "implication": "Strict cash; treat relief bounces as exit liquidity; invalidation 1D close > 50D MA with positive spot CVD",
  "notMet": [
@@ -34,7 +34,7 @@
   "Spot volume vs 20D MA",
   "Whale exchange inflows / CDD"
  ],
- "asOfMs": 1794000694090,
+ "asOfMs": 1794001748041,
  "scores": {
   "A": "3/7",
   "B": "0/5",
@@ -47,6 +47,6 @@
   "I": "4/5",
   "J": "2/6"
  },
- "asOf": "07 Nov 05:31 SGT",
+ "asOf": "07 Nov 05:49 SGT",
  "source": "box (full data incl. perp CVD)"
 }
