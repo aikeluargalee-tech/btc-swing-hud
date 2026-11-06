@@ -15,11 +15,11 @@
   "Book bids/asks >= 1.4 (imb >= +16.7%)"
  ],
  "metrics": [
-  "Price vs 20D MA -5.56%",
-  "vs 50D MA -7.88%",
+  "Price vs 20D MA -5.45%",
+  "vs 50D MA -7.77%",
   "Spot CVD 24h -1587 BTC",
   "Perp CVD 4h +168 BTC",
-  "OI 24h -3.12%",
+  "OI 24h -2.94%",
   "Funding +0.0037%"
  ],
  "implication": "Build spot 0.75x; 50% on 1H range reclaim / 50% limit at low; stop sweep low -0.5%",
@@ -36,7 +36,7 @@
   "Spot volume vs 20D MA",
   "Whale exchange inflows / CDD"
  ],
- "asOfMs": 1793954209983,
+ "asOfMs": 1793955051924,
  "scores": {
   "A": "2/7",
   "B": "1/5",
@@ -49,6 +49,6 @@
   "I": "4/5",
   "J": "2/6"
  },
- "asOf": "06 Nov 16:36 SGT",
+ "asOf": "06 Nov 16:50 SGT",
  "source": "box (full data incl. perp CVD)"
 }
