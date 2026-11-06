@@ -7,7 +7,7 @@
  "confidence": 100,
  "confLabel": "High",
  "matched": "5/5 available (5 listed)",
- "runnerUp": "C Bullish Absorption (3/7)",
+ "runnerUp": "J Bear Trap (capitulation absorption) (3/6)",
  "evidence": [
   "Below 20D MA",
   "Below 50D MA",
@@ -16,12 +16,12 @@
   "OI not clearing (24h >= -1%)"
  ],
  "metrics": [
-  "Price vs 20D MA -5.10%",
-  "vs 50D MA -7.43%",
-  "Spot CVD 24h -442 BTC",
-  "Perp CVD 4h -1806 BTC",
-  "OI 24h +1.27%",
-  "Funding +0.0047%"
+  "Price vs 20D MA -5.49%",
+  "vs 50D MA -7.81%",
+  "Spot CVD 24h -333 BTC",
+  "Perp CVD 4h -2392 BTC",
+  "OI 24h +4.20%",
+  "Funding +0.0046%"
  ],
  "implication": "Strict cash; treat relief bounces as exit liquidity; invalidation 1D close > 50D MA with positive spot CVD",
  "notMet": [],
@@ -33,19 +33,19 @@
   "Spot volume vs 20D MA",
   "Whale exchange inflows / CDD"
  ],
- "asOfMs": 1793976421455,
+ "asOfMs": 1793978467616,
  "scores": {
-  "A": "2/7",
+  "A": "1/7",
   "B": "1/5",
   "C": "3/7",
   "D": "2/5",
-  "E": "1/4",
-  "F": "1/4",
+  "E": "0/4",
+  "F": "0/4",
   "G": "0/5",
   "H": "1/3",
   "I": "5/5",
-  "J": "2/6"
+  "J": "3/6"
  },
- "asOf": "06 Nov 22:47 SGT",
+ "asOf": "06 Nov 23:21 SGT",
  "source": "box (full data incl. perp CVD)"
 }
