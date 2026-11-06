@@ -1,10 +1,10 @@
 {
- "asOf": "07 Nov 2026, 01:34 SGT",
- "asOfMs": 1793986453884,
- "price": 75808.0,
+ "asOf": "07 Nov 2026, 01:56 SGT",
+ "asOfMs": 1793987766376,
+ "price": 75662.61,
  "high24": 76559.8,
  "low24": 74888.0,
- "chg24": -0.388,
+ "chg24": -0.256,
  "h1": [
   [
    "05 01:00",
@@ -333,38 +333,38 @@
  "lastDAt": "06 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.00463957877913,
-  "oiOKX": 35145.26690000017,
-  "lsOKX": 3.02,
+  "fundOKX": 0.00558580987059,
+  "oiOKX": 35095.44140000017,
+  "lsOKX": 3.03,
   "lsAt": "07 Nov 01:00",
-  "liqLongUsd": 15230,
-  "liqShortUsd": 778356,
-  "liqWindow": "06 Nov 23:50 to 07 Nov 01:18"
+  "liqLongUsd": 1134661,
+  "liqShortUsd": 624084,
+  "liqWindow": "07 Nov 00:31 to 07 Nov 01:53"
  },
  "macro": {
   "vix": {
-   "v": 24.19,
-   "chg": -14.16,
+   "v": 25.5,
+   "chg": -9.51,
    "date": "06 Nov"
   },
   "dxy": {
-   "v": 102.19,
-   "chg": 0.63,
+   "v": 102.2,
+   "chg": 0.64,
    "date": "06 Nov"
   },
   "us10y": {
-   "v": 4.86,
-   "chg": 0.37,
+   "v": 4.84,
+   "chg": 0.0,
    "date": "06 Nov"
   },
   "spx": {
-   "v": 7408.06,
-   "chg": 0.74,
+   "v": 7386.11,
+   "chg": 0.44,
    "date": "06 Nov"
   },
   "ndx": {
-   "v": 24652.93,
-   "chg": 1.39,
+   "v": 24559.21,
+   "chg": 1.0,
    "date": "06 Nov"
   }
  },
@@ -373,11 +373,11 @@
   "label": "Fear",
   "date": "06 Nov"
  },
- "cbPremium": -117.3,
+ "cbPremium": -108.6,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23773781017,
-  "oiChg24": 2.26,
+  "oiUsd": 23702408587,
+  "oiChg24": 1.95,
   "oiHist": [
    [
     "06 01:00",
@@ -477,49 +477,49 @@
    ],
    [
     "07 01:00",
-    23.774
+    23.702
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00728,
+  "fundAvg": 0.00727,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
-   "Deribit BTC-PERPETUAL": 0.004986,
+   "Deribit BTC-PERPETUAL": 0.003974,
    "Bybit BTCUSD": 0.007156,
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.01,
    "Bybit BTCUSDT": 0.005699,
    "Gate BTC_USDT": 0.01,
-   "OKX BTCUSDT_PERP": 0.00467019598795,
+   "OKX BTCUSDT_PERP": 0.00562022039167,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.009043
   },
-  "predFundAvg": 0.00748,
-  "liqLongUsd24": 50729731,
-  "liqShortUsd24": 13708176
+  "predFundAvg": 0.00813,
+  "liqLongUsd24": 51615306,
+  "liqShortUsd24": 13708589
  },
  "tech": {
   "rsiD": 38.5,
   "atrD": 2451.2,
   "basis": "closed candles, Binance spot",
   "ma20": 80043.9,
-  "ma20Pct": -5.29,
+  "ma20Pct": -5.47,
   "ma50": 82061.4,
-  "ma50Pct": -7.62,
+  "ma50Pct": -7.8,
   "ma200": 73242.5,
-  "ma200Pct": 3.5,
-  "atrPct": 3.23,
+  "ma200Pct": 3.3,
+  "atrPct": 3.24,
   "rsi4h": 38.1
  },
  "opt": {
   "expiry": "27NOV26",
-  "expiryOI": 70381,
+  "expiryOI": 70523,
   "maxPain": 80000.0,
   "pcrExpiry": 0.86,
   "pcrAll": 0.7,
   "atmStrike": 76000.0,
-  "atmIV": 37.4,
-  "dvol": 39.8
+  "atmIV": 37.5,
+  "dvol": 39.89
  },
  "stables": {
   "USDT": {
@@ -536,55 +536,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 75831.1,
-   "reachPct": 1.39,
+   "mid": 75656.0,
+   "reachPct": 1.33,
    "b1": {
-    "bid": 16795687,
-    "ask": 17515179,
-    "imb": -2.1,
+    "bid": 20948185,
+    "ask": 20582469,
+    "imb": 0.9,
     "full": true
    },
    "b2": {
-    "bid": 25992568,
-    "ask": 18980466,
-    "imb": 15.6,
+    "bid": 28604138,
+    "ask": 22529345,
+    "imb": 11.9,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 75794.9,
-   "reachPct": 0.98,
+   "mid": 75628.2,
+   "reachPct": 1.0,
    "b1": {
-    "bid": 78498503,
-    "ask": 84589723,
-    "imb": -3.7,
+    "bid": 105722601,
+    "ask": 78386655,
+    "imb": 14.8,
     "full": false
    },
    "b2": {
-    "bid": 79906383,
-    "ask": 84589723,
-    "imb": -2.8,
+    "bid": 109619473,
+    "ask": 78386655,
+    "imb": 16.6,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 95294190,
-    "ask": 102104902,
+    "bid": 126670786,
+    "ask": 98969124,
     "venues": [
      "spot full",
-     "okxPerp to \u00b10.98%"
+     "okxPerp to \u00b11.0%"
     ],
-    "imb": -3.5
+    "imb": 12.3
    },
    "b2": {
-    "bid": 105898951,
-    "ask": 103570189,
+    "bid": 138223611,
+    "ask": 100916000,
     "venues": [
-     "spot to \u00b11.39%",
-     "okxPerp to \u00b10.98%"
+     "spot to \u00b11.33%",
+     "okxPerp to \u00b11.0%"
     ],
-    "imb": 1.1
+    "imb": 15.6
    }
   },
   "walls": {
@@ -660,9 +660,9 @@
   "px4h": -0.034,
   "spot1h": 159.1,
   "spot4h": -404.4,
-  "oi4h": 2.02,
+  "oi4h": 1.72,
   "tag": "Neutral",
-  "why": "price -0.03% 4h, OI 2.02%, spot CVD -404, perp CVD n/a"
+  "why": "price -0.03% 4h, OI 1.72%, spot CVD -404, perp CVD n/a"
  },
  "regime": {
   "h1h": 0.56,
@@ -678,20 +678,20 @@
  "vol": {
   "rv7d": 38.7,
   "rr7d": {
-   "rr": -3.55,
-   "call": 38.3,
-   "put": 41.9,
+   "rr": -3.4,
+   "call": 38.8,
+   "put": 42.2,
    "expiry": "13NOV26",
    "days": 6.6
   },
   "rr30d": {
-   "rr": -3.8,
-   "call": 36.7,
+   "rr": -3.45,
+   "call": 37.1,
    "put": 40.5,
    "expiry": "27NOV26",
    "days": 20.6
   },
-  "vrp": 1.1,
+  "vrp": 1.2,
   "basis": "25d RR = call IV - put IV at |delta|=0.25 (Black-Scholes delta from Deribit mark_iv, nearest expiry to 7d/30d); RV7d from 1H closes, annualised"
  },
  "etf": {
@@ -734,15 +734,31 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "07 Nov 01:34 SGT",
+  "asOf": "07 Nov 01:56 SGT",
   "risk": "HIGH",
-  "why": "flagged headline 0.9h ago; flagged headline 1.0h ago",
+  "why": "flagged headline 1.3h ago; flagged headline 1.4h ago",
   "headlines": [
+   {
+    "title": "US Sanctions 45 More Targets Tied to Alleged Crypto Scam Empire Prince Group",
+    "source": "Decrypt",
+    "time": "07 Nov 01:42",
+    "ageH": 0.2,
+    "link": "https://decrypt.co/382730/us-sanctions-45-more-targets-tied-to-alleged-crypto-scam-empire-prince-group",
+    "high": false
+   },
+   {
+    "title": "U.S. prediction markets regulator issues demand that clashes directly with courts",
+    "source": "CoinDesk",
+    "time": "07 Nov 01:42",
+    "ageH": 0.2,
+    "link": "https://www.coindesk.com/policy/2026/11/06/u-s-prediction-markets-regulator-issues-demand-that-clashes-directly-with-courts",
+    "high": false
+   },
    {
     "title": "Crypto Card Provider Gnosis Pay Says Hackers Accessed Customer Data",
     "source": "Decrypt",
     "time": "07 Nov 00:41",
-    "ageH": 0.9,
+    "ageH": 1.3,
     "link": "https://decrypt.co/382718/crypto-card-provider-gnosis-pay-hackers-customer-data",
     "high": true
    },
@@ -750,7 +766,7 @@
     "title": "Crypto Liquidations Top $1 Billion as Bitcoin Tests 11-Week Low",
     "source": "Decrypt",
     "time": "07 Nov 00:34",
-    "ageH": 1.0,
+    "ageH": 1.4,
     "link": "https://decrypt.co/382717/bitcoin-price-11-week-low-crypto-liquidations-ai-stock",
     "high": true
    },
@@ -758,24 +774,8 @@
     "title": "Strive\u2019s bitcoin gains drive $509 million Q3 profit as BTC buying ramps up",
     "source": "The Block",
     "time": "07 Nov 00:07",
-    "ageH": 1.5,
+    "ageH": 1.8,
     "link": "https://www.theblock.co/news/business/2026-11-06-strives-bitcoin-gains-509-million-q3-profit-btc-buying-ramps-up-435907",
-    "high": false
-   },
-   {
-    "title": "The crypto industry has found new ways to grow. Making money from them is another story",
-    "source": "CoinDesk",
-    "time": "06 Nov 23:26",
-    "ageH": 2.1,
-    "link": "https://www.coindesk.com/markets/2026/11/05/the-crypto-industry-has-found-new-ways-to-grow-making-money-from-them-is-another-story",
-    "high": false
-   },
-   {
-    "title": "Aave Labs buys Avon team in fixed-rate lending push",
-    "source": "The Block",
-    "time": "06 Nov 23:00",
-    "ageH": 2.6,
-    "link": "https://www.theblock.co/news/business/2026-11-06-aave-labs-buys-avon-team-in-fixed-rate-lending-push-435901",
     "high": false
    }
   ],
@@ -812,8 +812,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 75808.0,
-   "valueAt": "07 Nov 2026, 01:34 SGT",
+   "value": 75662.61,
+   "valueAt": "07 Nov 2026, 01:56 SGT",
    "hit": false
   },
   {
@@ -856,12 +856,12 @@
    "Perp CVD 4h negative"
   ],
   "metrics": [
-   "Price vs 20D MA -5.31%",
-   "vs 50D MA -7.64%",
+   "Price vs 20D MA -5.55%",
+   "vs 50D MA -7.87%",
    "Spot CVD 24h +555 BTC",
    "Perp CVD 4h -1501 BTC",
-   "OI 24h +2.24%",
-   "Funding +0.0068%"
+   "OI 24h +1.90%",
+   "Funding +0.0073%"
   ],
   "implication": "Build spot 0.75x; 50% on 1H range reclaim / 50% limit at low; stop sweep low -0.5%",
   "notMet": [
@@ -877,20 +877,20 @@
    "Spot volume vs 20D MA",
    "Whale exchange inflows / CDD"
   ],
-  "asOfMs": 1793986432679,
+  "asOfMs": 1793987747338,
   "scores": {
    "A": "3/7",
    "B": "0/5",
    "C": "4/7",
    "D": "1/5",
    "E": "0/4",
-   "F": "1/4",
+   "F": "2/4",
    "G": "0/5",
    "H": "0/3",
    "I": "4/5",
    "J": "3/6"
   },
-  "asOf": "07 Nov 01:33 SGT",
+  "asOf": "07 Nov 01:55 SGT",
   "source": "box (full data incl. perp CVD)"
  }
 }
