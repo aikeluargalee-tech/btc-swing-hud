@@ -1,10 +1,10 @@
 {
- "asOf": "10 Nov 2026, 06:04 SGT",
- "asOfMs": 1794261869666,
- "price": 74975.9,
+ "asOf": "10 Nov 2026, 06:17 SGT",
+ "asOfMs": 1794262652200,
+ "price": 75022.0,
  "high24": 75734.51,
  "low24": 73750.0,
- "chg24": 0.413,
+ "chg24": 0.759,
  "h1": [
   [
    "08 06:00",
@@ -333,13 +333,13 @@
  "lastDAt": "09 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.00948512368365,
-  "oiOKX": 34579.41530000014,
+  "fundOKX": 0.00907889778946,
+  "oiOKX": 34619.41810000014,
   "lsOKX": 2.84,
-  "lsAt": "10 Nov 05:00",
-  "liqLongUsd": 308063,
-  "liqShortUsd": 342383,
-  "liqWindow": "10 Nov 02:23 to 10 Nov 04:31"
+  "lsAt": "10 Nov 06:00",
+  "liqLongUsd": 241688,
+  "liqShortUsd": 374840,
+  "liqWindow": "10 Nov 02:23 to 10 Nov 06:15"
  },
  "macro": {
   "vix": {
@@ -348,8 +348,8 @@
    "date": "09 Nov"
   },
   "dxy": {
-   "v": 101.67,
-   "chg": -0.62,
+   "v": 101.68,
+   "chg": -0.61,
    "date": "09 Nov"
   },
   "us10y": {
@@ -373,11 +373,11 @@
   "label": "Fear",
   "date": "09 Nov"
  },
- "cbPremium": -90.4,
+ "cbPremium": -100.8,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23227120503,
-  "oiChg24": 1.37,
+  "oiUsd": 23236146580,
+  "oiChg24": 1.41,
   "oiHist": [
    [
     "09 06:00",
@@ -477,36 +477,37 @@
    ],
    [
     "10 06:00",
-    23.227
+    23.236
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00839,
+  "fundAvg": 0.00851,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
-   "Deribit BTC-PERPETUAL": 0.005909,
+   "Deribit BTC-PERPETUAL": 0.007511,
    "Bybit BTCUSD": 0.008178,
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.01,
    "Bybit BTCUSDT": 0.009118,
    "Gate BTC_USDT": 0.01,
-   "OKX BTCUSDT_PERP": 0.00948512368365,
+   "OKX BTCUSDT_PERP": 0.00907889778946,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.01
   },
-  "liqLongUsd24": 28819465,
-  "liqShortUsd24": 21802968
+  "predFundAvg": 0.00753,
+  "liqLongUsd24": 28823974,
+  "liqShortUsd24": 21824204
  },
  "tech": {
   "rsiD": 35.6,
   "atrD": 2293.9,
   "basis": "closed candles, Binance spot",
   "ma20": 79094.7,
-  "ma20Pct": -5.21,
+  "ma20Pct": -5.15,
   "ma50": 81821.6,
-  "ma50Pct": -8.37,
+  "ma50Pct": -8.31,
   "ma200": 73223.6,
-  "ma200Pct": 2.39,
+  "ma200Pct": 2.46,
   "atrPct": 3.06,
   "rsi4h": 40.8
  },
@@ -518,72 +519,72 @@
   "pcrAll": 0.73,
   "atmStrike": 75000.0,
   "atmIV": 37.6,
-  "dvol": 40.05
+  "dvol": 40.06
  },
  "stables": {
   "USDT": {
-   "usd": 176666389800,
-   "chg7d": -1.44
+   "usd": 176288992616,
+   "chg7d": -1.66
   },
   "USDC": {
-   "usd": 70258914348,
-   "chg7d": -1.91
+   "usd": 70356633918,
+   "chg7d": -1.78
   },
-  "totalUsd": 246925304148,
-  "totalChg7d": -1.57,
-  "totalChg7dUsd": -3949240292
+  "totalUsd": 246645626534,
+  "totalChg7d": -1.69,
+  "totalChg7dUsd": -4250839347
  },
  "depth": {
   "spot": {
-   "mid": 75016.0,
-   "reachPct": 1.37,
+   "mid": 75018.0,
+   "reachPct": 1.4,
    "b1": {
-    "bid": 11579976,
-    "ask": 13972497,
-    "imb": -9.4,
+    "bid": 8585459,
+    "ask": 13465406,
+    "imb": -22.1,
     "full": true
    },
    "b2": {
-    "bid": 16847455,
-    "ask": 19131205,
-    "imb": -6.3,
+    "bid": 13207631,
+    "ask": 18576413,
+    "imb": -16.9,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 74984.6,
-   "reachPct": 0.97,
+   "mid": 74979.9,
+   "reachPct": 1.0,
    "b1": {
-    "bid": 68959473,
-    "ask": 94528089,
-    "imb": -15.6,
+    "bid": 58006267,
+    "ask": 84075798,
+    "imb": -18.3,
     "full": false
    },
    "b2": {
-    "bid": 70393195,
-    "ask": 94528089,
-    "imb": -14.6,
+    "bid": 59540067,
+    "ask": 84075798,
+    "imb": -17.1,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 80539449,
-    "ask": 108500586,
+    "bid": 66591726,
+    "ask": 97541204,
     "venues": [
      "spot full",
-     "okxPerp to \u00b10.97%"
+     "okxPerp to \u00b11.0%"
     ],
-    "imb": -14.8
+    "imb": -18.9
    },
    "b2": {
-    "bid": 87240650,
-    "ask": 113659294,
+    "bid": 72747698,
+    "ask": 102652211,
     "venues": [
-     "spot to \u00b11.37%",
-     "okxPerp to \u00b10.97%"
+     "spot to \u00b11.4%",
+     "okxPerp to \u00b11.0%"
     ],
-    "imb": -13.2
+    "imb": -17.0
    }
   },
   "walls": {
@@ -659,9 +660,9 @@
   "px4h": 0.33,
   "spot1h": 111.8,
   "spot4h": 247.7,
-  "oi4h": 0.19,
+  "oi4h": 0.23,
   "tag": "Neutral",
-  "why": "price +0.33% 4h, OI 0.19%, spot CVD +248, perp CVD n/a"
+  "why": "price +0.33% 4h, OI 0.23%, spot CVD +248, perp CVD n/a"
  },
  "regime": {
   "h1h": 0.66,
@@ -677,20 +678,20 @@
  "vol": {
   "rv7d": 42.9,
   "rr7d": {
-   "rr": -3.41,
+   "rr": -3.62,
    "call": 38.0,
-   "put": 41.4,
+   "put": 41.6,
    "expiry": "20NOV26",
    "days": 10.4
   },
   "rr30d": {
-   "rr": -2.89,
-   "call": 37.5,
-   "put": 40.4,
+   "rr": -3.14,
+   "call": 37.3,
+   "put": 40.5,
    "expiry": "27NOV26",
    "days": 17.4
   },
-  "vrp": -2.9,
+  "vrp": -2.8,
   "basis": "25d RR = call IV - put IV at |delta|=0.25 (Black-Scholes delta from Deribit mark_iv, nearest expiry to 7d/30d); RV7d from 1H closes, annualised"
  },
  "etf": {
@@ -723,9 +724,7 @@
   "sum5": -883.1,
   "source": "Farside (farside.co.uk/btc), US$m"
  },
- "missing": [
-  "Coinalyze predicted funding: HTTPError 429"
- ],
+ "missing": [],
  "browserLive": [
   "Binance futures funding",
   "Binance long/short",
@@ -735,15 +734,31 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "10 Nov 06:05 SGT",
+  "asOf": "10 Nov 06:17 SGT",
   "risk": "HIGH",
-  "why": "Core CPI m/m in 15.4h; CPI m/m in 15.4h; flagged headline 1.7h ago",
+  "why": "Core CPI m/m in 15.2h; CPI m/m in 15.2h; flagged headline 1.9h ago",
   "headlines": [
+   {
+    "title": "MARA posts $634 million Q3 net profit on bitcoin gains, sells 13,597 BTC to pay off loans",
+    "source": "The Block",
+    "time": "10 Nov 06:07",
+    "ageH": 0.2,
+    "link": "https://www.theblock.co/news/business/2026-11-09-mara-q3-earnings-net-profit-bitcoin-sale-ai-pivot-436950",
+    "high": false
+   },
+   {
+    "title": "Here\u2019s what happened in crypto today",
+    "source": "Cointelegraph",
+    "time": "10 Nov 06:06",
+    "ageH": 0.2,
+    "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "high": false
+   },
    {
     "title": "Should you leave Australia to avoid paying 47% tax on crypto gains?",
     "source": "Cointelegraph",
     "time": "10 Nov 05:00",
-    "ageH": 1.1,
+    "ageH": 1.3,
     "link": "https://cointelegraph.com/magazine/should-you-leave-australia-to-avoid-47-tax-on-crypto-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -751,7 +766,7 @@
     "title": "North Korean hackers create memecoins to launder funds from Binance hack: Elliptic",
     "source": "Cointelegraph",
     "time": "10 Nov 04:26",
-    "ageH": 1.7,
+    "ageH": 1.9,
     "link": "https://cointelegraph.com/news/north-korean-hackers-memecoins-launder-binance-hack-elliptic?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": true
    },
@@ -759,24 +774,8 @@
     "title": "Elizabeth Warren vows scrutiny of prediction markets, Trump family crypto ventures as Senate Banking chair",
     "source": "The Block",
     "time": "10 Nov 04:04",
-    "ageH": 2.0,
-    "link": "https://www.theblock.co/news/regulation/2026-11-09-senate-banking-elizabeth-warren-scrutiny-prediction-markets-trump-crypto-ventures-436898",
-    "high": true
-   },
-   {
-    "title": "Formation Securities plans Solana stock trading venue under SEC exemption",
-    "source": "Cointelegraph",
-    "time": "10 Nov 03:52",
     "ageH": 2.2,
-    "link": "https://cointelegraph.com/news/formation-securities-solana-stock-trading-venue-sec-exemption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "high": true
-   },
-   {
-    "title": "Binance Hack Launderers Mint Elon Musk and Animal Meme Coins to Move Stolen Crypto",
-    "source": "Decrypt",
-    "time": "10 Nov 03:36",
-    "ageH": 2.5,
-    "link": "https://decrypt.co/382873/binance-hack-elon-musk-animal-meme-coins-launder-stolen-crypto",
+    "link": "https://www.theblock.co/news/regulation/2026-11-09-senate-banking-elizabeth-warren-scrutiny-prediction-markets-trump-crypto-ventures-436898",
     "high": true
    }
   ],
@@ -784,28 +783,28 @@
    {
     "title": "Core CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 15.4,
+    "inH": 15.2,
     "forecast": "0.2%",
     "previous": "0.3%"
    },
    {
     "title": "CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 15.4,
+    "inH": 15.2,
     "forecast": "0.3%",
     "previous": "0.6%"
    },
    {
     "title": "Core PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 87.4,
+    "inH": 87.2,
     "forecast": "0.3%",
     "previous": "0.7%"
    },
    {
     "title": "PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 87.4,
+    "inH": 87.2,
     "forecast": "0.4%",
     "previous": "1.3%"
    }
@@ -842,8 +841,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 74975.9,
-   "valueAt": "10 Nov 2026, 06:04 SGT",
+   "value": 75022.0,
+   "valueAt": "10 Nov 2026, 06:17 SGT",
    "hit": false
   },
   {
@@ -871,33 +870,33 @@
  ],
  "radar": {
   "ok": true,
-  "config": "C",
-  "label": "C \u2014 Bullish Absorption",
-  "status": "Watch",
+  "config": "A",
+  "label": "A \u2014 Healthy Bull",
+  "status": "Healthy",
   "tone": "good",
   "confidence": 57,
   "confLabel": "Medium",
   "matched": "4/7 available (7 listed)",
   "runnerUp": "I Bear Trend (4/5)",
   "evidence": [
-   "Negative headline risk",
-   "Testing 200D MA / 30d low",
-   "Spot CVD 24h strongly positive (>500 BTC)",
-   "Perp CVD 4h negative"
+   "Price rising 4h & 24h",
+   "Spot CVD 24h positive",
+   "OI 24h -1%..+4%",
+   "Funding +0.002..+0.010%"
   ],
   "metrics": [
-   "Price vs 20D MA -5.35%",
-   "vs 50D MA -8.51%",
-   "Spot CVD 24h +1210 BTC",
-   "Perp CVD 4h -597 BTC",
-   "OI 24h +1.83%",
-   "Funding +0.0083%"
+   "Price vs 20D MA -5.02%",
+   "vs 50D MA -8.19%",
+   "Spot CVD 24h +1730 BTC",
+   "Perp CVD 4h +605 BTC",
+   "OI 24h +1.46%",
+   "Funding +0.0088%"
   ],
-  "implication": "Build spot 0.75x; 50% on 1H range reclaim / 50% limit at low; stop sweep low -0.5%",
+  "implication": "Full spot long 1.0x; 60% breakout / 40% VWAP retest; stop 4H swing low -0.6%",
   "notMet": [
-   "OI 24h flat/dropping (<=+1%)",
-   "Funding -0.008..+0.002%",
-   "Book bids/asks >= 1.4 (imb >= +16.7%)"
+   "Above 20D MA",
+   "ETF net > +$150M",
+   "Perp CVD positive, not > spot"
   ],
   "missing": [
    "ATR compression history",
@@ -907,20 +906,20 @@
    "Spot volume vs 20D MA",
    "Whale exchange inflows / CDD"
   ],
-  "asOfMs": 1794260863857,
+  "asOfMs": 1794262623389,
   "scores": {
-   "A": "3/7",
-   "B": "0/5",
-   "C": "4/7",
-   "D": "1/5",
+   "A": "4/7",
+   "B": "1/5",
+   "C": "3/7",
+   "D": "2/5",
    "E": "0/4",
    "F": "2/4",
-   "G": "0/5",
+   "G": "1/5",
    "H": "0/3",
    "I": "4/5",
    "J": "3/6"
   },
-  "asOf": "10 Nov 05:47 SGT",
+  "asOf": "10 Nov 06:17 SGT",
   "source": "box (full data incl. perp CVD)"
  }
 }
