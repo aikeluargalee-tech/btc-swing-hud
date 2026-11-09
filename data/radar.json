@@ -4,27 +4,27 @@
  "label": "C \u2014 Bullish Absorption",
  "status": "Watch",
  "tone": "good",
- "confidence": 57,
- "confLabel": "Medium",
- "matched": "4/7 available (7 listed)",
+ "confidence": 71,
+ "confLabel": "High",
+ "matched": "5/7 available (7 listed)",
  "runnerUp": "I Bear Trend (3/5)",
  "evidence": [
   "Negative headline risk",
   "Testing 200D MA / 30d low",
   "Spot CVD 24h strongly positive (>500 BTC)",
+  "Perp CVD 4h negative",
   "OI 24h flat/dropping (<=+1%)"
  ],
  "metrics": [
-  "Price vs 20D MA -5.26%",
-  "vs 50D MA -8.41%",
-  "Spot CVD 24h +976 BTC",
-  "Perp CVD 4h +346 BTC",
-  "OI 24h -1.73%",
+  "Price vs 20D MA -5.33%",
+  "vs 50D MA -8.48%",
+  "Spot CVD 24h +1119 BTC",
+  "Perp CVD 4h -278 BTC",
+  "OI 24h -1.40%",
   "Funding +0.0086%"
  ],
  "implication": "Build spot 0.75x; 50% on 1H range reclaim / 50% limit at low; stop sweep low -0.5%",
  "notMet": [
-  "Perp CVD 4h negative",
   "Funding -0.008..+0.002%",
   "Book bids/asks >= 1.4 (imb >= +16.7%)"
  ],
@@ -36,19 +36,19 @@
   "Spot volume vs 20D MA",
   "Whale exchange inflows / CDD"
  ],
- "asOfMs": 1794253971659,
+ "asOfMs": 1794254719635,
  "scores": {
-  "A": "3/7",
+  "A": "2/7",
   "B": "0/5",
-  "C": "4/7",
-  "D": "2/5",
+  "C": "5/7",
+  "D": "1/5",
   "E": "1/4",
-  "F": "1/4",
+  "F": "2/4",
   "G": "0/5",
   "H": "0/3",
   "I": "3/5",
   "J": "3/6"
  },
- "asOf": "10 Nov 03:52 SGT",
+ "asOf": "10 Nov 04:05 SGT",
  "source": "box (full data incl. perp CVD)"
 }
