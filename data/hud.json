@@ -1,10 +1,10 @@
 {
- "asOf": "09 Nov 2026, 19:39 SGT",
- "asOfMs": 1794224352625,
- "price": 74634.38,
+ "asOf": "09 Nov 2026, 19:47 SGT",
+ "asOfMs": 1794224836458,
+ "price": 74540.0,
  "high24": 76200.0,
  "low24": 73510.0,
- "chg24": -1.803,
+ "chg24": -1.906,
  "h1": [
   [
    "07 19:00",
@@ -333,8 +333,8 @@
  "lastDAt": "09 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.00834859161347,
-  "oiOKX": 35027.11560000016,
+  "fundOKX": 0.00818066369532,
+  "oiOKX": 35074.75120000016,
   "lsOKX": 3.0,
   "lsAt": "09 Nov 19:00",
   "liqLongUsd": 0,
@@ -343,8 +343,8 @@
  },
  "macro": {
   "vix": {
-   "v": 23.4,
-   "chg": -8.74,
+   "v": 23.25,
+   "chg": -9.32,
    "date": "09 Nov"
   },
   "dxy": {
@@ -373,11 +373,11 @@
   "label": "Fear",
   "date": "09 Nov"
  },
- "cbPremium": -101.0,
+ "cbPremium": -105.6,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23240900890,
-  "oiChg24": -1.57,
+  "oiUsd": 23218532719,
+  "oiChg24": -1.66,
   "oiHist": [
    [
     "08 19:00",
@@ -477,11 +477,11 @@
    ],
    [
     "09 19:00",
-    23.241
+    23.219
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.007,
+  "fundAvg": 0.00707,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
    "Deribit BTC-PERPETUAL": 0,
@@ -489,26 +489,26 @@
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.01,
    "Bybit BTCUSDT": 0.007544,
-   "Gate BTC_USDT": 0.003,
-   "OKX BTCUSDT_PERP": 0.00834859161347,
+   "Gate BTC_USDT": 0.0039,
+   "OKX BTCUSDT_PERP": 0.00816921513908,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.01
   },
-  "predFundAvg": 0.00588,
-  "liqLongUsd24": 176822546,
-  "liqShortUsd24": 16712215
+  "predFundAvg": 0.00616,
+  "liqLongUsd24": 176822498,
+  "liqShortUsd24": 16708734
  },
  "tech": {
   "rsiD": 35.6,
   "atrD": 2293.9,
   "basis": "closed candles, Binance spot",
   "ma20": 79094.7,
-  "ma20Pct": -5.64,
+  "ma20Pct": -5.76,
   "ma50": 81821.6,
-  "ma50Pct": -8.78,
+  "ma50Pct": -8.9,
   "ma200": 73223.6,
-  "ma200Pct": 1.93,
-  "atrPct": 3.07,
+  "ma200Pct": 1.8,
+  "atrPct": 3.08,
   "rsi4h": 25.0
  },
  "opt": {
@@ -519,7 +519,7 @@
   "pcrAll": 0.72,
   "atmStrike": 74500.0,
   "atmIV": 43.4,
-  "dvol": 40.61
+  "dvol": 40.64
  },
  "stables": {
   "USDT": {
@@ -536,55 +536,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 74636.0,
-   "reachPct": 1.46,
+   "mid": 74534.0,
+   "reachPct": 1.5,
    "b1": {
-    "bid": 14158580,
-    "ask": 19586301,
-    "imb": -16.1,
+    "bid": 13771771,
+    "ask": 21337241,
+    "imb": -21.5,
     "full": true
    },
    "b2": {
-    "bid": 22206873,
-    "ask": 21977520,
-    "imb": 0.5,
+    "bid": 21424078,
+    "ask": 24219947,
+    "imb": -6.1,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 74599.4,
-   "reachPct": 1.0,
+   "mid": 74492.1,
+   "reachPct": 1.03,
    "b1": {
-    "bid": 80552902,
-    "ask": 89309907,
-    "imb": -5.2,
-    "full": false
+    "bid": 77859910,
+    "ask": 81992997,
+    "imb": -2.6,
+    "full": true
    },
    "b2": {
-    "bid": 81481930,
-    "ask": 89309907,
-    "imb": -4.6,
+    "bid": 80568736,
+    "ask": 82186764,
+    "imb": -1.0,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 94711482,
-    "ask": 108896208,
+    "bid": 91631681,
+    "ask": 103330238,
     "venues": [
      "spot full",
-     "okxPerp to \u00b11.0%"
+     "okxPerp full"
     ],
-    "imb": -7.0
+    "imb": -6.0
    },
    "b2": {
-    "bid": 103688803,
-    "ask": 111287427,
+    "bid": 101992814,
+    "ask": 106406711,
     "venues": [
-     "spot to \u00b11.46%",
-     "okxPerp to \u00b11.0%"
+     "spot to \u00b11.5%",
+     "okxPerp to \u00b11.03%"
     ],
-    "imb": -3.5
+    "imb": -2.1
    }
   },
   "walls": {
@@ -660,9 +660,9 @@
   "px4h": -0.191,
   "spot1h": 34.1,
   "spot4h": 373.1,
-  "oi4h": 0.98,
+  "oi4h": 0.89,
   "tag": "Neutral",
-  "why": "price -0.19% 4h, OI 0.98%, spot CVD +373, perp CVD n/a"
+  "why": "price -0.19% 4h, OI 0.89%, spot CVD +373, perp CVD n/a"
  },
  "regime": {
   "h1h": 0.64,
@@ -678,16 +678,16 @@
  "vol": {
   "rv7d": 42.0,
   "rr7d": {
-   "rr": -6.19,
-   "call": 41.8,
-   "put": 48.0,
+   "rr": -6.28,
+   "call": 41.9,
+   "put": 48.2,
    "expiry": "13NOV26",
    "days": 3.8
   },
   "rr30d": {
-   "rr": -4.84,
+   "rr": -4.91,
    "call": 37.5,
-   "put": 42.3,
+   "put": 42.4,
    "expiry": "27NOV26",
    "days": 17.8
   },
@@ -734,15 +734,23 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "09 Nov 19:39 SGT",
+  "asOf": "09 Nov 19:47 SGT",
   "risk": "HIGH",
-  "why": "flagged headline 0.8h ago",
+  "why": "flagged headline 0.9h ago",
   "headlines": [
+   {
+    "title": "Nvidia-led tech selloff weighs on crypto majors",
+    "source": "CoinDesk",
+    "time": "09 Nov 19:42",
+    "ageH": 0.1,
+    "link": "https://www.coindesk.com/markets/2026/11/09/tech-selloff-weighs-on-crypto-majors",
+    "high": false
+   },
    {
     "title": "Zcash developers want 20-second blocks just days after major speed upgrade",
     "source": "CoinDesk",
     "time": "09 Nov 18:52",
-    "ageH": 0.8,
+    "ageH": 0.9,
     "link": "https://www.coindesk.com/tech/2026/11/09/zcash-developers-want-20-second-blocks-just-days-after-major-speed-upgrade",
     "high": true
    },
@@ -750,7 +758,7 @@
     "title": "Live news: Nvidia slides on CEO allegations as bitcoin hovers just above its 200-day average",
     "source": "CoinDesk",
     "time": "09 Nov 18:51",
-    "ageH": 0.8,
+    "ageH": 0.9,
     "link": "https://www.coindesk.com/tech/2026/11/09/live-news-nvidia-slides-on-ceo-allegations-as-bitcoin-hovers-just-above-its-200-day-average",
     "high": false
    },
@@ -758,7 +766,7 @@
     "title": "Crypto-friendly Robinhood brings US IPO access to UK retail investors",
     "source": "The Block",
     "time": "09 Nov 18:48",
-    "ageH": 0.9,
+    "ageH": 1.0,
     "link": "https://www.theblock.co/news/business/2026-11-09-crypto-friendly-robinhood-brings-us-ipo-access-to-uk-retail-investors-436089",
     "high": false
    },
@@ -766,16 +774,8 @@
     "title": "Trump says he knows \u2018nothing\u2019 about UAE-linked investment in his crypto firm",
     "source": "The Block",
     "time": "09 Nov 18:33",
-    "ageH": 1.1,
+    "ageH": 1.2,
     "link": "https://www.theblock.co/news/business/2026-11-09-trump-says-he-knows-nothing-about-uae-linked-investment-in-his-crypto-firm-436079",
-    "high": false
-   },
-   {
-    "title": "BTC price eyes $73K amid Nvidia volatility: Three things to know in Bitcoin this week",
-    "source": "Cointelegraph",
-    "time": "09 Nov 18:03",
-    "ageH": 1.6,
-    "link": "https://cointelegraph.com/markets/btc-price-nvidia-volatility-three-things-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    }
   ],
@@ -783,28 +783,28 @@
    {
     "title": "Core CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 25.8,
+    "inH": 25.7,
     "forecast": "0.2%",
     "previous": "0.3%"
    },
    {
     "title": "CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 25.8,
+    "inH": 25.7,
     "forecast": "0.3%",
     "previous": "0.6%"
    },
    {
     "title": "Core PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 97.8,
+    "inH": 97.7,
     "forecast": "0.3%",
     "previous": "0.7%"
    },
    {
     "title": "PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 97.8,
+    "inH": 97.7,
     "forecast": "0.4%",
     "previous": "1.3%"
    }
@@ -841,8 +841,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 74634.38,
-   "valueAt": "09 Nov 2026, 19:39 SGT",
+   "value": 74540.0,
+   "valueAt": "09 Nov 2026, 19:47 SGT",
    "hit": false
   },
   {
@@ -884,12 +884,12 @@
    "Below 20D MA (VWAP-break proxy)"
   ],
   "metrics": [
-   "Price vs 20D MA -5.65%",
-   "vs 50D MA -8.80%",
+   "Price vs 20D MA -5.76%",
+   "vs 50D MA -8.90%",
    "Spot CVD 24h -54 BTC",
    "Perp CVD 4h +490 BTC",
-   "OI 24h -1.61%",
-   "Funding +0.0070%"
+   "OI 24h -1.68%",
+   "Funding +0.0071%"
   ],
   "implication": "Defensive cash; sell 50% on 1H close below VWAP",
   "notMet": [
@@ -904,7 +904,7 @@
    "Spot volume vs 20D MA",
    "Whale exchange inflows / CDD"
   ],
-  "asOfMs": 1794224320474,
+  "asOfMs": 1794224808668,
   "scores": {
    "A": "2/7",
    "B": "1/5",
@@ -917,7 +917,7 @@
    "I": "4/5",
    "J": "2/6"
   },
-  "asOf": "09 Nov 19:38 SGT",
+  "asOf": "09 Nov 19:46 SGT",
   "source": "box (full data incl. perp CVD)"
  }
 }
