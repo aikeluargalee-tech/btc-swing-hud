@@ -1,10 +1,10 @@
 {
- "asOf": "10 Nov 2026, 06:17 SGT",
- "asOfMs": 1794262652200,
- "price": 75022.0,
+ "asOf": "10 Nov 2026, 06:32 SGT",
+ "asOfMs": 1794263526959,
+ "price": 75112.06,
  "high24": 75734.51,
  "low24": 73750.0,
- "chg24": 0.759,
+ "chg24": 0.903,
  "h1": [
   [
    "08 06:00",
@@ -333,8 +333,8 @@
  "lastDAt": "09 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.00907889778946,
-  "oiOKX": 34619.41810000014,
+  "fundOKX": 0.00833519537212,
+  "oiOKX": 34687.69410000014,
   "lsOKX": 2.84,
   "lsAt": "10 Nov 06:00",
   "liqLongUsd": 241688,
@@ -349,7 +349,7 @@
   },
   "dxy": {
    "v": 101.68,
-   "chg": -0.61,
+   "chg": -0.6,
    "date": "09 Nov"
   },
   "us10y": {
@@ -373,11 +373,11 @@
   "label": "Fear",
   "date": "09 Nov"
  },
- "cbPremium": -100.8,
+ "cbPremium": -81.6,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23236146580,
-  "oiChg24": 1.41,
+  "oiUsd": 23276005763,
+  "oiChg24": 1.59,
   "oiHist": [
    [
     "09 06:00",
@@ -477,38 +477,38 @@
    ],
    [
     "10 06:00",
-    23.236
+    23.276
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00851,
+  "fundAvg": 0.00835,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
-   "Deribit BTC-PERPETUAL": 0.007511,
+   "Deribit BTC-PERPETUAL": 0.006640999999999999,
    "Bybit BTCUSD": 0.008178,
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.01,
    "Bybit BTCUSDT": 0.009118,
    "Gate BTC_USDT": 0.01,
-   "OKX BTCUSDT_PERP": 0.00907889778946,
+   "OKX BTCUSDT_PERP": 0.00833519537212,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.01
   },
-  "predFundAvg": 0.00753,
-  "liqLongUsd24": 28823974,
-  "liqShortUsd24": 21824204
+  "predFundAvg": 0.00751,
+  "liqLongUsd24": 28850261,
+  "liqShortUsd24": 21824233
  },
  "tech": {
   "rsiD": 35.6,
   "atrD": 2293.9,
   "basis": "closed candles, Binance spot",
   "ma20": 79094.7,
-  "ma20Pct": -5.15,
+  "ma20Pct": -5.04,
   "ma50": 81821.6,
-  "ma50Pct": -8.31,
+  "ma50Pct": -8.2,
   "ma200": 73223.6,
-  "ma200Pct": 2.46,
-  "atrPct": 3.06,
+  "ma200Pct": 2.58,
+  "atrPct": 3.05,
   "rsi4h": 40.8
  },
  "opt": {
@@ -536,55 +536,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 75018.0,
-   "reachPct": 1.4,
+   "mid": 75122.0,
+   "reachPct": 1.28,
    "b1": {
-    "bid": 8585459,
-    "ask": 13465406,
-    "imb": -22.1,
+    "bid": 10883423,
+    "ask": 16123232,
+    "imb": -19.4,
     "full": true
    },
    "b2": {
-    "bid": 13207631,
-    "ask": 18576413,
-    "imb": -16.9,
+    "bid": 15605748,
+    "ask": 19360253,
+    "imb": -10.7,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 74979.9,
-   "reachPct": 1.0,
+   "mid": 75085.9,
+   "reachPct": 0.95,
    "b1": {
-    "bid": 58006267,
-    "ask": 84075798,
-    "imb": -18.3,
+    "bid": 64769771,
+    "ask": 85101914,
+    "imb": -13.6,
     "full": false
    },
    "b2": {
-    "bid": 59540067,
-    "ask": 84075798,
-    "imb": -17.1,
+    "bid": 66138888,
+    "ask": 85101914,
+    "imb": -12.5,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 66591726,
-    "ask": 97541204,
+    "bid": 75653194,
+    "ask": 101225146,
     "venues": [
      "spot full",
-     "okxPerp to \u00b11.0%"
+     "okxPerp to \u00b10.95%"
     ],
-    "imb": -18.9
+    "imb": -14.5
    },
    "b2": {
-    "bid": 72747698,
-    "ask": 102652211,
+    "bid": 81744636,
+    "ask": 104462167,
     "venues": [
-     "spot to \u00b11.4%",
-     "okxPerp to \u00b11.0%"
+     "spot to \u00b11.28%",
+     "okxPerp to \u00b10.95%"
     ],
-    "imb": -17.0
+    "imb": -12.2
    }
   },
   "walls": {
@@ -660,9 +660,9 @@
   "px4h": 0.33,
   "spot1h": 111.8,
   "spot4h": 247.7,
-  "oi4h": 0.23,
+  "oi4h": 0.4,
   "tag": "Neutral",
-  "why": "price +0.33% 4h, OI 0.23%, spot CVD +248, perp CVD n/a"
+  "why": "price +0.33% 4h, OI 0.4%, spot CVD +248, perp CVD n/a"
  },
  "regime": {
   "h1h": 0.66,
@@ -678,16 +678,16 @@
  "vol": {
   "rv7d": 42.9,
   "rr7d": {
-   "rr": -3.62,
-   "call": 38.0,
-   "put": 41.6,
+   "rr": -3.58,
+   "call": 37.9,
+   "put": 41.4,
    "expiry": "20NOV26",
    "days": 10.4
   },
   "rr30d": {
-   "rr": -3.14,
-   "call": 37.3,
-   "put": 40.5,
+   "rr": -3.19,
+   "call": 37.2,
+   "put": 40.4,
    "expiry": "27NOV26",
    "days": 17.4
   },
@@ -734,15 +734,15 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "10 Nov 06:17 SGT",
+  "asOf": "10 Nov 06:32 SGT",
   "risk": "HIGH",
-  "why": "Core CPI m/m in 15.2h; CPI m/m in 15.2h; flagged headline 1.9h ago",
+  "why": "Core CPI m/m in 15.0h; CPI m/m in 15.0h; flagged headline 2.1h ago",
   "headlines": [
    {
     "title": "MARA posts $634 million Q3 net profit on bitcoin gains, sells 13,597 BTC to pay off loans",
     "source": "The Block",
     "time": "10 Nov 06:07",
-    "ageH": 0.2,
+    "ageH": 0.4,
     "link": "https://www.theblock.co/news/business/2026-11-09-mara-q3-earnings-net-profit-bitcoin-sale-ai-pivot-436950",
     "high": false
    },
@@ -750,7 +750,7 @@
     "title": "Here\u2019s what happened in crypto today",
     "source": "Cointelegraph",
     "time": "10 Nov 06:06",
-    "ageH": 0.2,
+    "ageH": 0.4,
     "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -758,7 +758,7 @@
     "title": "Should you leave Australia to avoid paying 47% tax on crypto gains?",
     "source": "Cointelegraph",
     "time": "10 Nov 05:00",
-    "ageH": 1.3,
+    "ageH": 1.5,
     "link": "https://cointelegraph.com/magazine/should-you-leave-australia-to-avoid-47-tax-on-crypto-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -766,7 +766,7 @@
     "title": "North Korean hackers create memecoins to launder funds from Binance hack: Elliptic",
     "source": "Cointelegraph",
     "time": "10 Nov 04:26",
-    "ageH": 1.9,
+    "ageH": 2.1,
     "link": "https://cointelegraph.com/news/north-korean-hackers-memecoins-launder-binance-hack-elliptic?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": true
    },
@@ -774,7 +774,7 @@
     "title": "Elizabeth Warren vows scrutiny of prediction markets, Trump family crypto ventures as Senate Banking chair",
     "source": "The Block",
     "time": "10 Nov 04:04",
-    "ageH": 2.2,
+    "ageH": 2.5,
     "link": "https://www.theblock.co/news/regulation/2026-11-09-senate-banking-elizabeth-warren-scrutiny-prediction-markets-trump-crypto-ventures-436898",
     "high": true
    }
@@ -783,28 +783,28 @@
    {
     "title": "Core CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 15.2,
+    "inH": 15.0,
     "forecast": "0.2%",
     "previous": "0.3%"
    },
    {
     "title": "CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 15.2,
+    "inH": 15.0,
     "forecast": "0.3%",
     "previous": "0.6%"
    },
    {
     "title": "Core PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 87.2,
+    "inH": 87.0,
     "forecast": "0.3%",
     "previous": "0.7%"
    },
    {
     "title": "PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 87.2,
+    "inH": 87.0,
     "forecast": "0.4%",
     "previous": "1.3%"
    }
@@ -841,8 +841,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 75022.0,
-   "valueAt": "10 Nov 2026, 06:17 SGT",
+   "value": 75112.06,
+   "valueAt": "10 Nov 2026, 06:32 SGT",
    "hit": false
   },
   {
@@ -885,12 +885,12 @@
    "Funding +0.002..+0.010%"
   ],
   "metrics": [
-   "Price vs 20D MA -5.02%",
-   "vs 50D MA -8.19%",
+   "Price vs 20D MA -5.01%",
+   "vs 50D MA -8.18%",
    "Spot CVD 24h +1730 BTC",
    "Perp CVD 4h +605 BTC",
-   "OI 24h +1.46%",
-   "Funding +0.0088%"
+   "OI 24h +1.54%",
+   "Funding +0.0084%"
   ],
   "implication": "Full spot long 1.0x; 60% breakout / 40% VWAP retest; stop 4H swing low -0.6%",
   "notMet": [
@@ -906,7 +906,7 @@
    "Spot volume vs 20D MA",
    "Whale exchange inflows / CDD"
   ],
-  "asOfMs": 1794262623389,
+  "asOfMs": 1794263502008,
   "scores": {
    "A": "4/7",
    "B": "1/5",
@@ -919,7 +919,7 @@
    "I": "4/5",
    "J": "3/6"
   },
-  "asOf": "10 Nov 06:17 SGT",
+  "asOf": "10 Nov 06:31 SGT",
   "source": "box (full data incl. perp CVD)"
  }
 }
