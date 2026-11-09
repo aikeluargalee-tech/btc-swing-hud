@@ -1,10 +1,10 @@
 {
- "asOf": "09 Nov 2026, 20:02 SGT",
- "asOfMs": 1794225752584,
- "price": 74406.01,
+ "asOf": "09 Nov 2026, 20:19 SGT",
+ "asOfMs": 1794226774139,
+ "price": 74639.97,
  "high24": 76200.0,
  "low24": 73510.0,
- "chg24": -2.073,
+ "chg24": -1.725,
  "h1": [
   [
    "07 20:00",
@@ -333,23 +333,23 @@
  "lastDAt": "09 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.00794023626122,
-  "oiOKX": 35107.55980000016,
-  "lsOKX": 2.98,
-  "lsAt": "09 Nov 19:00",
+  "fundOKX": 0.00777321069091,
+  "oiOKX": 35130.07030000017,
+  "lsOKX": 2.99,
+  "lsAt": "09 Nov 20:00",
   "liqLongUsd": 1093,
   "liqShortUsd": 3122399,
   "liqWindow": "09 Nov 19:17 to 09 Nov 19:59"
  },
  "macro": {
   "vix": {
-   "v": 23.36,
-   "chg": -8.89,
+   "v": 23.49,
+   "chg": -8.39,
    "date": "09 Nov"
   },
   "dxy": {
-   "v": 101.83,
-   "chg": -0.46,
+   "v": 101.88,
+   "chg": -0.41,
    "date": "09 Nov"
   },
   "us10y": {
@@ -373,11 +373,11 @@
   "label": "Fear",
   "date": "09 Nov"
  },
- "cbPremium": -139.2,
+ "cbPremium": -112.2,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23168325472,
-  "oiChg24": -1.83,
+  "oiUsd": 23252067448,
+  "oiChg24": -1.48,
   "oiHist": [
    [
     "08 20:00",
@@ -477,11 +477,11 @@
    ],
    [
     "09 20:00",
-    23.168
+    23.252
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00717,
+  "fundAvg": 0.00731,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
    "Deribit BTC-PERPETUAL": 0,
@@ -489,37 +489,36 @@
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.01,
    "Bybit BTCUSDT": 0.007544,
-   "Gate BTC_USDT": 0.0051,
-   "OKX BTCUSDT_PERP": 0.00794023626122,
+   "Gate BTC_USDT": 0.0067,
+   "OKX BTCUSDT_PERP": 0.00777321069091,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.01
   },
-  "predFundAvg": 0.00639,
-  "liqLongUsd24": 176743005,
-  "liqShortUsd24": 16616727
+  "liqLongUsd24": 176743032,
+  "liqShortUsd24": 16650610
  },
  "tech": {
   "rsiD": 35.6,
   "atrD": 2293.9,
   "basis": "closed candles, Binance spot",
   "ma20": 79094.7,
-  "ma20Pct": -5.93,
+  "ma20Pct": -5.63,
   "ma50": 81821.6,
-  "ma50Pct": -9.06,
+  "ma50Pct": -8.78,
   "ma200": 73223.6,
-  "ma200Pct": 1.61,
-  "atrPct": 3.08,
+  "ma200Pct": 1.93,
+  "atrPct": 3.07,
   "rsi4h": 32.4
  },
  "opt": {
   "expiry": "13NOV26",
-  "expiryOI": 34138,
+  "expiryOI": 34171,
   "maxPain": 77000.0,
   "pcrExpiry": 0.69,
   "pcrAll": 0.72,
   "atmStrike": 74500.0,
-  "atmIV": 43.5,
-  "dvol": 40.98
+  "atmIV": 43.7,
+  "dvol": 40.68
  },
  "stables": {
   "USDT": {
@@ -536,55 +535,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 74390.0,
-   "reachPct": 1.36,
+   "mid": 74658.0,
+   "reachPct": 1.43,
    "b1": {
-    "bid": 14349581,
-    "ask": 19901634,
-    "imb": -16.2,
+    "bid": 11453163,
+    "ask": 21512047,
+    "imb": -30.5,
     "full": true
    },
    "b2": {
-    "bid": 21262689,
-    "ask": 23173604,
-    "imb": -4.3,
+    "bid": 19872992,
+    "ask": 23778103,
+    "imb": -8.9,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 74363.4,
-   "reachPct": 1.01,
+   "mid": 74624.4,
+   "reachPct": 0.99,
    "b1": {
-    "bid": 105883115,
-    "ask": 83191909,
-    "imb": 12.0,
-    "full": true
+    "bid": 83084997,
+    "ask": 92304635,
+    "imb": -5.3,
+    "full": false
    },
    "b2": {
-    "bid": 105957040,
-    "ask": 83593525,
-    "imb": 11.8,
+    "bid": 84272183,
+    "ask": 92304635,
+    "imb": -4.5,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 120232696,
-    "ask": 103093543,
+    "bid": 94538160,
+    "ask": 113816682,
     "venues": [
      "spot full",
-     "okxPerp full"
+     "okxPerp to \u00b10.99%"
     ],
-    "imb": 7.7
+    "imb": -9.3
    },
    "b2": {
-    "bid": 127219729,
-    "ask": 106767129,
+    "bid": 104145175,
+    "ask": 116082738,
     "venues": [
-     "spot to \u00b11.36%",
-     "okxPerp to \u00b11.01%"
+     "spot to \u00b11.43%",
+     "okxPerp to \u00b10.99%"
     ],
-    "imb": 8.7
+    "imb": -5.4
    }
   },
   "walls": {
@@ -660,9 +659,9 @@
   "px4h": 0.68,
   "spot1h": 165.0,
   "spot4h": 573.4,
-  "oi4h": -0.27,
+  "oi4h": 0.09,
   "tag": "Neutral",
-  "why": "price +0.68% 4h, OI -0.27%, spot CVD +573, perp CVD n/a"
+  "why": "price +0.68% 4h, OI 0.09%, spot CVD +573, perp CVD n/a"
  },
  "regime": {
   "h1h": 0.67,
@@ -678,20 +677,20 @@
  "vol": {
   "rv7d": 42.0,
   "rr7d": {
-   "rr": -6.19,
-   "call": 42.4,
-   "put": 48.5,
+   "rr": -5.85,
+   "call": 42.3,
+   "put": 48.1,
    "expiry": "13NOV26",
    "days": 3.8
   },
   "rr30d": {
-   "rr": -4.96,
+   "rr": -4.78,
    "call": 37.6,
-   "put": 42.5,
+   "put": 42.4,
    "expiry": "27NOV26",
    "days": 17.8
   },
-  "vrp": -1.0,
+  "vrp": -1.3,
   "basis": "25d RR = call IV - put IV at |delta|=0.25 (Black-Scholes delta from Deribit mark_iv, nearest expiry to 7d/30d); RV7d from 1H closes, annualised"
  },
  "etf": {
@@ -724,7 +723,9 @@
   "sum5": -883.1,
   "source": "Farside (farside.co.uk/btc), US$m"
  },
- "missing": [],
+ "missing": [
+  "Coinalyze predicted funding: HTTPError 429"
+ ],
  "browserLive": [
   "Binance futures funding",
   "Binance long/short",
@@ -734,15 +735,15 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "09 Nov 20:02 SGT",
+  "asOf": "09 Nov 20:20 SGT",
   "risk": "HIGH",
-  "why": "flagged headline 0.2h ago; flagged headline 1.2h ago",
+  "why": "flagged headline 0.5h ago; flagged headline 1.5h ago",
   "headlines": [
    {
     "title": "Coinbase Joins Circle, Ripple With Final OCC Approval for Federal Trust Bank Charter",
     "source": "Decrypt",
     "time": "09 Nov 19:50",
-    "ageH": 0.2,
+    "ageH": 0.5,
     "link": "https://decrypt.co/382816/coinbase-joins-circle-ripple-with-final-occ-approval-for-federal-trust-bank-charter",
     "high": true
    },
@@ -750,7 +751,7 @@
     "title": "Nvidia-led tech selloff weighs on crypto majors",
     "source": "CoinDesk",
     "time": "09 Nov 19:42",
-    "ageH": 0.3,
+    "ageH": 0.6,
     "link": "https://www.coindesk.com/markets/2026/11/09/tech-selloff-weighs-on-crypto-majors",
     "high": false
    },
@@ -758,15 +759,15 @@
     "title": "Zcash developers want 20-second blocks just days after major speed upgrade",
     "source": "CoinDesk",
     "time": "09 Nov 18:52",
-    "ageH": 1.2,
+    "ageH": 1.5,
     "link": "https://www.coindesk.com/tech/2026/11/09/zcash-developers-want-20-second-blocks-just-days-after-major-speed-upgrade",
     "high": true
    },
    {
-    "title": "Live news: Nvidia slides on CEO allegations as bitcoin hovers just above its 200-day average",
+    "title": "Live news: Bitcoin slides to $74,000 as Huang scandal weighs on Nvidia",
     "source": "CoinDesk",
     "time": "09 Nov 18:51",
-    "ageH": 1.2,
+    "ageH": 1.5,
     "link": "https://www.coindesk.com/tech/2026/11/09/live-news-nvidia-slides-on-ceo-allegations-as-bitcoin-hovers-just-above-its-200-day-average",
     "high": false
    },
@@ -774,7 +775,7 @@
     "title": "Crypto-friendly Robinhood brings US IPO access to UK retail investors",
     "source": "The Block",
     "time": "09 Nov 18:48",
-    "ageH": 1.2,
+    "ageH": 1.5,
     "link": "https://www.theblock.co/news/business/2026-11-09-crypto-friendly-robinhood-brings-us-ipo-access-to-uk-retail-investors-436089",
     "high": false
    }
@@ -783,28 +784,28 @@
    {
     "title": "Core CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 25.5,
+    "inH": 25.2,
     "forecast": "0.2%",
     "previous": "0.3%"
    },
    {
     "title": "CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 25.5,
+    "inH": 25.2,
     "forecast": "0.3%",
     "previous": "0.6%"
    },
    {
     "title": "Core PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 97.5,
+    "inH": 97.2,
     "forecast": "0.3%",
     "previous": "0.7%"
    },
    {
     "title": "PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 97.5,
+    "inH": 97.2,
     "forecast": "0.4%",
     "previous": "1.3%"
    }
@@ -841,8 +842,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 74406.01,
-   "valueAt": "09 Nov 2026, 20:02 SGT",
+   "value": 74639.97,
+   "valueAt": "09 Nov 2026, 20:19 SGT",
    "hit": false
   },
   {
