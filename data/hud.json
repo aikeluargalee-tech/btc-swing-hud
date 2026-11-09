@@ -1,10 +1,10 @@
 {
- "asOf": "09 Nov 2026, 16:37 SGT",
- "asOfMs": 1794213473967,
- "price": 74276.08,
+ "asOf": "09 Nov 2026, 16:49 SGT",
+ "asOfMs": 1794214143157,
+ "price": 74352.5,
  "high24": 76200.0,
  "low24": 73510.0,
- "chg24": -2.162,
+ "chg24": -2.074,
  "h1": [
   [
    "07 16:00",
@@ -333,23 +333,23 @@
  "lastDAt": "09 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.00989633654171,
-  "oiOKX": 35081.58440000016,
-  "lsOKX": 2.98,
+  "fundOKX": 0.009767964212400001,
+  "oiOKX": 35107.724600000154,
+  "lsOKX": 3.01,
   "lsAt": "09 Nov 16:00",
-  "liqLongUsd": 817615,
-  "liqShortUsd": 198759,
-  "liqWindow": "09 Nov 15:29 to 09 Nov 16:37"
+  "liqLongUsd": 421611,
+  "liqShortUsd": 600265,
+  "liqWindow": "09 Nov 15:29 to 09 Nov 16:48"
  },
  "macro": {
   "vix": {
-   "v": 24.72,
-   "chg": -3.59,
+   "v": 24.5,
+   "chg": -4.45,
    "date": "09 Nov"
   },
   "dxy": {
-   "v": 101.89,
-   "chg": -0.4,
+   "v": 101.88,
+   "chg": -0.41,
    "date": "09 Nov"
   },
   "us10y": {
@@ -373,11 +373,11 @@
   "label": "Fear",
   "date": "09 Nov"
  },
- "cbPremium": -90.6,
+ "cbPremium": -103.2,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23173675656,
-  "oiChg24": -1.73,
+  "oiUsd": 23191614145,
+  "oiChg24": -1.65,
   "oiHist": [
    [
     "08 16:00",
@@ -477,11 +477,11 @@
    ],
    [
     "09 16:00",
-    23.174
+    23.192
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00717,
+  "fundAvg": 0.00702,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
    "Deribit BTC-PERPETUAL": 0,
@@ -489,37 +489,36 @@
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.01,
    "Bybit BTCUSDT": 0.007544,
-   "Gate BTC_USDT": 0.0031,
-   "OKX BTCUSDT_PERP": 0.00989633654171,
+   "Gate BTC_USDT": 0.0018,
+   "OKX BTCUSDT_PERP": 0.00976659351502,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.01
   },
-  "predFundAvg": 0.00483,
-  "liqLongUsd24": 176352789,
-  "liqShortUsd24": 12199246
+  "liqLongUsd24": 176353014,
+  "liqShortUsd24": 12324899
  },
  "tech": {
   "rsiD": 35.6,
   "atrD": 2293.9,
   "basis": "closed candles, Binance spot",
   "ma20": 79094.7,
-  "ma20Pct": -6.09,
+  "ma20Pct": -6.0,
   "ma50": 81821.6,
-  "ma50Pct": -9.22,
+  "ma50Pct": -9.13,
   "ma200": 73223.6,
-  "ma200Pct": 1.44,
+  "ma200Pct": 1.54,
   "atrPct": 3.09,
   "rsi4h": 25.0
  },
  "opt": {
   "expiry": "13NOV26",
-  "expiryOI": 33962,
+  "expiryOI": 34032,
   "maxPain": 77000.0,
   "pcrExpiry": 0.7,
   "pcrAll": 0.72,
-  "atmStrike": 74000.0,
-  "atmIV": 43.2,
-  "dvol": 41.11
+  "atmStrike": 74500.0,
+  "atmIV": 42.5,
+  "dvol": 41.05
  },
  "stables": {
   "USDT": {
@@ -536,55 +535,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 74298.2,
-   "reachPct": 1.47,
+   "mid": 74366.9,
+   "reachPct": 1.46,
    "b1": {
-    "bid": 16820043,
-    "ask": 18188846,
-    "imb": -3.9,
+    "bid": 14423532,
+    "ask": 18458157,
+    "imb": -12.3,
     "full": true
    },
    "b2": {
-    "bid": 26963698,
-    "ask": 19197299,
-    "imb": 16.8,
+    "bid": 25850260,
+    "ask": 19878544,
+    "imb": 13.1,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 74264.2,
-   "reachPct": 1.0,
+   "mid": 74326.1,
+   "reachPct": 0.99,
    "b1": {
-    "bid": 80819967,
-    "ask": 85819320,
-    "imb": -3.0,
+    "bid": 81527636,
+    "ask": 78481733,
+    "imb": 1.9,
     "full": false
    },
    "b2": {
-    "bid": 93819115,
-    "ask": 85819320,
-    "imb": 4.5,
+    "bid": 83219227,
+    "ask": 78481733,
+    "imb": 2.9,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 97640010,
-    "ask": 104008166,
+    "bid": 95951168,
+    "ask": 96939890,
     "venues": [
      "spot full",
-     "okxPerp to \u00b11.0%"
+     "okxPerp to \u00b10.99%"
     ],
-    "imb": -3.2
+    "imb": -0.5
    },
    "b2": {
-    "bid": 120782813,
-    "ask": 105016619,
+    "bid": 109069487,
+    "ask": 98360277,
     "venues": [
-     "spot to \u00b11.47%",
-     "okxPerp to \u00b11.0%"
+     "spot to \u00b11.46%",
+     "okxPerp to \u00b10.99%"
     ],
-    "imb": 7.0
+    "imb": 5.2
    }
   },
   "walls": {
@@ -660,9 +659,9 @@
   "px4h": -1.313,
   "spot1h": -35.3,
   "spot4h": -251.6,
-  "oi4h": 0.27,
+  "oi4h": 0.35,
   "tag": "Neutral",
-  "why": "price -1.31% 4h, OI 0.27%, spot CVD -252, perp CVD n/a"
+  "why": "price -1.31% 4h, OI 0.35%, spot CVD -252, perp CVD n/a"
  },
  "regime": {
   "h1h": 0.61,
@@ -678,16 +677,16 @@
  "vol": {
   "rv7d": 41.3,
   "rr7d": {
-   "rr": -7.74,
+   "rr": -7.22,
    "call": 40.4,
-   "put": 48.1,
+   "put": 47.7,
    "expiry": "13NOV26",
    "days": 4.0
   },
   "rr30d": {
-   "rr": -5.23,
-   "call": 37.2,
-   "put": 42.5,
+   "rr": -5.18,
+   "call": 37.1,
+   "put": 42.3,
    "expiry": "27NOV26",
    "days": 18.0
   },
@@ -724,7 +723,9 @@
   "sum5": -1281.7,
   "source": "Farside (farside.co.uk/btc), US$m"
  },
- "missing": [],
+ "missing": [
+  "Coinalyze predicted funding: HTTPError 429"
+ ],
  "browserLive": [
   "Binance futures funding",
   "Binance long/short",
@@ -734,15 +735,15 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "09 Nov 16:38 SGT",
+  "asOf": "09 Nov 16:50 SGT",
   "risk": "HIGH",
-  "why": "flagged headline 0.3h ago; flagged headline 2.0h ago",
+  "why": "flagged headline 0.5h ago; flagged headline 2.2h ago",
   "headlines": [
    {
     "title": "Bitcoin ETFs shed $1.3B in biggest weekly outflow since late June",
     "source": "Cointelegraph",
     "time": "09 Nov 16:17",
-    "ageH": 0.3,
+    "ageH": 0.5,
     "link": "https://cointelegraph.com/markets/bitcoin-etfs-13b-biggest-weekly-outflow-late-june?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": true
    },
@@ -750,7 +751,7 @@
     "title": "SpaceX proposes a $24 billion Texas supercomputer worth 17 times its bitcoin pile",
     "source": "CoinDesk",
     "time": "09 Nov 14:54",
-    "ageH": 1.7,
+    "ageH": 1.9,
     "link": "https://www.coindesk.com/markets/2026/11/09/spacex-proposes-a-usd24-billion-texas-supercomputer-worth-17-times-its-bitcoin-pile",
     "high": false
    },
@@ -758,7 +759,7 @@
     "title": "Solana moves to scrap the transaction feature used in the $270 million Drift hack",
     "source": "CoinDesk",
     "time": "09 Nov 14:36",
-    "ageH": 2.0,
+    "ageH": 2.2,
     "link": "https://www.coindesk.com/tech/2026/11/09/solana-moves-to-scrap-the-transaction-feature-used-in-the-usd270-million-drift-hack",
     "high": true
    },
@@ -766,7 +767,7 @@
     "title": "Here\u2019s what happened in crypto today",
     "source": "Cointelegraph",
     "time": "09 Nov 13:44",
-    "ageH": 2.9,
+    "ageH": 3.1,
     "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -774,7 +775,7 @@
     "title": "Binance's bitcoin mining pool finds just one block in a week as shutdown nears",
     "source": "CoinDesk",
     "time": "09 Nov 12:54",
-    "ageH": 3.7,
+    "ageH": 3.9,
     "link": "https://www.coindesk.com/tech/2026/11/09/binance-s-bitcoin-mining-pool-finds-just-one-block-in-a-week-as-shutdown-nears",
     "high": false
    }
@@ -783,28 +784,28 @@
    {
     "title": "Core CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 28.9,
+    "inH": 28.7,
     "forecast": "0.2%",
     "previous": "0.3%"
    },
    {
     "title": "CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 28.9,
+    "inH": 28.7,
     "forecast": "0.3%",
     "previous": "0.6%"
    },
    {
     "title": "Core PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 100.9,
+    "inH": 100.7,
     "forecast": "0.3%",
     "previous": "0.7%"
    },
    {
     "title": "PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 100.9,
+    "inH": 100.7,
     "forecast": "0.4%",
     "previous": "1.3%"
    }
@@ -841,8 +842,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 74276.08,
-   "valueAt": "09 Nov 2026, 16:37 SGT",
+   "value": 74352.5,
+   "valueAt": "09 Nov 2026, 16:49 SGT",
    "hit": false
   },
   {
