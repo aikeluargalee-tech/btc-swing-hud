@@ -1,10 +1,10 @@
 {
- "asOf": "09 Nov 2026, 23:35 SGT",
- "asOfMs": 1794238558574,
- "price": 75206.28,
+ "asOf": "09 Nov 2026, 23:53 SGT",
+ "asOfMs": 1794239609524,
+ "price": 75515.19,
  "high24": 76095.32,
  "low24": 73510.0,
- "chg24": -1.106,
+ "chg24": -0.725,
  "h1": [
   [
    "07 23:00",
@@ -333,38 +333,38 @@
  "lastDAt": "09 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.00571775144225,
-  "oiOKX": 35472.41440000016,
-  "lsOKX": 2.9,
+  "fundOKX": 0.0056844394931499995,
+  "oiOKX": 35243.57140000015,
+  "lsOKX": 2.89,
   "lsAt": "09 Nov 23:00",
-  "liqLongUsd": 15,
-  "liqShortUsd": 675018,
-  "liqWindow": "09 Nov 22:48 to 09 Nov 23:19"
+  "liqLongUsd": 0,
+  "liqShortUsd": 1244716,
+  "liqWindow": "09 Nov 23:37 to 09 Nov 23:46"
  },
  "macro": {
   "vix": {
-   "v": 21.04,
-   "chg": -17.94,
+   "v": 21.01,
+   "chg": -18.06,
    "date": "09 Nov"
   },
   "dxy": {
-   "v": 101.93,
-   "chg": -0.36,
+   "v": 101.91,
+   "chg": -0.38,
    "date": "09 Nov"
   },
   "us10y": {
-   "v": 4.86,
-   "chg": 0.1,
+   "v": 4.87,
+   "chg": 0.27,
    "date": "09 Nov"
   },
   "spx": {
-   "v": 7517.49,
-   "chg": 1.91,
+   "v": 7533.05,
+   "chg": 2.12,
    "date": "09 Nov"
   },
   "ndx": {
-   "v": 25173.38,
-   "chg": 2.42,
+   "v": 25226.24,
+   "chg": 2.63,
    "date": "09 Nov"
   }
  },
@@ -373,10 +373,10 @@
   "label": "Fear",
   "date": "09 Nov"
  },
- "cbPremium": -75.1,
+ "cbPremium": -92.4,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23484860673,
+  "oiUsd": 23483735160,
   "oiChg24": -0.54,
   "oiHist": [
    [
@@ -477,48 +477,49 @@
    ],
    [
     "09 23:00",
-    23.485
+    23.484
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00812,
+  "fundAvg": 0.00864,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
-   "Deribit BTC-PERPETUAL": 0.010162000000000001,
+   "Deribit BTC-PERPETUAL": 0.015552999999999999,
    "Bybit BTCUSD": 0.009869,
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.01,
    "Bybit BTCUSDT": 0.007544,
-   "Gate BTC_USDT": 0.0067,
-   "OKX BTCUSDT_PERP": 0.00569810662064,
+   "Gate BTC_USDT": 0.0065,
+   "OKX BTCUSDT_PERP": 0.0056844394931499995,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.01
   },
-  "liqLongUsd24": 177862642,
-  "liqShortUsd24": 21251021
+  "predFundAvg": 0.00746,
+  "liqLongUsd24": 177865616,
+  "liqShortUsd24": 22740748
  },
  "tech": {
   "rsiD": 35.6,
   "atrD": 2293.9,
   "basis": "closed candles, Binance spot",
   "ma20": 79094.7,
-  "ma20Pct": -4.92,
+  "ma20Pct": -4.53,
   "ma50": 81821.6,
-  "ma50Pct": -8.09,
+  "ma50Pct": -7.71,
   "ma200": 73223.6,
-  "ma200Pct": 2.71,
-  "atrPct": 3.05,
+  "ma200Pct": 3.13,
+  "atrPct": 3.04,
   "rsi4h": 32.4
  },
  "opt": {
   "expiry": "13NOV26",
-  "expiryOI": 34880,
+  "expiryOI": 34859,
   "maxPain": 77000.0,
   "pcrExpiry": 0.69,
   "pcrAll": 0.73,
-  "atmStrike": 75000.0,
-  "atmIV": 41.1,
-  "dvol": 40.11
+  "atmStrike": 75500.0,
+  "atmIV": 40.5,
+  "dvol": 40.1
  },
  "stables": {
   "USDT": {
@@ -535,55 +536,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 75354.2,
-   "reachPct": 1.24,
+   "mid": 75523.7,
+   "reachPct": 1.19,
    "b1": {
-    "bid": 10459999,
-    "ask": 18936107,
-    "imb": -28.8,
+    "bid": 11413519,
+    "ask": 17810068,
+    "imb": -21.9,
     "full": true
    },
    "b2": {
-    "bid": 14689246,
-    "ask": 21286725,
-    "imb": -18.3,
+    "bid": 13119048,
+    "ask": 19223497,
+    "imb": -18.9,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 75289.4,
-   "reachPct": 0.93,
+   "mid": 75482.1,
+   "reachPct": 0.9,
    "b1": {
-    "bid": 72706860,
-    "ask": 107397717,
-    "imb": -19.3,
+    "bid": 83565397,
+    "ask": 103499871,
+    "imb": -10.7,
     "full": false
    },
    "b2": {
-    "bid": 73670562,
-    "ask": 107397717,
-    "imb": -18.6,
+    "bid": 83972526,
+    "ask": 103499871,
+    "imb": -10.4,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 83166859,
-    "ask": 126333824,
+    "bid": 94978916,
+    "ask": 121309939,
     "venues": [
      "spot full",
-     "okxPerp to \u00b10.93%"
+     "okxPerp to \u00b10.9%"
     ],
-    "imb": -20.6
+    "imb": -12.2
    },
    "b2": {
-    "bid": 88359808,
-    "ask": 128684442,
+    "bid": 97091574,
+    "ask": 122723368,
     "venues": [
-     "spot to \u00b11.24%",
-     "okxPerp to \u00b10.93%"
+     "spot to \u00b11.19%",
+     "okxPerp to \u00b10.9%"
     ],
-    "imb": -18.6
+    "imb": -11.7
    }
   },
   "walls": {
@@ -659,9 +660,9 @@
   "px4h": 0.996,
   "spot1h": 139.4,
   "spot4h": 516.4,
-  "oi4h": 1.36,
+  "oi4h": 1.35,
   "tag": "New Longs",
-  "why": "price +1.00%, OI +1.36%"
+  "why": "price +1.00%, OI +1.35%"
  },
  "regime": {
   "h1h": 0.66,
@@ -677,14 +678,14 @@
  "vol": {
   "rv7d": 42.4,
   "rr7d": {
-   "rr": -3.95,
-   "call": 40.3,
-   "put": 44.3,
+   "rr": -3.1,
+   "call": 40.8,
+   "put": 43.9,
    "expiry": "13NOV26",
    "days": 3.7
   },
   "rr30d": {
-   "rr": -3.39,
+   "rr": -3.33,
    "call": 37.3,
    "put": 40.7,
    "expiry": "27NOV26",
@@ -723,9 +724,7 @@
   "sum5": -883.1,
   "source": "Farside (farside.co.uk/btc), US$m"
  },
- "missing": [
-  "Coinalyze predicted funding: HTTPError 429"
- ],
+ "missing": [],
  "browserLive": [
   "Binance futures funding",
   "Binance long/short",
@@ -735,15 +734,23 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "09 Nov 23:37 SGT",
+  "asOf": "09 Nov 23:53 SGT",
   "risk": "HIGH",
-  "why": "Core CPI m/m in 21.9h; CPI m/m in 21.9h; flagged headline 0.6h ago",
+  "why": "Core CPI m/m in 21.6h; CPI m/m in 21.6h; flagged headline 0.9h ago",
   "headlines": [
+   {
+    "title": "Ethereum treasury Sharplink\u2019s Q3 net income hits $751 million on unrealized ether gains",
+    "source": "The Block",
+    "time": "09 Nov 23:40",
+    "ageH": 0.2,
+    "link": "https://www.theblock.co/news/markets/2026-11-09-sharplink-q3-2026-earnings-net-income-eth-holdings-436459",
+    "high": false
+   },
    {
     "title": "North Korean hackers are creating memecoins to wash loot from $6.3 billion Binance hack",
     "source": "CoinDesk",
     "time": "09 Nov 23:00",
-    "ageH": 0.6,
+    "ageH": 0.9,
     "link": "https://www.coindesk.com/business/2026/11/09/north-korean-hackers-are-creating-memecoins-to-wash-loot-from-usd6-3-billion-binance-hack",
     "high": true
    },
@@ -751,7 +758,7 @@
     "title": "Analysts see no broader \u2018contagion\u2019 from $6.3B Binance hack",
     "source": "Cointelegraph",
     "time": "09 Nov 21:52",
-    "ageH": 1.7,
+    "ageH": 2.0,
     "link": "https://cointelegraph.com/markets/analysts-no-contagion-effect-63b-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": true
    },
@@ -759,7 +766,7 @@
     "title": "Here\u2019s what happened in crypto today",
     "source": "Cointelegraph",
     "time": "09 Nov 21:36",
-    "ageH": 2.0,
+    "ageH": 2.3,
     "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -767,45 +774,37 @@
     "title": "The $2.85B Binance hackers lost shows why the UK needs stablecoin freeze rules",
     "source": "Cointelegraph",
     "time": "09 Nov 21:30",
-    "ageH": 2.1,
+    "ageH": 2.4,
     "link": "https://cointelegraph.com/opinion/285b-binance-hackers-lost-shows-why-uk-needs-stablecoin-freeze-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": true
-   },
-   {
-    "title": "Strategy buys 1,036 Bitcoin as BTC holdings climb to 850,364",
-    "source": "Cointelegraph",
-    "time": "09 Nov 21:29",
-    "ageH": 2.1,
-    "link": "https://cointelegraph.com/news/strategy-buy-1036-bitcoin-holdings-850364-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "high": false
    }
   ],
   "events": [
    {
     "title": "Core CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 21.9,
+    "inH": 21.6,
     "forecast": "0.2%",
     "previous": "0.3%"
    },
    {
     "title": "CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 21.9,
+    "inH": 21.6,
     "forecast": "0.3%",
     "previous": "0.6%"
    },
    {
     "title": "Core PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 93.9,
+    "inH": 93.6,
     "forecast": "0.3%",
     "previous": "0.7%"
    },
    {
     "title": "PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 93.9,
+    "inH": 93.6,
     "forecast": "0.4%",
     "previous": "1.3%"
    }
@@ -842,8 +841,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 75206.28,
-   "valueAt": "09 Nov 2026, 23:35 SGT",
+   "value": 75515.19,
+   "valueAt": "09 Nov 2026, 23:53 SGT",
    "hit": false
   },
   {
@@ -886,12 +885,12 @@
    "OI not clearing (24h >= -1%)"
   ],
   "metrics": [
-   "Price vs 20D MA -5.01%",
-   "vs 50D MA -8.17%",
+   "Price vs 20D MA -4.52%",
+   "vs 50D MA -7.70%",
    "Spot CVD 24h +351 BTC",
    "Perp CVD 4h +1988 BTC",
-   "OI 24h -0.56%",
-   "Funding +0.0079%"
+   "OI 24h -0.51%",
+   "Funding +0.0083%"
   ],
   "implication": "Strict cash; treat relief bounces as exit liquidity; invalidation 1D close > 50D MA with positive spot CVD",
   "notMet": [
@@ -905,7 +904,7 @@
    "Spot volume vs 20D MA",
    "Whale exchange inflows / CDD"
   ],
-  "asOfMs": 1794237916051,
+  "asOfMs": 1794239587043,
   "scores": {
    "A": "3/7",
    "B": "1/5",
@@ -918,7 +917,7 @@
    "I": "4/5",
    "J": "3/6"
   },
-  "asOf": "09 Nov 23:25 SGT",
+  "asOf": "09 Nov 23:53 SGT",
   "source": "box (full data incl. perp CVD)"
  }
 }
