@@ -1,30 +1,32 @@
 {
  "ok": true,
- "config": "I",
- "label": "I \u2014 Bear Trend",
- "status": "Cash",
- "tone": "bad",
- "confidence": 80,
+ "config": "A",
+ "label": "A \u2014 Healthy Bull",
+ "status": "Healthy",
+ "tone": "good",
+ "confidence": 57,
  "confLabel": "Medium",
- "matched": "4/5 available (5 listed)",
- "runnerUp": "J Bear Trap (capitulation absorption) (3/6)",
+ "matched": "4/7 available (7 listed)",
+ "runnerUp": "I Bear Trend (4/5)",
  "evidence": [
-  "Below 20D MA",
-  "Below 50D MA",
-  "Funding neutral/positive (trapped longs)",
-  "OI not clearing (24h >= -1%)"
+  "Price rising 4h & 24h",
+  "Spot CVD 24h positive",
+  "OI 24h -1%..+4%",
+  "Funding +0.002..+0.010%"
  ],
  "metrics": [
-  "Price vs 20D MA -4.91%",
-  "vs 50D MA -8.08%",
+  "Price vs 20D MA -4.79%",
+  "vs 50D MA -7.97%",
   "Spot CVD 24h +1654 BTC",
   "Perp CVD 4h +1245 BTC",
-  "OI 24h +1.50%",
-  "Funding +0.0084%"
+  "OI 24h +1.63%",
+  "Funding +0.0079%"
  ],
- "implication": "Strict cash; treat relief bounces as exit liquidity; invalidation 1D close > 50D MA with positive spot CVD",
+ "implication": "Full spot long 1.0x; 60% breakout / 40% VWAP retest; stop 4H swing low -0.6%",
  "notMet": [
-  "Spot CVD 24h negative"
+  "Above 20D MA",
+  "ETF net > +$150M",
+  "Perp CVD positive, not > spot"
  ],
  "missing": [
   "ATR compression history",
@@ -34,9 +36,9 @@
   "Spot volume vs 20D MA",
   "Whale exchange inflows / CDD"
  ],
- "asOfMs": 1794267370790,
+ "asOfMs": 1794268326205,
  "scores": {
-  "A": "3/7",
+  "A": "4/7",
   "B": "1/5",
   "C": "3/7",
   "D": "2/5",
@@ -47,6 +49,6 @@
   "I": "4/5",
   "J": "3/6"
  },
- "asOf": "10 Nov 07:36 SGT",
+ "asOf": "10 Nov 07:52 SGT",
  "source": "box (full data incl. perp CVD)"
 }
