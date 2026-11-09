@@ -1,30 +1,32 @@
 {
  "ok": true,
- "config": "I",
- "label": "I \u2014 Bear Trend",
- "status": "Cash",
- "tone": "bad",
- "confidence": 80,
+ "config": "C",
+ "label": "C \u2014 Bullish Absorption",
+ "status": "Watch",
+ "tone": "good",
+ "confidence": 57,
  "confLabel": "Medium",
- "matched": "4/5 available (5 listed)",
- "runnerUp": "C Bullish Absorption (3/7)",
+ "matched": "4/7 available (7 listed)",
+ "runnerUp": "I Bear Trend (4/5)",
  "evidence": [
-  "Below 20D MA",
-  "Below 50D MA",
-  "Spot CVD 24h negative",
-  "Funding neutral/positive (trapped longs)"
+  "Negative headline risk",
+  "Testing 200D MA / 30d low",
+  "Perp CVD 4h negative",
+  "OI 24h flat/dropping (<=+1%)"
  ],
  "metrics": [
-  "Price vs 20D MA -6.05%",
-  "vs 50D MA -9.18%",
-  "Spot CVD 24h -157 BTC",
-  "Perp CVD 4h -719 BTC",
-  "OI 24h -1.89%",
-  "Funding +0.0078%"
+  "Price vs 20D MA -6.23%",
+  "vs 50D MA -9.35%",
+  "Spot CVD 24h -359 BTC",
+  "Perp CVD 4h -1682 BTC",
+  "OI 24h -2.14%",
+  "Funding +0.0073%"
  ],
- "implication": "Strict cash; treat relief bounces as exit liquidity; invalidation 1D close > 50D MA with positive spot CVD",
+ "implication": "Build spot 0.75x; 50% on 1H range reclaim / 50% limit at low; stop sweep low -0.5%",
  "notMet": [
-  "OI not clearing (24h >= -1%)"
+  "Spot CVD 24h strongly positive (>500 BTC)",
+  "Funding -0.008..+0.002%",
+  "Book bids/asks >= 1.4 (imb >= +16.7%)"
  ],
  "missing": [
   "ATR compression history",
@@ -34,19 +36,19 @@
   "Spot volume vs 20D MA",
   "Whale exchange inflows / CDD"
  ],
- "asOfMs": 1794207146570,
+ "asOfMs": 1794208138717,
  "scores": {
   "A": "1/7",
   "B": "1/5",
-  "C": "3/7",
+  "C": "4/7",
   "D": "2/5",
   "E": "1/4",
   "F": "0/4",
   "G": "0/5",
   "H": "1/3",
   "I": "4/5",
-  "J": "1/6"
+  "J": "2/6"
  },
- "asOf": "09 Nov 14:52 SGT",
+ "asOf": "09 Nov 15:08 SGT",
  "source": "box (full data incl. perp CVD)"
 }
