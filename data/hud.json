@@ -1,10 +1,10 @@
 {
- "asOf": "09 Nov 2026, 22:34 SGT",
- "asOfMs": 1794234840146,
- "price": 74562.0,
+ "asOf": "09 Nov 2026, 22:53 SGT",
+ "asOfMs": 1794236012266,
+ "price": 74896.01,
  "high24": 76095.32,
  "low24": 73510.0,
- "chg24": -1.917,
+ "chg24": -1.511,
  "h1": [
   [
    "07 22:00",
@@ -333,38 +333,38 @@
  "lastDAt": "09 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.00550255591237,
-  "oiOKX": 35478.59840000016,
-  "lsOKX": 2.89,
+  "fundOKX": 0.00577951332999,
+  "oiOKX": 35449.488200000145,
+  "lsOKX": 2.91,
   "lsAt": "09 Nov 22:00",
-  "liqLongUsd": 252631,
-  "liqShortUsd": 214473,
-  "liqWindow": "09 Nov 20:33 to 09 Nov 22:32"
+  "liqLongUsd": 285546,
+  "liqShortUsd": 265830,
+  "liqWindow": "09 Nov 22:32 to 09 Nov 22:48"
  },
  "macro": {
   "vix": {
-   "v": 23.21,
-   "chg": -9.48,
+   "v": 22.36,
+   "chg": -12.79,
    "date": "09 Nov"
   },
   "dxy": {
-   "v": 101.82,
-   "chg": -0.47,
+   "v": 101.86,
+   "chg": -0.43,
    "date": "09 Nov"
   },
   "us10y": {
-   "v": 4.84,
-   "chg": -0.49,
+   "v": 4.85,
+   "chg": -0.25,
    "date": "09 Nov"
   },
   "spx": {
-   "v": 7457.62,
-   "chg": 1.09,
+   "v": 7500.29,
+   "chg": 1.67,
    "date": "09 Nov"
   },
   "ndx": {
-   "v": 24896.97,
-   "chg": 1.29,
+   "v": 25092.16,
+   "chg": 2.09,
    "date": "09 Nov"
   }
  },
@@ -373,11 +373,11 @@
   "label": "Fear",
   "date": "09 Nov"
  },
- "cbPremium": -67.7,
+ "cbPremium": -84.8,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23302290963,
-  "oiChg24": -1.34,
+  "oiUsd": 23479971500,
+  "oiChg24": -0.59,
   "oiHist": [
    [
     "08 22:00",
@@ -477,49 +477,48 @@
    ],
    [
     "09 22:00",
-    23.302
+    23.48
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00771,
+  "fundAvg": 0.00827,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
-   "Deribit BTC-PERPETUAL": 0.007119,
+   "Deribit BTC-PERPETUAL": 0.011163,
    "Bybit BTCUSD": 0.009869,
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.01,
    "Bybit BTCUSDT": 0.007544,
-   "Gate BTC_USDT": 0.0058,
-   "OKX BTCUSDT_PERP": 0.00550255591237,
+   "Gate BTC_USDT": 0.0071,
+   "OKX BTCUSDT_PERP": 0.00577951332999,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.01
   },
-  "predFundAvg": 0.00683,
-  "liqLongUsd24": 177582428,
-  "liqShortUsd24": 18245555
+  "liqLongUsd24": 177764761,
+  "liqShortUsd24": 19201934
  },
  "tech": {
   "rsiD": 35.6,
   "atrD": 2293.9,
   "basis": "closed candles, Binance spot",
   "ma20": 79094.7,
-  "ma20Pct": -5.73,
+  "ma20Pct": -5.31,
   "ma50": 81821.6,
-  "ma50Pct": -8.87,
+  "ma50Pct": -8.46,
   "ma200": 73223.6,
-  "ma200Pct": 1.83,
-  "atrPct": 3.08,
+  "ma200Pct": 2.28,
+  "atrPct": 3.06,
   "rsi4h": 32.4
  },
  "opt": {
   "expiry": "13NOV26",
-  "expiryOI": 34625,
+  "expiryOI": 34667,
   "maxPain": 77000.0,
   "pcrExpiry": 0.7,
   "pcrAll": 0.72,
-  "atmStrike": 74500.0,
-  "atmIV": 42.4,
-  "dvol": 40.63
+  "atmStrike": 75000.0,
+  "atmIV": 41.8,
+  "dvol": 40.43
  },
  "stables": {
   "USDT": {
@@ -536,55 +535,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 74617.9,
-   "reachPct": 1.54,
+   "mid": 74896.0,
+   "reachPct": 1.46,
    "b1": {
-    "bid": 11985000,
-    "ask": 10231570,
-    "imb": 7.9,
+    "bid": 8114162,
+    "ask": 13438220,
+    "imb": -24.7,
     "full": true
    },
    "b2": {
-    "bid": 19861537,
-    "ask": 14652726,
-    "imb": 15.1,
+    "bid": 12720669,
+    "ask": 17237887,
+    "imb": -15.1,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 74578.2,
-   "reachPct": 1.01,
+   "mid": 74850.1,
+   "reachPct": 0.97,
    "b1": {
-    "bid": 89702148,
-    "ask": 80298222,
-    "imb": 5.5,
-    "full": true
+    "bid": 72061526,
+    "ask": 95029158,
+    "imb": -13.7,
+    "full": false
    },
    "b2": {
-    "bid": 90343582,
-    "ask": 80368246,
-    "imb": 5.8,
+    "bid": 73413386,
+    "ask": 95029158,
+    "imb": -12.8,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 101687148,
-    "ask": 90529792,
+    "bid": 80175688,
+    "ask": 108467378,
     "venues": [
      "spot full",
-     "okxPerp full"
+     "okxPerp to \u00b10.97%"
     ],
-    "imb": 5.8
+    "imb": -15.0
    },
    "b2": {
-    "bid": 110205119,
-    "ask": 95020972,
+    "bid": 86134055,
+    "ask": 112267045,
     "venues": [
-     "spot to \u00b11.54%",
-     "okxPerp to \u00b11.01%"
+     "spot to \u00b11.46%",
+     "okxPerp to \u00b10.97%"
     ],
-    "imb": 7.4
+    "imb": -13.2
    }
   },
   "walls": {
@@ -660,9 +659,9 @@
   "px4h": 0.59,
   "spot1h": 29.2,
   "spot4h": 411.0,
-  "oi4h": 0.76,
+  "oi4h": 1.53,
   "tag": "New Longs",
-  "why": "price +0.59%, OI +0.76%"
+  "why": "price +0.59%, OI +1.53%"
  },
  "regime": {
   "h1h": 0.67,
@@ -678,20 +677,20 @@
  "vol": {
   "rv7d": 42.4,
   "rr7d": {
-   "rr": -4.59,
-   "call": 42.0,
-   "put": 46.6,
+   "rr": -4.7,
+   "call": 41.3,
+   "put": 46.0,
    "expiry": "13NOV26",
    "days": 3.7
   },
   "rr30d": {
-   "rr": -4.43,
-   "call": 37.6,
-   "put": 42.1,
+   "rr": -4.64,
+   "call": 37.2,
+   "put": 41.8,
    "expiry": "27NOV26",
    "days": 17.7
   },
-  "vrp": -1.8,
+  "vrp": -2.0,
   "basis": "25d RR = call IV - put IV at |delta|=0.25 (Black-Scholes delta from Deribit mark_iv, nearest expiry to 7d/30d); RV7d from 1H closes, annualised"
  },
  "etf": {
@@ -724,7 +723,9 @@
   "sum5": -883.1,
   "source": "Farside (farside.co.uk/btc), US$m"
  },
- "missing": [],
+ "missing": [
+  "Coinalyze predicted funding: HTTPError 429"
+ ],
  "browserLive": [
   "Binance futures funding",
   "Binance long/short",
@@ -734,15 +735,15 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "09 Nov 22:34 SGT",
+  "asOf": "09 Nov 22:54 SGT",
   "risk": "HIGH",
-  "why": "Core CPI m/m in 22.9h; CPI m/m in 22.9h; flagged headline 0.7h ago",
+  "why": "Core CPI m/m in 22.6h; CPI m/m in 22.6h; flagged headline 1.0h ago",
   "headlines": [
    {
     "title": "Analysts see no broader \u2018contagion\u2019 from $6.3B Binance hack",
     "source": "Cointelegraph",
     "time": "09 Nov 21:52",
-    "ageH": 0.7,
+    "ageH": 1.0,
     "link": "https://cointelegraph.com/markets/analysts-no-contagion-effect-63b-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": true
    },
@@ -750,7 +751,7 @@
     "title": "Here\u2019s what happened in crypto today",
     "source": "Cointelegraph",
     "time": "09 Nov 21:36",
-    "ageH": 1.0,
+    "ageH": 1.3,
     "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -758,7 +759,7 @@
     "title": "The $2.85B Binance hackers lost shows why the UK needs stablecoin freeze rules",
     "source": "Cointelegraph",
     "time": "09 Nov 21:30",
-    "ageH": 1.1,
+    "ageH": 1.4,
     "link": "https://cointelegraph.com/opinion/285b-binance-hackers-lost-shows-why-uk-needs-stablecoin-freeze-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": true
    },
@@ -766,7 +767,7 @@
     "title": "Strategy buys 1,036 Bitcoin as BTC holdings climb to 850,364",
     "source": "Cointelegraph",
     "time": "09 Nov 21:29",
-    "ageH": 1.1,
+    "ageH": 1.4,
     "link": "https://cointelegraph.com/news/strategy-buy-1036-bitcoin-holdings-850364-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -774,7 +775,7 @@
     "title": "Strategy Buys $82M in Bitcoin, Buys Back $188M of STRC",
     "source": "Decrypt",
     "time": "09 Nov 21:24",
-    "ageH": 1.2,
+    "ageH": 1.5,
     "link": "https://decrypt.co/382820/strategy-buys-82m-in-bitcoin-buys-back-188m-of-strc",
     "high": false
    }
@@ -783,28 +784,28 @@
    {
     "title": "Core CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 22.9,
+    "inH": 22.6,
     "forecast": "0.2%",
     "previous": "0.3%"
    },
    {
     "title": "CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 22.9,
+    "inH": 22.6,
     "forecast": "0.3%",
     "previous": "0.6%"
    },
    {
     "title": "Core PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 94.9,
+    "inH": 94.6,
     "forecast": "0.3%",
     "previous": "0.7%"
    },
    {
     "title": "PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 94.9,
+    "inH": 94.6,
     "forecast": "0.4%",
     "previous": "1.3%"
    }
@@ -841,8 +842,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 74562.0,
-   "valueAt": "09 Nov 2026, 22:34 SGT",
+   "value": 74896.01,
+   "valueAt": "09 Nov 2026, 22:53 SGT",
    "hit": false
   },
   {
