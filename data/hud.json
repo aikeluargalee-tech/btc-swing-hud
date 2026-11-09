@@ -1,10 +1,10 @@
 {
- "asOf": "09 Nov 2026, 20:19 SGT",
- "asOfMs": 1794226774139,
- "price": 74639.97,
+ "asOf": "09 Nov 2026, 20:36 SGT",
+ "asOfMs": 1794227809269,
+ "price": 74882.0,
  "high24": 76200.0,
  "low24": 73510.0,
- "chg24": -1.725,
+ "chg24": -1.466,
  "h1": [
   [
    "07 20:00",
@@ -333,18 +333,18 @@
  "lastDAt": "09 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.00777321069091,
-  "oiOKX": 35130.07030000017,
-  "lsOKX": 2.99,
+  "fundOKX": 0.0069699825596900005,
+  "oiOKX": 35199.04550000016,
+  "lsOKX": 2.98,
   "lsAt": "09 Nov 20:00",
   "liqLongUsd": 1093,
-  "liqShortUsd": 3122399,
-  "liqWindow": "09 Nov 19:17 to 09 Nov 19:59"
+  "liqShortUsd": 631900,
+  "liqWindow": "09 Nov 19:18 to 09 Nov 20:33"
  },
  "macro": {
   "vix": {
-   "v": 23.49,
-   "chg": -8.39,
+   "v": 23.53,
+   "chg": -8.23,
    "date": "09 Nov"
   },
   "dxy": {
@@ -373,11 +373,11 @@
   "label": "Fear",
   "date": "09 Nov"
  },
- "cbPremium": -112.2,
+ "cbPremium": -108.4,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23252067448,
-  "oiChg24": -1.48,
+  "oiUsd": 23301743735,
+  "oiChg24": -1.27,
   "oiHist": [
    [
     "08 20:00",
@@ -477,11 +477,11 @@
    ],
    [
     "09 20:00",
-    23.252
+    23.302
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00731,
+  "fundAvg": 0.00719,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
    "Deribit BTC-PERPETUAL": 0,
@@ -489,101 +489,102 @@
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.01,
    "Bybit BTCUSDT": 0.007544,
-   "Gate BTC_USDT": 0.0067,
-   "OKX BTCUSDT_PERP": 0.00777321069091,
+   "Gate BTC_USDT": 0.0063,
+   "OKX BTCUSDT_PERP": 0.0069699825596900005,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.01
   },
-  "liqLongUsd24": 176743032,
-  "liqShortUsd24": 16650610
+  "predFundAvg": 0.00691,
+  "liqLongUsd24": 176743112,
+  "liqShortUsd24": 18126182
  },
  "tech": {
   "rsiD": 35.6,
   "atrD": 2293.9,
   "basis": "closed candles, Binance spot",
   "ma20": 79094.7,
-  "ma20Pct": -5.63,
+  "ma20Pct": -5.33,
   "ma50": 81821.6,
-  "ma50Pct": -8.78,
+  "ma50Pct": -8.48,
   "ma200": 73223.6,
-  "ma200Pct": 1.93,
-  "atrPct": 3.07,
+  "ma200Pct": 2.26,
+  "atrPct": 3.06,
   "rsi4h": 32.4
  },
  "opt": {
   "expiry": "13NOV26",
-  "expiryOI": 34171,
+  "expiryOI": 34165,
   "maxPain": 77000.0,
   "pcrExpiry": 0.69,
   "pcrAll": 0.72,
-  "atmStrike": 74500.0,
-  "atmIV": 43.7,
-  "dvol": 40.68
+  "atmStrike": 75000.0,
+  "atmIV": 43.2,
+  "dvol": 40.62
  },
  "stables": {
   "USDT": {
-   "usd": 176787293092,
+   "usd": 176792603509,
    "chg7d": -1.36
   },
   "USDC": {
-   "usd": 70432999391,
-   "chg7d": -1.67
+   "usd": 70445153300,
+   "chg7d": -1.65
   },
-  "totalUsd": 247220292483,
-  "totalChg7d": -1.45,
-  "totalChg7dUsd": -3633664355
+  "totalUsd": 247237756809,
+  "totalChg7d": -1.44,
+  "totalChg7dUsd": -3619375293
  },
  "depth": {
   "spot": {
-   "mid": 74658.0,
-   "reachPct": 1.43,
+   "mid": 74852.6,
+   "reachPct": 1.45,
    "b1": {
-    "bid": 11453163,
-    "ask": 21512047,
-    "imb": -30.5,
+    "bid": 10819281,
+    "ask": 19417762,
+    "imb": -28.4,
     "full": true
    },
    "b2": {
-    "bid": 19872992,
-    "ask": 23778103,
-    "imb": -8.9,
+    "bid": 13853567,
+    "ask": 22790797,
+    "imb": -24.4,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 74624.4,
-   "reachPct": 0.99,
+   "mid": 74810.6,
+   "reachPct": 0.98,
    "b1": {
-    "bid": 83084997,
-    "ask": 92304635,
-    "imb": -5.3,
+    "bid": 73320484,
+    "ask": 97539170,
+    "imb": -14.2,
     "full": false
    },
    "b2": {
-    "bid": 84272183,
-    "ask": 92304635,
-    "imb": -4.5,
+    "bid": 74545805,
+    "ask": 97539170,
+    "imb": -13.4,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 94538160,
-    "ask": 113816682,
+    "bid": 84139765,
+    "ask": 116956932,
     "venues": [
      "spot full",
-     "okxPerp to \u00b10.99%"
+     "okxPerp to \u00b10.98%"
     ],
-    "imb": -9.3
+    "imb": -16.3
    },
    "b2": {
-    "bid": 104145175,
-    "ask": 116082738,
+    "bid": 88399372,
+    "ask": 120329967,
     "venues": [
-     "spot to \u00b11.43%",
-     "okxPerp to \u00b10.99%"
+     "spot to \u00b11.45%",
+     "okxPerp to \u00b10.98%"
     ],
-    "imb": -5.4
+    "imb": -15.3
    }
   },
   "walls": {
@@ -659,9 +660,9 @@
   "px4h": 0.68,
   "spot1h": 165.0,
   "spot4h": 573.4,
-  "oi4h": 0.09,
+  "oi4h": 0.3,
   "tag": "Neutral",
-  "why": "price +0.68% 4h, OI 0.09%, spot CVD +573, perp CVD n/a"
+  "why": "price +0.68% 4h, OI 0.3%, spot CVD +573, perp CVD n/a"
  },
  "regime": {
   "h1h": 0.67,
@@ -677,20 +678,20 @@
  "vol": {
   "rv7d": 42.0,
   "rr7d": {
-   "rr": -5.85,
-   "call": 42.3,
-   "put": 48.1,
+   "rr": -5.89,
+   "call": 41.8,
+   "put": 47.7,
    "expiry": "13NOV26",
    "days": 3.8
   },
   "rr30d": {
-   "rr": -4.78,
-   "call": 37.6,
-   "put": 42.4,
+   "rr": -4.83,
+   "call": 37.4,
+   "put": 42.2,
    "expiry": "27NOV26",
    "days": 17.8
   },
-  "vrp": -1.3,
+  "vrp": -1.4,
   "basis": "25d RR = call IV - put IV at |delta|=0.25 (Black-Scholes delta from Deribit mark_iv, nearest expiry to 7d/30d); RV7d from 1H closes, annualised"
  },
  "etf": {
@@ -723,9 +724,7 @@
   "sum5": -883.1,
   "source": "Farside (farside.co.uk/btc), US$m"
  },
- "missing": [
-  "Coinalyze predicted funding: HTTPError 429"
- ],
+ "missing": [],
  "browserLive": [
   "Binance futures funding",
   "Binance long/short",
@@ -735,15 +734,39 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "09 Nov 20:20 SGT",
+  "asOf": "09 Nov 20:37 SGT",
   "risk": "HIGH",
-  "why": "flagged headline 0.5h ago; flagged headline 1.5h ago",
+  "why": "flagged headline 0.1h ago; flagged headline 0.1h ago; flagged headline 0.2h ago",
   "headlines": [
+   {
+    "title": "Formation notifies SEC to operate first tokenized securities venue on Solana",
+    "source": "The Block",
+    "time": "09 Nov 20:30",
+    "ageH": 0.1,
+    "link": "https://www.theblock.co/news/defi/2026-11-09-formation-tokenized-securities-solana-436060",
+    "high": true
+   },
+   {
+    "title": "Bitcoin bulls can't rely on ETF flows",
+    "source": "CoinDesk",
+    "time": "09 Nov 20:30",
+    "ageH": 0.1,
+    "link": "https://www.coindesk.com/daybook-us/2026/11/09/bitcoin-bulls-can-t-rely-on-etf-flows",
+    "high": true
+   },
+   {
+    "title": "EU taps industry to set standards for tokenized securities",
+    "source": "Cointelegraph",
+    "time": "09 Nov 20:27",
+    "ageH": 0.2,
+    "link": "https://cointelegraph.com/news/eu-nominations-tokenization-standards-group?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "high": true
+   },
    {
     "title": "Coinbase Joins Circle, Ripple With Final OCC Approval for Federal Trust Bank Charter",
     "source": "Decrypt",
     "time": "09 Nov 19:50",
-    "ageH": 0.5,
+    "ageH": 0.8,
     "link": "https://decrypt.co/382816/coinbase-joins-circle-ripple-with-final-occ-approval-for-federal-trust-bank-charter",
     "high": true
    },
@@ -751,32 +774,8 @@
     "title": "Nvidia-led tech selloff weighs on crypto majors",
     "source": "CoinDesk",
     "time": "09 Nov 19:42",
-    "ageH": 0.6,
+    "ageH": 0.9,
     "link": "https://www.coindesk.com/markets/2026/11/09/tech-selloff-weighs-on-crypto-majors",
-    "high": false
-   },
-   {
-    "title": "Zcash developers want 20-second blocks just days after major speed upgrade",
-    "source": "CoinDesk",
-    "time": "09 Nov 18:52",
-    "ageH": 1.5,
-    "link": "https://www.coindesk.com/tech/2026/11/09/zcash-developers-want-20-second-blocks-just-days-after-major-speed-upgrade",
-    "high": true
-   },
-   {
-    "title": "Live news: Bitcoin slides to $74,000 as Huang scandal weighs on Nvidia",
-    "source": "CoinDesk",
-    "time": "09 Nov 18:51",
-    "ageH": 1.5,
-    "link": "https://www.coindesk.com/tech/2026/11/09/live-news-nvidia-slides-on-ceo-allegations-as-bitcoin-hovers-just-above-its-200-day-average",
-    "high": false
-   },
-   {
-    "title": "Crypto-friendly Robinhood brings US IPO access to UK retail investors",
-    "source": "The Block",
-    "time": "09 Nov 18:48",
-    "ageH": 1.5,
-    "link": "https://www.theblock.co/news/business/2026-11-09-crypto-friendly-robinhood-brings-us-ipo-access-to-uk-retail-investors-436089",
     "high": false
    }
   ],
@@ -784,28 +783,28 @@
    {
     "title": "Core CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 25.2,
+    "inH": 24.9,
     "forecast": "0.2%",
     "previous": "0.3%"
    },
    {
     "title": "CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 25.2,
+    "inH": 24.9,
     "forecast": "0.3%",
     "previous": "0.6%"
    },
    {
     "title": "Core PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 97.2,
+    "inH": 96.9,
     "forecast": "0.3%",
     "previous": "0.7%"
    },
    {
     "title": "PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 97.2,
+    "inH": 96.9,
     "forecast": "0.4%",
     "previous": "1.3%"
    }
@@ -842,8 +841,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 74639.97,
-   "valueAt": "09 Nov 2026, 20:19 SGT",
+   "value": 74882.0,
+   "valueAt": "09 Nov 2026, 20:36 SGT",
    "hit": false
   },
   {
@@ -885,11 +884,11 @@
    "Funding neutral/positive (trapped longs)"
   ],
   "metrics": [
-   "Price vs 20D MA -5.93%",
-   "vs 50D MA -9.07%",
+   "Price vs 20D MA -5.29%",
+   "vs 50D MA -8.45%",
    "Spot CVD 24h +76 BTC",
    "Perp CVD 4h +1741 BTC",
-   "OI 24h -1.83%",
+   "OI 24h -1.24%",
    "Funding +0.0072%"
   ],
   "implication": "Strict cash; treat relief bounces as exit liquidity; invalidation 1D close > 50D MA with positive spot CVD",
@@ -905,20 +904,20 @@
    "Spot volume vs 20D MA",
    "Whale exchange inflows / CDD"
   ],
-  "asOfMs": 1794225728959,
+  "asOfMs": 1794227787616,
   "scores": {
    "A": "2/7",
    "B": "1/5",
    "C": "3/7",
    "D": "2/5",
    "E": "1/4",
-   "F": "1/4",
+   "F": "2/4",
    "G": "1/5",
    "H": "0/3",
    "I": "3/5",
    "J": "3/6"
   },
-  "asOf": "09 Nov 20:02 SGT",
+  "asOf": "09 Nov 20:36 SGT",
   "source": "box (full data incl. perp CVD)"
  }
 }
