@@ -1,10 +1,10 @@
 {
- "asOf": "09 Nov 2026, 21:16 SGT",
- "asOfMs": 1794230185871,
- "price": 74736.01,
- "high24": 76200.0,
+ "asOf": "09 Nov 2026, 21:36 SGT",
+ "asOfMs": 1794231405797,
+ "price": 74708.01,
+ "high24": 76095.32,
  "low24": 73510.0,
- "chg24": -1.818,
+ "chg24": -1.7,
  "h1": [
   [
    "07 21:00",
@@ -333,29 +333,29 @@
  "lastDAt": "09 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.00580895864817,
-  "oiOKX": 35332.75250000016,
-  "lsOKX": 2.94,
+  "fundOKX": 0.00552059811765,
+  "oiOKX": 35389.35600000017,
+  "lsOKX": 2.9,
   "lsAt": "09 Nov 21:00",
-  "liqLongUsd": 23,
-  "liqShortUsd": 671778,
-  "liqWindow": "09 Nov 20:29 to 09 Nov 20:50"
+  "liqLongUsd": 16577,
+  "liqShortUsd": 639183,
+  "liqWindow": "09 Nov 20:30 to 09 Nov 21:19"
  },
  "macro": {
   "vix": {
-   "v": 22.9,
-   "chg": -10.69,
+   "v": 23.41,
+   "chg": -8.7,
    "date": "09 Nov"
   },
   "dxy": {
-   "v": 101.83,
-   "chg": -0.46,
+   "v": 101.85,
+   "chg": -0.44,
    "date": "09 Nov"
   },
   "us10y": {
-   "v": 4.86,
-   "chg": 0.45,
-   "date": "06 Nov"
+   "v": 4.84,
+   "chg": -0.37,
+   "date": "09 Nov"
   },
   "spx": {
    "v": 7376.86,
@@ -373,11 +373,11 @@
   "label": "Fear",
   "date": "09 Nov"
  },
- "cbPremium": -107.8,
+ "cbPremium": -118.4,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23242712792,
-  "oiChg24": -1.44,
+  "oiUsd": 23250751889,
+  "oiChg24": -1.41,
   "oiHist": [
    [
     "08 21:00",
@@ -477,48 +477,48 @@
    ],
    [
     "09 21:00",
-    23.243
+    23.251
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00693,
+  "fundAvg": 0.0072,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
-   "Deribit BTC-PERPETUAL": 0,
+   "Deribit BTC-PERPETUAL": 0.0022670000000000004,
    "Bybit BTCUSD": 0.009869,
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.01,
    "Bybit BTCUSDT": 0.007544,
-   "Gate BTC_USDT": 0.0048,
-   "OKX BTCUSDT_PERP": 0.00580895864817,
+   "Gate BTC_USDT": 0.0055,
+   "OKX BTCUSDT_PERP": 0.00552059811765,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.01
   },
-  "liqLongUsd24": 176339610,
-  "liqShortUsd24": 18142377
+  "liqLongUsd24": 176579263,
+  "liqShortUsd24": 18172397
  },
  "tech": {
   "rsiD": 35.6,
   "atrD": 2293.9,
   "basis": "closed candles, Binance spot",
   "ma20": 79094.7,
-  "ma20Pct": -5.51,
+  "ma20Pct": -5.55,
   "ma50": 81821.6,
-  "ma50Pct": -8.66,
+  "ma50Pct": -8.69,
   "ma200": 73223.6,
-  "ma200Pct": 2.07,
+  "ma200Pct": 2.03,
   "atrPct": 3.07,
   "rsi4h": 32.4
  },
  "opt": {
   "expiry": "13NOV26",
-  "expiryOI": 34350,
+  "expiryOI": 34351,
   "maxPain": 77000.0,
   "pcrExpiry": 0.69,
   "pcrAll": 0.72,
   "atmStrike": 74500.0,
-  "atmIV": 43.8,
-  "dvol": 40.68
+  "atmIV": 43.2,
+  "dvol": 40.57
  },
  "stables": {
   "USDT": {
@@ -526,64 +526,64 @@
    "chg7d": -1.36
   },
   "USDC": {
-   "usd": 70445153300,
-   "chg7d": -1.65
+   "usd": 70386853991,
+   "chg7d": -1.73
   },
-  "totalUsd": 247237756809,
-  "totalChg7d": -1.44,
-  "totalChg7dUsd": -3619375293
+  "totalUsd": 247179457500,
+  "totalChg7d": -1.47,
+  "totalChg7dUsd": -3676659328
  },
  "depth": {
   "spot": {
-   "mid": 74710.9,
-   "reachPct": 1.48,
+   "mid": 74692.0,
+   "reachPct": 1.51,
    "b1": {
-    "bid": 12700873,
-    "ask": 14635033,
-    "imb": -7.1,
+    "bid": 11845592,
+    "ask": 12627369,
+    "imb": -3.2,
     "full": true
    },
    "b2": {
-    "bid": 15158366,
-    "ask": 19660916,
-    "imb": -12.9,
+    "bid": 15649462,
+    "ask": 18462773,
+    "imb": -8.2,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 74672.1,
+   "mid": 74645.2,
    "reachPct": 1.02,
    "b1": {
-    "bid": 83401189,
-    "ask": 87753140,
-    "imb": -2.5,
+    "bid": 77904206,
+    "ask": 82758753,
+    "imb": -3.0,
     "full": true
    },
    "b2": {
-    "bid": 83549438,
-    "ask": 87951075,
-    "imb": -2.6,
+    "bid": 83986767,
+    "ask": 84152378,
+    "imb": -0.1,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 96102062,
-    "ask": 102388173,
+    "bid": 89749798,
+    "ask": 95386122,
     "venues": [
      "spot full",
      "okxPerp full"
     ],
-    "imb": -3.2
+    "imb": -3.0
    },
    "b2": {
-    "bid": 98707804,
-    "ask": 107611991,
+    "bid": 99636229,
+    "ask": 102615151,
     "venues": [
-     "spot to \u00b11.48%",
+     "spot to \u00b11.51%",
      "okxPerp to \u00b11.02%"
     ],
-    "imb": -4.3
+    "imb": -1.5
    }
   },
   "walls": {
@@ -659,9 +659,9 @@
   "px4h": 0.468,
   "spot1h": 182.8,
   "spot4h": 332.1,
-  "oi4h": 0.43,
+  "oi4h": 0.47,
   "tag": "Neutral",
-  "why": "price +0.47% 4h, OI 0.43%, spot CVD +332, perp CVD n/a"
+  "why": "price +0.47% 4h, OI 0.47%, spot CVD +332, perp CVD n/a"
  },
  "regime": {
   "h1h": 0.67,
@@ -677,20 +677,20 @@
  "vol": {
   "rv7d": 42.4,
   "rr7d": {
-   "rr": -4.87,
-   "call": 42.6,
-   "put": 47.5,
+   "rr": -4.76,
+   "call": 42.2,
+   "put": 47.0,
    "expiry": "13NOV26",
    "days": 3.8
   },
   "rr30d": {
-   "rr": -4.58,
-   "call": 37.8,
-   "put": 42.4,
+   "rr": -4.34,
+   "call": 37.6,
+   "put": 42.0,
    "expiry": "27NOV26",
    "days": 17.8
   },
-  "vrp": -1.7,
+  "vrp": -1.8,
   "basis": "25d RR = call IV - put IV at |delta|=0.25 (Black-Scholes delta from Deribit mark_iv, nearest expiry to 7d/30d); RV7d from 1H closes, annualised"
  },
  "etf": {
@@ -735,15 +735,23 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "09 Nov 21:17 SGT",
+  "asOf": "09 Nov 21:38 SGT",
   "risk": "HIGH",
-  "why": "flagged headline 0.2h ago; flagged headline 0.6h ago; flagged headline 0.8h ago",
+  "why": "Core CPI m/m in 23.9h; CPI m/m in 23.9h; flagged headline 0.6h ago",
   "headlines": [
    {
-    "title": "\u2018Connecting the dots\u2019: Michael Saylor\u2019s Strategy buys another 1,036 bitcoin for $82 million as holdings reach 850,364 BTC",
+    "title": "Strategy Buys $82M in Bitcoin, Buys Back $188M of STRC",
+    "source": "Decrypt",
+    "time": "09 Nov 21:24",
+    "ageH": 0.2,
+    "link": "https://decrypt.co/382820/strategy-buys-82m-in-bitcoin-buys-back-188m-of-strc",
+    "high": false
+   },
+   {
+    "title": "\u2018Connecting the dots\u2019: Michael Saylor\u2019s Strategy buys another 1,036 bitcoin for $82 million as holdings top 850,000 BTC",
     "source": "The Block",
     "time": "09 Nov 21:10",
-    "ageH": 0.1,
+    "ageH": 0.5,
     "link": "https://www.theblock.co/news/business/2026-11-09-connecting-the-dots-michael-saylor-strategy-bitcoin-436094",
     "high": false
    },
@@ -751,7 +759,7 @@
     "title": "Bitcoin loses 50-week moving average as 24-hour crypto long liquidations top $1 billion",
     "source": "The Block",
     "time": "09 Nov 21:04",
-    "ageH": 0.2,
+    "ageH": 0.6,
     "link": "https://www.theblock.co/news/markets/2026-11-09-bitcoin-loses-50-week-moving-average-as-24-hour-crypto-long-liquidations-top-1-billion-436102",
     "high": true
    },
@@ -759,7 +767,7 @@
     "title": "Solana set for its first tokenized stock venue under SEC framework, listing Galaxy",
     "source": "CoinDesk",
     "time": "09 Nov 20:41",
-    "ageH": 0.6,
+    "ageH": 0.9,
     "link": "https://www.coindesk.com/business/2026/11/06/solana-lset-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy",
     "high": true
    },
@@ -767,16 +775,8 @@
     "title": "Formation notifies SEC to operate first tokenized securities venue on Solana",
     "source": "The Block",
     "time": "09 Nov 20:30",
-    "ageH": 0.8,
+    "ageH": 1.1,
     "link": "https://www.theblock.co/news/defi/2026-11-09-formation-tokenized-securities-solana-436060",
-    "high": true
-   },
-   {
-    "title": "Bitcoin bulls can't rely on ETF flows",
-    "source": "CoinDesk",
-    "time": "09 Nov 20:30",
-    "ageH": 0.8,
-    "link": "https://www.coindesk.com/daybook-us/2026/11/09/bitcoin-bulls-can-t-rely-on-etf-flows",
     "high": true
    }
   ],
@@ -784,28 +784,28 @@
    {
     "title": "Core CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 24.2,
+    "inH": 23.9,
     "forecast": "0.2%",
     "previous": "0.3%"
    },
    {
     "title": "CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 24.2,
+    "inH": 23.9,
     "forecast": "0.3%",
     "previous": "0.6%"
    },
    {
     "title": "Core PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 96.2,
+    "inH": 95.9,
     "forecast": "0.3%",
     "previous": "0.7%"
    },
    {
     "title": "PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 96.2,
+    "inH": 95.9,
     "forecast": "0.4%",
     "previous": "1.3%"
    }
@@ -842,8 +842,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 74736.01,
-   "valueAt": "09 Nov 2026, 21:16 SGT",
+   "value": 74708.01,
+   "valueAt": "09 Nov 2026, 21:36 SGT",
    "hit": false
   },
   {
@@ -885,12 +885,12 @@
    "Funding neutral/positive (trapped longs)"
   ],
   "metrics": [
-   "Price vs 20D MA -5.26%",
-   "vs 50D MA -8.42%",
+   "Price vs 20D MA -5.52%",
+   "vs 50D MA -8.67%",
    "Spot CVD 24h +250 BTC",
    "Perp CVD 4h +610 BTC",
-   "OI 24h -1.15%",
-   "Funding +0.0070%"
+   "OI 24h -1.45%",
+   "Funding +0.0069%"
   ],
   "implication": "Strict cash; treat relief bounces as exit liquidity; invalidation 1D close > 50D MA with positive spot CVD",
   "notMet": [
@@ -905,7 +905,7 @@
    "Spot volume vs 20D MA",
    "Whale exchange inflows / CDD"
   ],
-  "asOfMs": 1794229587784,
+  "asOfMs": 1794230276263,
   "scores": {
    "A": "2/7",
    "B": "0/5",
@@ -918,7 +918,7 @@
    "I": "3/5",
    "J": "3/6"
   },
-  "asOf": "09 Nov 21:06 SGT",
+  "asOf": "09 Nov 21:17 SGT",
   "source": "box (full data incl. perp CVD)"
  }
 }
