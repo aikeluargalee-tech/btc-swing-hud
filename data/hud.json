@@ -1,10 +1,10 @@
 {
- "asOf": "09 Nov 2026, 21:06 SGT",
- "asOfMs": 1794229618438,
- "price": 74876.0,
+ "asOf": "09 Nov 2026, 21:16 SGT",
+ "asOfMs": 1794230185871,
+ "price": 74736.01,
  "high24": 76200.0,
  "low24": 73510.0,
- "chg24": -1.519,
+ "chg24": -1.818,
  "h1": [
   [
    "07 21:00",
@@ -333,8 +333,8 @@
  "lastDAt": "09 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.00613201494087,
-  "oiOKX": 35277.75020000015,
+  "fundOKX": 0.00580895864817,
+  "oiOKX": 35332.75250000016,
   "lsOKX": 2.94,
   "lsAt": "09 Nov 21:00",
   "liqLongUsd": 23,
@@ -343,13 +343,13 @@
  },
  "macro": {
   "vix": {
-   "v": 22.82,
-   "chg": -11.0,
+   "v": 22.9,
+   "chg": -10.69,
    "date": "09 Nov"
   },
   "dxy": {
-   "v": 101.88,
-   "chg": -0.41,
+   "v": 101.83,
+   "chg": -0.46,
    "date": "09 Nov"
   },
   "us10y": {
@@ -373,11 +373,11 @@
   "label": "Fear",
   "date": "09 Nov"
  },
- "cbPremium": -91.0,
+ "cbPremium": -107.8,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23298052938,
-  "oiChg24": -1.21,
+  "oiUsd": 23242712792,
+  "oiChg24": -1.44,
   "oiHist": [
    [
     "08 21:00",
@@ -477,11 +477,11 @@
    ],
    [
     "09 21:00",
-    23.298
+    23.243
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00698,
+  "fundAvg": 0.00693,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
    "Deribit BTC-PERPETUAL": 0,
@@ -489,13 +489,12 @@
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.01,
    "Bybit BTCUSDT": 0.007544,
-   "Gate BTC_USDT": 0.005,
-   "OKX BTCUSDT_PERP": 0.00609588228072,
+   "Gate BTC_USDT": 0.0048,
+   "OKX BTCUSDT_PERP": 0.00580895864817,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.01
   },
-  "predFundAvg": 0.00668,
-  "liqLongUsd24": 176331217,
+  "liqLongUsd24": 176339610,
   "liqShortUsd24": 18142377
  },
  "tech": {
@@ -503,12 +502,12 @@
   "atrD": 2293.9,
   "basis": "closed candles, Binance spot",
   "ma20": 79094.7,
-  "ma20Pct": -5.33,
+  "ma20Pct": -5.51,
   "ma50": 81821.6,
-  "ma50Pct": -8.49,
+  "ma50Pct": -8.66,
   "ma200": 73223.6,
-  "ma200Pct": 2.26,
-  "atrPct": 3.06,
+  "ma200Pct": 2.07,
+  "atrPct": 3.07,
   "rsi4h": 32.4
  },
  "opt": {
@@ -517,9 +516,9 @@
   "maxPain": 77000.0,
   "pcrExpiry": 0.69,
   "pcrAll": 0.72,
-  "atmStrike": 75000.0,
-  "atmIV": 43.3,
-  "dvol": 40.72
+  "atmStrike": 74500.0,
+  "atmIV": 43.8,
+  "dvol": 40.68
  },
  "stables": {
   "USDT": {
@@ -536,55 +535,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 74882.0,
-   "reachPct": 1.47,
+   "mid": 74710.9,
+   "reachPct": 1.48,
    "b1": {
-    "bid": 12707124,
-    "ask": 15728471,
-    "imb": -10.6,
+    "bid": 12700873,
+    "ask": 14635033,
+    "imb": -7.1,
     "full": true
    },
    "b2": {
-    "bid": 15680574,
-    "ask": 19040417,
-    "imb": -9.7,
+    "bid": 15158366,
+    "ask": 19660916,
+    "imb": -12.9,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 74843.6,
-   "reachPct": 0.98,
+   "mid": 74672.1,
+   "reachPct": 1.02,
    "b1": {
-    "bid": 75891358,
-    "ask": 86892569,
-    "imb": -6.8,
-    "full": false
+    "bid": 83401189,
+    "ask": 87753140,
+    "imb": -2.5,
+    "full": true
    },
    "b2": {
-    "bid": 76247315,
-    "ask": 86892569,
-    "imb": -6.5,
+    "bid": 83549438,
+    "ask": 87951075,
+    "imb": -2.6,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 88598482,
-    "ask": 102621040,
+    "bid": 96102062,
+    "ask": 102388173,
     "venues": [
      "spot full",
-     "okxPerp to \u00b10.98%"
+     "okxPerp full"
     ],
-    "imb": -7.3
+    "imb": -3.2
    },
    "b2": {
-    "bid": 91927889,
-    "ask": 105932986,
+    "bid": 98707804,
+    "ask": 107611991,
     "venues": [
-     "spot to \u00b11.47%",
-     "okxPerp to \u00b10.98%"
+     "spot to \u00b11.48%",
+     "okxPerp to \u00b11.02%"
     ],
-    "imb": -7.1
+    "imb": -4.3
    }
   },
   "walls": {
@@ -660,9 +659,9 @@
   "px4h": 0.468,
   "spot1h": 182.8,
   "spot4h": 332.1,
-  "oi4h": 0.67,
-  "tag": "New Longs",
-  "why": "price +0.47%, OI +0.67%"
+  "oi4h": 0.43,
+  "tag": "Neutral",
+  "why": "price +0.47% 4h, OI 0.43%, spot CVD +332, perp CVD n/a"
  },
  "regime": {
   "h1h": 0.67,
@@ -678,15 +677,15 @@
  "vol": {
   "rv7d": 42.4,
   "rr7d": {
-   "rr": -5.26,
-   "call": 42.3,
-   "put": 47.6,
+   "rr": -4.87,
+   "call": 42.6,
+   "put": 47.5,
    "expiry": "13NOV26",
    "days": 3.8
   },
   "rr30d": {
-   "rr": -4.71,
-   "call": 37.7,
+   "rr": -4.58,
+   "call": 37.8,
    "put": 42.4,
    "expiry": "27NOV26",
    "days": 17.8
@@ -724,7 +723,9 @@
   "sum5": -883.1,
   "source": "Farside (farside.co.uk/btc), US$m"
  },
- "missing": [],
+ "missing": [
+  "Coinalyze predicted funding: HTTPError 429"
+ ],
  "browserLive": [
   "Binance futures funding",
   "Binance long/short",
@@ -734,15 +735,23 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "09 Nov 21:07 SGT",
+  "asOf": "09 Nov 21:17 SGT",
   "risk": "HIGH",
-  "why": "flagged headline 0.0h ago; flagged headline 0.4h ago; flagged headline 0.6h ago",
+  "why": "flagged headline 0.2h ago; flagged headline 0.6h ago; flagged headline 0.8h ago",
   "headlines": [
+   {
+    "title": "\u2018Connecting the dots\u2019: Michael Saylor\u2019s Strategy buys another 1,036 bitcoin for $82 million as holdings reach 850,364 BTC",
+    "source": "The Block",
+    "time": "09 Nov 21:10",
+    "ageH": 0.1,
+    "link": "https://www.theblock.co/news/business/2026-11-09-connecting-the-dots-michael-saylor-strategy-bitcoin-436094",
+    "high": false
+   },
    {
     "title": "Bitcoin loses 50-week moving average as 24-hour crypto long liquidations top $1 billion",
     "source": "The Block",
     "time": "09 Nov 21:04",
-    "ageH": 0.0,
+    "ageH": 0.2,
     "link": "https://www.theblock.co/news/markets/2026-11-09-bitcoin-loses-50-week-moving-average-as-24-hour-crypto-long-liquidations-top-1-billion-436102",
     "high": true
    },
@@ -750,7 +759,7 @@
     "title": "Solana set for its first tokenized stock venue under SEC framework, listing Galaxy",
     "source": "CoinDesk",
     "time": "09 Nov 20:41",
-    "ageH": 0.4,
+    "ageH": 0.6,
     "link": "https://www.coindesk.com/business/2026/11/06/solana-lset-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy",
     "high": true
    },
@@ -758,7 +767,7 @@
     "title": "Formation notifies SEC to operate first tokenized securities venue on Solana",
     "source": "The Block",
     "time": "09 Nov 20:30",
-    "ageH": 0.6,
+    "ageH": 0.8,
     "link": "https://www.theblock.co/news/defi/2026-11-09-formation-tokenized-securities-solana-436060",
     "high": true
    },
@@ -766,16 +775,8 @@
     "title": "Bitcoin bulls can't rely on ETF flows",
     "source": "CoinDesk",
     "time": "09 Nov 20:30",
-    "ageH": 0.6,
+    "ageH": 0.8,
     "link": "https://www.coindesk.com/daybook-us/2026/11/09/bitcoin-bulls-can-t-rely-on-etf-flows",
-    "high": true
-   },
-   {
-    "title": "EU taps industry to set standards for tokenized securities",
-    "source": "Cointelegraph",
-    "time": "09 Nov 20:27",
-    "ageH": 0.7,
-    "link": "https://cointelegraph.com/news/eu-nominations-tokenization-standards-group?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": true
    }
   ],
@@ -783,28 +784,28 @@
    {
     "title": "Core CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 24.4,
+    "inH": 24.2,
     "forecast": "0.2%",
     "previous": "0.3%"
    },
    {
     "title": "CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 24.4,
+    "inH": 24.2,
     "forecast": "0.3%",
     "previous": "0.6%"
    },
    {
     "title": "Core PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 96.4,
+    "inH": 96.2,
     "forecast": "0.3%",
     "previous": "0.7%"
    },
    {
     "title": "PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 96.4,
+    "inH": 96.2,
     "forecast": "0.4%",
     "previous": "1.3%"
    }
@@ -841,8 +842,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 74876.0,
-   "valueAt": "09 Nov 2026, 21:06 SGT",
+   "value": 74736.01,
+   "valueAt": "09 Nov 2026, 21:16 SGT",
    "hit": false
   },
   {
