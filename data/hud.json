@@ -1,10 +1,10 @@
 {
- "asOf": "10 Nov 2026, 04:41 SGT",
- "asOfMs": 1794256879744,
- "price": 74789.93,
- "high24": 75851.0,
+ "asOf": "10 Nov 2026, 04:51 SGT",
+ "asOfMs": 1794257473219,
+ "price": 74831.87,
+ "high24": 75791.0,
  "low24": 73510.0,
- "chg24": -1.334,
+ "chg24": -1.259,
  "h1": [
   [
    "08 04:00",
@@ -334,7 +334,7 @@
  "priceSource": "data-api.binance.vision",
  "pos": {
   "fundOKX": 0.01,
-  "oiOKX": 34787.47880000014,
+  "oiOKX": 34781.86300000014,
   "lsOKX": 2.84,
   "lsAt": "10 Nov 04:00",
   "liqLongUsd": 308063,
@@ -343,8 +343,8 @@
  },
  "macro": {
   "vix": {
-   "v": 19.69,
-   "chg": -23.21,
+   "v": 19.82,
+   "chg": -22.7,
    "date": "09 Nov"
   },
   "dxy": {
@@ -358,13 +358,13 @@
    "date": "09 Nov"
   },
   "spx": {
-   "v": 7567.77,
-   "chg": 2.59,
+   "v": 7562.19,
+   "chg": 2.51,
    "date": "09 Nov"
   },
   "ndx": {
-   "v": 25317.62,
-   "chg": 3.0,
+   "v": 25301.37,
+   "chg": 2.94,
    "date": "09 Nov"
   }
  },
@@ -373,11 +373,11 @@
   "label": "Fear",
   "date": "09 Nov"
  },
- "cbPremium": -99.5,
+ "cbPremium": -99.0,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23146058795,
-  "oiChg24": -1.63,
+  "oiUsd": 23160579525,
+  "oiChg24": -1.56,
   "oiHist": [
    [
     "09 04:00",
@@ -477,14 +477,14 @@
    ],
    [
     "10 04:00",
-    23.146
+    23.161
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00844,
+  "fundAvg": 0.00861,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
-   "Deribit BTC-PERPETUAL": 0.005854,
+   "Deribit BTC-PERPETUAL": 0.00759,
    "Bybit BTCUSD": 0.008178,
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.01,
@@ -494,20 +494,19 @@
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.01
   },
-  "predFundAvg": 0.00828,
-  "liqLongUsd24": 179872991,
-  "liqShortUsd24": 23551559
+  "liqLongUsd24": 182571804,
+  "liqShortUsd24": 23572328
  },
  "tech": {
   "rsiD": 35.6,
   "atrD": 2293.9,
   "basis": "closed candles, Binance spot",
   "ma20": 79094.7,
-  "ma20Pct": -5.44,
+  "ma20Pct": -5.39,
   "ma50": 81821.6,
-  "ma50Pct": -8.59,
+  "ma50Pct": -8.54,
   "ma200": 73223.6,
-  "ma200Pct": 2.14,
+  "ma200Pct": 2.2,
   "atrPct": 3.07,
   "rsi4h": 40.8
  },
@@ -536,55 +535,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 74787.0,
-   "reachPct": 1.46,
+   "mid": 74880.0,
+   "reachPct": 1.5,
    "b1": {
-    "bid": 10714238,
-    "ask": 11822035,
-    "imb": -4.9,
+    "bid": 11020432,
+    "ask": 14622790,
+    "imb": -14.0,
     "full": true
    },
    "b2": {
-    "bid": 15013354,
-    "ask": 17199474,
-    "imb": -6.8,
+    "bid": 15738368,
+    "ask": 20674025,
+    "imb": -13.6,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 74754.9,
-   "reachPct": 0.99,
+   "mid": 74850.2,
+   "reachPct": 1.01,
    "b1": {
-    "bid": 76570652,
-    "ask": 84179453,
-    "imb": -4.7,
-    "full": false
+    "bid": 81535760,
+    "ask": 85953387,
+    "imb": -2.6,
+    "full": true
    },
    "b2": {
-    "bid": 76570652,
-    "ask": 84474274,
-    "imb": -4.9,
+    "bid": 82934390,
+    "ask": 87494917,
+    "imb": -2.7,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 87284890,
-    "ask": 96001488,
+    "bid": 92556192,
+    "ask": 100576177,
     "venues": [
      "spot full",
-     "okxPerp to \u00b10.99%"
+     "okxPerp full"
     ],
-    "imb": -4.8
+    "imb": -4.2
    },
    "b2": {
-    "bid": 91584006,
-    "ask": 101673748,
+    "bid": 98672758,
+    "ask": 108168942,
     "venues": [
-     "spot to \u00b11.46%",
-     "okxPerp to \u00b10.99%"
+     "spot to \u00b11.5%",
+     "okxPerp to \u00b11.01%"
     ],
-    "imb": -5.2
+    "imb": -4.6
    }
   },
   "walls": {
@@ -660,9 +659,9 @@
   "px4h": -0.868,
   "spot1h": 95.2,
   "spot4h": 256.4,
-  "oi4h": -0.66,
+  "oi4h": -0.59,
   "tag": "Long Squeeze",
-  "why": "price -0.87%, OI -0.66%"
+  "why": "price -0.87%, OI -0.59%"
  },
  "regime": {
   "h1h": 0.66,
@@ -678,16 +677,16 @@
  "vol": {
   "rv7d": 43.0,
   "rr7d": {
-   "rr": -3.55,
-   "call": 37.9,
-   "put": 41.4,
+   "rr": -3.43,
+   "call": 37.8,
+   "put": 41.2,
    "expiry": "20NOV26",
    "days": 10.5
   },
   "rr30d": {
-   "rr": -2.93,
-   "call": 37.5,
-   "put": 40.4,
+   "rr": -2.87,
+   "call": 37.4,
+   "put": 40.3,
    "expiry": "27NOV26",
    "days": 17.5
   },
@@ -724,7 +723,9 @@
   "sum5": -883.1,
   "source": "Farside (farside.co.uk/btc), US$m"
  },
- "missing": [],
+ "missing": [
+  "Coinalyze predicted funding: HTTPError 429"
+ ],
  "browserLive": [
   "Binance futures funding",
   "Binance long/short",
@@ -734,15 +735,23 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "10 Nov 04:41 SGT",
+  "asOf": "10 Nov 04:52 SGT",
   "risk": "HIGH",
-  "why": "Core CPI m/m in 16.8h; CPI m/m in 16.8h; flagged headline 0.6h ago",
+  "why": "Core CPI m/m in 16.6h; CPI m/m in 16.6h; flagged headline 0.4h ago",
   "headlines": [
+   {
+    "title": "North Korean hackers create memecoins to launder funds from Binance hack: Elliptic",
+    "source": "Cointelegraph",
+    "time": "10 Nov 04:26",
+    "ageH": 0.4,
+    "link": "https://cointelegraph.com/news/north-korean-hackers-memecoins-launder-binance-hack-elliptic?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "high": true
+   },
    {
     "title": "Elizabeth Warren vows scrutiny of prediction markets, Trump family crypto ventures as Senate Banking chair",
     "source": "The Block",
     "time": "10 Nov 04:04",
-    "ageH": 0.6,
+    "ageH": 0.8,
     "link": "https://www.theblock.co/news/regulation/2026-11-09-senate-banking-elizabeth-warren-scrutiny-prediction-markets-trump-crypto-ventures-436898",
     "high": true
    },
@@ -750,7 +759,7 @@
     "title": "Formation Securities plans Solana stock trading venue under SEC exemption",
     "source": "Cointelegraph",
     "time": "10 Nov 03:52",
-    "ageH": 0.8,
+    "ageH": 1.0,
     "link": "https://cointelegraph.com/news/formation-securities-solana-stock-trading-venue-sec-exemption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": true
    },
@@ -758,7 +767,7 @@
     "title": "Binance Hack Launderers Mint Elon Musk and Animal Meme Coins to Move Stolen Crypto",
     "source": "Decrypt",
     "time": "10 Nov 03:36",
-    "ageH": 1.1,
+    "ageH": 1.3,
     "link": "https://decrypt.co/382873/binance-hack-elon-musk-animal-meme-coins-launder-stolen-crypto",
     "high": true
    },
@@ -766,45 +775,37 @@
     "title": "Bitcoin in Limbo as Stocks Rebound Ahead of US Inflation Report",
     "source": "Decrypt",
     "time": "10 Nov 03:06",
-    "ageH": 1.6,
+    "ageH": 1.8,
     "link": "https://decrypt.co/382861/bitcoin-limbo-stocks-rebound-us-inflation",
     "high": false
-   },
-   {
-    "title": "Mercado Bitcoin begins post-hack reopening without a timeline for withdrawals",
-    "source": "Cointelegraph",
-    "time": "10 Nov 02:25",
-    "ageH": 2.3,
-    "link": "https://cointelegraph.com/news/mercado-bitcoin-reopening-withdrawals-hack-suspended?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "high": true
    }
   ],
   "events": [
    {
     "title": "Core CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 16.8,
+    "inH": 16.6,
     "forecast": "0.2%",
     "previous": "0.3%"
    },
    {
     "title": "CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 16.8,
+    "inH": 16.6,
     "forecast": "0.3%",
     "previous": "0.6%"
    },
    {
     "title": "Core PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 88.8,
+    "inH": 88.6,
     "forecast": "0.3%",
     "previous": "0.7%"
    },
    {
     "title": "PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 88.8,
+    "inH": 88.6,
     "forecast": "0.4%",
     "previous": "1.3%"
    }
@@ -841,8 +842,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 74789.93,
-   "valueAt": "10 Nov 2026, 04:41 SGT",
+   "value": 74831.87,
+   "valueAt": "10 Nov 2026, 04:51 SGT",
    "hit": false
   },
   {
