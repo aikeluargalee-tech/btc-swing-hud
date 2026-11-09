@@ -1,10 +1,10 @@
 {
- "asOf": "10 Nov 2026, 06:32 SGT",
- "asOfMs": 1794263526959,
- "price": 75112.06,
+ "asOf": "10 Nov 2026, 06:48 SGT",
+ "asOfMs": 1794264512791,
+ "price": 75252.0,
  "high24": 75734.51,
  "low24": 73750.0,
- "chg24": 0.903,
+ "chg24": 1.253,
  "h1": [
   [
    "08 06:00",
@@ -333,13 +333,13 @@
  "lastDAt": "09 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.00833519537212,
-  "oiOKX": 34687.69410000014,
-  "lsOKX": 2.84,
+  "fundOKX": 0.00719839980439,
+  "oiOKX": 34735.176600000144,
+  "lsOKX": 2.85,
   "lsAt": "10 Nov 06:00",
-  "liqLongUsd": 241688,
-  "liqShortUsd": 374840,
-  "liqWindow": "10 Nov 02:23 to 10 Nov 06:15"
+  "liqLongUsd": 31307,
+  "liqShortUsd": 552817,
+  "liqWindow": "10 Nov 02:26 to 10 Nov 06:37"
  },
  "macro": {
   "vix": {
@@ -348,7 +348,7 @@
    "date": "09 Nov"
   },
   "dxy": {
-   "v": 101.68,
+   "v": 101.69,
    "chg": -0.6,
    "date": "09 Nov"
   },
@@ -373,11 +373,11 @@
   "label": "Fear",
   "date": "09 Nov"
  },
- "cbPremium": -81.6,
+ "cbPremium": -86.2,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23276005763,
-  "oiChg24": 1.59,
+  "oiUsd": 23370521937,
+  "oiChg24": 2.0,
   "oiHist": [
    [
     "09 06:00",
@@ -477,48 +477,48 @@
    ],
    [
     "10 06:00",
-    23.276
+    23.371
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00835,
+  "fundAvg": 0.0092,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
-   "Deribit BTC-PERPETUAL": 0.006640999999999999,
+   "Deribit BTC-PERPETUAL": 0.016252000000000003,
    "Bybit BTCUSD": 0.008178,
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.01,
    "Bybit BTCUSDT": 0.009118,
    "Gate BTC_USDT": 0.01,
-   "OKX BTCUSDT_PERP": 0.00833519537212,
+   "OKX BTCUSDT_PERP": 0.00719839980439,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.01
   },
-  "predFundAvg": 0.00751,
-  "liqLongUsd24": 28850261,
-  "liqShortUsd24": 21824233
+  "predFundAvg": 0.00749,
+  "liqLongUsd24": 28850272,
+  "liqShortUsd24": 22338666
  },
  "tech": {
   "rsiD": 35.6,
   "atrD": 2293.9,
   "basis": "closed candles, Binance spot",
   "ma20": 79094.7,
-  "ma20Pct": -5.04,
+  "ma20Pct": -4.86,
   "ma50": 81821.6,
-  "ma50Pct": -8.2,
+  "ma50Pct": -8.03,
   "ma200": 73223.6,
-  "ma200Pct": 2.58,
+  "ma200Pct": 2.77,
   "atrPct": 3.05,
   "rsi4h": 40.8
  },
  "opt": {
   "expiry": "27NOV26",
-  "expiryOI": 77123,
+  "expiryOI": 77122,
   "maxPain": 79000.0,
   "pcrExpiry": 0.9,
   "pcrAll": 0.73,
   "atmStrike": 75000.0,
-  "atmIV": 37.6,
+  "atmIV": 37.7,
   "dvol": 40.06
  },
  "stables": {
@@ -536,55 +536,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 75122.0,
-   "reachPct": 1.28,
+   "mid": 75270.0,
+   "reachPct": 1.24,
    "b1": {
-    "bid": 10883423,
-    "ask": 16123232,
-    "imb": -19.4,
+    "bid": 10151602,
+    "ask": 17335369,
+    "imb": -26.1,
     "full": true
    },
    "b2": {
-    "bid": 15605748,
-    "ask": 19360253,
-    "imb": -10.7,
+    "bid": 15061066,
+    "ask": 19772675,
+    "imb": -13.5,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 75085.9,
-   "reachPct": 0.95,
+   "mid": 75229.6,
+   "reachPct": 0.93,
    "b1": {
-    "bid": 64769771,
-    "ask": 85101914,
-    "imb": -13.6,
+    "bid": 55303328,
+    "ask": 86919941,
+    "imb": -22.2,
     "full": false
    },
    "b2": {
-    "bid": 66138888,
-    "ask": 85101914,
-    "imb": -12.5,
+    "bid": 55812091,
+    "ask": 86919941,
+    "imb": -21.8,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 75653194,
-    "ask": 101225146,
+    "bid": 65454930,
+    "ask": 104255310,
     "venues": [
      "spot full",
-     "okxPerp to \u00b10.95%"
+     "okxPerp to \u00b10.93%"
     ],
-    "imb": -14.5
+    "imb": -22.9
    },
    "b2": {
-    "bid": 81744636,
-    "ask": 104462167,
+    "bid": 70873157,
+    "ask": 106692616,
     "venues": [
-     "spot to \u00b11.28%",
-     "okxPerp to \u00b10.95%"
+     "spot to \u00b11.24%",
+     "okxPerp to \u00b10.93%"
     ],
-    "imb": -12.2
+    "imb": -20.2
    }
   },
   "walls": {
@@ -660,9 +660,9 @@
   "px4h": 0.33,
   "spot1h": 111.8,
   "spot4h": 247.7,
-  "oi4h": 0.4,
-  "tag": "Neutral",
-  "why": "price +0.33% 4h, OI 0.4%, spot CVD +248, perp CVD n/a"
+  "oi4h": 0.81,
+  "tag": "New Longs",
+  "why": "price +0.33%, OI +0.81%"
  },
  "regime": {
   "h1h": 0.66,
@@ -678,15 +678,15 @@
  "vol": {
   "rv7d": 42.9,
   "rr7d": {
-   "rr": -3.58,
-   "call": 37.9,
+   "rr": -3.54,
+   "call": 37.8,
    "put": 41.4,
    "expiry": "20NOV26",
    "days": 10.4
   },
   "rr30d": {
-   "rr": -3.19,
-   "call": 37.2,
+   "rr": -3.23,
+   "call": 37.1,
    "put": 40.4,
    "expiry": "27NOV26",
    "days": 17.4
@@ -734,15 +734,15 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "10 Nov 06:32 SGT",
+  "asOf": "10 Nov 06:49 SGT",
   "risk": "HIGH",
-  "why": "Core CPI m/m in 15.0h; CPI m/m in 15.0h; flagged headline 2.1h ago",
+  "why": "Core CPI m/m in 14.7h; CPI m/m in 14.7h; flagged headline 2.4h ago",
   "headlines": [
    {
     "title": "MARA posts $634 million Q3 net profit on bitcoin gains, sells 13,597 BTC to pay off loans",
     "source": "The Block",
     "time": "10 Nov 06:07",
-    "ageH": 0.4,
+    "ageH": 0.7,
     "link": "https://www.theblock.co/news/business/2026-11-09-mara-q3-earnings-net-profit-bitcoin-sale-ai-pivot-436950",
     "high": false
    },
@@ -750,7 +750,7 @@
     "title": "Here\u2019s what happened in crypto today",
     "source": "Cointelegraph",
     "time": "10 Nov 06:06",
-    "ageH": 0.4,
+    "ageH": 0.7,
     "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -758,7 +758,7 @@
     "title": "Should you leave Australia to avoid paying 47% tax on crypto gains?",
     "source": "Cointelegraph",
     "time": "10 Nov 05:00",
-    "ageH": 1.5,
+    "ageH": 1.8,
     "link": "https://cointelegraph.com/magazine/should-you-leave-australia-to-avoid-47-tax-on-crypto-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -766,7 +766,7 @@
     "title": "North Korean hackers create memecoins to launder funds from Binance hack: Elliptic",
     "source": "Cointelegraph",
     "time": "10 Nov 04:26",
-    "ageH": 2.1,
+    "ageH": 2.4,
     "link": "https://cointelegraph.com/news/north-korean-hackers-memecoins-launder-binance-hack-elliptic?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": true
    },
@@ -774,7 +774,7 @@
     "title": "Elizabeth Warren vows scrutiny of prediction markets, Trump family crypto ventures as Senate Banking chair",
     "source": "The Block",
     "time": "10 Nov 04:04",
-    "ageH": 2.5,
+    "ageH": 2.7,
     "link": "https://www.theblock.co/news/regulation/2026-11-09-senate-banking-elizabeth-warren-scrutiny-prediction-markets-trump-crypto-ventures-436898",
     "high": true
    }
@@ -783,28 +783,28 @@
    {
     "title": "Core CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 15.0,
+    "inH": 14.7,
     "forecast": "0.2%",
     "previous": "0.3%"
    },
    {
     "title": "CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 15.0,
+    "inH": 14.7,
     "forecast": "0.3%",
     "previous": "0.6%"
    },
    {
     "title": "Core PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 87.0,
+    "inH": 86.7,
     "forecast": "0.3%",
     "previous": "0.7%"
    },
    {
     "title": "PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 87.0,
+    "inH": 86.7,
     "forecast": "0.4%",
     "previous": "1.3%"
    }
@@ -841,8 +841,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 75112.06,
-   "valueAt": "10 Nov 2026, 06:32 SGT",
+   "value": 75252.0,
+   "valueAt": "10 Nov 2026, 06:48 SGT",
    "hit": false
   },
   {
@@ -885,12 +885,12 @@
    "Funding +0.002..+0.010%"
   ],
   "metrics": [
-   "Price vs 20D MA -5.01%",
-   "vs 50D MA -8.18%",
+   "Price vs 20D MA -4.87%",
+   "vs 50D MA -8.04%",
    "Spot CVD 24h +1730 BTC",
    "Perp CVD 4h +605 BTC",
-   "OI 24h +1.54%",
-   "Funding +0.0084%"
+   "OI 24h +1.97%",
+   "Funding +0.0088%"
   ],
   "implication": "Full spot long 1.0x; 60% breakout / 40% VWAP retest; stop 4H swing low -0.6%",
   "notMet": [
@@ -906,7 +906,7 @@
    "Spot volume vs 20D MA",
    "Whale exchange inflows / CDD"
   ],
-  "asOfMs": 1794263502008,
+  "asOfMs": 1794264490500,
   "scores": {
    "A": "4/7",
    "B": "1/5",
@@ -919,7 +919,7 @@
    "I": "4/5",
    "J": "3/6"
   },
-  "asOf": "10 Nov 06:31 SGT",
+  "asOf": "10 Nov 06:48 SGT",
   "source": "box (full data incl. perp CVD)"
  }
 }
