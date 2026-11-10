@@ -1,10 +1,10 @@
 {
- "asOf": "10 Nov 2026, 10:40 SGT",
- "asOfMs": 1794278433835,
- "price": 74811.85,
+ "asOf": "10 Nov 2026, 10:49 SGT",
+ "asOfMs": 1794278952903,
+ "price": 74894.46,
  "high24": 75568.18,
  "low24": 73750.0,
- "chg24": -0.809,
+ "chg24": -0.552,
  "h1": [
   [
    "08 10:00",
@@ -333,13 +333,13 @@
  "lastDAt": "10 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.0008869072642900001,
-  "oiOKX": 34711.03610000014,
+  "fundOKX": 0.0009206984654,
+  "oiOKX": 34717.44510000014,
   "lsOKX": 2.76,
   "lsAt": "10 Nov 10:00",
-  "liqLongUsd": 47796,
-  "liqShortUsd": 398536,
-  "liqWindow": "10 Nov 03:41 to 10 Nov 10:40"
+  "liqLongUsd": 48379,
+  "liqShortUsd": 397235,
+  "liqWindow": "10 Nov 03:41 to 10 Nov 10:42"
  },
  "macro": {
   "vix": {
@@ -348,8 +348,8 @@
    "date": "09 Nov"
   },
   "dxy": {
-   "v": 101.68,
-   "chg": 0.03,
+   "v": 101.73,
+   "chg": 0.08,
    "date": "10 Nov"
   },
   "us10y": {
@@ -373,11 +373,11 @@
   "label": "Fear",
   "date": "10 Nov"
  },
- "cbPremium": -107.6,
+ "cbPremium": -88.7,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23256943493,
-  "oiChg24": 0.35,
+  "oiUsd": 23285498042,
+  "oiChg24": 0.47,
   "oiHist": [
    [
     "09 10:00",
@@ -477,25 +477,25 @@
    ],
    [
     "10 10:00",
-    23.257
+    23.285
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00604,
+  "fundAvg": 0.00676,
   "fundBy": {
    "Hyperliquid BTC": 0.0011484,
-   "Deribit BTC-PERPETUAL": 0,
+   "Deribit BTC-PERPETUAL": 0.00668,
    "Bybit BTCUSD": 0.006367,
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.01,
    "Bybit BTCUSDT": 0.007322,
-   "Gate BTC_USDT": 0.0049,
-   "OKX BTCUSDT_PERP": 0.0008869072642900001,
-   "HTX BTCUSDT_PERP": 0.0097637182187644,
+   "Gate BTC_USDT": 0.0052,
+   "OKX BTCUSDT_PERP": 0.0009206984654,
+   "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.01
   },
-  "predFundAvg": 0.00603,
-  "liqLongUsd24": 26297379,
+  "predFundAvg": 0.00601,
+  "liqLongUsd24": 26357652,
   "liqShortUsd24": 14763683
  },
  "tech": {
@@ -503,11 +503,11 @@
   "atrD": 2262.1,
   "basis": "closed candles, Binance spot",
   "ma20": 78711.8,
-  "ma20Pct": -4.95,
+  "ma20Pct": -4.85,
   "ma50": 81705.4,
-  "ma50Pct": -8.44,
+  "ma50Pct": -8.34,
   "ma200": 73209.1,
-  "ma200Pct": 2.19,
+  "ma200Pct": 2.3,
   "atrPct": 3.02,
   "rsi4h": 45.5
  },
@@ -519,7 +519,7 @@
   "pcrAll": 0.73,
   "atmStrike": 75000.0,
   "atmIV": 36.8,
-  "dvol": 39.46
+  "dvol": 39.45
  },
  "stables": {
   "USDT": {
@@ -536,55 +536,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 74802.6,
-   "reachPct": 1.33,
+   "mid": 74908.3,
+   "reachPct": 1.4,
    "b1": {
-    "bid": 16167888,
-    "ask": 16415303,
-    "imb": -0.8,
+    "bid": 13883653,
+    "ask": 17430757,
+    "imb": -11.3,
     "full": true
    },
    "b2": {
-    "bid": 19175504,
-    "ask": 22991163,
-    "imb": -9.0,
+    "bid": 18007225,
+    "ask": 23629854,
+    "imb": -13.5,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 74765.2,
-   "reachPct": 0.95,
+   "mid": 74865.6,
+   "reachPct": 1.0,
    "b1": {
-    "bid": 79999537,
-    "ask": 69209853,
-    "imb": 7.2,
+    "bid": 78833253,
+    "ask": 73156099,
+    "imb": 3.7,
     "full": false
    },
    "b2": {
-    "bid": 79999537,
-    "ask": 70801658,
-    "imb": 6.1,
+    "bid": 78833253,
+    "ask": 73165248,
+    "imb": 3.7,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 96167425,
-    "ask": 85625156,
+    "bid": 92716906,
+    "ask": 90586856,
     "venues": [
      "spot full",
-     "okxPerp to \u00b10.95%"
+     "okxPerp to \u00b11.0%"
     ],
-    "imb": 5.8
+    "imb": 1.2
    },
    "b2": {
-    "bid": 99175041,
-    "ask": 93792821,
+    "bid": 96840478,
+    "ask": 96795102,
     "venues": [
-     "spot to \u00b11.33%",
-     "okxPerp to \u00b10.95%"
+     "spot to \u00b11.4%",
+     "okxPerp to \u00b11.0%"
     ],
-    "imb": 2.8
+    "imb": 0.0
    }
   },
   "walls": {
@@ -660,9 +660,9 @@
   "px4h": 0.064,
   "spot1h": 3.4,
   "spot4h": 314.9,
-  "oi4h": -0.53,
+  "oi4h": -0.41,
   "tag": "Neutral",
-  "why": "price +0.06% 4h, OI -0.53%, spot CVD +315, perp CVD n/a"
+  "why": "price +0.06% 4h, OI -0.41%, spot CVD +315, perp CVD n/a"
  },
  "regime": {
   "h1h": 0.66,
@@ -678,16 +678,16 @@
  "vol": {
   "rv7d": 42.9,
   "rr7d": {
-   "rr": -3.34,
+   "rr": -3.2,
    "call": 37.0,
-   "put": 40.3,
+   "put": 40.2,
    "expiry": "20NOV26",
    "days": 10.2
   },
   "rr30d": {
-   "rr": -3.02,
-   "call": 36.5,
-   "put": 39.5,
+   "rr": -2.95,
+   "call": 36.4,
+   "put": 39.4,
    "expiry": "27NOV26",
    "days": 17.2
   },
@@ -734,15 +734,15 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "10 Nov 10:40 SGT",
+  "asOf": "10 Nov 10:49 SGT",
   "risk": "HIGH",
-  "why": "Core CPI m/m in 10.8h; CPI m/m in 10.8h; flagged headline 0.5h ago",
+  "why": "Core CPI m/m in 10.7h; CPI m/m in 10.7h; flagged headline 0.6h ago",
   "headlines": [
    {
     "title": "Securitize shares surge 12% in after-hours trading on Q3 results and River One acquisition agreement",
     "source": "The Block",
     "time": "10 Nov 10:13",
-    "ageH": 0.5,
+    "ageH": 0.6,
     "link": "https://www.theblock.co/news/business/2026-11-09-securitize-shares-surge-river-one-436955",
     "high": true
    },
@@ -750,7 +750,7 @@
     "title": "HIVE, MARA mine more Bitcoin but earn less as crypto prices fall",
     "source": "Cointelegraph",
     "time": "10 Nov 08:42",
-    "ageH": 2.0,
+    "ageH": 2.1,
     "link": "https://cointelegraph.com/markets/hives-bitcoin-output-jumps-49-but-mining-revenue-falls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -758,7 +758,7 @@
     "title": "Securitize pushes into $6 trillion asset-backed finance market with River One acquisition",
     "source": "CoinDesk",
     "time": "10 Nov 06:56",
-    "ageH": 3.7,
+    "ageH": 3.9,
     "link": "https://www.coindesk.com/business/2026/11/09/securitize-pushes-into-usd6-trillion-asset-backed-finance-market-with-river-one-acquisition",
     "high": true
    },
@@ -766,7 +766,7 @@
     "title": "MARA posts $634 million Q3 net profit on bitcoin gains, sells 13,597 BTC to pay off loans",
     "source": "The Block",
     "time": "10 Nov 06:07",
-    "ageH": 4.6,
+    "ageH": 4.7,
     "link": "https://www.theblock.co/news/business/2026-11-09-mara-q3-earnings-net-profit-bitcoin-sale-ai-pivot-436950",
     "high": false
    },
@@ -774,7 +774,7 @@
     "title": "Here\u2019s what happened in crypto today",
     "source": "Cointelegraph",
     "time": "10 Nov 06:06",
-    "ageH": 4.6,
+    "ageH": 4.7,
     "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    }
@@ -783,28 +783,28 @@
    {
     "title": "Core CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 10.8,
+    "inH": 10.7,
     "forecast": "0.2%",
     "previous": "0.3%"
    },
    {
     "title": "CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 10.8,
+    "inH": 10.7,
     "forecast": "0.3%",
     "previous": "0.6%"
    },
    {
     "title": "Core PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 82.8,
+    "inH": 82.7,
     "forecast": "0.3%",
     "previous": "0.7%"
    },
    {
     "title": "PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 82.8,
+    "inH": 82.7,
     "forecast": "0.4%",
     "previous": "1.3%"
    }
@@ -841,8 +841,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 74811.85,
-   "valueAt": "10 Nov 2026, 10:40 SGT",
+   "value": 74894.46,
+   "valueAt": "10 Nov 2026, 10:49 SGT",
    "hit": false
   },
   {
@@ -885,12 +885,12 @@
    "OI 24h flat/dropping (<=+1%)"
   ],
   "metrics": [
-   "Price vs 20D MA -4.91%",
-   "vs 50D MA -8.40%",
+   "Price vs 20D MA -4.88%",
+   "vs 50D MA -8.36%",
    "Spot CVD 24h +1795 BTC",
    "Perp CVD 4h +154 BTC",
-   "OI 24h +0.38%",
-   "Funding +0.0060%"
+   "OI 24h +0.42%",
+   "Funding +0.0062%"
   ],
   "implication": "Build spot 0.75x; 50% on 1H range reclaim / 50% limit at low; stop sweep low -0.5%",
   "notMet": [
@@ -906,7 +906,7 @@
    "Spot volume vs 20D MA",
    "Whale exchange inflows / CDD"
   ],
-  "asOfMs": 1794278409927,
+  "asOfMs": 1794278853098,
   "scores": {
    "A": "4/7",
    "B": "0/5",
@@ -919,7 +919,7 @@
    "I": "4/5",
    "J": "3/6"
   },
-  "asOf": "10 Nov 10:40 SGT",
+  "asOf": "10 Nov 10:47 SGT",
   "source": "box (full data incl. perp CVD)"
  }
 }
