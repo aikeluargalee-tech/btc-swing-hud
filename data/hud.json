@@ -1,10 +1,10 @@
 {
- "asOf": "10 Nov 2026, 11:35 SGT",
- "asOfMs": 1794281735943,
- "price": 74551.22,
+ "asOf": "10 Nov 2026, 11:45 SGT",
+ "asOfMs": 1794282345248,
+ "price": 74458.02,
  "high24": 75568.18,
  "low24": 73750.0,
- "chg24": -0.638,
+ "chg24": -0.78,
  "h1": [
   [
    "08 11:00",
@@ -333,13 +333,13 @@
  "lastDAt": "10 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.00192070855446,
-  "oiOKX": 34715.44810000015,
-  "lsOKX": 2.77,
+  "fundOKX": 0.00232848397398,
+  "oiOKX": 34681.28030000016,
+  "lsOKX": 2.78,
   "lsAt": "10 Nov 11:00",
-  "liqLongUsd": 350639,
-  "liqShortUsd": 30912,
-  "liqWindow": "10 Nov 08:09 to 10 Nov 11:35"
+  "liqLongUsd": 1089854,
+  "liqShortUsd": 0,
+  "liqWindow": "10 Nov 11:31 to 10 Nov 11:43"
  },
  "macro": {
   "vix": {
@@ -348,8 +348,8 @@
    "date": "09 Nov"
   },
   "dxy": {
-   "v": 101.69,
-   "chg": 0.04,
+   "v": 101.68,
+   "chg": 0.03,
    "date": "10 Nov"
   },
   "us10y": {
@@ -373,11 +373,11 @@
   "label": "Fear",
   "date": "10 Nov"
  },
- "cbPremium": -105.3,
+ "cbPremium": -111.6,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23160466835,
-  "oiChg24": 0.32,
+  "oiUsd": 23111536090,
+  "oiChg24": 0.11,
   "oiHist": [
    [
     "09 11:00",
@@ -477,49 +477,49 @@
    ],
    [
     "10 11:00",
-    23.16
+    23.112
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00668,
+  "fundAvg": 0.00662,
   "fundBy": {
    "Hyperliquid BTC": 0.00100581,
-   "Deribit BTC-PERPETUAL": 0.0027359999999999997,
+   "Deribit BTC-PERPETUAL": 0.0010509999999999999,
    "Bybit BTCUSD": 0.006367,
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.01,
    "Bybit BTCUSDT": 0.007322,
-   "Gate BTC_USDT": 0.0074,
-   "OKX BTCUSDT_PERP": 0.00192070855446,
+   "Gate BTC_USDT": 0.0081,
+   "OKX BTCUSDT_PERP": 0.00232848397398,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.01
   },
-  "predFundAvg": 0.00662,
-  "liqLongUsd24": 26220285,
-  "liqShortUsd24": 14746996
+  "predFundAvg": 0.00668,
+  "liqLongUsd24": 27443974,
+  "liqShortUsd24": 14747145
  },
  "tech": {
   "rsiD": 37.8,
   "atrD": 2262.1,
   "basis": "closed candles, Binance spot",
   "ma20": 78711.8,
-  "ma20Pct": -5.29,
+  "ma20Pct": -5.4,
   "ma50": 81705.4,
-  "ma50Pct": -8.76,
+  "ma50Pct": -8.87,
   "ma200": 73209.1,
-  "ma200Pct": 1.83,
-  "atrPct": 3.03,
+  "ma200Pct": 1.71,
+  "atrPct": 3.04,
   "rsi4h": 45.5
  },
  "opt": {
   "expiry": "27NOV26",
-  "expiryOI": 76715,
+  "expiryOI": 76713,
   "maxPain": 79000.0,
   "pcrExpiry": 0.91,
   "pcrAll": 0.73,
   "atmStrike": 75000.0,
   "atmIV": 36.8,
-  "dvol": 39.41
+  "dvol": 39.43
  },
  "stables": {
   "USDT": {
@@ -536,55 +536,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 74555.4,
-   "reachPct": 1.24,
+   "mid": 74474.6,
+   "reachPct": 1.28,
    "b1": {
-    "bid": 18242282,
-    "ask": 14509086,
-    "imb": 11.4,
+    "bid": 18378495,
+    "ask": 15034929,
+    "imb": 10.0,
     "full": true
    },
    "b2": {
-    "bid": 20267514,
-    "ask": 20115227,
-    "imb": 0.4,
+    "bid": 21511365,
+    "ask": 19027279,
+    "imb": 6.1,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 74528.9,
-   "reachPct": 0.94,
+   "mid": 74445.9,
+   "reachPct": 0.95,
    "b1": {
-    "bid": 98348692,
-    "ask": 62801372,
-    "imb": 22.1,
+    "bid": 94159738,
+    "ask": 62839481,
+    "imb": 19.9,
     "full": false
    },
    "b2": {
-    "bid": 98348692,
-    "ask": 63251670,
-    "imb": 21.7,
+    "bid": 94159738,
+    "ask": 63455760,
+    "imb": 19.5,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 116590974,
-    "ask": 77310458,
+    "bid": 112538233,
+    "ask": 77874410,
     "venues": [
      "spot full",
-     "okxPerp to \u00b10.94%"
+     "okxPerp to \u00b10.95%"
     ],
-    "imb": 20.3
+    "imb": 18.2
    },
    "b2": {
-    "bid": 118616206,
-    "ask": 83366897,
+    "bid": 115671103,
+    "ask": 82483039,
     "venues": [
-     "spot to \u00b11.24%",
-     "okxPerp to \u00b10.94%"
+     "spot to \u00b11.28%",
+     "okxPerp to \u00b10.95%"
     ],
-    "imb": 17.5
+    "imb": 16.7
    }
   },
   "walls": {
@@ -660,9 +660,9 @@
   "px4h": -0.566,
   "spot1h": 23.8,
   "spot4h": 259.2,
-  "oi4h": -1.06,
+  "oi4h": -1.27,
   "tag": "Long Squeeze",
-  "why": "price -0.57%, OI -1.06%"
+  "why": "price -0.57%, OI -1.27%"
  },
  "regime": {
   "h1h": 0.67,
@@ -678,15 +678,15 @@
  "vol": {
   "rv7d": 42.8,
   "rr7d": {
-   "rr": -3.22,
-   "call": 37.0,
+   "rr": -3.05,
+   "call": 37.1,
    "put": 40.2,
    "expiry": "20NOV26",
    "days": 10.2
   },
   "rr30d": {
-   "rr": -3.14,
-   "call": 36.4,
+   "rr": -2.98,
+   "call": 36.5,
    "put": 39.5,
    "expiry": "27NOV26",
    "days": 17.2
@@ -734,15 +734,23 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "10 Nov 11:36 SGT",
+  "asOf": "10 Nov 11:46 SGT",
   "risk": "HIGH",
-  "why": "Core CPI m/m in 9.9h; CPI m/m in 9.9h; flagged headline 0.2h ago",
+  "why": "Core CPI m/m in 9.7h; CPI m/m in 9.7h; flagged headline 0.4h ago",
   "headlines": [
+   {
+    "title": "Trump Media swings to $410 million profit in Q3, driven by crypto gains",
+    "source": "The Block",
+    "time": "10 Nov 11:36",
+    "ageH": 0.2,
+    "link": "https://www.theblock.co/news/business/2026-11-09-trump-media-q3-profit-436964",
+    "high": false
+   },
    {
     "title": "Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough",
     "source": "CoinDesk",
     "time": "10 Nov 11:22",
-    "ageH": 0.2,
+    "ageH": 0.4,
     "link": "https://www.coindesk.com/markets/2026/11/10/bitcoin-faces-u-s-cpi-test-as-analysts-warn-inflation-relief-may-not-be-enough",
     "high": true
    },
@@ -750,7 +758,7 @@
     "title": "OpenAI builds kill switch to stop rogue agents within 35 seconds",
     "source": "Cointelegraph",
     "time": "10 Nov 11:04",
-    "ageH": 0.5,
+    "ageH": 0.7,
     "link": "https://cointelegraph.com/news/openai-builds-kill-switch-stop-rogue-agents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": true
    },
@@ -758,7 +766,7 @@
     "title": "Securitize shares surge 12% in after-hours trading on Q3 results and River One acquisition agreement",
     "source": "The Block",
     "time": "10 Nov 10:13",
-    "ageH": 1.4,
+    "ageH": 1.6,
     "link": "https://www.theblock.co/news/business/2026-11-09-securitize-shares-surge-river-one-436955",
     "high": true
    },
@@ -766,45 +774,37 @@
     "title": "HIVE, MARA mine more Bitcoin but earn less as crypto prices fall",
     "source": "Cointelegraph",
     "time": "10 Nov 08:42",
-    "ageH": 2.9,
+    "ageH": 3.1,
     "link": "https://cointelegraph.com/markets/hives-bitcoin-output-jumps-49-but-mining-revenue-falls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
-   },
-   {
-    "title": "Securitize pushes into $6 trillion asset-backed finance market with River One acquisition",
-    "source": "CoinDesk",
-    "time": "10 Nov 06:56",
-    "ageH": 4.7,
-    "link": "https://www.coindesk.com/business/2026/11/09/securitize-pushes-into-usd6-trillion-asset-backed-finance-market-with-river-one-acquisition",
-    "high": true
    }
   ],
   "events": [
    {
     "title": "Core CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 9.9,
+    "inH": 9.7,
     "forecast": "0.2%",
     "previous": "0.3%"
    },
    {
     "title": "CPI m/m",
     "time": "10 Nov 21:30",
-    "inH": 9.9,
+    "inH": 9.7,
     "forecast": "0.3%",
     "previous": "0.6%"
    },
    {
     "title": "Core PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 81.9,
+    "inH": 81.7,
     "forecast": "0.3%",
     "previous": "0.7%"
    },
    {
     "title": "PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 81.9,
+    "inH": 81.7,
     "forecast": "0.4%",
     "previous": "1.3%"
    }
@@ -841,8 +841,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 74551.22,
-   "valueAt": "10 Nov 2026, 11:35 SGT",
+   "value": 74458.02,
+   "valueAt": "10 Nov 2026, 11:45 SGT",
    "hit": false
   },
   {
