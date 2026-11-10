@@ -7,7 +7,7 @@
  "confidence": 57,
  "confLabel": "Medium",
  "matched": "4/7 available (7 listed)",
- "runnerUp": "A Healthy Bull (4/7)",
+ "runnerUp": "I Bear Trend (4/5)",
  "evidence": [
   "Negative headline risk",
   "Testing 200D MA / 30d low",
@@ -15,12 +15,12 @@
   "OI 24h flat/dropping (<=+1%)"
  ],
  "metrics": [
-  "Price vs 20D MA -4.59%",
-  "vs 50D MA -8.08%",
+  "Price vs 20D MA -4.71%",
+  "vs 50D MA -8.20%",
   "Spot CVD 24h +1658 BTC",
   "Perp CVD 4h +995 BTC",
-  "OI 24h +0.87%",
-  "Funding +0.0052%"
+  "OI 24h +0.82%",
+  "Funding +0.0053%"
  ],
  "implication": "Build spot 0.75x; 50% on 1H range reclaim / 50% limit at low; stop sweep low -0.5%",
  "notMet": [
@@ -36,9 +36,9 @@
   "Spot volume vs 20D MA",
   "Whale exchange inflows / CDD"
  ],
- "asOfMs": 1794270764998,
+ "asOfMs": 1794271996559,
  "scores": {
-  "A": "4/7",
+  "A": "3/7",
   "B": "1/5",
   "C": "4/7",
   "D": "2/5",
@@ -49,6 +49,6 @@
   "I": "4/5",
   "J": "3/6"
  },
- "asOf": "10 Nov 08:32 SGT",
+ "asOf": "10 Nov 08:53 SGT",
  "source": "box (full data incl. perp CVD)"
 }
