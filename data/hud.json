@@ -1,10 +1,10 @@
 {
- "asOf": "10 Nov 2026, 11:45 SGT",
- "asOfMs": 1794282345248,
- "price": 74458.02,
+ "asOf": "10 Nov 2026, 11:50 SGT",
+ "asOfMs": 1794282609517,
+ "price": 74517.13,
  "high24": 75568.18,
  "low24": 73750.0,
- "chg24": -0.78,
+ "chg24": -0.648,
  "h1": [
   [
    "08 11:00",
@@ -333,9 +333,9 @@
  "lastDAt": "10 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.00232848397398,
-  "oiOKX": 34681.28030000016,
-  "lsOKX": 2.78,
+  "fundOKX": 0.00263638138413,
+  "oiOKX": 34687.95520000016,
+  "lsOKX": 2.79,
   "lsAt": "10 Nov 11:00",
   "liqLongUsd": 1089854,
   "liqShortUsd": 0,
@@ -373,11 +373,11 @@
   "label": "Fear",
   "date": "10 Nov"
  },
- "cbPremium": -111.6,
+ "cbPremium": -108.1,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 23111536090,
-  "oiChg24": 0.11,
+  "oiUsd": 23124419961,
+  "oiChg24": 0.16,
   "oiHist": [
    [
     "09 11:00",
@@ -477,37 +477,37 @@
    ],
    [
     "10 11:00",
-    23.112
+    23.124
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00662,
+  "fundAvg": 0.00719,
   "fundBy": {
    "Hyperliquid BTC": 0.00100581,
-   "Deribit BTC-PERPETUAL": 0.0010509999999999999,
+   "Deribit BTC-PERPETUAL": 0.006406,
    "Bybit BTCUSD": 0.006367,
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.01,
    "Bybit BTCUSDT": 0.007322,
-   "Gate BTC_USDT": 0.0081,
-   "OKX BTCUSDT_PERP": 0.00232848397398,
+   "Gate BTC_USDT": 0.0082,
+   "OKX BTCUSDT_PERP": 0.00263638138413,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.01
   },
-  "predFundAvg": 0.00668,
-  "liqLongUsd24": 27443974,
-  "liqShortUsd24": 14747145
+  "predFundAvg": 0.00665,
+  "liqLongUsd24": 27445580,
+  "liqShortUsd24": 14747294
  },
  "tech": {
   "rsiD": 37.8,
   "atrD": 2262.1,
   "basis": "closed candles, Binance spot",
   "ma20": 78711.8,
-  "ma20Pct": -5.4,
+  "ma20Pct": -5.33,
   "ma50": 81705.4,
-  "ma50Pct": -8.87,
+  "ma50Pct": -8.8,
   "ma200": 73209.1,
-  "ma200Pct": 1.71,
+  "ma200Pct": 1.79,
   "atrPct": 3.04,
   "rsi4h": 45.5
  },
@@ -519,7 +519,7 @@
   "pcrAll": 0.73,
   "atmStrike": 75000.0,
   "atmIV": 36.8,
-  "dvol": 39.43
+  "dvol": 39.4
  },
  "stables": {
   "USDT": {
@@ -536,55 +536,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 74474.6,
-   "reachPct": 1.28,
+   "mid": 74530.1,
+   "reachPct": 1.34,
    "b1": {
-    "bid": 18378495,
-    "ask": 15034929,
-    "imb": 10.0,
+    "bid": 18631715,
+    "ask": 13158752,
+    "imb": 17.2,
     "full": true
    },
    "b2": {
-    "bid": 21511365,
-    "ask": 19027279,
-    "imb": 6.1,
+    "bid": 21964259,
+    "ask": 17115456,
+    "imb": 12.4,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 74445.9,
-   "reachPct": 0.95,
+   "mid": 74504.1,
+   "reachPct": 0.96,
    "b1": {
-    "bid": 94159738,
-    "ask": 62839481,
-    "imb": 19.9,
+    "bid": 98751699,
+    "ask": 62322226,
+    "imb": 22.6,
     "full": false
    },
    "b2": {
-    "bid": 94159738,
-    "ask": 63455760,
-    "imb": 19.5,
+    "bid": 98751699,
+    "ask": 63135141,
+    "imb": 22.0,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 112538233,
-    "ask": 77874410,
+    "bid": 117383414,
+    "ask": 75480978,
     "venues": [
      "spot full",
-     "okxPerp to \u00b10.95%"
+     "okxPerp to \u00b10.96%"
     ],
-    "imb": 18.2
+    "imb": 21.7
    },
    "b2": {
-    "bid": 115671103,
-    "ask": 82483039,
+    "bid": 120715958,
+    "ask": 80250597,
     "venues": [
-     "spot to \u00b11.28%",
-     "okxPerp to \u00b10.95%"
+     "spot to \u00b11.34%",
+     "okxPerp to \u00b10.96%"
     ],
-    "imb": 16.7
+    "imb": 20.1
    }
   },
   "walls": {
@@ -660,9 +660,9 @@
   "px4h": -0.566,
   "spot1h": 23.8,
   "spot4h": 259.2,
-  "oi4h": -1.27,
+  "oi4h": -1.22,
   "tag": "Long Squeeze",
-  "why": "price -0.57%, OI -1.27%"
+  "why": "price -0.57%, OI -1.22%"
  },
  "regime": {
   "h1h": 0.67,
@@ -678,16 +678,16 @@
  "vol": {
   "rv7d": 42.8,
   "rr7d": {
-   "rr": -3.05,
+   "rr": -3.06,
    "call": 37.1,
-   "put": 40.2,
+   "put": 40.1,
    "expiry": "20NOV26",
    "days": 10.2
   },
   "rr30d": {
-   "rr": -2.98,
+   "rr": -2.93,
    "call": 36.5,
-   "put": 39.5,
+   "put": 39.4,
    "expiry": "27NOV26",
    "days": 17.2
   },
@@ -734,9 +734,9 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "10 Nov 11:46 SGT",
+  "asOf": "10 Nov 11:50 SGT",
   "risk": "HIGH",
-  "why": "Core CPI m/m in 9.7h; CPI m/m in 9.7h; flagged headline 0.4h ago",
+  "why": "Core CPI m/m in 9.7h; CPI m/m in 9.7h; flagged headline 0.5h ago",
   "headlines": [
    {
     "title": "Trump Media swings to $410 million profit in Q3, driven by crypto gains",
@@ -750,7 +750,7 @@
     "title": "Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough",
     "source": "CoinDesk",
     "time": "10 Nov 11:22",
-    "ageH": 0.4,
+    "ageH": 0.5,
     "link": "https://www.coindesk.com/markets/2026/11/10/bitcoin-faces-u-s-cpi-test-as-analysts-warn-inflation-relief-may-not-be-enough",
     "high": true
    },
@@ -758,7 +758,7 @@
     "title": "OpenAI builds kill switch to stop rogue agents within 35 seconds",
     "source": "Cointelegraph",
     "time": "10 Nov 11:04",
-    "ageH": 0.7,
+    "ageH": 0.8,
     "link": "https://cointelegraph.com/news/openai-builds-kill-switch-stop-rogue-agents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": true
    },
@@ -841,8 +841,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 74458.02,
-   "valueAt": "10 Nov 2026, 11:45 SGT",
+   "value": 74517.13,
+   "valueAt": "10 Nov 2026, 11:50 SGT",
    "hit": false
   },
   {
@@ -886,12 +886,12 @@
    "OI 24h flat/dropping (<=+1%)"
   ],
   "metrics": [
-   "Price vs 20D MA -5.27%",
-   "vs 50D MA -8.74%",
+   "Price vs 20D MA -5.35%",
+   "vs 50D MA -8.82%",
    "Spot CVD 24h +1767 BTC",
    "Perp CVD 4h -758 BTC",
-   "OI 24h +0.25%",
-   "Funding +0.0064%"
+   "OI 24h +0.15%",
+   "Funding +0.0068%"
   ],
   "implication": "Build spot 0.75x; 50% on 1H range reclaim / 50% limit at low; stop sweep low -0.5%",
   "notMet": [
@@ -906,7 +906,7 @@
    "Spot volume vs 20D MA",
    "Whale exchange inflows / CDD"
   ],
-  "asOfMs": 1794281712947,
+  "asOfMs": 1794282550973,
   "scores": {
    "A": "3/7",
    "B": "0/5",
@@ -919,7 +919,7 @@
    "I": "4/5",
    "J": "3/6"
   },
-  "asOf": "10 Nov 11:35 SGT",
+  "asOf": "10 Nov 11:49 SGT",
   "source": "box (full data incl. perp CVD)"
  }
 }
