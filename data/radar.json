@@ -1,32 +1,32 @@
 {
  "ok": true,
- "config": "A",
- "label": "A \u2014 Healthy Bull",
- "status": "Healthy",
+ "config": "C",
+ "label": "C \u2014 Bullish Absorption",
+ "status": "Watch",
  "tone": "good",
  "confidence": 57,
  "confLabel": "Medium",
  "matched": "4/7 available (7 listed)",
  "runnerUp": "I Bear Trend (4/5)",
  "evidence": [
-  "Price rising 4h & 24h",
-  "Spot CVD 24h positive",
-  "OI 24h -1%..+4%",
-  "Funding +0.002..+0.010%"
+  "Negative headline risk",
+  "Testing 200D MA / 30d low",
+  "Spot CVD 24h strongly positive (>500 BTC)",
+  "OI 24h flat/dropping (<=+1%)"
  ],
  "metrics": [
-  "Price vs 20D MA -4.58%",
-  "vs 50D MA -8.08%",
+  "Price vs 20D MA -4.78%",
+  "vs 50D MA -8.27%",
   "Spot CVD 24h +1779 BTC",
   "Perp CVD 4h +887 BTC",
-  "OI 24h +1.05%",
+  "OI 24h +0.92%",
   "Funding +0.0056%"
  ],
- "implication": "Full spot long 1.0x; 60% breakout / 40% VWAP retest; stop 4H swing low -0.6%",
+ "implication": "Build spot 0.75x; 50% on 1H range reclaim / 50% limit at low; stop sweep low -0.5%",
  "notMet": [
-  "Above 20D MA",
-  "ETF net > +$150M",
-  "Perp CVD positive, not > spot"
+  "Perp CVD 4h negative",
+  "Funding -0.008..+0.002%",
+  "Book bids/asks >= 1.4 (imb >= +16.7%)"
  ],
  "missing": [
   "ATR compression history",
@@ -36,11 +36,11 @@
   "Spot volume vs 20D MA",
   "Whale exchange inflows / CDD"
  ],
- "asOfMs": 1794273980774,
+ "asOfMs": 1794274541283,
  "scores": {
-  "A": "4/7",
+  "A": "3/7",
   "B": "1/5",
-  "C": "3/7",
+  "C": "4/7",
   "D": "2/5",
   "E": "0/4",
   "F": "2/4",
@@ -49,6 +49,6 @@
   "I": "4/5",
   "J": "3/6"
  },
- "asOf": "10 Nov 09:26 SGT",
+ "asOf": "10 Nov 09:35 SGT",
  "source": "box (full data incl. perp CVD)"
 }
