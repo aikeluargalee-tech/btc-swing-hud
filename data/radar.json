@@ -1,30 +1,32 @@
 {
  "ok": true,
- "config": "D",
- "label": "D \u2014 Masked Fragility",
- "status": "Cash",
- "tone": "bad",
- "confidence": 60,
+ "config": "C",
+ "label": "C \u2014 Bullish Absorption",
+ "status": "Watch",
+ "tone": "good",
+ "confidence": 57,
  "confLabel": "Medium",
- "matched": "3/5 available (5 listed)",
+ "matched": "4/7 available (7 listed)",
  "runnerUp": "I Bear Trend (4/5)",
  "evidence": [
-  "Spot CVD 24h negative",
-  "Perp CVD positive",
-  "Below 20D MA (VWAP-break proxy)"
+  "Negative headline risk",
+  "Testing 200D MA / 30d low",
+  "Perp CVD 4h negative",
+  "OI 24h flat/dropping (<=+1%)"
  ],
  "metrics": [
-  "Price vs 20D MA -11.58%",
-  "vs 50D MA -15.51%",
-  "Spot CVD 24h -816 BTC",
-  "Perp CVD 4h +921 BTC",
-  "OI 24h -8.01%",
-  "Funding +0.0065%"
+  "Price vs 20D MA -11.51%",
+  "vs 50D MA -15.46%",
+  "Spot CVD 24h -823 BTC",
+  "Perp CVD 4h -983 BTC",
+  "OI 24h -7.95%",
+  "Funding +0.0063%"
  ],
- "implication": "Defensive cash; sell 50% on 1H close below VWAP",
+ "implication": "Build spot 0.75x; 50% on 1H range reclaim / 50% limit at low; stop sweep low -0.5%",
  "notMet": [
-  "Churning near 30d high (within 2%)",
-  "OI rising + funding > +0.015%"
+  "Spot CVD 24h strongly positive (>500 BTC)",
+  "Funding -0.008..+0.002%",
+  "Book bids/asks >= 1.4 (imb >= +16.7%)"
  ],
  "missing": [
   "ATR compression history",
@@ -34,19 +36,19 @@
   "Spot volume vs 20D MA",
   "Whale exchange inflows / CDD"
  ],
- "asOfMs": 1794606813699,
+ "asOfMs": 1794607389762,
  "scores": {
   "A": "1/7",
-  "B": "2/5",
-  "C": "3/7",
-  "D": "3/5",
+  "B": "1/5",
+  "C": "4/7",
+  "D": "2/5",
   "E": "1/4",
   "F": "0/4",
-  "G": "1/5",
+  "G": "0/5",
   "H": "1/3",
   "I": "4/5",
   "J": "2/6"
  },
- "asOf": "14 Nov 05:53 SGT",
+ "asOf": "14 Nov 06:03 SGT",
  "source": "box (full data incl. perp CVD)"
 }
