@@ -1,10 +1,10 @@
 {
- "asOf": "13 Nov 2026, 11:21 SGT",
- "asOfMs": 1794540078958,
- "price": 69425.39,
- "high24": 73884.01,
- "low24": 69353.16,
- "chg24": -5.944,
+ "asOf": "13 Nov 2026, 11:54 SGT",
+ "asOfMs": 1794542094317,
+ "price": 68811.87,
+ "high24": 73866.72,
+ "low24": 68527.89,
+ "chg24": -6.688,
  "h1": [
   [
    "11 11:00",
@@ -333,13 +333,13 @@
  "lastDAt": "13 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.01,
-  "oiOKX": 36188.59730000013,
-  "lsOKX": 3.01,
+  "fundOKX": 0.00716002969025,
+  "oiOKX": 35739.530800000124,
+  "lsOKX": 3.04,
   "lsAt": "13 Nov 11:00",
-  "liqLongUsd": 4222116,
+  "liqLongUsd": 1566820,
   "liqShortUsd": 0,
-  "liqWindow": "13 Nov 11:20 to 13 Nov 11:21"
+  "liqWindow": "13 Nov 11:51 to 13 Nov 11:53"
  },
  "macro": {
   "vix": {
@@ -348,8 +348,8 @@
    "date": "12 Nov"
   },
   "dxy": {
-   "v": 103.18,
-   "chg": 0.0,
+   "v": 103.16,
+   "chg": -0.01,
    "date": "13 Nov"
   },
   "us10y": {
@@ -373,11 +373,11 @@
   "label": "Extreme Fear",
   "date": "13 Nov"
  },
- "cbPremium": -85.1,
+ "cbPremium": -54.4,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 21963579571,
-  "oiChg24": -3.26,
+  "oiUsd": 21629587807,
+  "oiChg24": -4.73,
   "oiHist": [
    [
     "12 11:00",
@@ -477,11 +477,11 @@
    ],
    [
     "13 11:00",
-    21.964
+    21.63
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00789,
+  "fundAvg": 0.00714,
   "fundBy": {
    "Hyperliquid BTC": 0.00078872,
    "Deribit BTC-PERPETUAL": 0,
@@ -489,37 +489,37 @@
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.01,
    "Bybit BTCUSDT": 0.01,
-   "Gate BTC_USDT": 0.0081,
-   "OKX BTCUSDT_PERP": 0.01,
+   "Gate BTC_USDT": 0.0035,
+   "OKX BTCUSDT_PERP": 0.00716002969025,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.01
   },
-  "predFundAvg": 0.00591,
-  "liqLongUsd24": 230330529,
-  "liqShortUsd24": 5448749
+  "predFundAvg": 0.00354,
+  "liqLongUsd24": 345979180,
+  "liqShortUsd24": 5799679
  },
  "tech": {
   "rsiD": 29.5,
   "atrD": 2306.4,
   "basis": "closed candles, Binance spot",
   "ma20": 77340.4,
-  "ma20Pct": -10.23,
+  "ma20Pct": -11.03,
   "ma50": 80946.3,
-  "ma50Pct": -14.23,
+  "ma50Pct": -14.99,
   "ma200": 73136.9,
-  "ma200Pct": -5.07,
-  "atrPct": 3.32,
+  "ma200Pct": -5.91,
+  "atrPct": 3.35,
   "rsi4h": 26.0
  },
  "opt": {
   "expiry": "27NOV26",
-  "expiryOI": 81333,
+  "expiryOI": 81398,
   "maxPain": 78000.0,
   "pcrExpiry": 0.94,
   "pcrAll": 0.75,
-  "atmStrike": 70000.0,
-  "atmIV": 38.6,
-  "dvol": 40.44
+  "atmStrike": 69000.0,
+  "atmIV": 40.1,
+  "dvol": 41.31
  },
  "stables": {
   "USDT": {
@@ -536,55 +536,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 69394.9,
-   "reachPct": 1.44,
+   "mid": 68856.5,
+   "reachPct": 1.8,
    "b1": {
-    "bid": 29469832,
-    "ask": 11425692,
-    "imb": 44.1,
+    "bid": 19312551,
+    "ask": 11405368,
+    "imb": 25.7,
     "full": true
    },
    "b2": {
-    "bid": 37437140,
-    "ask": 13089614,
-    "imb": 48.2,
+    "bid": 35756729,
+    "ask": 13167790,
+    "imb": 46.2,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 69374.2,
-   "reachPct": 1.08,
+   "mid": 68819.9,
+   "reachPct": 1.18,
    "b1": {
-    "bid": 121526448,
-    "ask": 98724362,
-    "imb": 10.4,
+    "bid": 83569407,
+    "ask": 92022915,
+    "imb": -4.8,
     "full": true
    },
    "b2": {
-    "bid": 123503323,
-    "ask": 102311448,
-    "imb": 9.4,
+    "bid": 87641683,
+    "ask": 94771135,
+    "imb": -3.9,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 150996280,
-    "ask": 110150054,
+    "bid": 102881958,
+    "ask": 103428283,
     "venues": [
      "spot full",
      "okxPerp full"
     ],
-    "imb": 15.6
+    "imb": -0.3
    },
    "b2": {
-    "bid": 160940463,
-    "ask": 115401062,
+    "bid": 123398412,
+    "ask": 107938925,
     "venues": [
-     "spot to \u00b11.44%",
-     "okxPerp to \u00b11.08%"
+     "spot to \u00b11.8%",
+     "okxPerp to \u00b11.18%"
     ],
-    "imb": 16.5
+    "imb": 6.7
    }
   },
   "walls": {
@@ -614,10 +614,6 @@
    }
   ],
   "below": [
-   {
-    "p": 69000,
-    "usd": 7620133
-   },
    {
     "p": 68750,
     "usd": 51931128
@@ -656,9 +652,9 @@
   "px4h": -1.631,
   "spot1h": -356.7,
   "spot4h": -563.4,
-  "oi4h": -3.42,
+  "oi4h": -4.89,
   "tag": "Long Squeeze",
-  "why": "price -1.63%, OI -3.42%"
+  "why": "price -1.63%, OI -4.89%"
  },
  "regime": {
   "h1h": 0.6,
@@ -674,20 +670,20 @@
  "vol": {
   "rv7d": 35.3,
   "rr7d": {
-   "rr": -5.97,
-   "call": 38.7,
-   "put": 44.7,
+   "rr": -5.43,
+   "call": 40.8,
+   "put": 46.2,
    "expiry": "20NOV26",
    "days": 7.2
   },
   "rr30d": {
-   "rr": -4.74,
-   "call": 36.7,
-   "put": 41.4,
+   "rr": -4.36,
+   "call": 37.7,
+   "put": 42.0,
    "expiry": "4DEC26",
    "days": 21.2
   },
-  "vrp": 5.1,
+  "vrp": 6.0,
   "basis": "25d RR = call IV - put IV at |delta|=0.25 (Black-Scholes delta from Deribit mark_iv, nearest expiry to 7d/30d); RV7d from 1H closes, annualised"
  },
  "etf": {
@@ -730,15 +726,23 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "13 Nov 11:21 SGT",
+  "asOf": "13 Nov 11:55 SGT",
   "risk": "HIGH",
-  "why": "Core PPI m/m in 10.1h; PPI m/m in 10.1h; flagged headline 0.9h ago",
+  "why": "Core PPI m/m in 9.6h; PPI m/m in 9.6h; flagged headline 1.4h ago",
   "headlines": [
+   {
+    "title": "Bitcoin dips below $70,000 as Dollar Index hits 19-month high",
+    "source": "CoinDesk",
+    "time": "13 Nov 11:37",
+    "ageH": 0.3,
+    "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-dips-below-usd70-000-as-selloff-gathers-pace",
+    "high": false
+   },
    {
     "title": "Trump nominates Hester Peirce successor among SEC, CFTC picks",
     "source": "Cointelegraph",
     "time": "13 Nov 10:29",
-    "ageH": 0.9,
+    "ageH": 1.4,
     "link": "https://cointelegraph.com/news/trump-nominates-hester-peirce-successor-among-sec-cftc-picks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": true
    },
@@ -746,7 +750,7 @@
     "title": "Maple Finance\u2019s strategy rift sends co-founder, COO to the exits",
     "source": "Cointelegraph",
     "time": "13 Nov 07:12",
-    "ageH": 4.1,
+    "ageH": 4.7,
     "link": "https://cointelegraph.com/news/maple-finance-strategy-rift-co-founder-coo-exit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -754,7 +758,7 @@
     "title": "North Korea's Binance hack faces U.S. crackdown as DOJ targets $1.2 billion in stolen crypto",
     "source": "CoinDesk",
     "time": "13 Nov 06:55",
-    "ageH": 4.4,
+    "ageH": 5.0,
     "link": "https://www.coindesk.com/policy/2026/11/12/north-korea-s-binance-hack-faces-u-s-crackdown-as-doj-targets-usd1-2-billion-in-stolen-crypto",
     "high": true
    },
@@ -762,16 +766,8 @@
     "title": "U.S. President Trump names CFTC, SEC nominees for first time in a year",
     "source": "CoinDesk",
     "time": "13 Nov 06:47",
-    "ageH": 4.6,
+    "ageH": 5.1,
     "link": "https://www.coindesk.com/policy/2026/11/12/u-s-president-names-cftc-sec-nominees-for-first-time-in-a-year",
-    "high": true
-   },
-   {
-    "title": "DOJ moves to seize $1.2 billion from Binance hack, disrupts North Korean deepfake scheme",
-    "source": "The Block",
-    "time": "13 Nov 06:40",
-    "ageH": 4.7,
-    "link": "https://www.theblock.co/news/business/2026-11-12-doj-seize-1-2-billion-binance-hack-north-korea-facestealer-439065",
     "high": true
    }
   ],
@@ -779,14 +775,14 @@
    {
     "title": "Core PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 10.1,
+    "inH": 9.6,
     "forecast": "0.3%",
     "previous": "0.7%"
    },
    {
     "title": "PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 10.1,
+    "inH": 9.6,
     "forecast": "0.4%",
     "previous": "1.3%"
    }
@@ -823,8 +819,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 69425.39,
-   "valueAt": "13 Nov 2026, 11:21 SGT",
+   "value": 68811.87,
+   "valueAt": "13 Nov 2026, 11:54 SGT",
    "hit": false
   },
   {
@@ -852,31 +848,33 @@
  ],
  "radar": {
   "ok": true,
-  "config": "I",
-  "label": "I \u2014 Bear Trend",
-  "status": "Cash",
-  "tone": "bad",
-  "confidence": 80,
+  "config": "C",
+  "label": "C \u2014 Bullish Absorption",
+  "status": "Watch",
+  "tone": "good",
+  "confidence": 57,
   "confLabel": "Medium",
-  "matched": "4/5 available (5 listed)",
-  "runnerUp": "C Bullish Absorption (3/6)",
+  "matched": "4/7 available (7 listed)",
+  "runnerUp": "I Bear Trend (4/5)",
   "evidence": [
-   "Below 20D MA",
-   "Below 50D MA",
-   "Spot CVD 24h negative",
-   "Funding neutral/positive (trapped longs)"
+   "Negative headline risk",
+   "Testing 200D MA / 30d low",
+   "Perp CVD 4h negative",
+   "OI 24h flat/dropping (<=+1%)"
   ],
   "metrics": [
-   "Price vs 20D MA -10.23%",
-   "vs 50D MA -14.23%",
+   "Price vs 20D MA -11.09%",
+   "vs 50D MA -15.05%",
    "Spot CVD 24h -814 BTC",
-   "OI 24h -3.26%",
-   "Funding +0.0079%",
-   "48h range 7.57%"
+   "Perp CVD 4h -5666 BTC",
+   "OI 24h -5.01%",
+   "Funding +0.0071%"
   ],
-  "implication": "Strict cash; treat relief bounces as exit liquidity; invalidation 1D close > 50D MA with positive spot CVD",
+  "implication": "Build spot 0.75x; 50% on 1H range reclaim / 50% limit at low; stop sweep low -0.5%",
   "notMet": [
-   "OI not clearing (24h >= -1%)"
+   "Spot CVD 24h strongly positive (>500 BTC)",
+   "Funding -0.008..+0.002%",
+   "Book bids/asks >= 1.4 (imb >= +16.7%)"
   ],
   "missing": [
    "ATR compression history",
@@ -886,20 +884,20 @@
    "Spot volume vs 20D MA",
    "Whale exchange inflows / CDD"
   ],
-  "asOfMs": 1794540104898,
+  "asOfMs": 1794542065619,
   "scores": {
-   "A": "1/6",
-   "B": "1/4",
-   "C": "3/6",
-   "D": "2/4",
+   "A": "1/7",
+   "B": "1/5",
+   "C": "4/7",
+   "D": "2/5",
    "E": "1/4",
    "F": "0/4",
-   "G": "0/4",
+   "G": "0/5",
    "H": "1/3",
    "I": "4/5",
    "J": "2/6"
   },
-  "asOf": "13 Nov 11:21 SGT",
-  "source": "fallback (computed in GitHub Actions)"
+  "asOf": "13 Nov 11:54 SGT",
+  "source": "box (full data incl. perp CVD)"
  }
 }
