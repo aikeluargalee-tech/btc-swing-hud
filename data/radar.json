@@ -14,12 +14,12 @@
   "Below 20D MA (VWAP-break proxy)"
  ],
  "metrics": [
-  "Price vs 20D MA -10.90%",
-  "vs 50D MA -14.87%",
+  "Price vs 20D MA -10.85%",
+  "vs 50D MA -14.82%",
   "Spot CVD 24h -764 BTC",
   "Perp CVD 4h +325 BTC",
-  "OI 24h -6.77%",
-  "Funding +0.0061%"
+  "OI 24h -6.79%",
+  "Funding +0.0064%"
  ],
  "implication": "Defensive cash; sell 50% on 1H close below VWAP",
  "notMet": [
@@ -34,7 +34,7 @@
   "Spot volume vs 20D MA",
   "Whale exchange inflows / CDD"
  ],
- "asOfMs": 1794602251092,
+ "asOfMs": 1794602912482,
  "scores": {
   "A": "1/7",
   "B": "2/5",
@@ -47,6 +47,6 @@
   "I": "4/5",
   "J": "2/6"
  },
- "asOf": "14 Nov 04:37 SGT",
+ "asOf": "14 Nov 04:48 SGT",
  "source": "box (full data incl. perp CVD)"
 }
