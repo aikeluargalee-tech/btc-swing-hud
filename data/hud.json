@@ -1,10 +1,10 @@
 {
- "asOf": "14 Nov 2026, 04:37 SGT",
- "asOfMs": 1794602273708,
- "price": 68943.93,
+ "asOf": "14 Nov 2026, 04:48 SGT",
+ "asOfMs": 1794602935101,
+ "price": 68886.72,
  "high24": 71636.36,
  "low24": 67568.0,
- "chg24": -3.523,
+ "chg24": -3.745,
  "h1": [
   [
    "12 04:00",
@@ -333,8 +333,8 @@
  "lastDAt": "13 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.0077572062198,
-  "oiOKX": 33893.366000000155,
+  "fundOKX": 0.00797036226351,
+  "oiOKX": 33886.34860000016,
   "lsOKX": 3.2,
   "lsAt": "14 Nov 04:00",
   "liqLongUsd": 690,
@@ -343,13 +343,13 @@
  },
  "macro": {
   "vix": {
-   "v": 18.95,
-   "chg": 1.34,
+   "v": 19.21,
+   "chg": 2.73,
    "date": "13 Nov"
   },
   "dxy": {
-   "v": 103.42,
-   "chg": 0.24,
+   "v": 103.41,
+   "chg": 0.23,
    "date": "13 Nov"
   },
   "us10y": {
@@ -358,13 +358,13 @@
    "date": "13 Nov"
   },
   "spx": {
-   "v": 7548.71,
-   "chg": -0.58,
+   "v": 7550.25,
+   "chg": -0.56,
    "date": "13 Nov"
   },
   "ndx": {
-   "v": 25103.73,
-   "chg": -1.03,
+   "v": 25116.92,
+   "chg": -0.98,
    "date": "13 Nov"
   }
  },
@@ -373,11 +373,11 @@
   "label": "Extreme Fear",
   "date": "13 Nov"
  },
- "cbPremium": -67.9,
+ "cbPremium": -74.6,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 21194776321,
-  "oiChg24": -6.74,
+  "oiUsd": 21170861109,
+  "oiChg24": -6.85,
   "oiHist": [
    [
     "13 04:00",
@@ -477,37 +477,37 @@
    ],
    [
     "14 04:00",
-    21.195
+    21.171
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00626,
+  "fundAvg": 0.00635,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
-   "Deribit BTC-PERPETUAL": 0.007750999999999999,
+   "Deribit BTC-PERPETUAL": 0.007967,
    "Bybit BTCUSD": 0.005681,
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.002908,
    "Bybit BTCUSDT": 0.004596,
-   "Gate BTC_USDT": 0.0086,
-   "OKX BTCUSDT_PERP": 0.0077572062198,
+   "Gate BTC_USDT": 0.0091,
+   "OKX BTCUSDT_PERP": 0.00797036226351,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.004045
   },
-  "predFundAvg": 0.00679,
-  "liqLongUsd24": 340006656,
-  "liqShortUsd24": 29532873
+  "predFundAvg": 0.00695,
+  "liqLongUsd24": 340006630,
+  "liqShortUsd24": 29532870
  },
  "tech": {
   "rsiD": 29.5,
   "atrD": 2306.4,
   "basis": "closed candles, Binance spot",
   "ma20": 77340.4,
-  "ma20Pct": -10.86,
+  "ma20Pct": -10.93,
   "ma50": 80946.3,
-  "ma50Pct": -14.83,
+  "ma50Pct": -14.9,
   "ma200": 73136.9,
-  "ma200Pct": -5.73,
+  "ma200Pct": -5.81,
   "atrPct": 3.35,
   "rsi4h": 24.9
  },
@@ -518,8 +518,8 @@
   "pcrExpiry": 0.87,
   "pcrAll": 0.77,
   "atmStrike": 69000.0,
-  "atmIV": 35.7,
-  "dvol": 39.67
+  "atmIV": 35.8,
+  "dvol": 39.69
  },
  "stables": {
   "USDT": {
@@ -536,55 +536,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 68930.0,
-   "reachPct": 1.97,
+   "mid": 68921.9,
+   "reachPct": 1.98,
    "b1": {
-    "bid": 12033614,
-    "ask": 15223366,
-    "imb": -11.7,
+    "bid": 11788867,
+    "ask": 14749269,
+    "imb": -11.2,
     "full": true
    },
    "b2": {
-    "bid": 24991062,
-    "ask": 18105964,
-    "imb": 16.0,
+    "bid": 26132137,
+    "ask": 17608023,
+    "imb": 19.5,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 68903.9,
+   "mid": 68892.6,
    "reachPct": 1.2,
    "b1": {
-    "bid": 74180822,
-    "ask": 81866560,
-    "imb": -4.9,
+    "bid": 75882536,
+    "ask": 77245997,
+    "imb": -0.9,
     "full": true
    },
    "b2": {
-    "bid": 77491012,
-    "ask": 85820082,
-    "imb": -5.1,
+    "bid": 79257487,
+    "ask": 81499488,
+    "imb": -1.4,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 86214436,
-    "ask": 97089926,
+    "bid": 87671403,
+    "ask": 91995266,
     "venues": [
      "spot full",
      "okxPerp full"
     ],
-    "imb": -5.9
+    "imb": -2.4
    },
    "b2": {
-    "bid": 102482074,
-    "ask": 103926046,
+    "bid": 105389624,
+    "ask": 99107511,
     "venues": [
-     "spot to \u00b11.97%",
+     "spot to \u00b11.98%",
      "okxPerp to \u00b11.2%"
     ],
-    "imb": -0.7
+    "imb": 3.1
    }
   },
   "walls": {
@@ -660,9 +660,9 @@
   "px4h": 0.233,
   "spot1h": 31.5,
   "spot4h": -32.5,
-  "oi4h": -0.02,
+  "oi4h": -0.13,
   "tag": "Neutral",
-  "why": "price +0.23% 4h, OI -0.02%, spot CVD -32, perp CVD n/a"
+  "why": "price +0.23% 4h, OI -0.13%, spot CVD -32, perp CVD n/a"
  },
  "regime": {
   "h1h": 0.61,
@@ -678,16 +678,16 @@
  "vol": {
   "rv7d": 40.0,
   "rr7d": {
-   "rr": -3.8,
-   "call": 33.1,
+   "rr": -3.72,
+   "call": 33.2,
    "put": 36.9,
    "expiry": "20NOV26",
    "days": 6.5
   },
   "rr30d": {
-   "rr": -4.22,
-   "call": 35.1,
-   "put": 39.3,
+   "rr": -4.21,
+   "call": 35.2,
+   "put": 39.4,
    "expiry": "4DEC26",
    "days": 20.5
   },
@@ -734,15 +734,15 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "14 Nov 04:38 SGT",
+  "asOf": "14 Nov 04:49 SGT",
   "risk": "HIGH",
-  "why": "flagged headline 2.0h ago",
+  "why": "flagged headline 2.2h ago",
   "headlines": [
    {
     "title": "JPMorgan\u2019s Bitcoin and Crypto-Linked Holdings Approach $1 Billion",
     "source": "Decrypt",
     "time": "14 Nov 04:16",
-    "ageH": 0.4,
+    "ageH": 0.6,
     "link": "https://decrypt.co/383267/jpmorgan-bitcoin-crypto-linked-holdings-approach-1-billion",
     "high": false
    },
@@ -750,7 +750,7 @@
     "title": "Dormant Bitcoin Wallets Wake Up After 16 Years, Moving $6.9 Million",
     "source": "Decrypt",
     "time": "14 Nov 03:36",
-    "ageH": 1.0,
+    "ageH": 1.2,
     "link": "https://decrypt.co/383264/dormant-bitcoin-wallets-wake-up-after-16-years",
     "high": false
    },
@@ -758,7 +758,7 @@
     "title": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
     "source": "CoinDesk",
     "time": "14 Nov 02:39",
-    "ageH": 2.0,
+    "ageH": 2.2,
     "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-slides-to-usd68k-as-nvidia-turmoil-anthropic-ipo-fuel-broader-market-sell-off",
     "high": false
    },
@@ -766,7 +766,7 @@
     "title": "Fed Chair Warsh Wants Answers on AI Inflation\u2014and Bitcoin May Feel the Impact",
     "source": "Decrypt",
     "time": "14 Nov 02:36",
-    "ageH": 2.0,
+    "ageH": 2.2,
     "link": "https://decrypt.co/383259/fed-chair-warsh-wants-answers-ai-inflation-bitcoin",
     "high": true
    },
@@ -774,7 +774,7 @@
     "title": "Metaplanet swings to $170M loss as Bitcoin sale hits earnings",
     "source": "Cointelegraph",
     "time": "14 Nov 02:28",
-    "ageH": 2.2,
+    "ageH": 2.3,
     "link": "https://cointelegraph.com/news/metaplanet-swings-170m-loss-bitcoin-sale-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    }
@@ -812,8 +812,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 68943.93,
-   "valueAt": "14 Nov 2026, 04:37 SGT",
+   "value": 68886.72,
+   "valueAt": "14 Nov 2026, 04:48 SGT",
    "hit": false
   },
   {
@@ -855,12 +855,12 @@
    "Below 20D MA (VWAP-break proxy)"
   ],
   "metrics": [
-   "Price vs 20D MA -10.90%",
-   "vs 50D MA -14.87%",
+   "Price vs 20D MA -10.85%",
+   "vs 50D MA -14.82%",
    "Spot CVD 24h -764 BTC",
    "Perp CVD 4h +325 BTC",
-   "OI 24h -6.77%",
-   "Funding +0.0061%"
+   "OI 24h -6.79%",
+   "Funding +0.0064%"
   ],
   "implication": "Defensive cash; sell 50% on 1H close below VWAP",
   "notMet": [
@@ -875,7 +875,7 @@
    "Spot volume vs 20D MA",
    "Whale exchange inflows / CDD"
   ],
-  "asOfMs": 1794602251092,
+  "asOfMs": 1794602912482,
   "scores": {
    "A": "1/7",
    "B": "2/5",
@@ -888,7 +888,7 @@
    "I": "4/5",
    "J": "2/6"
   },
-  "asOf": "14 Nov 04:37 SGT",
+  "asOf": "14 Nov 04:48 SGT",
   "source": "box (full data incl. perp CVD)"
  }
 }
