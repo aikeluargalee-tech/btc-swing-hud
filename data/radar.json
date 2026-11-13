@@ -15,12 +15,12 @@
   "OI 24h flat/dropping (<=+1%)"
  ],
  "metrics": [
-  "Price vs 20D MA -10.92%",
-  "vs 50D MA -14.89%",
-  "Spot CVD 24h -896 BTC",
-  "Perp CVD 4h -3140 BTC",
-  "OI 24h -6.93%",
-  "Funding +0.0058%"
+  "Price vs 20D MA -10.84%",
+  "vs 50D MA -14.81%",
+  "Spot CVD 24h -826 BTC",
+  "Perp CVD 4h -1470 BTC",
+  "OI 24h -6.89%",
+  "Funding +0.0065%"
  ],
  "implication": "Build spot 0.75x; 50% on 1H range reclaim / 50% limit at low; stop sweep low -0.5%",
  "notMet": [
@@ -36,7 +36,7 @@
   "Spot volume vs 20D MA",
   "Whale exchange inflows / CDD"
  ],
- "asOfMs": 1794596034925,
+ "asOfMs": 1794596848637,
  "scores": {
   "A": "1/7",
   "B": "1/5",
@@ -49,6 +49,6 @@
   "I": "4/5",
   "J": "2/6"
  },
- "asOf": "14 Nov 02:53 SGT",
+ "asOf": "14 Nov 03:07 SGT",
  "source": "box (full data incl. perp CVD)"
 }
