@@ -15,12 +15,12 @@
   "Funding neutral/positive (trapped longs)"
  ],
  "metrics": [
-  "Price vs 20D MA -11.50%",
-  "vs 50D MA -15.44%",
+  "Price vs 20D MA -11.13%",
+  "vs 50D MA -15.08%",
   "Spot CVD 24h -779 BTC",
   "Perp CVD 4h -3583 BTC",
-  "OI 24h -7.45%",
-  "Funding +0.0061%"
+  "OI 24h -7.01%",
+  "Funding +0.0062%"
  ],
  "implication": "Strict cash; treat relief bounces as exit liquidity; invalidation 1D close > 50D MA with positive spot CVD",
  "notMet": [
@@ -34,7 +34,7 @@
   "Spot volume vs 20D MA",
   "Whale exchange inflows / CDD"
  ],
- "asOfMs": 1794587027766,
+ "asOfMs": 1794587937001,
  "scores": {
   "A": "1/7",
   "B": "1/5",
@@ -47,6 +47,6 @@
   "I": "4/5",
   "J": "1/6"
  },
- "asOf": "14 Nov 00:23 SGT",
+ "asOf": "14 Nov 00:38 SGT",
  "source": "box (full data incl. perp CVD)"
 }
