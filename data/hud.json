@@ -1,10 +1,10 @@
 {
- "asOf": "13 Nov 2026, 13:17 SGT",
- "asOfMs": 1794547058138,
- "price": 68828.66,
+ "asOf": "13 Nov 2026, 13:39 SGT",
+ "asOfMs": 1794548351877,
+ "price": 68449.09,
  "high24": 73738.36,
  "low24": 68307.28,
- "chg24": -6.425,
+ "chg24": -7.076,
  "h1": [
   [
    "11 13:00",
@@ -333,13 +333,13 @@
  "lastDAt": "13 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.00144932083058,
-  "oiOKX": 35963.263900000136,
-  "lsOKX": 3.03,
+  "fundOKX": 0.0001966840622,
+  "oiOKX": 35941.47560000013,
+  "lsOKX": 3.1,
   "lsAt": "13 Nov 13:00",
-  "liqLongUsd": 2315994,
-  "liqShortUsd": 18342,
-  "liqWindow": "13 Nov 13:00 to 13 Nov 13:17"
+  "liqLongUsd": 2149038,
+  "liqShortUsd": 52878,
+  "liqWindow": "13 Nov 13:00 to 13 Nov 13:38"
  },
  "macro": {
   "vix": {
@@ -373,11 +373,11 @@
   "label": "Extreme Fear",
   "date": "13 Nov"
  },
- "cbPremium": -70.1,
+ "cbPremium": -59.8,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 21665100072,
-  "oiChg24": -4.69,
+  "oiUsd": 21591242784,
+  "oiChg24": -5.01,
   "oiHist": [
    [
     "12 13:00",
@@ -477,11 +477,11 @@
    ],
    [
     "13 13:00",
-    21.665
+    21.591
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.0063,
+  "fundAvg": 0.00622,
   "fundBy": {
    "Hyperliquid BTC": 0.00074506,
    "Deribit BTC-PERPETUAL": 0,
@@ -489,37 +489,37 @@
    "OKX BTCUSD_PERP": 0.01,
    "Binance BTCUSD_PERP": 0.01,
    "Bybit BTCUSDT": 0.01,
-   "Gate BTC_USDT": 0.0008,
-   "OKX BTCUSDT_PERP": 0.00144932083058,
+   "Gate BTC_USDT": 0.0013,
+   "OKX BTCUSDT_PERP": 0.00013848560744,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.01
   },
-  "predFundAvg": 0.00067,
-  "liqLongUsd24": 380265998,
-  "liqShortUsd24": 7471735
+  "predFundAvg": 0.00016,
+  "liqLongUsd24": 382474534,
+  "liqShortUsd24": 7632425
  },
  "tech": {
   "rsiD": 29.5,
   "atrD": 2306.4,
   "basis": "closed candles, Binance spot",
   "ma20": 77340.4,
-  "ma20Pct": -11.01,
+  "ma20Pct": -11.5,
   "ma50": 80946.3,
-  "ma50Pct": -14.97,
+  "ma50Pct": -15.44,
   "ma200": 73136.9,
-  "ma200Pct": -5.89,
-  "atrPct": 3.35,
+  "ma200Pct": -6.41,
+  "atrPct": 3.37,
   "rsi4h": 17.6
  },
  "opt": {
   "expiry": "27NOV26",
-  "expiryOI": 81541,
+  "expiryOI": 81564,
   "maxPain": 78000.0,
-  "pcrExpiry": 0.94,
+  "pcrExpiry": 0.95,
   "pcrAll": 0.75,
   "atmStrike": 69000.0,
-  "atmIV": 39.2,
-  "dvol": 40.74
+  "atmIV": 38.6,
+  "dvol": 40.42
  },
  "stables": {
   "USDT": {
@@ -536,55 +536,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 68838.7,
-   "reachPct": 1.91,
+   "mid": 68530.9,
+   "reachPct": 1.57,
    "b1": {
-    "bid": 16812326,
-    "ask": 14150202,
-    "imb": 8.6,
+    "bid": 30291350,
+    "ask": 12146873,
+    "imb": 42.8,
     "full": true
    },
    "b2": {
-    "bid": 37844504,
-    "ask": 16757286,
-    "imb": 38.6,
+    "bid": 37355787,
+    "ask": 15825275,
+    "imb": 40.5,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 68811.9,
-   "reachPct": 1.22,
+   "mid": 68483.4,
+   "reachPct": 1.1,
    "b1": {
-    "bid": 112650195,
-    "ask": 91164514,
-    "imb": 10.5,
+    "bid": 105365234,
+    "ask": 92714076,
+    "imb": 6.4,
     "full": true
    },
    "b2": {
-    "bid": 127008231,
-    "ask": 94691954,
-    "imb": 14.6,
+    "bid": 107699104,
+    "ask": 97300006,
+    "imb": 5.1,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 129462521,
-    "ask": 105314716,
+    "bid": 135656584,
+    "ask": 104860949,
     "venues": [
      "spot full",
      "okxPerp full"
     ],
-    "imb": 10.3
+    "imb": 12.8
    },
    "b2": {
-    "bid": 164852735,
-    "ask": 111449240,
+    "bid": 145054891,
+    "ask": 113125281,
     "venues": [
-     "spot to \u00b11.91%",
-     "okxPerp to \u00b11.22%"
+     "spot to \u00b11.57%",
+     "okxPerp to \u00b11.1%"
     ],
-    "imb": 19.3
+    "imb": 12.4
    }
   },
   "walls": {
@@ -647,9 +647,9 @@
   "px4h": -3.576,
   "spot1h": -242.8,
   "spot4h": -1006.6,
-  "oi4h": -4.07,
+  "oi4h": -4.39,
   "tag": "Long Squeeze",
-  "why": "price -3.58%, OI -4.07%"
+  "why": "price -3.58%, OI -4.39%"
  },
  "regime": {
   "h1h": 0.59,
@@ -665,20 +665,20 @@
  "vol": {
   "rv7d": 37.7,
   "rr7d": {
-   "rr": -4.96,
-   "call": 39.6,
-   "put": 44.6,
+   "rr": -5.07,
+   "call": 39.1,
+   "put": 44.2,
    "expiry": "20NOV26",
    "days": 7.1
   },
   "rr30d": {
-   "rr": -4.53,
+   "rr": -4.35,
    "call": 37.0,
-   "put": 41.5,
+   "put": 41.4,
    "expiry": "4DEC26",
    "days": 21.1
   },
-  "vrp": 3.0,
+  "vrp": 2.7,
   "basis": "25d RR = call IV - put IV at |delta|=0.25 (Black-Scholes delta from Deribit mark_iv, nearest expiry to 7d/30d); RV7d from 1H closes, annualised"
  },
  "etf": {
@@ -721,15 +721,15 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "13 Nov 13:18 SGT",
+  "asOf": "13 Nov 13:39 SGT",
   "risk": "HIGH",
-  "why": "Core PPI m/m in 8.2h; PPI m/m in 8.2h; flagged headline 0.4h ago",
+  "why": "Core PPI m/m in 7.8h; PPI m/m in 7.8h; flagged headline 0.7h ago",
   "headlines": [
    {
     "title": "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
     "source": "CoinDesk",
     "time": "13 Nov 13:08",
-    "ageH": 0.2,
+    "ageH": 0.5,
     "link": "https://www.coindesk.com/markets/2026/11/13/spacex-tesla-merger-talks-put-30-000-bitcoin-back-in-focus",
     "high": false
    },
@@ -737,7 +737,7 @@
     "title": "TRM Labs launches new service to help police seize stolen crypto in minutes",
     "source": "The Block",
     "time": "13 Nov 13:08",
-    "ageH": 0.2,
+    "ageH": 0.5,
     "link": "https://www.theblock.co/news/defi/2026-11-13-trm-labs-beacon-concierge-439609",
     "high": false
    },
@@ -745,7 +745,7 @@
     "title": "White House sends crypto-relevant picks to fill SEC and CFTC seats",
     "source": "The Block",
     "time": "13 Nov 12:56",
-    "ageH": 0.4,
+    "ageH": 0.7,
     "link": "https://www.theblock.co/news/regulation/2026-11-12-white-house-crypto-picks-sec-cftc-439175",
     "high": true
    },
@@ -753,7 +753,7 @@
     "title": "Bitcoin falls to 12-week low, Strategy and Metaplanet to lose MSCI index membership, and more",
     "source": "The Block",
     "time": "13 Nov 12:20",
-    "ageH": 1.0,
+    "ageH": 1.3,
     "link": "https://www.theblock.co/newsletters/the-daily/2026-11-12-bitcoin-12-week-low-strategy-metaplanet-msci-more-crypto-news-439049",
     "high": false
    },
@@ -761,7 +761,7 @@
     "title": "Bitcoin dips below $70,000 as Dollar Index hits 19-month high",
     "source": "CoinDesk",
     "time": "13 Nov 11:37",
-    "ageH": 1.7,
+    "ageH": 2.0,
     "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-dips-below-usd70-000-as-selloff-gathers-pace",
     "high": false
    }
@@ -770,14 +770,14 @@
    {
     "title": "Core PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 8.2,
+    "inH": 7.8,
     "forecast": "0.3%",
     "previous": "0.7%"
    },
    {
     "title": "PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 8.2,
+    "inH": 7.8,
     "forecast": "0.4%",
     "previous": "1.3%"
    }
@@ -814,8 +814,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 68828.66,
-   "valueAt": "13 Nov 2026, 13:17 SGT",
+   "value": 68449.09,
+   "valueAt": "13 Nov 2026, 13:39 SGT",
    "hit": false
   },
   {
@@ -858,12 +858,12 @@
    "OI 24h flat/dropping (<=+1%)"
   ],
   "metrics": [
-   "Price vs 20D MA -11.09%",
-   "vs 50D MA -15.05%",
+   "Price vs 20D MA -11.47%",
+   "vs 50D MA -15.41%",
    "Spot CVD 24h -1575 BTC",
    "Perp CVD 4h -7106 BTC",
-   "OI 24h -4.70%",
-   "Funding +0.0063%"
+   "OI 24h -5.08%",
+   "Funding +0.0062%"
   ],
   "implication": "Build spot 0.75x; 50% on 1H range reclaim / 50% limit at low; stop sweep low -0.5%",
   "notMet": [
@@ -879,7 +879,7 @@
    "Spot volume vs 20D MA",
    "Whale exchange inflows / CDD"
   ],
-  "asOfMs": 1794547032000,
+  "asOfMs": 1794548330427,
   "scores": {
    "A": "1/7",
    "B": "1/5",
@@ -892,7 +892,7 @@
    "I": "4/5",
    "J": "2/6"
   },
-  "asOf": "13 Nov 13:17 SGT",
+  "asOf": "13 Nov 13:38 SGT",
   "source": "box (full data incl. perp CVD)"
  }
 }
