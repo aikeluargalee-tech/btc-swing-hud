@@ -1,10 +1,10 @@
 {
- "asOf": "13 Nov 2026, 20:19 SGT",
- "asOfMs": 1794572341342,
- "price": 69430.03,
- "high24": 73131.68,
+ "asOf": "13 Nov 2026, 20:42 SGT",
+ "asOfMs": 1794573724892,
+ "price": 69272.03,
+ "high24": 73029.94,
  "low24": 67568.0,
- "chg24": -5.027,
+ "chg24": -4.977,
  "h1": [
   [
    "11 20:00",
@@ -333,23 +333,23 @@
  "lastDAt": "13 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": -0.00465694997663,
-  "oiOKX": 34486.52160000014,
-  "lsOKX": 3.24,
+  "fundOKX": -0.00419422358229,
+  "oiOKX": 34424.91580000013,
+  "lsOKX": 3.18,
   "lsAt": "13 Nov 20:00",
-  "liqLongUsd": 0,
-  "liqShortUsd": 769695,
-  "liqWindow": "13 Nov 18:11 to 13 Nov 20:05"
+  "liqLongUsd": 5207,
+  "liqShortUsd": 751707,
+  "liqWindow": "13 Nov 18:11 to 13 Nov 20:26"
  },
  "macro": {
   "vix": {
-   "v": 18.22,
-   "chg": -2.57,
+   "v": 18.26,
+   "chg": -2.35,
    "date": "13 Nov"
   },
   "dxy": {
-   "v": 103.24,
-   "chg": 0.07,
+   "v": 103.25,
+   "chg": 0.08,
    "date": "13 Nov"
   },
   "us10y": {
@@ -373,11 +373,11 @@
   "label": "Extreme Fear",
   "date": "13 Nov"
  },
- "cbPremium": -70.3,
+ "cbPremium": -79.4,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 21588761459,
-  "oiChg24": -6.25,
+  "oiUsd": 21531038865,
+  "oiChg24": -6.5,
   "oiHist": [
    [
     "12 20:00",
@@ -477,49 +477,49 @@
    ],
    [
     "13 20:00",
-    21.589
+    21.531
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": -0.0021,
+  "fundAvg": -0.00199,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
    "Deribit BTC-PERPETUAL": 0,
    "Bybit BTCUSD": -0.008129,
-   "OKX BTCUSD_PERP": 0.00039938684443,
+   "OKX BTCUSD_PERP": 0.00149800832467,
    "Binance BTCUSD_PERP": -0.010131,
    "Bybit BTCUSDT": -0.003258,
-   "Gate BTC_USDT": 0.0001,
-   "OKX BTCUSDT_PERP": -0.00465694997663,
-   "HTX BTCUSDT_PERP": 0.0021262381385199,
+   "Gate BTC_USDT": -0.0003,
+   "OKX BTCUSDT_PERP": -0.00419422358229,
+   "HTX BTCUSDT_PERP": 0.002077173166191,
    "Binance BTCUSDT_PERP": 0.00127
   },
-  "predFundAvg": -0.00169,
-  "liqLongUsd24": 416054183,
-  "liqShortUsd24": 20372398
+  "predFundAvg": -0.00157,
+  "liqLongUsd24": 416158235,
+  "liqShortUsd24": 20372362
  },
  "tech": {
   "rsiD": 29.5,
   "atrD": 2306.4,
   "basis": "closed candles, Binance spot",
   "ma20": 77340.4,
-  "ma20Pct": -10.23,
+  "ma20Pct": -10.43,
   "ma50": 80946.3,
-  "ma50Pct": -14.23,
+  "ma50Pct": -14.42,
   "ma200": 73136.9,
-  "ma200Pct": -5.07,
-  "atrPct": 3.32,
+  "ma200Pct": -5.28,
+  "atrPct": 3.33,
   "rsi4h": 24.5
  },
  "opt": {
   "expiry": "27NOV26",
-  "expiryOI": 82672,
+  "expiryOI": 82833,
   "maxPain": 78000.0,
   "pcrExpiry": 0.93,
-  "pcrAll": 0.78,
-  "atmStrike": 70000.0,
-  "atmIV": 37.1,
-  "dvol": 40.29
+  "pcrAll": 0.77,
+  "atmStrike": 69000.0,
+  "atmIV": 38.3,
+  "dvol": 40.47
  },
  "stables": {
   "USDT": {
@@ -536,55 +536,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 69414.2,
-   "reachPct": 1.88,
+   "mid": 69267.0,
+   "reachPct": 1.95,
    "b1": {
-    "bid": 14218471,
-    "ask": 19221561,
-    "imb": -15.0,
+    "bid": 13409387,
+    "ask": 16838764,
+    "imb": -11.3,
     "full": true
    },
    "b2": {
-    "bid": 20519572,
-    "ask": 21543735,
-    "imb": -2.4,
+    "bid": 21968656,
+    "ask": 20789016,
+    "imb": 2.8,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 69377.2,
-   "reachPct": 1.13,
+   "mid": 69227.4,
+   "reachPct": 1.17,
    "b1": {
-    "bid": 76664964,
-    "ask": 106517625,
-    "imb": -16.3,
+    "bid": 75756716,
+    "ask": 87457963,
+    "imb": -7.2,
     "full": true
    },
    "b2": {
-    "bid": 79659054,
-    "ask": 109399350,
-    "imb": -15.7,
+    "bid": 80564614,
+    "ask": 100835556,
+    "imb": -11.2,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 90883435,
-    "ask": 125739186,
+    "bid": 89166103,
+    "ask": 104296727,
     "venues": [
      "spot full",
      "okxPerp full"
     ],
-    "imb": -16.1
+    "imb": -7.8
    },
    "b2": {
-    "bid": 100178626,
-    "ask": 130943085,
+    "bid": 102533270,
+    "ask": 121624572,
     "venues": [
-     "spot to \u00b11.88%",
-     "okxPerp to \u00b11.13%"
+     "spot to \u00b11.95%",
+     "okxPerp to \u00b11.17%"
     ],
-    "imb": -13.3
+    "imb": -8.5
    }
   },
   "walls": {
@@ -660,9 +660,9 @@
   "px4h": 1.056,
   "spot1h": -38.6,
   "spot4h": -171.5,
-  "oi4h": 1.42,
+  "oi4h": 1.15,
   "tag": "New Longs",
-  "why": "price +1.06%, OI +1.42%"
+  "why": "price +1.06%, OI +1.15%"
  },
  "regime": {
   "h1h": 0.58,
@@ -678,20 +678,20 @@
  "vol": {
   "rv7d": 39.6,
   "rr7d": {
-   "rr": -4.68,
-   "call": 37.4,
-   "put": 42.1,
+   "rr": -4.84,
+   "call": 37.9,
+   "put": 42.8,
    "expiry": "20NOV26",
    "days": 6.8
   },
   "rr30d": {
-   "rr": -4.77,
-   "call": 35.9,
-   "put": 40.7,
+   "rr": -4.78,
+   "call": 36.2,
+   "put": 41.0,
    "expiry": "4DEC26",
    "days": 20.8
   },
-  "vrp": 0.7,
+  "vrp": 0.9,
   "basis": "25d RR = call IV - put IV at |delta|=0.25 (Black-Scholes delta from Deribit mark_iv, nearest expiry to 7d/30d); RV7d from 1H closes, annualised"
  },
  "etf": {
@@ -714,14 +714,14 @@
    ],
    [
     "12 Nov 2026",
-    -47.7
+    -80.3
    ],
    [
     "13 Nov 2026",
     0.0
    ]
   ],
-  "sum5": -643.5,
+  "sum5": -676.1,
   "source": "Farside (farside.co.uk/btc), US$m"
  },
  "missing": [],
@@ -734,15 +734,15 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "13 Nov 20:19 SGT",
+  "asOf": "13 Nov 20:42 SGT",
   "risk": "HIGH",
-  "why": "Core PPI m/m in 1.2h; PPI m/m in 1.2h; flagged headline 0.5h ago",
+  "why": "Core PPI m/m in 0.8h; PPI m/m in 0.8h; flagged headline 0.8h ago",
   "headlines": [
    {
     "title": "Israeli police arrest five in $5M WhatsApp crypto trading probe",
     "source": "Cointelegraph",
     "time": "13 Nov 20:19",
-    "ageH": 0.0,
+    "ageH": 0.4,
     "link": "https://cointelegraph.com/news/israel-police-arrest-five-5m-whatsapp-crypto-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -750,7 +750,7 @@
     "title": "Bitcoin's momentum gauge is turning red, could send prices back below $60,000",
     "source": "CoinDesk",
     "time": "13 Nov 20:14",
-    "ageH": 0.1,
+    "ageH": 0.5,
     "link": "https://www.coindesk.com/daybook-us/2026/11/13/bitcoin-s-momentum-gauge-is-turning-red-could-send-prices-back-below-usd60-000",
     "high": false
    },
@@ -758,7 +758,7 @@
     "title": "Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion",
     "source": "CoinDesk",
     "time": "13 Nov 19:52",
-    "ageH": 0.5,
+    "ageH": 0.8,
     "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-hits-12-week-low-as-dollar-rallies-on-interest-rate-outlook-liquidations-top-usd1-6-billion",
     "high": true
    },
@@ -766,7 +766,7 @@
     "title": "Bitcoin Drops to $69K On 'Concentrated Liquidation' and 'Weakening' Demand",
     "source": "Decrypt",
     "time": "13 Nov 19:20",
-    "ageH": 1.0,
+    "ageH": 1.4,
     "link": "https://decrypt.co/383214/bitcoin-drops-to-69k-on-concentrated-liquidation-and-weakening-demand",
     "high": true
    },
@@ -774,7 +774,7 @@
     "title": "Thailand seeks $148,000 daily cap on certain stablecoin transfers to curb money laundering",
     "source": "The Block",
     "time": "13 Nov 18:16",
-    "ageH": 2.1,
+    "ageH": 2.4,
     "link": "https://www.theblock.co/news/regulation/2026-11-13-thailand-seeks-daily-stablecoin-cap-439676",
     "high": false
    }
@@ -783,14 +783,14 @@
    {
     "title": "Core PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 1.2,
+    "inH": 0.8,
     "forecast": "0.3%",
     "previous": "0.7%"
    },
    {
     "title": "PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 1.2,
+    "inH": 0.8,
     "forecast": "0.4%",
     "previous": "1.3%"
    }
@@ -827,8 +827,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 69430.03,
-   "valueAt": "13 Nov 2026, 20:19 SGT",
+   "value": 69272.03,
+   "valueAt": "13 Nov 2026, 20:42 SGT",
    "hit": false
   },
   {
@@ -871,12 +871,12 @@
    "Funding -0.008..+0.002%"
   ],
   "metrics": [
-   "Price vs 20D MA -10.23%",
-   "vs 50D MA -14.23%",
+   "Price vs 20D MA -10.47%",
+   "vs 50D MA -14.46%",
    "Spot CVD 24h -1508 BTC",
    "Perp CVD 4h +1036 BTC",
-   "OI 24h -6.23%",
-   "Funding -0.0021%"
+   "OI 24h -6.51%",
+   "Funding -0.0020%"
   ],
   "implication": "Build spot 0.75x; 50% on 1H range reclaim / 50% limit at low; stop sweep low -0.5%",
   "notMet": [
@@ -892,7 +892,7 @@
    "Spot volume vs 20D MA",
    "Whale exchange inflows / CDD"
   ],
-  "asOfMs": 1794572317283,
+  "asOfMs": 1794573570723,
   "scores": {
    "A": "0/7",
    "B": "2/5",
@@ -905,7 +905,7 @@
    "I": "3/5",
    "J": "2/6"
   },
-  "asOf": "13 Nov 20:18 SGT",
+  "asOf": "13 Nov 20:39 SGT",
   "source": "box (full data incl. perp CVD)"
  }
 }
