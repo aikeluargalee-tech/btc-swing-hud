@@ -1,10 +1,10 @@
 {
- "asOf": "13 Nov 2026, 14:18 SGT",
- "asOfMs": 1794550721729,
- "price": 68487.01,
- "high24": 73738.36,
+ "asOf": "13 Nov 2026, 14:35 SGT",
+ "asOfMs": 1794551708329,
+ "price": 68888.01,
+ "high24": 73696.86,
  "low24": 67568.0,
- "chg24": -7.035,
+ "chg24": -6.441,
  "h1": [
   [
    "11 14:00",
@@ -333,13 +333,13 @@
  "lastDAt": "13 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": -0.00221989327705,
-  "oiOKX": 34813.739300000125,
-  "lsOKX": 3.05,
+  "fundOKX": -0.00290460230823,
+  "oiOKX": 34761.67680000013,
+  "lsOKX": 3.21,
   "lsAt": "13 Nov 14:00",
-  "liqLongUsd": 387001,
-  "liqShortUsd": 500840,
-  "liqWindow": "13 Nov 13:56 to 13 Nov 14:18"
+  "liqLongUsd": 0,
+  "liqShortUsd": 547252,
+  "liqWindow": "13 Nov 14:22 to 13 Nov 14:32"
  },
  "macro": {
   "vix": {
@@ -373,11 +373,11 @@
   "label": "Extreme Fear",
   "date": "13 Nov"
  },
- "cbPremium": -71.6,
+ "cbPremium": -88.3,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 21298077756,
-  "oiChg24": -6.31,
+  "oiUsd": 21387569794,
+  "oiChg24": -5.91,
   "oiHist": [
    [
     "12 14:00",
@@ -477,49 +477,49 @@
    ],
    [
     "13 14:00",
-    21.298
+    21.388
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00568,
+  "fundAvg": 0.00541,
   "fundBy": {
    "Hyperliquid BTC": 0.00057724,
    "Deribit BTC-PERPETUAL": 0,
    "Bybit BTCUSD": 0.01,
-   "OKX BTCUSD_PERP": 0.00771124536742,
+   "OKX BTCUSD_PERP": 0.005608847394450001,
    "Binance BTCUSD_PERP": 0.01,
    "Bybit BTCUSDT": 0.01,
-   "Gate BTC_USDT": 0.0007,
-   "OKX BTCUSDT_PERP": -0.00221989327705,
+   "Gate BTC_USDT": 0.0008,
+   "OKX BTCUSDT_PERP": -0.00290460230823,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.01
   },
-  "predFundAvg": -0.00142,
-  "liqLongUsd24": 420857674,
-  "liqShortUsd24": 8827116
+  "predFundAvg": -0.00154,
+  "liqLongUsd24": 421053372,
+  "liqShortUsd24": 10541978
  },
  "tech": {
   "rsiD": 29.5,
   "atrD": 2306.4,
   "basis": "closed candles, Binance spot",
   "ma20": 77340.4,
-  "ma20Pct": -11.45,
+  "ma20Pct": -10.93,
   "ma50": 80946.3,
-  "ma50Pct": -15.39,
+  "ma50Pct": -14.9,
   "ma200": 73136.9,
-  "ma200Pct": -6.36,
-  "atrPct": 3.37,
+  "ma200Pct": -5.81,
+  "atrPct": 3.35,
   "rsi4h": 17.6
  },
  "opt": {
   "expiry": "27NOV26",
-  "expiryOI": 81564,
+  "expiryOI": 81569,
   "maxPain": 78000.0,
   "pcrExpiry": 0.95,
   "pcrAll": 0.75,
   "atmStrike": 69000.0,
-  "atmIV": 38.4,
-  "dvol": 40.03
+  "atmIV": 38.1,
+  "dvol": 39.24
  },
  "stables": {
   "USDT": {
@@ -536,55 +536,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 68493.0,
-   "reachPct": 1.99,
+   "mid": 68888.0,
+   "reachPct": 2.03,
    "b1": {
-    "bid": 17026132,
-    "ask": 11475757,
-    "imb": 19.5,
+    "bid": 13707587,
+    "ask": 12844357,
+    "imb": 3.3,
     "full": true
    },
    "b2": {
-    "bid": 33654361,
-    "ask": 14041286,
-    "imb": 41.1,
-    "full": false
+    "bid": 19263490,
+    "ask": 15764060,
+    "imb": 10.0,
+    "full": true
    }
   },
   "okxPerp": {
-   "mid": 68461.1,
-   "reachPct": 1.2,
+   "mid": 68852.9,
+   "reachPct": 1.19,
    "b1": {
-    "bid": 74058506,
-    "ask": 108764716,
-    "imb": -19.0,
+    "bid": 80759853,
+    "ask": 94912443,
+    "imb": -8.1,
     "full": true
    },
    "b2": {
-    "bid": 78046522,
-    "ask": 112232817,
-    "imb": -18.0,
+    "bid": 83903648,
+    "ask": 97634653,
+    "imb": -7.6,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 91084638,
-    "ask": 120240473,
+    "bid": 94467440,
+    "ask": 107756800,
     "venues": [
      "spot full",
      "okxPerp full"
     ],
-    "imb": -13.8
+    "imb": -6.6
    },
    "b2": {
-    "bid": 111700883,
-    "ask": 126274103,
+    "bid": 103167138,
+    "ask": 113398713,
     "venues": [
-     "spot to \u00b11.99%",
-     "okxPerp to \u00b11.2%"
+     "spot full",
+     "okxPerp to \u00b11.19%"
     ],
-    "imb": -6.1
+    "imb": -4.7
    }
   },
   "walls": {
@@ -647,9 +647,9 @@
   "px4h": -3.952,
   "spot1h": -50.0,
   "spot4h": -1099.2,
-  "oi4h": -4.0,
+  "oi4h": -3.59,
   "tag": "Long Squeeze",
-  "why": "price -3.95%, OI -4.00%"
+  "why": "price -3.95%, OI -3.59%"
  },
  "regime": {
   "h1h": 0.58,
@@ -665,20 +665,20 @@
  "vol": {
   "rv7d": 38.0,
   "rr7d": {
-   "rr": -4.36,
-   "call": 39.0,
-   "put": 43.3,
+   "rr": -4.16,
+   "call": 38.2,
+   "put": 42.3,
    "expiry": "20NOV26",
    "days": 7.1
   },
   "rr30d": {
-   "rr": -4.19,
-   "call": 36.5,
-   "put": 40.7,
+   "rr": -3.91,
+   "call": 35.9,
+   "put": 39.8,
    "expiry": "4DEC26",
    "days": 21.1
   },
-  "vrp": 2.0,
+  "vrp": 1.2,
   "basis": "25d RR = call IV - put IV at |delta|=0.25 (Black-Scholes delta from Deribit mark_iv, nearest expiry to 7d/30d); RV7d from 1H closes, annualised"
  },
  "etf": {
@@ -721,15 +721,31 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "13 Nov 14:19 SGT",
+  "asOf": "13 Nov 14:35 SGT",
   "risk": "HIGH",
-  "why": "Core PPI m/m in 7.2h; PPI m/m in 7.2h; flagged headline 0.3h ago",
+  "why": "Core PPI m/m in 6.9h; PPI m/m in 6.9h; flagged headline 0.2h ago",
   "headlines": [
+   {
+    "title": "Bitcoin tumbles below $69,000 as Nvidia turmoil adds to Fed-driven market jitters",
+    "source": "The Block",
+    "time": "13 Nov 14:23",
+    "ageH": 0.2,
+    "link": "https://www.theblock.co/news/markets/2026-11-13-bitcoin-tumbles-below-69000-439643",
+    "high": true
+   },
+   {
+    "title": "Here\u2019s what happened in crypto today",
+    "source": "Cointelegraph",
+    "time": "13 Nov 14:16",
+    "ageH": 0.3,
+    "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "high": false
+   },
    {
     "title": "Bitcoin firm Nakamoto owes Kraken $165 million, more than its entire market value",
     "source": "CoinDesk",
     "time": "13 Nov 14:03",
-    "ageH": 0.3,
+    "ageH": 0.5,
     "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-firm-nakamoto-owes-kraken-usd165-million-more-than-its-entire-market-value",
     "high": false
    },
@@ -737,7 +753,7 @@
     "title": "Bitcoin slides below $70K amid thin liquidity, ETF outflows",
     "source": "Cointelegraph",
     "time": "13 Nov 14:00",
-    "ageH": 0.3,
+    "ageH": 0.6,
     "link": "https://cointelegraph.com/markets/bitcoin-falls-below-70k-crypto-extreme-fear?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": true
    },
@@ -745,39 +761,23 @@
     "title": "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
     "source": "CoinDesk",
     "time": "13 Nov 13:45",
-    "ageH": 0.6,
+    "ageH": 0.8,
     "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-etfs-are-now-down-over-usd1-5-billion-in-net-outflows-for-the-year",
     "high": true
-   },
-   {
-    "title": "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
-    "source": "CoinDesk",
-    "time": "13 Nov 13:08",
-    "ageH": 1.2,
-    "link": "https://www.coindesk.com/markets/2026/11/13/spacex-tesla-merger-talks-put-30-000-bitcoin-back-in-focus",
-    "high": false
-   },
-   {
-    "title": "TRM Labs launches new service to help police seize stolen crypto in minutes",
-    "source": "The Block",
-    "time": "13 Nov 13:08",
-    "ageH": 1.2,
-    "link": "https://www.theblock.co/news/defi/2026-11-13-trm-labs-beacon-concierge-439609",
-    "high": false
    }
   ],
   "events": [
    {
     "title": "Core PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 7.2,
+    "inH": 6.9,
     "forecast": "0.3%",
     "previous": "0.7%"
    },
    {
     "title": "PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 7.2,
+    "inH": 6.9,
     "forecast": "0.4%",
     "previous": "1.3%"
    }
@@ -814,8 +814,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 68487.01,
-   "valueAt": "13 Nov 2026, 14:18 SGT",
+   "value": 68888.01,
+   "valueAt": "13 Nov 2026, 14:35 SGT",
    "hit": false
   },
   {
@@ -858,12 +858,12 @@
    "OI 24h flat/dropping (<=+1%)"
   ],
   "metrics": [
-   "Price vs 20D MA -11.46%",
-   "vs 50D MA -15.41%",
+   "Price vs 20D MA -10.95%",
+   "vs 50D MA -14.92%",
    "Spot CVD 24h -1607 BTC",
    "Perp CVD 4h -10626 BTC",
-   "OI 24h -6.34%",
-   "Funding +0.0057%"
+   "OI 24h -6.00%",
+   "Funding +0.0054%"
   ],
   "implication": "Build spot 0.75x; 50% on 1H range reclaim / 50% limit at low; stop sweep low -0.5%",
   "notMet": [
@@ -879,7 +879,7 @@
    "Spot volume vs 20D MA",
    "Whale exchange inflows / CDD"
   ],
-  "asOfMs": 1794550698141,
+  "asOfMs": 1794551683174,
   "scores": {
    "A": "1/7",
    "B": "1/5",
@@ -892,7 +892,7 @@
    "I": "4/5",
    "J": "2/6"
   },
-  "asOf": "13 Nov 14:18 SGT",
+  "asOf": "13 Nov 14:34 SGT",
   "source": "box (full data incl. perp CVD)"
  }
 }
