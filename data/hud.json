@@ -1,10 +1,10 @@
 {
- "asOf": "13 Nov 2026, 19:06 SGT",
- "asOfMs": 1794567988816,
- "price": 69330.53,
- "high24": 73478.01,
+ "asOf": "13 Nov 2026, 19:15 SGT",
+ "asOfMs": 1794568519787,
+ "price": 69322.01,
+ "high24": 73398.01,
  "low24": 67568.0,
- "chg24": -5.625,
+ "chg24": -5.553,
  "h1": [
   [
    "11 19:00",
@@ -333,18 +333,18 @@
  "lastDAt": "13 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": -0.0061320685119199995,
-  "oiOKX": 34620.32050000014,
+  "fundOKX": -0.00595042242691,
+  "oiOKX": 34589.04080000014,
   "lsOKX": 3.31,
-  "lsAt": "13 Nov 18:00",
+  "lsAt": "13 Nov 19:00",
   "liqLongUsd": 0,
   "liqShortUsd": 849647,
   "liqWindow": "13 Nov 18:03 to 13 Nov 18:19"
  },
  "macro": {
   "vix": {
-   "v": 18.33,
-   "chg": -1.98,
+   "v": 18.36,
+   "chg": -1.82,
    "date": "13 Nov"
   },
   "dxy": {
@@ -373,10 +373,10 @@
   "label": "Extreme Fear",
   "date": "13 Nov"
  },
- "cbPremium": -62.2,
+ "cbPremium": -66.2,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 21594714626,
+  "oiUsd": 21594092289,
   "oiChg24": -5.68,
   "oiHist": [
    [
@@ -477,7 +477,7 @@
    ],
    [
     "13 19:00",
-    21.595
+    21.594
    ]
   ],
   "oiSymbols": 9,
@@ -486,105 +486,105 @@
    "Hyperliquid BTC": 0.00125,
    "Deribit BTC-PERPETUAL": 0,
    "Bybit BTCUSD": -0.008129,
-   "OKX BTCUSD_PERP": -0.00211543187667,
+   "OKX BTCUSD_PERP": -0.0018503222204799999,
    "Binance BTCUSD_PERP": -0.010131,
    "Bybit BTCUSDT": -0.003258,
-   "Gate BTC_USDT": 0.0004,
-   "OKX BTCUSDT_PERP": -0.0061320685119199995,
-   "HTX BTCUSDT_PERP": 0.0036472450540994,
+   "Gate BTC_USDT": 0.0002,
+   "OKX BTCUSDT_PERP": -0.005913856251700001,
+   "HTX BTCUSDT_PERP": 0.0033916279015206,
    "Binance BTCUSDT_PERP": 0.00127
   },
-  "predFundAvg": -0.00224,
+  "predFundAvg": -0.00227,
   "liqLongUsd24": 416876085,
-  "liqShortUsd24": 19822936
+  "liqShortUsd24": 19824322
  },
  "tech": {
   "rsiD": 29.5,
   "atrD": 2306.4,
   "basis": "closed candles, Binance spot",
   "ma20": 77340.4,
-  "ma20Pct": -10.36,
+  "ma20Pct": -10.37,
   "ma50": 80946.3,
-  "ma50Pct": -14.35,
+  "ma50Pct": -14.36,
   "ma200": 73136.9,
-  "ma200Pct": -5.2,
+  "ma200Pct": -5.22,
   "atrPct": 3.33,
   "rsi4h": 16.7
  },
  "opt": {
   "expiry": "27NOV26",
-  "expiryOI": 82644,
+  "expiryOI": 82706,
   "maxPain": 78000.0,
   "pcrExpiry": 0.94,
   "pcrAll": 0.78,
   "atmStrike": 69000.0,
-  "atmIV": 37.9,
-  "dvol": 39.77
+  "atmIV": 38.0,
+  "dvol": 40.19
  },
  "stables": {
   "USDT": {
-   "usd": 175307592015,
+   "usd": 175303595895,
    "chg7d": -1.26
   },
   "USDC": {
-   "usd": 69334317352,
-   "chg7d": -1.95
+   "usd": 69358951831,
+   "chg7d": -1.9
   },
-  "totalUsd": 244641909367,
-  "totalChg7d": -1.46,
-  "totalChg7dUsd": -3615970541
+  "totalUsd": 244662547726,
+  "totalChg7d": -1.44,
+  "totalChg7dUsd": -3580355269
  },
  "depth": {
   "spot": {
-   "mid": 69354.0,
-   "reachPct": 1.91,
+   "mid": 69334.1,
+   "reachPct": 1.93,
    "b1": {
-    "bid": 16052013,
-    "ask": 18155385,
-    "imb": -6.1,
+    "bid": 16339007,
+    "ask": 18940488,
+    "imb": -7.4,
     "full": true
    },
    "b2": {
-    "bid": 24555659,
-    "ask": 20178838,
-    "imb": 9.8,
+    "bid": 24801066,
+    "ask": 20971557,
+    "imb": 8.4,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 69326.1,
-   "reachPct": 1.13,
+   "mid": 69298.9,
+   "reachPct": 1.14,
    "b1": {
-    "bid": 80985613,
-    "ask": 106563160,
-    "imb": -13.6,
+    "bid": 80135746,
+    "ask": 97873367,
+    "imb": -10.0,
     "full": true
    },
    "b2": {
-    "bid": 84818699,
-    "ask": 108626264,
-    "imb": -12.3,
+    "bid": 83990771,
+    "ask": 102562974,
+    "imb": -10.0,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 97037626,
-    "ask": 124718545,
+    "bid": 96474753,
+    "ask": 116813855,
     "venues": [
      "spot full",
      "okxPerp full"
     ],
-    "imb": -12.5
+    "imb": -9.5
    },
    "b2": {
-    "bid": 109374358,
-    "ask": 128805102,
+    "bid": 108791837,
+    "ask": 123534531,
     "venues": [
-     "spot to \u00b11.91%",
-     "okxPerp to \u00b11.13%"
+     "spot to \u00b11.93%",
+     "okxPerp to \u00b11.14%"
     ],
-    "imb": -8.2
+    "imb": -6.3
    }
   },
   "walls": {
@@ -678,20 +678,20 @@
  "vol": {
   "rv7d": 39.6,
   "rr7d": {
-   "rr": -5.62,
+   "rr": -5.75,
    "call": 37.3,
-   "put": 42.9,
+   "put": 43.1,
    "expiry": "20NOV26",
    "days": 6.9
   },
   "rr30d": {
-   "rr": -4.89,
+   "rr": -4.91,
    "call": 35.8,
    "put": 40.7,
    "expiry": "4DEC26",
    "days": 20.9
   },
-  "vrp": 0.2,
+  "vrp": 0.6,
   "basis": "25d RR = call IV - put IV at |delta|=0.25 (Black-Scholes delta from Deribit mark_iv, nearest expiry to 7d/30d); RV7d from 1H closes, annualised"
  },
  "etf": {
@@ -734,15 +734,15 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "13 Nov 19:06 SGT",
+  "asOf": "13 Nov 19:15 SGT",
   "risk": "HIGH",
-  "why": "Core PPI m/m in 2.4h; PPI m/m in 2.4h; flagged headline 1.1h ago",
+  "why": "Core PPI m/m in 2.2h; PPI m/m in 2.2h; flagged headline 1.3h ago",
   "headlines": [
    {
     "title": "Thailand seeks $148,000 daily cap on certain stablecoin transfers to curb money laundering",
     "source": "The Block",
     "time": "13 Nov 18:16",
-    "ageH": 0.8,
+    "ageH": 1.0,
     "link": "https://www.theblock.co/news/regulation/2026-11-13-thailand-seeks-daily-stablecoin-cap-439676",
     "high": false
    },
@@ -750,7 +750,7 @@
     "title": "JPMorgan reports 36% rise in Strategy share holdings and $540 million in BlackRock\u2019s bitcoin ETF",
     "source": "The Block",
     "time": "13 Nov 17:59",
-    "ageH": 1.1,
+    "ageH": 1.3,
     "link": "https://www.theblock.co/news/business/2026-11-13-jpmorgan-reports-36-rise-in-strategy-share-holdings-and-540-million-in-blackrocks-bitcoin-etf-439671",
     "high": true
    },
@@ -758,7 +758,7 @@
     "title": "Bitcoin returns to 200-week trend line as analyst sees risk of $57.7K next",
     "source": "Cointelegraph",
     "time": "13 Nov 17:39",
-    "ageH": 1.5,
+    "ageH": 1.6,
     "link": "https://cointelegraph.com/markets/bitcoin-returns-200-week-trend-line-analyst-sees-risk-57k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -766,7 +766,7 @@
     "title": "DOJ moves to seize $1.2B from Binance hack, disrupts FaceStealer scam",
     "source": "Cointelegraph",
     "time": "13 Nov 17:27",
-    "ageH": 1.7,
+    "ageH": 1.8,
     "link": "https://cointelegraph.com/news/doj-12b-north-korean-crypto-seizure-400m-facestealer-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": true
    },
@@ -774,7 +774,7 @@
     "title": "Live news: Bitcoin drops below 200-week moving average as dollar strength pressures risk assets",
     "source": "CoinDesk",
     "time": "13 Nov 17:16",
-    "ageH": 1.8,
+    "ageH": 2.0,
     "link": "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets",
     "high": false
    }
@@ -783,14 +783,14 @@
    {
     "title": "Core PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 2.4,
+    "inH": 2.2,
     "forecast": "0.3%",
     "previous": "0.7%"
    },
    {
     "title": "PPI m/m",
     "time": "13 Nov 21:30",
-    "inH": 2.4,
+    "inH": 2.2,
     "forecast": "0.4%",
     "previous": "1.3%"
    }
@@ -827,8 +827,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 69330.53,
-   "valueAt": "13 Nov 2026, 19:06 SGT",
+   "value": 69322.01,
+   "valueAt": "13 Nov 2026, 19:15 SGT",
    "hit": false
   },
   {
