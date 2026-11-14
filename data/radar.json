@@ -16,11 +16,11 @@
  ],
  "metrics": [
   "Price vs 20D MA -11.71%",
-  "vs 50D MA -16.00%",
-  "Spot CVD 24h -788 BTC",
-  "Perp CVD 4h -721 BTC",
-  "OI 24h -7.27%",
-  "Funding +0.0040%"
+  "vs 50D MA -15.99%",
+  "Spot CVD 24h -864 BTC",
+  "Perp CVD 4h -3397 BTC",
+  "OI 24h -5.13%",
+  "Funding +0.0039%"
  ],
  "implication": "Strict cash; treat relief bounces as exit liquidity; invalidation 1D close > 50D MA with positive spot CVD",
  "notMet": [
@@ -34,7 +34,7 @@
   "Spot volume vs 20D MA",
   "Whale exchange inflows / CDD"
  ],
- "asOfMs": 1794624771491,
+ "asOfMs": 1794625342338,
  "scores": {
   "A": "1/7",
   "B": "1/5",
@@ -47,6 +47,6 @@
   "I": "4/5",
   "J": "1/6"
  },
- "asOf": "14 Nov 10:52 SGT",
+ "asOf": "14 Nov 11:02 SGT",
  "source": "box (full data incl. perp CVD)"
 }
