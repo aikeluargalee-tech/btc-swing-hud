@@ -1,10 +1,10 @@
 {
- "asOf": "14 Nov 2026, 12:18 SGT",
- "asOfMs": 1794629908091,
- "price": 66810.0,
+ "asOf": "14 Nov 2026, 12:34 SGT",
+ "asOfMs": 1794630883377,
+ "price": 66727.63,
  "high24": 70214.31,
  "low24": 66456.0,
- "chg24": -3.153,
+ "chg24": -3.4,
  "h1": [
   [
    "12 12:00",
@@ -333,13 +333,13 @@
  "lastDAt": "14 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.00318831338031,
-  "oiOKX": 33479.80070000012,
-  "lsOKX": 3.08,
+  "fundOKX": 0.00244470390138,
+  "oiOKX": 33448.23190000012,
+  "lsOKX": 3.07,
   "lsAt": "14 Nov 12:00",
-  "liqLongUsd": 1084540,
-  "liqShortUsd": 0,
-  "liqWindow": "14 Nov 12:13 to 14 Nov 12:14"
+  "liqLongUsd": 1021229,
+  "liqShortUsd": 35362,
+  "liqWindow": "14 Nov 12:13 to 14 Nov 12:30"
  },
  "macro": {
   "vix": {
@@ -373,11 +373,11 @@
   "label": "Extreme Fear",
   "date": "14 Nov"
  },
- "cbPremium": -70.0,
+ "cbPremium": -81.6,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 20395028747,
-  "oiChg24": -5.88,
+  "oiUsd": 20342788534,
+  "oiChg24": -6.12,
   "oiHist": [
    [
     "13 12:00",
@@ -477,49 +477,49 @@
    ],
    [
     "14 12:00",
-    20.395
+    20.343
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00367,
+  "fundAvg": 0.00348,
   "fundBy": {
    "Hyperliquid BTC": -0.00029481,
    "Deribit BTC-PERPETUAL": 0,
    "Bybit BTCUSD": 0.006154,
-   "OKX BTCUSD_PERP": 0.00175934824303,
+   "OKX BTCUSD_PERP": 0.00077160865992,
    "Binance BTCUSD_PERP": 0.004486,
    "Bybit BTCUSDT": 0.004687,
-   "Gate BTC_USDT": 0.0007,
-   "OKX BTCUSDT_PERP": 0.00318831338031,
+   "Gate BTC_USDT": 0.0006,
+   "OKX BTCUSDT_PERP": 0.00244470390138,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.005972
   },
-  "predFundAvg": -0.0022,
-  "liqLongUsd24": 157909904,
-  "liqShortUsd24": 30272047
+  "predFundAvg": -0.00271,
+  "liqLongUsd24": 159069370,
+  "liqShortUsd24": 30576691
  },
  "tech": {
   "rsiD": 24.5,
   "atrD": 2423.5,
   "basis": "closed candles, Binance spot",
   "ma20": 76711.7,
-  "ma20Pct": -12.91,
+  "ma20Pct": -13.02,
   "ma50": 80624.4,
-  "ma50Pct": -17.13,
+  "ma50Pct": -17.24,
   "ma200": 73091.6,
-  "ma200Pct": -8.59,
+  "ma200Pct": -8.71,
   "atrPct": 3.63,
   "rsi4h": 18.3
  },
  "opt": {
   "expiry": "27NOV26",
-  "expiryOI": 87176,
+  "expiryOI": 87166,
   "maxPain": 77000.0,
   "pcrExpiry": 0.86,
   "pcrAll": 0.73,
   "atmStrike": 67000.0,
-  "atmIV": 41.2,
-  "dvol": 43.24
+  "atmIV": 41.0,
+  "dvol": 42.93
  },
  "stables": {
   "USDT": {
@@ -536,55 +536,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 66809.8,
-   "reachPct": 1.81,
+   "mid": 66755.8,
+   "reachPct": 1.67,
    "b1": {
-    "bid": 15071229,
-    "ask": 10493002,
-    "imb": 17.9,
+    "bid": 18589512,
+    "ask": 10406373,
+    "imb": 28.2,
     "full": true
    },
    "b2": {
-    "bid": 29759260,
-    "ask": 13700174,
-    "imb": 37.0,
+    "bid": 31263055,
+    "ask": 12796849,
+    "imb": 41.9,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 66772.8,
-   "reachPct": 1.28,
+   "mid": 66731.1,
+   "reachPct": 1.23,
    "b1": {
-    "bid": 76164863,
-    "ask": 62693874,
-    "imb": 9.7,
+    "bid": 66645170,
+    "ask": 56505309,
+    "imb": 8.2,
     "full": true
    },
    "b2": {
-    "bid": 94945264,
-    "ask": 68246700,
-    "imb": 16.4,
+    "bid": 80088065,
+    "ask": 60983723,
+    "imb": 13.5,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 91236092,
-    "ask": 73186876,
+    "bid": 85234682,
+    "ask": 66911682,
     "venues": [
      "spot full",
      "okxPerp full"
     ],
-    "imb": 11.0
+    "imb": 12.0
    },
    "b2": {
-    "bid": 124704524,
-    "ask": 81946874,
+    "bid": 111351120,
+    "ask": 73780572,
     "venues": [
-     "spot to \u00b11.81%",
-     "okxPerp to \u00b11.28%"
+     "spot to \u00b11.67%",
+     "okxPerp to \u00b11.23%"
     ],
-    "imb": 20.7
+    "imb": 20.3
    }
   },
   "walls": {
@@ -660,9 +660,9 @@
   "px4h": -2.281,
   "spot1h": -136.1,
   "spot4h": -648.7,
-  "oi4h": -2.45,
+  "oi4h": -2.7,
   "tag": "Long Squeeze",
-  "why": "price -2.28%, OI -2.45%"
+  "why": "price -2.28%, OI -2.70%"
  },
  "regime": {
   "h1h": 0.59,
@@ -678,20 +678,20 @@
  "vol": {
   "rv7d": 41.8,
   "rr7d": {
-   "rr": -8.06,
-   "call": 43.7,
-   "put": 51.8,
+   "rr": -8.73,
+   "call": 42.7,
+   "put": 51.5,
    "expiry": "20NOV26",
-   "days": 6.2
+   "days": 6.1
   },
   "rr30d": {
-   "rr": -5.81,
-   "call": 39.0,
-   "put": 44.8,
+   "rr": -6.22,
+   "call": 38.5,
+   "put": 44.7,
    "expiry": "4DEC26",
-   "days": 20.2
+   "days": 20.1
   },
-  "vrp": 1.4,
+  "vrp": 1.1,
   "basis": "25d RR = call IV - put IV at |delta|=0.25 (Black-Scholes delta from Deribit mark_iv, nearest expiry to 7d/30d); RV7d from 1H closes, annualised"
  },
  "etf": {
@@ -734,15 +734,23 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "14 Nov 12:18 SGT",
+  "asOf": "14 Nov 12:35 SGT",
   "risk": "normal",
   "why": "",
   "headlines": [
    {
+    "title": "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
+    "source": "CoinDesk",
+    "time": "14 Nov 12:30",
+    "ageH": 0.1,
+    "link": "https://www.coindesk.com/markets/2026/11/13/satoshi-era-wallet-served-in-a-usd260-billion-lawsuit-moves-75-btc-it-held-since-2011",
+    "high": false
+   },
+   {
     "title": "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
     "source": "CoinDesk",
     "time": "14 Nov 07:30",
-    "ageH": 4.8,
+    "ageH": 5.1,
     "link": "https://www.coindesk.com/tech/2026/11/13/bitcoin-miners-pay-paraguay-usd350-million-a-year-but-ai-is-pushing-them-out",
     "high": false
    },
@@ -750,7 +758,7 @@
     "title": "Here\u2019s what happened in crypto today",
     "source": "Cointelegraph",
     "time": "14 Nov 06:08",
-    "ageH": 6.2,
+    "ageH": 6.4,
     "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -758,7 +766,7 @@
     "title": "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system",
     "source": "Cointelegraph",
     "time": "14 Nov 05:49",
-    "ageH": 6.5,
+    "ageH": 6.8,
     "link": "https://cointelegraph.com/news/adam-back-simpler-security-blockstream-bitcoin-custody-system?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": true
    },
@@ -766,16 +774,8 @@
     "title": "US regulators move ahead on crypto trust charters as Senate scrutiny grows",
     "source": "Cointelegraph",
     "time": "14 Nov 04:53",
-    "ageH": 7.4,
+    "ageH": 7.7,
     "link": "https://cointelegraph.com/news/us-regulators-crypto-trust-charters-senate-scrutiny-grows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "high": false
-   },
-   {
-    "title": "JPMorgan\u2019s Bitcoin and Crypto-Linked Holdings Approach $1 Billion",
-    "source": "Decrypt",
-    "time": "14 Nov 04:16",
-    "ageH": 8.0,
-    "link": "https://decrypt.co/383267/jpmorgan-bitcoin-crypto-linked-holdings-approach-1-billion",
     "high": false
    }
   ],
@@ -812,8 +812,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 66810.0,
-   "valueAt": "14 Nov 2026, 12:18 SGT",
+   "value": 66727.63,
+   "valueAt": "14 Nov 2026, 12:34 SGT",
    "hit": false
   },
   {
@@ -856,12 +856,12 @@
    "Funding neutral/positive (trapped longs)"
   ],
   "metrics": [
-   "Price vs 20D MA -13.03%",
-   "vs 50D MA -17.25%",
+   "Price vs 20D MA -13.01%",
+   "vs 50D MA -17.23%",
    "Spot CVD 24h -550 BTC",
    "Perp CVD 4h -4591 BTC",
-   "OI 24h -6.01%",
-   "Funding +0.0036%"
+   "OI 24h -6.22%",
+   "Funding +0.0028%"
   ],
   "implication": "Strict cash; treat relief bounces as exit liquidity; invalidation 1D close > 50D MA with positive spot CVD",
   "notMet": [
@@ -875,7 +875,7 @@
    "Spot volume vs 20D MA",
    "Whale exchange inflows / CDD"
   ],
-  "asOfMs": 1794629863583,
+  "asOfMs": 1794630862570,
   "scores": {
    "A": "1/7",
    "B": "1/5",
@@ -888,7 +888,7 @@
    "I": "4/5",
    "J": "1/6"
   },
-  "asOf": "14 Nov 12:17 SGT",
+  "asOf": "14 Nov 12:34 SGT",
   "source": "box (full data incl. perp CVD)"
  }
 }
