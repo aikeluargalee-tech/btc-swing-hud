@@ -1,10 +1,10 @@
 {
- "asOf": "14 Nov 2026, 13:24 SGT",
- "asOfMs": 1794633898583,
- "price": 67154.0,
+ "asOf": "14 Nov 2026, 13:37 SGT",
+ "asOfMs": 1794634655434,
+ "price": 66970.01,
  "high24": 70214.31,
  "low24": 66456.0,
- "chg24": -2.356,
+ "chg24": -2.197,
  "h1": [
   [
    "12 13:00",
@@ -333,9 +333,9 @@
  "lastDAt": "14 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.00154994751434,
-  "oiOKX": 33471.12890000012,
-  "lsOKX": 3.08,
+  "fundOKX": 0.00134858102733,
+  "oiOKX": 33396.156100000124,
+  "lsOKX": 3.07,
   "lsAt": "14 Nov 13:00",
   "liqLongUsd": 102840,
   "liqShortUsd": 180506,
@@ -373,11 +373,11 @@
   "label": "Extreme Fear",
   "date": "14 Nov"
  },
- "cbPremium": -66.2,
+ "cbPremium": -68.5,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 20419540589,
-  "oiChg24": -3.82,
+  "oiUsd": 20316647331,
+  "oiChg24": -4.31,
   "oiHist": [
    [
     "13 13:00",
@@ -477,49 +477,48 @@
    ],
    [
     "14 13:00",
-    20.42
+    20.317
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00353,
+  "fundAvg": 0.00355,
   "fundBy": {
    "Hyperliquid BTC": 0.00106212,
    "Deribit BTC-PERPETUAL": 0,
    "Bybit BTCUSD": 0.006154,
-   "OKX BTCUSD_PERP": 0.00021827139554,
+   "OKX BTCUSD_PERP": 2.862306661e-05,
    "Binance BTCUSD_PERP": 0.004486,
    "Bybit BTCUSDT": 0.004687,
-   "Gate BTC_USDT": 0.0012,
-   "OKX BTCUSDT_PERP": 0.00154994751434,
+   "Gate BTC_USDT": 0.0018,
+   "OKX BTCUSDT_PERP": 0.00134858102733,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.005972
   },
-  "predFundAvg": -0.00203,
-  "liqLongUsd24": 96475693,
-  "liqShortUsd24": 29263363
+  "liqLongUsd24": 96737953,
+  "liqShortUsd24": 29266047
  },
  "tech": {
   "rsiD": 24.5,
   "atrD": 2423.5,
   "basis": "closed candles, Binance spot",
   "ma20": 76711.7,
-  "ma20Pct": -12.46,
+  "ma20Pct": -12.7,
   "ma50": 80624.4,
-  "ma50Pct": -16.71,
+  "ma50Pct": -16.94,
   "ma200": 73091.6,
-  "ma200Pct": -8.12,
-  "atrPct": 3.61,
+  "ma200Pct": -8.38,
+  "atrPct": 3.62,
   "rsi4h": 18.3
  },
  "opt": {
   "expiry": "27NOV26",
-  "expiryOI": 87124,
+  "expiryOI": 87148,
   "maxPain": 77000.0,
   "pcrExpiry": 0.86,
   "pcrAll": 0.74,
   "atmStrike": 67000.0,
   "atmIV": 40.3,
-  "dvol": 41.89
+  "dvol": 42.23
  },
  "stables": {
   "USDT": {
@@ -536,55 +535,55 @@
  },
  "depth": {
   "spot": {
-   "mid": 67152.0,
-   "reachPct": 2.02,
+   "mid": 66956.0,
+   "reachPct": 1.75,
    "b1": {
-    "bid": 10862290,
-    "ask": 12100269,
-    "imb": -5.4,
+    "bid": 13614880,
+    "ask": 12009673,
+    "imb": 6.3,
     "full": true
    },
    "b2": {
-    "bid": 28360932,
-    "ask": 15954540,
-    "imb": 28.0,
-    "full": true
+    "bid": 30215850,
+    "ask": 15103877,
+    "imb": 33.3,
+    "full": false
    }
   },
   "okxPerp": {
-   "mid": 67119.6,
+   "mid": 66912.6,
    "reachPct": 1.25,
    "b1": {
-    "bid": 53642254,
-    "ask": 66387567,
-    "imb": -10.6,
+    "bid": 63186596,
+    "ask": 66158572,
+    "imb": -2.3,
     "full": true
    },
    "b2": {
-    "bid": 60176589,
-    "ask": 70852364,
-    "imb": -8.1,
+    "bid": 70987812,
+    "ask": 71584415,
+    "imb": -0.4,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 64504544,
-    "ask": 78487836,
+    "bid": 76801476,
+    "ask": 78168245,
     "venues": [
      "spot full",
      "okxPerp full"
     ],
-    "imb": -9.8
+    "imb": -0.9
    },
    "b2": {
-    "bid": 88537521,
-    "ask": 86806904,
+    "bid": 101203662,
+    "ask": 86688292,
     "venues": [
-     "spot full",
+     "spot to \u00b11.75%",
      "okxPerp to \u00b11.25%"
     ],
-    "imb": 1.0
+    "imb": 7.7
    }
   },
   "walls": {
@@ -656,9 +655,9 @@
   "px4h": -1.839,
   "spot1h": -41.3,
   "spot4h": -685.5,
-  "oi4h": -2.29,
+  "oi4h": -2.79,
   "tag": "Long Squeeze",
-  "why": "price -1.84%, OI -2.29%"
+  "why": "price -1.84%, OI -2.79%"
  },
  "regime": {
   "h1h": 0.56,
@@ -674,20 +673,20 @@
  "vol": {
   "rv7d": 42.0,
   "rr7d": {
-   "rr": -8.43,
-   "call": 41.0,
-   "put": 49.4,
+   "rr": -8.32,
+   "call": 41.7,
+   "put": 50.0,
    "expiry": "20NOV26",
    "days": 6.1
   },
   "rr30d": {
-   "rr": -6.11,
-   "call": 37.6,
-   "put": 43.7,
+   "rr": -6.4,
+   "call": 37.7,
+   "put": 44.1,
    "expiry": "4DEC26",
    "days": 20.1
   },
-  "vrp": -0.1,
+  "vrp": 0.2,
   "basis": "25d RR = call IV - put IV at |delta|=0.25 (Black-Scholes delta from Deribit mark_iv, nearest expiry to 7d/30d); RV7d from 1H closes, annualised"
  },
  "etf": {
@@ -720,7 +719,9 @@
   "sum5": -1065.3,
   "source": "Farside (farside.co.uk/btc), US$m"
  },
- "missing": [],
+ "missing": [
+  "Coinalyze predicted funding: HTTPError 429"
+ ],
  "browserLive": [
   "Binance futures funding",
   "Binance long/short",
@@ -730,7 +731,7 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "14 Nov 13:25 SGT",
+  "asOf": "14 Nov 13:38 SGT",
   "risk": "normal",
   "why": "",
   "headlines": [
@@ -738,7 +739,7 @@
     "title": "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
     "source": "CoinDesk",
     "time": "14 Nov 12:30",
-    "ageH": 0.9,
+    "ageH": 1.1,
     "link": "https://www.coindesk.com/markets/2026/11/13/satoshi-era-wallet-served-in-a-usd260-billion-lawsuit-moves-75-btc-it-held-since-2011",
     "high": false
    },
@@ -746,7 +747,7 @@
     "title": "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
     "source": "CoinDesk",
     "time": "14 Nov 07:30",
-    "ageH": 5.9,
+    "ageH": 6.1,
     "link": "https://www.coindesk.com/tech/2026/11/13/bitcoin-miners-pay-paraguay-usd350-million-a-year-but-ai-is-pushing-them-out",
     "high": false
    },
@@ -754,7 +755,7 @@
     "title": "Here\u2019s what happened in crypto today",
     "source": "Cointelegraph",
     "time": "14 Nov 06:08",
-    "ageH": 7.3,
+    "ageH": 7.5,
     "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -762,7 +763,7 @@
     "title": "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system",
     "source": "Cointelegraph",
     "time": "14 Nov 05:49",
-    "ageH": 7.6,
+    "ageH": 7.8,
     "link": "https://cointelegraph.com/news/adam-back-simpler-security-blockstream-bitcoin-custody-system?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": true
    },
@@ -770,7 +771,7 @@
     "title": "US regulators move ahead on crypto trust charters as Senate scrutiny grows",
     "source": "Cointelegraph",
     "time": "14 Nov 04:53",
-    "ageH": 8.5,
+    "ageH": 8.8,
     "link": "https://cointelegraph.com/news/us-regulators-crypto-trust-charters-senate-scrutiny-grows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    }
@@ -808,8 +809,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 67154.0,
-   "valueAt": "14 Nov 2026, 13:24 SGT",
+   "value": 66970.01,
+   "valueAt": "14 Nov 2026, 13:37 SGT",
    "hit": false
   },
   {
