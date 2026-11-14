@@ -1,10 +1,10 @@
 {
- "asOf": "14 Nov 2026, 14:05 SGT",
- "asOfMs": 1794636328897,
- "price": 67229.37,
+ "asOf": "14 Nov 2026, 14:21 SGT",
+ "asOfMs": 1794637268661,
+ "price": 67272.0,
  "high24": 70214.31,
  "low24": 66456.0,
- "chg24": -1.629,
+ "chg24": -1.793,
  "h1": [
   [
    "12 14:00",
@@ -333,10 +333,10 @@
  "lastDAt": "14 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.0011657971075,
-  "oiOKX": 33382.69790000012,
-  "lsOKX": 3.06,
-  "lsAt": "14 Nov 13:00",
+  "fundOKX": 0.00074323908175,
+  "oiOKX": 33443.433500000116,
+  "lsOKX": 3.05,
+  "lsAt": "14 Nov 14:00",
   "liqLongUsd": 108309,
   "liqShortUsd": 219007,
   "liqWindow": "14 Nov 12:37 to 14 Nov 14:01"
@@ -373,11 +373,11 @@
   "label": "Extreme Fear",
   "date": "14 Nov"
  },
- "cbPremium": -55.4,
+ "cbPremium": -72.0,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 20379614448,
-  "oiChg24": -4.99,
+  "oiUsd": 20409262776,
+  "oiChg24": -4.85,
   "oiHist": [
    [
     "13 14:00",
@@ -477,37 +477,37 @@
    ],
    [
     "14 14:00",
-    20.38
+    20.409
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00366,
+  "fundAvg": 0.00365,
   "fundBy": {
    "Hyperliquid BTC": 0.00125,
    "Deribit BTC-PERPETUAL": 0,
    "Bybit BTCUSD": 0.006154,
-   "OKX BTCUSD_PERP": -0.00010454509239,
+   "OKX BTCUSD_PERP": -0.00013500020443,
    "Binance BTCUSD_PERP": 0.004486,
    "Bybit BTCUSDT": 0.004687,
-   "Gate BTC_USDT": 0.003,
-   "OKX BTCUSDT_PERP": 0.0011657971075,
+   "Gate BTC_USDT": 0.0033,
+   "OKX BTCUSDT_PERP": 0.00074323908175,
    "HTX BTCUSDT_PERP": 0.01,
    "Binance BTCUSDT_PERP": 0.005972
   },
-  "predFundAvg": -0.00086,
+  "predFundAvg": -0.0005,
   "liqLongUsd24": 96552743,
-  "liqShortUsd24": 25815378
+  "liqShortUsd24": 25824976
  },
  "tech": {
   "rsiD": 24.5,
   "atrD": 2423.5,
   "basis": "closed candles, Binance spot",
   "ma20": 76711.7,
-  "ma20Pct": -12.36,
+  "ma20Pct": -12.31,
   "ma50": 80624.4,
-  "ma50Pct": -16.61,
+  "ma50Pct": -16.56,
   "ma200": 73091.6,
-  "ma200Pct": -8.02,
+  "ma200Pct": -7.96,
   "atrPct": 3.6,
   "rsi4h": 18.3
  },
@@ -518,73 +518,73 @@
   "pcrExpiry": 0.86,
   "pcrAll": 0.74,
   "atmStrike": 67000.0,
-  "atmIV": 41.1,
-  "dvol": 42.21
+  "atmIV": 41.2,
+  "dvol": 42.02
  },
  "stables": {
   "USDT": {
-   "usd": 175209507277,
+   "usd": 175203398268,
    "chg7d": -0.92
   },
   "USDC": {
-   "usd": 69182761756,
+   "usd": 69179768738,
    "chg7d": -1.99
   },
-  "totalUsd": 244392269033,
+  "totalUsd": 244383167006,
   "totalChg7d": -1.23,
-  "totalChg7dUsd": -3031585196
+  "totalChg7dUsd": -3031467701
  },
  "depth": {
   "spot": {
-   "mid": 67274.0,
-   "reachPct": 2.07,
+   "mid": 67320.8,
+   "reachPct": 2.05,
    "b1": {
-    "bid": 9882663,
-    "ask": 12165403,
-    "imb": -10.4,
+    "bid": 10262723,
+    "ask": 12287087,
+    "imb": -9.0,
     "full": true
    },
    "b2": {
-    "bid": 27713452,
-    "ask": 15564134,
-    "imb": 28.1,
+    "bid": 27799578,
+    "ask": 15504754,
+    "imb": 28.4,
     "full": true
    }
   },
   "okxPerp": {
-   "mid": 67231.8,
-   "reachPct": 1.24,
+   "mid": 67287.1,
+   "reachPct": 1.21,
    "b1": {
-    "bid": 52021221,
-    "ask": 73506738,
-    "imb": -17.1,
+    "bid": 48763705,
+    "ask": 70889302,
+    "imb": -18.5,
     "full": true
    },
    "b2": {
-    "bid": 60989301,
-    "ask": 76556253,
-    "imb": -11.3,
+    "bid": 55444116,
+    "ask": 74560464,
+    "imb": -14.7,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 61903884,
-    "ask": 85672141,
+    "bid": 59026428,
+    "ask": 83176389,
     "venues": [
      "spot full",
      "okxPerp full"
     ],
-    "imb": -16.1
+    "imb": -17.0
    },
    "b2": {
-    "bid": 88702753,
-    "ask": 92120387,
+    "bid": 83243694,
+    "ask": 90065218,
     "venues": [
      "spot full",
-     "okxPerp to \u00b11.24%"
+     "okxPerp to \u00b11.21%"
     ],
-    "imb": -1.9
+    "imb": -3.9
    }
   },
   "walls": {
@@ -656,9 +656,9 @@
   "px4h": -1.536,
   "spot1h": -25.1,
   "spot4h": -635.6,
-  "oi4h": -0.98,
+  "oi4h": -0.84,
   "tag": "Long Squeeze",
-  "why": "price -1.54%, OI -0.98%"
+  "why": "price -1.54%, OI -0.84%"
  },
  "regime": {
   "h1h": 0.56,
@@ -674,20 +674,20 @@
  "vol": {
   "rv7d": 42.0,
   "rr7d": {
-   "rr": -8.39,
-   "call": 41.6,
-   "put": 50.0,
+   "rr": -8.4,
+   "call": 41.4,
+   "put": 49.8,
    "expiry": "20NOV26",
    "days": 6.1
   },
   "rr30d": {
-   "rr": -6.26,
-   "call": 37.9,
-   "put": 44.2,
+   "rr": -6.22,
+   "call": 37.7,
+   "put": 44.0,
    "expiry": "4DEC26",
    "days": 20.1
   },
-  "vrp": 0.2,
+  "vrp": 0.0,
   "basis": "25d RR = call IV - put IV at |delta|=0.25 (Black-Scholes delta from Deribit mark_iv, nearest expiry to 7d/30d); RV7d from 1H closes, annualised"
  },
  "etf": {
@@ -730,15 +730,15 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "14 Nov 14:05 SGT",
+  "asOf": "14 Nov 14:21 SGT",
   "risk": "HIGH",
-  "why": "flagged headline 0.4h ago",
+  "why": "flagged headline 0.7h ago",
   "headlines": [
    {
     "title": "Meta tests prediction-market app, DOJ moves to seize $1.2 billion from Binance hack, and more",
     "source": "The Block",
     "time": "14 Nov 13:40",
-    "ageH": 0.4,
+    "ageH": 0.7,
     "link": "https://www.theblock.co/newsletters/the-daily/2026-11-14-meta-prediction-market-app-doj-binance-hack-more-crypto-news-440304",
     "high": true
    },
@@ -746,7 +746,7 @@
     "title": "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
     "source": "CoinDesk",
     "time": "14 Nov 12:30",
-    "ageH": 1.6,
+    "ageH": 1.9,
     "link": "https://www.coindesk.com/markets/2026/11/13/satoshi-era-wallet-served-in-a-usd260-billion-lawsuit-moves-75-btc-it-held-since-2011",
     "high": false
    },
@@ -754,7 +754,7 @@
     "title": "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
     "source": "CoinDesk",
     "time": "14 Nov 07:30",
-    "ageH": 6.6,
+    "ageH": 6.9,
     "link": "https://www.coindesk.com/tech/2026/11/13/bitcoin-miners-pay-paraguay-usd350-million-a-year-but-ai-is-pushing-them-out",
     "high": false
    },
@@ -762,7 +762,7 @@
     "title": "Here\u2019s what happened in crypto today",
     "source": "Cointelegraph",
     "time": "14 Nov 06:08",
-    "ageH": 8.0,
+    "ageH": 8.2,
     "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    },
@@ -770,7 +770,7 @@
     "title": "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system",
     "source": "Cointelegraph",
     "time": "14 Nov 05:49",
-    "ageH": 8.3,
+    "ageH": 8.5,
     "link": "https://cointelegraph.com/news/adam-back-simpler-security-blockstream-bitcoin-custody-system?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": true
    }
@@ -808,8 +808,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 67229.37,
-   "valueAt": "14 Nov 2026, 14:05 SGT",
+   "value": 67272.0,
+   "valueAt": "14 Nov 2026, 14:21 SGT",
    "hit": false
   },
   {
@@ -852,11 +852,11 @@
    "OI 24h flat/dropping (<=+1%)"
   ],
   "metrics": [
-   "Price vs 20D MA -12.39%",
-   "vs 50D MA -16.64%",
+   "Price vs 20D MA -12.28%",
+   "vs 50D MA -16.53%",
    "Spot CVD 24h -324 BTC",
    "Perp CVD 4h -4869 BTC",
-   "OI 24h -5.02%",
+   "OI 24h -4.83%",
    "Funding +0.0037%"
   ],
   "implication": "Build spot 0.75x; 50% on 1H range reclaim / 50% limit at low; stop sweep low -0.5%",
@@ -873,7 +873,7 @@
    "Spot volume vs 20D MA",
    "Whale exchange inflows / CDD"
   ],
-  "asOfMs": 1794636302107,
+  "asOfMs": 1794637247838,
   "scores": {
    "A": "1/7",
    "B": "1/5",
@@ -886,7 +886,7 @@
    "I": "4/5",
    "J": "2/6"
   },
-  "asOf": "14 Nov 14:05 SGT",
+  "asOf": "14 Nov 14:20 SGT",
   "source": "box (full data incl. perp CVD)"
  }
 }
