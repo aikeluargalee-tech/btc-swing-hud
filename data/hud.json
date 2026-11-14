@@ -1,10 +1,10 @@
 {
- "asOf": "14 Nov 2026, 19:04 SGT",
- "asOfMs": 1794654265020,
- "price": 67272.91,
+ "asOf": "14 Nov 2026, 19:16 SGT",
+ "asOfMs": 1794655006779,
+ "price": 67251.1,
  "high24": 70214.31,
  "low24": 66456.0,
- "chg24": -3.029,
+ "chg24": -3.043,
  "h1": [
   [
    "12 19:00",
@@ -333,10 +333,10 @@
  "lastDAt": "14 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": -0.00093295749317,
-  "oiOKX": 33821.04430000013,
+  "fundOKX": -0.0005257321441699999,
+  "oiOKX": 33826.033900000126,
   "lsOKX": 3.01,
-  "lsAt": "14 Nov 18:00",
+  "lsAt": "14 Nov 19:00",
   "liqLongUsd": 90258,
   "liqShortUsd": 438494,
   "liqWindow": "14 Nov 16:53 to 14 Nov 18:26"
@@ -373,11 +373,11 @@
   "label": "Extreme Fear",
   "date": "14 Nov"
  },
- "cbPremium": -61.0,
+ "cbPremium": -61.2,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 20505886405,
-  "oiChg24": -4.9,
+  "oiUsd": 20498640623,
+  "oiChg24": -4.93,
   "oiHist": [
    [
     "13 19:00",
@@ -477,24 +477,24 @@
    ],
    [
     "14 19:00",
-    20.506
+    20.499
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": -0.00039,
+  "fundAvg": -0.00027,
   "fundBy": {
    "Hyperliquid BTC": 0.00085115,
    "Deribit BTC-PERPETUAL": 0,
    "Bybit BTCUSD": -0.008208,
-   "OKX BTCUSD_PERP": 0.0007769473520199999,
+   "OKX BTCUSD_PERP": 0.00130657943792,
    "Binance BTCUSD_PERP": -0.002649,
    "Bybit BTCUSDT": 0.000819,
-   "Gate BTC_USDT": 0.0013,
-   "OKX BTCUSDT_PERP": -0.00093295749317,
-   "HTX BTCUSDT_PERP": -0.00036057194067340003,
+   "Gate BTC_USDT": 0.0014,
+   "OKX BTCUSDT_PERP": -0.0005257321441699999,
+   "HTX BTCUSDT_PERP": -0.0001312117521682,
    "Binance BTCUSDT_PERP": 0.004461
   },
-  "predFundAvg": -0.00112,
+  "predFundAvg": -0.00102,
   "liqLongUsd24": 94751507,
   "liqShortUsd24": 18754416
  },
@@ -503,88 +503,88 @@
   "atrD": 2423.5,
   "basis": "closed candles, Binance spot",
   "ma20": 76711.7,
-  "ma20Pct": -12.3,
+  "ma20Pct": -12.33,
   "ma50": 80624.4,
-  "ma50Pct": -16.56,
+  "ma50Pct": -16.59,
   "ma200": 73091.6,
-  "ma200Pct": -7.96,
+  "ma200Pct": -7.99,
   "atrPct": 3.6,
   "rsi4h": 22.3
  },
  "opt": {
   "expiry": "27NOV26",
-  "expiryOI": 87488,
+  "expiryOI": 87717,
   "maxPain": 77000.0,
   "pcrExpiry": 0.86,
   "pcrAll": 0.73,
   "atmStrike": 67000.0,
   "atmIV": 38.8,
-  "dvol": 41.19
+  "dvol": 41.21
  },
  "stables": {
   "USDT": {
-   "usd": 175200738910,
+   "usd": 175205137123,
    "chg7d": -0.92
   },
   "USDC": {
-   "usd": 69172817144,
-   "chg7d": -2.0
+   "usd": 69280892430,
+   "chg7d": -1.85
   },
-  "totalUsd": 244373556054,
-  "totalChg7d": -1.23,
-  "totalChg7dUsd": -3038503628
+  "totalUsd": 244486029553,
+  "totalChg7d": -1.19,
+  "totalChg7dUsd": -2932709145
  },
  "depth": {
   "spot": {
-   "mid": 67262.0,
-   "reachPct": 1.87,
+   "mid": 67271.0,
+   "reachPct": 1.86,
    "b1": {
-    "bid": 12071491,
-    "ask": 14255434,
-    "imb": -8.3,
+    "bid": 12751029,
+    "ask": 10525787,
+    "imb": 9.6,
     "full": true
    },
    "b2": {
-    "bid": 22528068,
-    "ask": 20201681,
-    "imb": 5.4,
+    "bid": 22876989,
+    "ask": 18517859,
+    "imb": 10.5,
     "full": false
    }
   },
   "okxPerp": {
-   "mid": 67236.6,
-   "reachPct": 1.24,
+   "mid": 67251.8,
+   "reachPct": 1.23,
    "b1": {
-    "bid": 71726797,
-    "ask": 75424797,
-    "imb": -2.5,
+    "bid": 68343179,
+    "ask": 71519585,
+    "imb": -2.3,
     "full": true
    },
    "b2": {
-    "bid": 76940968,
-    "ask": 81732580,
-    "imb": -3.0,
+    "bid": 71833614,
+    "ask": 77899010,
+    "imb": -4.1,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 83798288,
-    "ask": 89680231,
+    "bid": 81094208,
+    "ask": 82045372,
     "venues": [
      "spot full",
      "okxPerp full"
     ],
-    "imb": -3.4
+    "imb": -0.6
    },
    "b2": {
-    "bid": 99469036,
-    "ask": 101934261,
+    "bid": 94710603,
+    "ask": 96416869,
     "venues": [
-     "spot to \u00b11.87%",
-     "okxPerp to \u00b11.24%"
+     "spot to \u00b11.86%",
+     "okxPerp to \u00b11.23%"
     ],
-    "imb": -1.2
+    "imb": -0.9
    }
   },
   "walls": {
@@ -660,9 +660,9 @@
   "px4h": -0.125,
   "spot1h": -128.1,
   "spot4h": -394.7,
-  "oi4h": 0.31,
+  "oi4h": 0.28,
   "tag": "Neutral",
-  "why": "price -0.12% 4h, OI 0.31%, spot CVD -395, perp CVD n/a"
+  "why": "price -0.12% 4h, OI 0.28%, spot CVD -395, perp CVD n/a"
  },
  "regime": {
   "h1h": 0.5,
@@ -678,16 +678,16 @@
  "vol": {
   "rv7d": 42.4,
   "rr7d": {
-   "rr": -8.5,
-   "call": 38.2,
-   "put": 46.7,
+   "rr": -8.46,
+   "call": 38.4,
+   "put": 46.9,
    "expiry": "20NOV26",
    "days": 5.9
   },
   "rr30d": {
-   "rr": -6.3,
+   "rr": -6.6,
    "call": 36.2,
-   "put": 42.5,
+   "put": 42.8,
    "expiry": "4DEC26",
    "days": 19.9
   },
@@ -734,7 +734,7 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "14 Nov 19:04 SGT",
+  "asOf": "14 Nov 19:17 SGT",
   "risk": "normal",
   "why": "",
   "headlines": [
@@ -742,7 +742,7 @@
     "title": "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock\u2019s losing streak hits 11",
     "source": "Cointelegraph",
     "time": "14 Nov 14:33",
-    "ageH": 4.5,
+    "ageH": 4.7,
     "link": "https://cointelegraph.com/markets/bitcoin-etf-outflows-2-35-billion-blackrock-11-session-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": true
    },
@@ -750,7 +750,7 @@
     "title": "Meta tests prediction-market app, DOJ moves to seize $1.2 billion from Binance hack, and more",
     "source": "The Block",
     "time": "14 Nov 13:40",
-    "ageH": 5.4,
+    "ageH": 5.6,
     "link": "https://www.theblock.co/newsletters/the-daily/2026-11-14-meta-prediction-market-app-doj-binance-hack-more-crypto-news-440304",
     "high": true
    },
@@ -758,7 +758,7 @@
     "title": "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
     "source": "CoinDesk",
     "time": "14 Nov 12:30",
-    "ageH": 6.6,
+    "ageH": 6.8,
     "link": "https://www.coindesk.com/markets/2026/11/13/satoshi-era-wallet-served-in-a-usd260-billion-lawsuit-moves-75-btc-it-held-since-2011",
     "high": false
    },
@@ -766,7 +766,7 @@
     "title": "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
     "source": "CoinDesk",
     "time": "14 Nov 07:30",
-    "ageH": 11.6,
+    "ageH": 11.8,
     "link": "https://www.coindesk.com/tech/2026/11/13/bitcoin-miners-pay-paraguay-usd350-million-a-year-but-ai-is-pushing-them-out",
     "high": false
    }
@@ -804,8 +804,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 67272.91,
-   "valueAt": "14 Nov 2026, 19:04 SGT",
+   "value": 67251.1,
+   "valueAt": "14 Nov 2026, 19:16 SGT",
    "hit": false
   },
   {
@@ -847,12 +847,12 @@
    "Below 20D MA (VWAP-break proxy)"
   ],
   "metrics": [
-   "Price vs 20D MA -12.25%",
-   "vs 50D MA -16.51%",
+   "Price vs 20D MA -12.33%",
+   "vs 50D MA -16.59%",
    "Spot CVD 24h -902 BTC",
    "Perp CVD 4h +129 BTC",
-   "OI 24h -4.84%",
-   "Funding -0.0004%"
+   "OI 24h -4.96%",
+   "Funding -0.0003%"
   ],
   "implication": "Defensive cash; sell 50% on 1H close below VWAP",
   "notMet": [
@@ -867,7 +867,7 @@
    "Spot volume vs 20D MA",
    "Whale exchange inflows / CDD"
   ],
-  "asOfMs": 1794654237358,
+  "asOfMs": 1794654985741,
   "scores": {
    "A": "1/7",
    "B": "2/5",
@@ -880,7 +880,7 @@
    "I": "3/5",
    "J": "1/6"
   },
-  "asOf": "14 Nov 19:03 SGT",
+  "asOf": "14 Nov 19:16 SGT",
   "source": "box (full data incl. perp CVD)"
  }
 }
