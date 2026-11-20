@@ -1,35 +1,11 @@
 {
- "asOf": "21 Nov 2026, 01:20 SGT",
- "asOfMs": 1795195235970,
- "price": 59374.04,
- "high24": 63408.62,
- "low24": 58768.73,
- "chg24": -4.84,
+ "asOf": "21 Nov 2026, 07:11 SGT",
+ "asOfMs": 1795216280384,
+ "price": 59146.52,
+ "high24": 62639.52,
+ "low24": 57778.35,
+ "chg24": -4.599,
  "h1": [
-  [
-   "19 01:00",
-   63109.7
-  ],
-  [
-   "19 02:00",
-   63168.3
-  ],
-  [
-   "19 03:00",
-   62747.2
-  ],
-  [
-   "19 04:00",
-   62628.0
-  ],
-  [
-   "19 05:00",
-   62352.3
-  ],
-  [
-   "19 06:00",
-   62254.7
-  ],
   [
    "19 07:00",
    63068.2
@@ -197,15 +173,39 @@
   [
    "21 00:00",
    59546.5
+  ],
+  [
+   "21 01:00",
+   59164.3
+  ],
+  [
+   "21 02:00",
+   58418.0
+  ],
+  [
+   "21 03:00",
+   58558.7
+  ],
+  [
+   "21 04:00",
+   58467.5
+  ],
+  [
+   "21 05:00",
+   59012.8
+  ],
+  [
+   "21 06:00",
+   59170.6
   ]
  ],
- "last1h": 59546.51,
- "last1hAt": "21 Nov 01:00",
+ "last1h": 59170.56,
+ "last1hAt": "21 Nov 07:00",
  "flow": {
-  "spot4h": -1624.8,
-  "spot24h": -2348.4,
-  "asOfMs": 1795194000000,
-  "asOf": "21 Nov 01:00 SGT, est. from taker volume"
+  "spot4h": -1277.8,
+  "spot24h": -3787.0,
+  "asOfMs": 1795215600000,
+  "asOf": "21 Nov 07:00 SGT, est. from taker volume"
  },
  "d1": [
   [
@@ -333,38 +333,38 @@
  "lastDAt": "20 Nov 08:00",
  "priceSource": "data-api.binance.vision",
  "pos": {
-  "fundOKX": 0.0019537166348200003,
-  "oiOKX": 34865.90140000016,
-  "lsOKX": 3.04,
-  "lsAt": "21 Nov 01:00",
-  "liqLongUsd": 1314889,
-  "liqShortUsd": 53284,
-  "liqWindow": "21 Nov 00:39 to 21 Nov 01:13"
+  "fundOKX": -0.00529284317398,
+  "oiOKX": 33190.263700000156,
+  "lsOKX": 3.08,
+  "lsAt": "21 Nov 07:00",
+  "liqLongUsd": 397242,
+  "liqShortUsd": 498500,
+  "liqWindow": "21 Nov 05:41 to 21 Nov 06:48"
  },
  "macro": {
   "vix": {
-   "v": 31.66,
-   "chg": 11.32,
+   "v": 35.89,
+   "chg": 26.2,
    "date": "20 Nov"
   },
   "dxy": {
-   "v": 103.75,
-   "chg": -0.14,
+   "v": 103.84,
+   "chg": -0.06,
    "date": "20 Nov"
   },
   "us10y": {
-   "v": 4.95,
-   "chg": -2.1,
+   "v": 4.91,
+   "chg": -2.77,
    "date": "20 Nov"
   },
   "spx": {
-   "v": 7026.92,
-   "chg": -2.08,
+   "v": 6910.39,
+   "chg": -3.7,
    "date": "20 Nov"
   },
   "ndx": {
-   "v": 23045.0,
-   "chg": -3.49,
+   "v": 22617.73,
+   "chg": -5.28,
    "date": "20 Nov"
   }
  },
@@ -373,32 +373,12 @@
   "label": "Extreme Fear",
   "date": "20 Nov"
  },
- "cbPremium": -86.0,
+ "cbPremium": -133.0,
  "cz": {
   "venues": "Binance, Bybit, Deribit, Gate, HTX, Hyperliquid, OKX",
-  "oiUsd": 18180382588,
-  "oiChg24": -2.83,
+  "oiUsd": 17839395828,
+  "oiChg24": -4.28,
   "oiHist": [
-   [
-    "20 01:00",
-    18.71
-   ],
-   [
-    "20 02:00",
-    18.779
-   ],
-   [
-    "20 03:00",
-    18.829
-   ],
-   [
-    "20 04:00",
-    18.717
-   ],
-   [
-    "20 05:00",
-    18.634
-   ],
    [
     "20 06:00",
     18.566
@@ -477,114 +457,134 @@
    ],
    [
     "21 01:00",
-    18.18
+    18.156
+   ],
+   [
+    "21 02:00",
+    17.729
+   ],
+   [
+    "21 03:00",
+    17.669
+   ],
+   [
+    "21 05:00",
+    17.792
+   ],
+   [
+    "21 06:00",
+    17.834
+   ],
+   [
+    "21 07:00",
+    17.839
    ]
   ],
   "oiSymbols": 9,
-  "fundAvg": 0.00277,
+  "fundAvg": 0.00189,
   "fundBy": {
-   "Hyperliquid BTC": -0.00033078,
+   "Hyperliquid BTC": 0.00125,
    "Deribit BTC-PERPETUAL": 0,
    "Bybit BTCUSD": 0.004894,
-   "OKX BTCUSD_PERP": 0.006954095903370001,
+   "OKX BTCUSD_PERP": 0.00806179553562,
    "Binance BTCUSD_PERP": 0.003903,
    "Bybit BTCUSDT": 0.002875,
-   "Gate BTC_USDT": -0.0051,
-   "OKX BTCUSDT_PERP": 0.0019537166348200003,
-   "HTX BTCUSDT_PERP": 0.01,
+   "Gate BTC_USDT": -0.00444,
+   "OKX BTCUSDT_PERP": -0.00530789228495,
+   "HTX BTCUSDT_PERP": 0.005100432424241,
    "Binance BTCUSDT_PERP": 0.002551
   },
-  "predFundAvg": -0.00053,
-  "liqLongUsd24": 267327828,
-  "liqShortUsd24": 23791834
+  "predFundAvg": -0.00059,
+  "liqLongUsd24": 383739523,
+  "liqShortUsd24": 35275156
  },
  "tech": {
   "rsiD": 20.4,
   "atrD": 2642.3,
   "basis": "closed candles, Binance spot",
   "ma20": 72035.0,
-  "ma20Pct": -17.58,
+  "ma20Pct": -17.89,
   "ma50": 78236.3,
-  "ma50Pct": -24.11,
+  "ma50Pct": -24.4,
   "ma200": 72693.7,
-  "ma200Pct": -18.32,
-  "atrPct": 4.45,
-  "rsi4h": 23.0
+  "ma200Pct": -18.64,
+  "atrPct": 4.47,
+  "rsi4h": 20.5
  },
  "opt": {
   "expiry": "27NOV26",
-  "expiryOI": 104510,
-  "maxPain": 74000.0,
-  "pcrExpiry": 0.97,
-  "pcrAll": 0.82,
+  "expiryOI": 107059,
+  "maxPain": 73000.0,
+  "pcrExpiry": 0.93,
+  "pcrAll": 0.83,
   "atmStrike": 59000.0,
-  "atmIV": 53.3,
-  "dvol": 50.65
+  "atmIV": 53.5,
+  "dvol": 52.49
  },
  "stables": {
   "USDT": {
-   "usd": 174837913864,
-   "chg7d": -0.37
+   "usd": 174672063130,
+   "chg7d": -0.38
   },
   "USDC": {
-   "usd": 68484590081,
-   "chg7d": -1.42
+   "usd": 68498183444,
+   "chg7d": -1.41
   },
-  "totalUsd": 243322503945,
+  "totalUsd": 243170246574,
   "totalChg7d": -0.67,
-  "totalChg7dUsd": -1635792029
+  "totalChg7dUsd": -1645922998
  },
  "depth": {
   "spot": {
-   "mid": 59357.5,
-   "reachPct": 2.13,
+   "mid": 59154.0,
+   "reachPct": 2.88,
    "b1": {
-    "bid": 15714933,
-    "ask": 12224573,
-    "imb": 12.5,
+    "bid": 12258602,
+    "ask": 8817560,
+    "imb": 16.3,
     "full": true
    },
    "b2": {
-    "bid": 34709584,
-    "ask": 14539654,
-    "imb": 41.0,
+    "bid": 21529599,
+    "ask": 20578896,
+    "imb": 2.3,
     "full": true
    }
   },
   "okxPerp": {
-   "mid": 59325.6,
-   "reachPct": 1.53,
+   "mid": 59119.4,
+   "reachPct": 1.52,
    "b1": {
-    "bid": 83586056,
-    "ask": 81337770,
-    "imb": 1.4,
+    "bid": 54474797,
+    "ask": 63421091,
+    "imb": -7.6,
     "full": true
    },
    "b2": {
-    "bid": 98173107,
-    "ask": 87750272,
-    "imb": 5.6,
+    "bid": 71755383,
+    "ask": 72224480,
+    "imb": -0.3,
     "full": false
    }
   },
   "agg": {
    "b1": {
-    "bid": 99300989,
-    "ask": 93562343,
+    "bid": 66733399,
+    "ask": 72238651,
     "venues": [
      "spot full",
      "okxPerp full"
     ],
-    "imb": 3.0
+    "imb": -4.0
    },
    "b2": {
-    "bid": 132882691,
-    "ask": 102289926,
+    "bid": 93284982,
+    "ask": 92803376,
     "venues": [
      "spot full",
-     "okxPerp to \u00b11.53%"
+     "okxPerp to \u00b11.52%"
     ],
-    "imb": 13.0
+    "imb": 0.3
    }
   },
   "walls": {
@@ -615,16 +615,16 @@
   ],
   "below": [
    {
-    "p": 59000,
-    "usd": 9165891
+    "p": 58500,
+    "usd": 27496040
    },
    {
-    "p": 58250,
-    "usd": 9165891
+    "p": 57750,
+    "usd": 20347316
    },
    {
-    "p": 57250,
-    "usd": 9165891
+    "p": 56750,
+    "usd": 27496040
    }
   ],
   "method": "Estimate: Coinalyze 7d hourly OI increases \u00d7 25/50/100x leverage, Binance 1H closes; untouched levels only, $250 bins"
@@ -637,65 +637,65 @@
   "7d": {
    "poc": 64925,
    "vah": 65600,
-   "val": 62250
+   "val": 61900
   },
   "30d": {
    "poc": 64925,
-   "vah": 78050,
-   "val": 58750
+   "vah": 77900,
+   "val": 57750
   },
   "zone": {
-   "ratio": 3.07,
+   "ratio": 3.28,
    "tag": "High-volume node"
   },
-  "avwap30d": 72907.9,
+  "avwap30d": 72452.7,
   "swingLow": {
-   "p": 58768.73,
-   "t": 1795190400000
+   "p": 57778.35,
+   "t": 1795201200000
   },
-  "avwapSwingLow": 59446.8
+  "avwapSwingLow": 58641.0
  },
  "flowRegime": {
-  "px1h": 0.119,
-  "px4h": -3.28,
-  "spot1h": -295.1,
-  "spot4h": -1624.8,
-  "oi4h": -2.37,
-  "tag": "Long Squeeze",
-  "why": "price -3.28%, OI -2.37%"
+  "px1h": 0.267,
+  "px4h": 1.288,
+  "spot1h": -186.3,
+  "spot4h": -1277.8,
+  "oi4h": 0.62,
+  "tag": "New Longs",
+  "why": "price +1.29%, OI +0.62%"
  },
  "regime": {
-  "h1h": 0.63,
+  "h1h": 0.66,
   "hD": 0.63,
-  "vr1h": 0.87,
+  "vr1h": 0.95,
   "vrD": 1.24,
-  "chop1h": 40.6,
-  "chop4h": 40.4,
+  "chop1h": 38.6,
+  "chop4h": 36.8,
   "basis": "Computed by HUD (R/S Hurst on last 500 1H and ~260 daily log returns; VR(4) 1H, VR(5) daily; Choppiness(14)), not the A4.2 bot",
   "label": "Trending",
-  "line": "Regime: Trending (H1h=0.63, HD=0.63, VR1h=0.87, Chop1h=40.6, Chop4h=40.4) -> favour breakouts/continuation over fading"
+  "line": "Regime: Trending (H1h=0.66, HD=0.63, VR1h=0.95, Chop1h=38.6, Chop4h=36.8) -> favour breakouts/continuation over fading"
  },
  "vol": {
-  "rv7d": 65.1,
+  "rv7d": 66.0,
   "rr7d": {
-   "rr": -10.52,
-   "call": 48.3,
-   "put": 58.8,
+   "rr": -10.67,
+   "call": 48.8,
+   "put": 59.5,
    "expiry": "27NOV26",
-   "days": 6.6
+   "days": 6.4
   },
   "rr30d": {
-   "rr": -8.73,
-   "call": 43.6,
-   "put": 52.3,
+   "rr": -9.3,
+   "call": 44.8,
+   "put": 54.1,
    "expiry": "25DEC26",
-   "days": 34.6
+   "days": 34.4
   },
-  "vrp": -14.4,
+  "vrp": -13.5,
   "basis": "25d RR = call IV - put IV at |delta|=0.25 (Black-Scholes delta from Deribit mark_iv, nearest expiry to 7d/30d); RV7d from 1H closes, annualised"
  },
  "etf": {
-  "usdM": 0.0,
+  "usdM": -45.7,
   "date": "20 Nov 2026",
   "ibit": null,
   "fbtc": null,
@@ -718,10 +718,10 @@
    ],
    [
     "20 Nov 2026",
-    0.0
+    -45.7
    ]
   ],
-  "sum5": -1120.8,
+  "sum5": -1166.5,
   "source": "Farside (farside.co.uk/btc), US$m"
  },
  "missing": [],
@@ -734,48 +734,48 @@
   "Bybit ticker"
  ],
  "news": {
-  "asOf": "21 Nov 01:20 SGT",
+  "asOf": "21 Nov 07:11 SGT",
   "risk": "HIGH",
-  "why": "flagged headline 1.2h ago",
+  "why": "flagged headline 1.1h ago; flagged headline 2.6h ago",
   "headlines": [
    {
-    "title": "Bitcoin falls below $60K for first time since July amid broader market selloff",
-    "source": "Cointelegraph",
-    "time": "21 Nov 00:55",
-    "ageH": 0.4,
-    "link": "https://cointelegraph.com/markets/bitcoin-falls-below-60k-for-first-time-since-july-amid-broader-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "high": false
-   },
-   {
-    "title": "Bitcoin Breaks Below $60K as Crypto Fear Index Hits Worst Level Since February",
-    "source": "Decrypt",
-    "time": "21 Nov 00:35",
-    "ageH": 0.7,
-    "link": "https://decrypt.co/383702/bitcoin-breaks-below-60k-crypto-fear-greed-index-lowest",
-    "high": false
-   },
-   {
-    "title": "Wagyu\u2019s XMR1 wrapped Monero plunges 99% after $13 million hack as founder promises refunds",
-    "source": "The Block",
-    "time": "21 Nov 00:11",
-    "ageH": 1.2,
-    "link": "https://www.theblock.co/news/defi/2026-11-20-wagyus-xmr1-wrapped-monero-plunges-99-after-13-million-hack-founder-promises-refunds-444747",
+    "title": "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment",
+    "source": "CoinDesk",
+    "time": "21 Nov 06:05",
+    "ageH": 1.1,
+    "link": "https://www.coindesk.com/business/2026/11/20/fairmint-plans-tokenized-stock-venue-on-canton-ethereum-under-sec-experiment",
     "high": true
    },
    {
-    "title": "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off",
+    "title": "Nvidia Shares Sink to 52-Week Low After Report SEC Is Probing Accounting",
+    "source": "Decrypt",
+    "time": "21 Nov 04:36",
+    "ageH": 2.6,
+    "link": "https://decrypt.co/383744/nvidia-shares-sink-52-week-low-sec-probing-accounting",
+    "high": true
+   },
+   {
+    "title": "Wrapped Monero token crashes 99.8% amid suspected $13.5M exploit",
     "source": "Cointelegraph",
-    "time": "20 Nov 23:52",
-    "ageH": 1.5,
-    "link": "https://cointelegraph.com/markets/bitcoin-hits-new-20-week-low-anthropic-drops-87-tech-sell-off?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "time": "21 Nov 03:37",
+    "ageH": 3.6,
+    "link": "https://cointelegraph.com/news/wrapped-monero-token-crashes-998-amid-suspected-135m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "high": true
+   },
+   {
+    "title": "Cathie Wood Bets $91M on Anthropic IPO While Paring Crypto Exposure",
+    "source": "Decrypt",
+    "time": "21 Nov 02:46",
+    "ageH": 4.4,
+    "link": "https://decrypt.co/383737/cathie-wood-bets-91m-anthropic-ipo-paring-crypto-exposure",
     "high": false
    },
    {
-    "title": "Rep. Horsford sees opening for House vote on crypto tax bill before Congress ends",
-    "source": "The Block",
-    "time": "20 Nov 22:51",
-    "ageH": 2.5,
-    "link": "https://www.theblock.co/news/regulation/2026-11-20-rep-horsford-sees-opening-house-vote-crypto-tax-bill-before-congress-ends-444720",
+    "title": "Sky Protocol sees $2 billion in stablecoin withdrawals, disputes illicit fund claims",
+    "source": "Cointelegraph",
+    "time": "21 Nov 02:37",
+    "ageH": 4.6,
+    "link": "https://cointelegraph.com/news/sky-protocol-sees-2b-in-stablecoin-withdrawals-disputes-illicit-fund-claims?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "high": false
    }
   ],
@@ -790,8 +790,8 @@
    "op": ">",
    "level": 78650,
    "level2": null,
-   "value": 59546.51,
-   "valueAt": "21 Nov 01:00",
+   "value": 59170.56,
+   "valueAt": "21 Nov 07:00",
    "hit": false
   },
   {
@@ -801,8 +801,8 @@
    "op": "<",
    "level": 77800,
    "level2": null,
-   "value": 59546.51,
-   "valueAt": "21 Nov 01:00",
+   "value": 59170.56,
+   "valueAt": "21 Nov 07:00",
    "hit": true
   },
   {
@@ -812,8 +812,8 @@
    "op": "between",
    "level": 77800,
    "level2": 78000,
-   "value": 59374.04,
-   "valueAt": "21 Nov 2026, 01:20 SGT",
+   "value": 59146.52,
+   "valueAt": "21 Nov 2026, 07:11 SGT",
    "hit": false
   },
   {
@@ -841,45 +841,47 @@
  ],
  "radar": {
   "ok": true,
-  "config": "I",
-  "label": "I \u2014 Bear Trend",
-  "status": "Cash",
-  "tone": "bad",
-  "confidence": 80,
+  "config": "C",
+  "label": "C \u2014 Bullish Absorption",
+  "status": "Watch",
+  "tone": "good",
+  "confidence": 67,
   "confLabel": "Medium",
-  "matched": "4/5 available (5 listed)",
-  "runnerUp": "C Bullish Absorption (3/6)",
+  "matched": "4/6 available (7 listed)",
+  "runnerUp": "I Bear Trend (4/5)",
   "evidence": [
-   "Below 20D MA",
-   "Below 50D MA",
-   "Spot CVD 24h negative",
-   "Funding neutral/positive (trapped longs)"
+   "Negative headline risk",
+   "Testing 200D MA / 30d low",
+   "OI 24h flat/dropping (<=+1%)",
+   "Funding -0.008..+0.002%"
   ],
   "metrics": [
-   "Price vs 20D MA -17.58%",
-   "vs 50D MA -24.11%",
-   "Spot CVD 24h -2348 BTC",
-   "OI 24h -2.83%",
-   "Funding +0.0028%",
-   "48h range 7.86%"
+   "Price vs 20D MA -17.89%",
+   "vs 50D MA -24.40%",
+   "Spot CVD 24h -3787 BTC",
+   "OI 24h -4.28%",
+   "Funding +0.0019%",
+   "48h range 9.50%"
   ],
-  "implication": "Strict cash; treat relief bounces as exit liquidity; invalidation 1D close > 50D MA with positive spot CVD",
+  "implication": "Build spot 0.75x; 50% on 1H range reclaim / 50% limit at low; stop sweep low -0.5%",
   "notMet": [
-   "OI not clearing (24h >= -1%)"
+   "Spot CVD 24h strongly positive (>500 BTC)",
+   "Book bids/asks >= 1.4 (imb >= +16.7%)"
   ],
   "missing": [
    "ATR compression history",
    "Daily/Weekly VWAP",
    "Futures basis (annualized)",
+   "Perp CVD 4h negative",
    "Spot CVD 7D/14D slope",
    "Spot volume vs 20D MA",
    "Whale exchange inflows / CDD"
   ],
-  "asOfMs": 1795195258832,
+  "asOfMs": 1795216301932,
   "scores": {
-   "A": "1/6",
+   "A": "0/6",
    "B": "1/4",
-   "C": "3/6",
+   "C": "4/6",
    "D": "2/4",
    "E": "1/4",
    "F": "1/4",
@@ -888,7 +890,7 @@
    "I": "4/5",
    "J": "2/6"
   },
-  "asOf": "21 Nov 01:20 SGT",
+  "asOf": "21 Nov 07:11 SGT",
   "source": "fallback (computed in GitHub Actions)"
  }
 }
